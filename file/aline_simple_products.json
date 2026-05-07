@@ -1,0 +1,298 @@
+[
+  {
+    "product": {
+      "sku": "232690",
+      "name": "Ideal Lux A-line sp1 d13-Bianco-GU10",
+      "attribute_set_id": 4,
+      "price": 60.0,
+      "status": 1,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 0.33,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 405,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "Bianco"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "D13"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "GU10"
+        },
+        {
+          "attribute_code": "ean",
+          "value": "8021696232690"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "Ideal Lux"
+        },
+        {
+          "attribute_code": "peso_lordo",
+          "value": "0.74"
+        },
+        {
+          "attribute_code": "dimensione_articolo",
+          "value": "D 130 x H min 365 / max 2115 mm"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-a-line-sp1-d13-bianco-gu10"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux A-line sp1 d13-Bianco-GU10",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "232690_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/232690_WEB001_A-LINE_SP1_D13_BIANCO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "232713",
+      "name": "Ideal Lux A-line sp1 d13-Nero-GU10",
+      "attribute_set_id": 4,
+      "price": 60.0,
+      "status": 1,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 0.33,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 505,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "Nero"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "D13"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "GU10"
+        },
+        {
+          "attribute_code": "ean",
+          "value": "8021696232713"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "Ideal Lux"
+        },
+        {
+          "attribute_code": "peso_lordo",
+          "value": "0.74"
+        },
+        {
+          "attribute_code": "dimensione_articolo",
+          "value": "D 130 x H min 365 / max 2115 mm"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-a-line-sp1-d13-nero-gu10"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux A-line sp1 d13-Nero-GU10",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "232713_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/232713_WEB001_A-LINE_SP1_D13_NERO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "232720",
+      "name": "Ideal Lux A-line sp1 d30-Bianco-E27",
+      "attribute_set_id": 4,
+      "price": 85.0,
+      "status": 1,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.08,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 147,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "Bianco"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "D30"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "E27"
+        },
+        {
+          "attribute_code": "ean",
+          "value": "8021696232720"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "Ideal Lux"
+        },
+        {
+          "attribute_code": "peso_lordo",
+          "value": "1.93"
+        },
+        {
+          "attribute_code": "dimensione_articolo",
+          "value": "D 300 x H min 520 / max 2270 mm"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-a-line-sp1-d30-bianco-e27"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux A-line sp1 d30-Bianco-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "232720_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/232720_WEB001_A-LINE_SP1_D30_BIANCO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "232744",
+      "name": "Ideal Lux A-line sp1 d30-Nero-E27",
+      "attribute_set_id": 4,
+      "price": 85.0,
+      "status": 1,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.08,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 818,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "Nero"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "D30"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "E27"
+        },
+        {
+          "attribute_code": "ean",
+          "value": "8021696232744"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "Ideal Lux"
+        },
+        {
+          "attribute_code": "peso_lordo",
+          "value": "1.93"
+        },
+        {
+          "attribute_code": "dimensione_articolo",
+          "value": "D 300 x H min 520 / max 2270 mm"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-a-line-sp1-d30-nero-e27"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux A-line sp1 d30-Nero-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "232744_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/232744_WEB001_A-LINE_SP1_D30_NERO.png"
+          }
+        }
+      ]
+    }
+  }
+]
