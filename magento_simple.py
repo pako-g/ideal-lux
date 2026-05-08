@@ -109,7 +109,7 @@ def build_simple(row: pd.Series) -> dict:
             "name":             nome,
             "attribute_set_id": ATTRIBUTE_SET_ID,
             "price":            float(row["prezzo"]),
-            "status":           1,    # abilitato
+            "status":           0,    # diabilitato
             "visibility":       1,    # Not Visible Individually
             "type_id":          "simple",
             "weight":           float(row["Peso Netto"]) if pd.notna(row["Peso Netto"]) else 0,
@@ -127,10 +127,9 @@ def build_simple(row: pd.Series) -> dict:
                 {"attribute_code": "config_dimensioni",   "value": dimensione},
                 {"attribute_code": "config_attacco_lamp", "value": row["Attacco Portalampada"]},
                 # ── Attributi informativi ────────────────────────────
-                {"attribute_code": "ean",                 "value": str(row["Nr"])},
+                {"attribute_code": "lamp_ean",                 "value": str(row["Nr"])},
                 {"attribute_code": "manufacturer",        "value": MARCA},
-                {"attribute_code": "peso_lordo",          "value": str(row["Peso Lordo"])},
-                {"attribute_code": "dimensione_articolo", "value": row["Dimensione Articolo"]},
+                {"attribute_code": "lamp_dimensioni", "value": row["Dimensione Articolo"]},
                 {"attribute_code": "url_key",             "value": build_url_key(nome)},
             ],
             "media_gallery_entries": [
