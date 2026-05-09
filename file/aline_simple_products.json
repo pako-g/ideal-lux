@@ -1,0 +1,126 @@
+[
+  {
+    "product": {
+      "sku": "135205",
+      "name": "Ideal Lux Acqua pt1--Antracite-G9",
+      "attribute_set_id": 4,
+      "price": 160.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.5,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 118,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1846"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3265"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696135205"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-acqua-pt1-antracite-g9-135205"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Acqua pt1--Antracite-G9",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "135205_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/135205_WEB001_ACQUA_PT1_ANTRACITE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "246918",
+      "name": "Ideal Lux Acqua pt1--Coffee-G9",
+      "attribute_set_id": 4,
+      "price": 160.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.5,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 56,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "3865"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3265"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696246918"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-acqua-pt1-coffee-g9-246918"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Acqua pt1--Coffee-G9",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "246918_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/246918_WEB001_ACQUA_PT1_COFFEE.png"
+          }
+        }
+      ]
+    }
+  }
+]

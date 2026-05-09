@@ -114,28 +114,104 @@ def load_famiglia(csv_path: str, famiglia: str) -> pd.DataFrame:
     return df
 
 
+def load_categoria(csv_path: str, categoria: str, escludi: list = []) -> pd.DataFrame:
+    df = pd.read_csv(csv_path, sep=None, engine="python")
+    df = df[df["Categoria Articolo"] == categoria].copy()
+    if escludi:
+        df = df[~df["Famiglia Articolo"].isin(escludi)]
+
+    df["sku"] = df["Nr"].astype(str).str[-6:]
+    df["prezzo"] = (
+        df["Prezzo Al Pubblico"]
+        .astype(str)
+        .str.replace(".", "", regex=False)
+        .str.replace(",", ".", regex=False)
+        .pipe(pd.to_numeric, errors="coerce")
+    )
+    for col in ["Peso Netto", "Peso Lordo"]:
+        df[col] = (
+            df[col].astype(str)
+            .str.replace(",", ".", regex=False)
+            .pipe(pd.to_numeric, errors="coerce")
+        )
+    df["qty"]         = df["Magazzino"].clip(lower=0).astype(int)
+    df["is_in_stock"] = (df["qty"] > 0).astype(int)
+    return df
+
+
 def estrai_modello(descrizione: str, finitura: str) -> str:
     """'A-LINE_SP1_D13_BIANCO', 'BIANCO' → 'A-line sp1 d13'"""
     raw = descrizione.replace("_" + finitura, "").replace("_", " ").lower()
     return raw[0].upper() + raw[1:] if raw else raw
 
 
-def estrai_dimensione(descrizione: str, finitura: str) -> str:
+
+# Famiglie dove la dimensione nella descrizione è D ma va letta come Lunghezza
+FAMIGLIE_LUNGHEZZA = {"SASSO"}
+
+def estrai_dimensione(descrizione: str, finitura: str, famiglia: str,
+                      famiglia_varianti: pd.DataFrame) -> str:
     modello = descrizione.replace("_" + finitura, "")
+
+    # Caso SASSO: D nella descrizione ma è Lunghezza
+    if famiglia in FAMIGLIE_LUNGHEZZA:
+        match = re.search(r'_(D\d+)$', modello)
+        if match:
+            return f"Lunghezza {match.group(1)[1:]}cm"
+
+    # Caso normale: D o H nella descrizione
     match = re.search(r'_(D\d+|H\d+)$', modello)
-    if not match:
+    if match:
+        token = match.group(1)
+        numero = token[1:]
+        return f"Diametro {numero}cm" if token.startswith("D") else f"Altezza {numero}cm"
+
+    # Nessun token in descrizione: cerca quale misura cambia in Dimensione Articolo
+    def estrai_misura(dim_str, prefix):
+        m = re.search(rf'{prefix}\s+(\d+)', str(dim_str))
+        return int(m.group(1)) if m else None
+
+    for prefix in ["D", "H", "L"]:
+        valori = famiglia_varianti["Dimensione Articolo"].apply(
+            lambda x: estrai_misura(x, prefix)
+        )
+        if valori.nunique() > 1:
+            val = estrai_misura(
+                famiglia_varianti.loc[
+                    famiglia_varianti["Descrizione"] == descrizione,
+                    "Dimensione Articolo"
+                ].iloc[0],
+                prefix
+            )
+            label = {"D": "Diametro", "H": "Altezza", "L": "Lunghezza"}[prefix]
+            return f"{label} {val}cm"
+
+    return ""
+
+FAMIGLIE_TIPO = {
+    "EDO":       r'_(?:PT1_)(ROUND|SQUARE)_',
+    "ESSENCE":   r'_PT_(ROUND|SQUARE)_',
+    "TWIGGY":    r'_(LINE|SPHERE)_',
+    "BINOMIO":   r'_(LED_PT4|PT3)_',
+    "DRIFTWOOD": r'_(PT1|PT3)$',
+}
+
+def estrai_tipo(descrizione: str, famiglia: str) -> str:
+    pattern = FAMIGLIE_TIPO.get(famiglia, "")
+    if not pattern:
         return ""
-    token = match.group(1)       # es. "D13", "H60"
-    numero = token[1:]            # es. "13", "60"
-    if token.startswith("D"):
-        return f"Diametro {numero}cm"    # → "Ø13cm"
-    else:
-        return f"Altezza {numero}cm"    # → "H60cm"
+    match = re.search(pattern, descrizione)
+    return match.group(1).capitalize() if match else ""
 
 
-def build_nome_semplice(modello: str, finitura: str, attacco: str) -> str:
-    """Ideal Lux A-line sp1 d13-Bianco-GU10"""
-    return f"{MARCA} {modello}-{finitura.capitalize()}-{attacco}"
+def estrai_temperatura(descrizione: str) -> str:
+    match = re.search(r'_(\d{4}K(?:-\d{4}K)?)(?:_|$)', descrizione)
+    return match.group(1) if match else ""
+
+
+def build_nome_semplice(modello: str, finitura: str, attacco: str, tipo: str = "") -> str:
+    tipo_str = f"-{tipo.capitalize()}" if tipo else ""
+    return f"{MARCA} {modello}-{tipo_str}-{finitura.capitalize()}-{attacco}"
 
 
 def build_url_key(nome: str) -> str:
@@ -155,21 +231,45 @@ def build_url_immagine(ean: str, descrizione: str) -> str:
 # BUILD PRODOTTO SEMPLICE
 # ─────────────────────────────────────────────
 
-def build_simple(row: pd.Series, color_map: dict, attacco_map: dict, dimensioni_map: dict, manufacturer_map: dict) -> dict:
+def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
+                 dimensioni_map: dict, manufacturer_map: dict,
+                 tipo_map: dict, temp_map: dict,
+                 famiglia_varianti: pd.DataFrame) -> dict:
+
+    famiglia   = row["Famiglia Articolo"]
+    dimensione = estrai_dimensione(row["Descrizione"], row["Finitura"],
+                                   famiglia, famiglia_varianti)
+    tipo       = estrai_tipo(row["Descrizione"], famiglia)
+    temperatura = estrai_temperatura(row["Descrizione"])
     modello    = estrai_modello(row["Descrizione"], row["Finitura"])
-    dimensione = estrai_dimensione(row["Descrizione"], row["Finitura"])
-    nome       = build_nome_semplice(modello, row["Finitura"], row["Attacco Portalampada"])
+    nome       = build_nome_semplice(modello, row["Finitura"],
+                                     row["Attacco Portalampada"], tipo)
     img_url    = build_url_immagine(row["Nr"], row["Descrizione"])
 
-    finitura_label = row["Finitura"].capitalize()
-    attacco_id = attacco_map[row["Attacco Portalampada"]]
-
-    # Risolve l'ID numerico — KeyError esplicito se il valore non esiste in Magento
-    color_id = color_map[finitura_label]
-
-    dimensione_id = dimensioni_map[dimensione]
-
+    color_id        = color_map[row["Finitura"].capitalize()]
+    attacco_val     = row["Attacco Portalampada"]
     manufacturer_id = manufacturer_map[MARCA]
+
+    # Attributi configurabili — solo se presenti
+    attrs_config = [
+        {"attribute_code": "color", "value": color_id},
+    ]
+    if attacco_val and pd.notna(attacco_val):
+        attrs_config.append(
+            {"attribute_code": "config_attacco_lamp", "value": attacco_map[attacco_val]}
+        )
+    if dimensione:
+        attrs_config.append(
+            {"attribute_code": "config_dimensioni", "value": dimensioni_map[dimensione]}
+        )
+    if tipo:
+        attrs_config.append(
+            {"attribute_code": "config_tipo", "value": tipo_map[tipo.capitalize()]}
+        )
+    if temperatura:
+        attrs_config.append(
+            {"attribute_code": "config_temperatura_colore", "value": temp_map[temperatura]}
+        )
 
     return {
         "product": {
@@ -177,8 +277,8 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict, dimensioni_
             "name":             nome,
             "attribute_set_id": ATTRIBUTE_SET_ID,
             "price":            float(row["prezzo"]),
-            "status":           0,    # disabilitato
-            "visibility":       1,    # Not Visible Individually
+            "status":           0,
+            "visibility":       1,
             "type_id":          "simple",
             "weight":           float(row["Peso Netto"]) if pd.notna(row["Peso Netto"]) else 0,
             "extension_attributes": {
@@ -189,18 +289,10 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict, dimensioni_
                     "manage_stock": True,
                 }
             },
-            "custom_attributes": [
-                # ── Attributi configurabili ──────────────────────────
-                {"attribute_code": "color",               "value": color_id},
-                {"attribute_code": "config_dimensioni",   "value": dimensione_id},
-                {"attribute_code": "config_attacco_lamp", "value": attacco_id},
-                # ── Attributi informativi ────────────────────────────
-                {"attribute_code": "lamp_ean",            "value": str(row["Nr"])},
-                {"attribute_code": "manufacturer",        "value": manufacturer_id},
-
-                #Questo solo per configurabili
-                #{"attribute_code": "lamp_dimensioni",     "value": row["Dimensione Articolo"]},
-                {"attribute_code": "url_key",             "value": build_url_key(nome) + '-' + row["sku"]},
+            "custom_attributes": attrs_config + [
+                {"attribute_code": "lamp_ean",      "value": str(row["Nr"])},
+                {"attribute_code": "manufacturer",  "value": manufacturer_id},
+                {"attribute_code": "url_key",       "value": build_url_key(nome) + "-" + row["sku"]},
             ],
             "media_gallery_entries": [
                 {
@@ -233,6 +325,8 @@ if __name__ == "__main__":
     color_map = get_attribute_options(session, "color")
     attacco_map = get_attribute_options(session, "config_attacco_lamp")
     dimensioni_map = get_attribute_options(session, "config_dimensioni")
+    tipo_map = get_attribute_options(session, "config_tipo")
+    temp_map = get_attribute_options(session, "config_temperatura_colore")
     manufacturer_map = get_attribute_options(session, "manufacturer")
 
     print("🎨  Opzioni color recuperate da Magento:")
@@ -255,25 +349,43 @@ if __name__ == "__main__":
         print(f"     {label} → {opt_id}")
     print()
 
-    # 2. Carica CSV e genera prodotti
-    FAMIGLIA = "A-LINE"
-    varianti = load_famiglia(CSV_PATH, FAMIGLIA)
-    semplici = [build_simple(row, color_map, attacco_map, dimensioni_map, manufacturer_map) for _, row in varianti.iterrows()]
-
-    # 3. Salva JSON
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(semplici, f, ensure_ascii=False, indent=2)
-
-    print(f"✅  {OUTPUT_PATH}")
-    print(f"    Prodotti generati: {len(semplici)}")
+    print("🔧  Opzioni config_tipo recuperate da Magento:")
+    for label, opt_id in tipo_map.items():
+        print(f"     {label} → {opt_id}")
     print()
-    for s in semplici:
-        p  = s["product"]
-        ca = {a["attribute_code"]: a["value"] for a in p["custom_attributes"]}
-        print(
-            f"  [{p['sku']}]  {p['name']}\n"
-            f"           color={ca['color']}  "
-            f"dimensioni={ca['config_dimensioni']}  "
-            f"attacco={ca['config_attacco_lamp']}  "
-            f"€{p['price']}  qty={p['extension_attributes']['stock_item']['qty']}\n"
-        )
+
+    print("🌡️   Opzioni config_temperatura_colore recuperate da Magento:")
+    for label, opt_id in temp_map.items():
+        print(f"     {label} → {opt_id}")
+    print()
+
+    # 2. Carica lampade da terra (escludi WAY e TOFFEE)
+    varianti = load_categoria(CSV_PATH, "Lampada da terra", escludi=["WAY", "TOFFEE"])
+
+    semplici = []
+    for famiglia, gruppo in varianti.groupby("Famiglia Articolo"):
+        for _, row in gruppo.iterrows():
+            semplici.append(
+                build_simple(row, color_map, attacco_map, dimensioni_map,
+                             manufacturer_map, tipo_map, temp_map, gruppo)
+            )
+
+        # 3. Salva JSON
+        with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+            json.dump(semplici, f, ensure_ascii=False, indent=2)
+
+        print(f"✅  {OUTPUT_PATH}")
+        print(f"    Prodotti generati: {len(semplici)}")
+        print()
+        for s in semplici:
+            p = s["product"]
+            ca = {a["attribute_code"]: a["value"] for a in p["custom_attributes"]}
+            print(
+                f"  [{p['sku']}]  {p['name']}\n"
+                f"           color={ca.get('color', '-')}  "
+                f"dimensioni={ca.get('config_dimensioni', '-')}  "
+                f"attacco={ca.get('config_attacco_lamp', '-')}  "
+                f"tipo={ca.get('config_tipo', '-')}  "
+                f"temp={ca.get('config_temperatura_colore', '-')}  "
+                f"€{p['price']}  qty={p['extension_attributes']['stock_item']['qty']}\n"
+            )
