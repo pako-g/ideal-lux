@@ -1240,5 +1240,1921 @@
         }
       ]
     }
+  },
+  {
+    "product": {
+      "sku": "353210",
+      "name": "Ideal Lux Binomio pt3--Bianco-G9",
+      "attribute_set_id": 4,
+      "price": 145.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 4.5,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 54,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1840"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3265"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696353210"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-binomio-pt3-bianco-g9-353210"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Binomio pt3--Bianco-G9",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "353210_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/353210_WEB001_BINOMIO_PT3_BIANCO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "369327",
+      "name": "Ideal Lux Binomio pt3--Nero-G9",
+      "attribute_set_id": 4,
+      "price": 145.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 4.5,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 43,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3265"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696369327"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-binomio-pt3-nero-g9-369327"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Binomio pt3--Nero-G9",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "369327_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/369327_WEB001_BINOMIO_PT3_NERO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "353265",
+      "name": "Ideal Lux Binomio pt3--Ottone-G9",
+      "attribute_set_id": 4,
+      "price": 145.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 4.5,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 9,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "2402"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3265"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696353265"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-binomio-pt3-ottone-g9-353265"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Binomio pt3--Ottone-G9",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "353265_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/353265_WEB001_BINOMIO_PT3_OTTONE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "328317",
+      "name": "Ideal Lux Binomio led pt4--Bianco-LED",
+      "attribute_set_id": 4,
+      "price": 250.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 2.5,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 48,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1840"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696328317"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-binomio-led-pt4-bianco-led-328317"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Binomio led pt4--Bianco-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "328317_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/328317_WEB001_BINOMIO_LED_PT4_BIANCO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "313313",
+      "name": "Ideal Lux Binomio led pt4--Nero-LED",
+      "attribute_set_id": 4,
+      "price": 250.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 2.5,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 0,
+          "is_in_stock": 0,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696313313"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-binomio-led-pt4-nero-led-313313"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Binomio led pt4--Nero-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "313313_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/313313_WEB001_BINOMIO_LED_PT4_NERO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "328324",
+      "name": "Ideal Lux Binomio led pt4--Ottone-LED",
+      "attribute_set_id": 4,
+      "price": 250.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 2.5,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 42,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "2402"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696328324"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-binomio-led-pt4-ottone-led-328324"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Binomio led pt4--Ottone-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "328324_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/328324_WEB001_BINOMIO_LED_PT4_OTTONE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "273662",
+      "name": "Ideal Lux Birds pt5--Nero-G9",
+      "attribute_set_id": 4,
+      "price": 340.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 5.64,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 42,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3265"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696273662"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-birds-pt5-nero-g9-273662"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Birds pt5--Nero-G9",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "273662_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/273662_WEB001_BIRDS_PT5.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "368641",
+      "name": "Ideal Lux Blade pt--Bianco-LED",
+      "attribute_set_id": 4,
+      "price": 750.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 5.8,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 44,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1840"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696368641"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-blade-pt-bianco-led-368641"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Blade pt--Bianco-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "368641_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/368641_WEB001_BLADE_PT_BIANCO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "368658",
+      "name": "Ideal Lux Blade pt--Nero-LED",
+      "attribute_set_id": 4,
+      "price": 750.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 5.8,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 16,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696368658"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-blade-pt-nero-led-368658"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Blade pt--Nero-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "368658_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/368658_WEB001_BLADE_PT_NERO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "368672",
+      "name": "Ideal Lux Blade pt--Nickel-LED",
+      "attribute_set_id": 4,
+      "price": 750.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 5.8,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 41,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "2407"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696368672"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-blade-pt-nickel-led-368672"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Blade pt--Nickel-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "368672_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/368672_WEB001_BLADE_PT_NICKEL.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "368665",
+      "name": "Ideal Lux Blade pt--Ottone-LED",
+      "attribute_set_id": 4,
+      "price": 750.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 5.8,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 41,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "2402"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696368665"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-blade-pt-ottone-led-368665"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Blade pt--Ottone-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "368665_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/368665_WEB001_BLADE_PT_OTTONE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "362861",
+      "name": "Ideal Lux Bloom pt2--Nero-LED",
+      "attribute_set_id": 4,
+      "price": 500.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 8.4,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 0,
+          "is_in_stock": 0,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696362861"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-bloom-pt2-nero-led-362861"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Bloom pt2--Nero-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "362861_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/362861_WEB001_BLOOM_PT2_NERO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "366616",
+      "name": "Ideal Lux Bloom pt2--Ottone-LED",
+      "attribute_set_id": 4,
+      "price": 500.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 9.5,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 0,
+          "is_in_stock": 0,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "2402"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696366616"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-bloom-pt2-ottone-led-366616"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Bloom pt2--Ottone-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "366616_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/366616_WEB001_BLOOM_PT2_OTTONE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "346656",
+      "name": "Ideal Lux Boeing pt h015--Antracite-LED",
+      "attribute_set_id": 4,
+      "price": 140.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.35,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 99,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1846"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "2575"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696346656"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h015-antracite-led-346656"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Boeing pt h015--Antracite-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "346656_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/346656_WEB001_BOEING_PT_H015_ANTRACITE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "346663",
+      "name": "Ideal Lux Boeing pt h015--Coffee-LED",
+      "attribute_set_id": 4,
+      "price": 140.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.35,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 147,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "3865"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "2575"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696346663"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h015-coffee-led-346663"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Boeing pt h015--Coffee-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "346663_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/346663_WEB001_BOEING_PT_H015_COFFEE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "346670",
+      "name": "Ideal Lux Boeing pt h015--Nero-LED",
+      "attribute_set_id": 4,
+      "price": 140.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.35,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 124,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "2575"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696346670"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h015-nero-led-346670"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Boeing pt h015--Nero-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "346670_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/346670_WEB001_BOEING_PT_H015_NERO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "327242",
+      "name": "Ideal Lux Boeing pt h040--Antracite-LED",
+      "attribute_set_id": 4,
+      "price": 160.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 2.2,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 95,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1846"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3283"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696327242"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h040-antracite-led-327242"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Boeing pt h040--Antracite-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "327242_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/327242_WEB001_BOEING_PT_H040_ANTRACITE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "346687",
+      "name": "Ideal Lux Boeing pt h040--Coffee-LED",
+      "attribute_set_id": 4,
+      "price": 160.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 2.2,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 134,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "3865"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3283"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696346687"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h040-coffee-led-346687"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Boeing pt h040--Coffee-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "346687_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/346687_WEB001_BOEING_PT_H040_COFFEE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "346694",
+      "name": "Ideal Lux Boeing pt h040--Nero-LED",
+      "attribute_set_id": 4,
+      "price": 160.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 2.2,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 0,
+          "is_in_stock": 0,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3283"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696346694"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h040-nero-led-346694"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Boeing pt h040--Nero-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "346694_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/346694_WEB001_BOEING_PT_H040_NERO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "327259",
+      "name": "Ideal Lux Boeing pt h070--Antracite-LED",
+      "attribute_set_id": 4,
+      "price": 180.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 3.1,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 95,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1846"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3866"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696327259"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h070-antracite-led-327259"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Boeing pt h070--Antracite-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "327259_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/327259_WEB001_BOEING_PT_H070_ANTRACITE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "346700",
+      "name": "Ideal Lux Boeing pt h070--Coffee-LED",
+      "attribute_set_id": 4,
+      "price": 180.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 3.1,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 83,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "3865"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3866"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696346700"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h070-coffee-led-346700"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Boeing pt h070--Coffee-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "346700_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/346700_WEB001_BOEING_PT_H070_COFFEE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "346717",
+      "name": "Ideal Lux Boeing pt h070--Nero-LED",
+      "attribute_set_id": 4,
+      "price": 180.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 3.1,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 110,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3866"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696346717"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h070-nero-led-346717"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Boeing pt h070--Nero-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "346717_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/346717_WEB001_BOEING_PT_H070_NERO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "327266",
+      "name": "Ideal Lux Boeing pt h100--Antracite-LED",
+      "attribute_set_id": 4,
+      "price": 210.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 4.0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 121,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1846"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "2161"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696327266"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h100-antracite-led-327266"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Boeing pt h100--Antracite-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "327266_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/327266_WEB001_BOEING_PT_H100_ANTRACITE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "346724",
+      "name": "Ideal Lux Boeing pt h100--Coffee-LED",
+      "attribute_set_id": 4,
+      "price": 210.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 4.0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 49,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "3865"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "2161"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696346724"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h100-coffee-led-346724"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Boeing pt h100--Coffee-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "346724_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/346724_WEB001_BOEING_PT_H100_COFFEE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "346731",
+      "name": "Ideal Lux Boeing pt h100--Nero-LED",
+      "attribute_set_id": 4,
+      "price": 210.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 4.0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 56,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "2161"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696346731"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h100-nero-led-346731"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Boeing pt h100--Nero-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "346731_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/346731_WEB001_BOEING_PT_H100_NERO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "317137",
+      "name": "Ideal Lux Carta pt1 d30--Bianco-E27",
+      "attribute_set_id": 4,
+      "price": 110.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.9,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 48,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1840"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "680"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3286"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696317137"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-carta-pt1-d30-bianco-e27-317137"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Carta pt1 d30--Bianco-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "317137_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/317137_WEB001_CARTA_PT1_D30.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "317144",
+      "name": "Ideal Lux Carta pt1 d40--Bianco-E27",
+      "attribute_set_id": 4,
+      "price": 225.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 3.15,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 10,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1840"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "680"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3287"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696317144"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-carta-pt1-d40-bianco-e27-317144"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Carta pt1 d40--Bianco-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "317144_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/317144_WEB001_CARTA_PT1_D40.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "246833",
+      "name": "Ideal Lux Cima pt2--Antracite-E27",
+      "attribute_set_id": 4,
+      "price": 330.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 3.34,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 66,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1846"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "680"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696246833"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-cima-pt2-antracite-e27-246833"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Cima pt2--Antracite-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "246833_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/246833_WEB001_CIMA_PT2_ANTRACITE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "246840",
+      "name": "Ideal Lux Cima pt2--Coffee-E27",
+      "attribute_set_id": 4,
+      "price": 330.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 3.34,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 68,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "3865"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "680"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696246840"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-cima-pt2-coffee-e27-246840"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Cima pt2--Coffee-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "246840_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/246840_WEB001_CIMA_PT2_COFFEE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "024097",
+      "name": "Ideal Lux Cima pt2--Nero-E27",
+      "attribute_set_id": 4,
+      "price": 330.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 3.34,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 112,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "680"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696024097"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-cima-pt2-nero-e27-024097"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Cima pt2--Nero-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "024097_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/024097_WEB001_CIMA_PT2_NERO.png"
+          }
+        }
+      ]
+    }
   }
 ]

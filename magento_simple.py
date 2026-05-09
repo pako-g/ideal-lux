@@ -152,28 +152,43 @@ def mm_to_cm(val_mm: int) -> str:
 # Famiglie dove la dimensione nella descrizione è D ma va letta come Lunghezza
 FAMIGLIE_LUNGHEZZA = {"SASSO"}
 
+FINITURA_LABEL = {
+    "Coffee":   "Caffè",
+    "Nickel":   "Nichel",
+}
+
 def estrai_dimensione(descrizione: str, finitura: str, famiglia: str,
                       famiglia_varianti: pd.DataFrame) -> str:
-    modello = descrizione.replace("_" + finitura, "")
 
-    # Caso SASSO: D nella descrizione ma è Lunghezza
-    if famiglia in FAMIGLIE_LUNGHEZZA:
-        match = re.search(r'_(D\d+)$', modello)
-        if match:
-            return f"Lunghezza {mm_to_cm(int(match.group(1)[1:]))}cm"
-
-    # Caso normale: D o H nella descrizione
-    match = re.search(r'_(D\d+|H\d+)$', modello)
-    if match:
-        token = match.group(1)
-        numero = token[1:]
-        return f"Diametro {mm_to_cm(int(numero))}cm" if token.startswith("D") else f"Altezza {mm_to_cm(int(numero))}cm"
-
-    # Nessun token in descrizione: cerca quale misura cambia in Dimensione Articolo
     def estrai_misura(dim_str, prefix):
         m = re.search(rf'{prefix}\s+(\d+)', str(dim_str))
         return int(m.group(1)) if m else None
 
+    # Caso SASSO: usa sempre L da Dimensione Articolo
+    if famiglia in FAMIGLIE_LUNGHEZZA:
+        val = estrai_misura(
+            famiglia_varianti.loc[
+                famiglia_varianti["Descrizione"] == descrizione,
+                "Dimensione Articolo"
+            ].iloc[0], "D"  # nel CSV SASSO ha D nella dim articolo
+        )
+        return f"Lunghezza {mm_to_cm(val)}cm" if val else ""
+
+    # Determina il prefisso dalla descrizione (D o H) ma il valore da Dimensione Articolo
+    modello = descrizione.replace("_" + finitura, "")
+    match = re.search(r'_(D\d+|H\d+)$', modello)
+    if match:
+        prefix = match.group(1)[0]  # "D" o "H"
+        val = estrai_misura(
+            famiglia_varianti.loc[
+                famiglia_varianti["Descrizione"] == descrizione,
+                "Dimensione Articolo"
+            ].iloc[0], prefix
+        )
+        label = "Diametro" if prefix == "D" else "Altezza"
+        return f"{label} {mm_to_cm(val)}cm" if val else ""
+
+    # Nessun token in descrizione: cerca quale misura cambia tra le varianti
     for prefix in ["D", "H", "L"]:
         valori = famiglia_varianti["Dimensione Articolo"].apply(
             lambda x: estrai_misura(x, prefix)
@@ -183,11 +198,10 @@ def estrai_dimensione(descrizione: str, finitura: str, famiglia: str,
                 famiglia_varianti.loc[
                     famiglia_varianti["Descrizione"] == descrizione,
                     "Dimensione Articolo"
-                ].iloc[0],
-                prefix
+                ].iloc[0], prefix
             )
             label = {"D": "Diametro", "H": "Altezza", "L": "Lunghezza"}[prefix]
-            return f"{label} {mm_to_cm(val)}cm"
+            return f"{label} {mm_to_cm(val)}cm" if val else ""
 
     return ""
 
@@ -195,16 +209,24 @@ FAMIGLIE_TIPO = {
     "EDO":       r'_(?:PT1_)(ROUND|SQUARE)_',
     "ESSENCE":   r'_PT_(ROUND|SQUARE)_',
     "TWIGGY":    r'_(LINE|SPHERE)_',
-    "BINOMIO":   r'_(LED_PT4|PT3)_',
-    "DRIFTWOOD": r'_(PT1|PT3)$',
 }
+TIPO_LABEL = {
+    "Round":  "Rotondo",
+    "Square": "Quadrato",
+    "Line":   "Linea",
+    "Sphere": "Sfera",
+}
+
 
 def estrai_tipo(descrizione: str, famiglia: str) -> str:
     pattern = FAMIGLIE_TIPO.get(famiglia, "")
     if not pattern:
         return ""
     match = re.search(pattern, descrizione)
-    return match.group(1).capitalize() if match else ""
+    if not match:
+        return ""
+    tipo = match.group(1).capitalize()
+    return TIPO_LABEL.get(tipo, tipo)
 
 
 def estrai_temperatura(descrizione: str) -> str:
@@ -250,7 +272,10 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
                                      row["Attacco Portalampada"], tipo)
     img_url    = build_url_immagine(row["Nr"], row["Descrizione"])
 
-    color_id        = color_map[row["Finitura"].capitalize()]
+    finitura_label = row["Finitura"].capitalize()
+    finitura_label = FINITURA_LABEL.get(finitura_label, finitura_label)
+    color_id = color_map[finitura_label]
+
     attacco_val     = row["Attacco Portalampada"]
     manufacturer_id = manufacturer_map[MARCA]
 
@@ -367,7 +392,10 @@ if __name__ == "__main__":
     varianti = load_categoria(CSV_PATH, "Lampada da terra", escludi=["WAY", "TOFFEE"])
 
     varianti["sottofamiglia"] = varianti.apply(
-        lambda r: r["Famiglia Articolo"] + ("_LED"if re.search(r'(?<![A-Z])LED(?![A-Z])',r["Descrizione"].replace("_" + r["Finitura"], ""))else ""),
+        lambda r: r["Famiglia Articolo"] + ("_LED" if re.search(
+            r'LED',
+            str(r["Descrizione"]).replace("_" + str(r["Finitura"]), "")
+        ) else ""),
         axis=1
     )
 
