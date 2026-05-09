@@ -144,7 +144,10 @@ def estrai_modello(descrizione: str, finitura: str) -> str:
     raw = descrizione.replace("_" + finitura, "").replace("_", " ").lower()
     return raw[0].upper() + raw[1:] if raw else raw
 
-
+def mm_to_cm(val_mm: int) -> str:
+    """600 → '60', 655 → '65.5', 125 → '12.5'"""
+    cm = val_mm / 10
+    return str(int(cm)) if cm == int(cm) else str(cm)
 
 # Famiglie dove la dimensione nella descrizione è D ma va letta come Lunghezza
 FAMIGLIE_LUNGHEZZA = {"SASSO"}
@@ -157,14 +160,14 @@ def estrai_dimensione(descrizione: str, finitura: str, famiglia: str,
     if famiglia in FAMIGLIE_LUNGHEZZA:
         match = re.search(r'_(D\d+)$', modello)
         if match:
-            return f"Lunghezza {match.group(1)[1:]}cm"
+            return f"Lunghezza {mm_to_cm(int(match.group(1)[1:]))}cm"
 
     # Caso normale: D o H nella descrizione
     match = re.search(r'_(D\d+|H\d+)$', modello)
     if match:
         token = match.group(1)
         numero = token[1:]
-        return f"Diametro {numero}cm" if token.startswith("D") else f"Altezza {numero}cm"
+        return f"Diametro {mm_to_cm(int(numero))}cm" if token.startswith("D") else f"Altezza {mm_to_cm(int(numero))}cm"
 
     # Nessun token in descrizione: cerca quale misura cambia in Dimensione Articolo
     def estrai_misura(dim_str, prefix):
@@ -184,7 +187,7 @@ def estrai_dimensione(descrizione: str, finitura: str, famiglia: str,
                 prefix
             )
             label = {"D": "Diametro", "H": "Altezza", "L": "Lunghezza"}[prefix]
-            return f"{label} {val}cm"
+            return f"{label} {mm_to_cm(val)}cm"
 
     return ""
 

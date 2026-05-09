@@ -122,5 +122,1123 @@
         }
       ]
     }
+  },
+  {
+    "product": {
+      "sku": "254388",
+      "name": "Ideal Lux Agos pt h60 3000k--Antracite-LED",
+      "attribute_set_id": 4,
+      "price": 81.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 0.95,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 683,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1846"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "1261"
+        },
+        {
+          "attribute_code": "config_temperatura_colore",
+          "value": "2547"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696254388"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-agos-pt-h60-3000k-antracite-led-254388"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Agos pt h60 3000k--Antracite-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "254388_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/254388_WEB001_AGOS_PT_H60_ANTRACITE_3000K.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "268439",
+      "name": "Ideal Lux Agos pt h60 4000k--Antracite-LED",
+      "attribute_set_id": 4,
+      "price": 80.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 0.95,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 50,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1846"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "1261"
+        },
+        {
+          "attribute_code": "config_temperatura_colore",
+          "value": "2592"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696268439"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-agos-pt-h60-4000k-antracite-led-268439"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Agos pt h60 4000k--Antracite-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "268439_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/268439_WEB001_AGOS_PT_H60_ANTRACITE_4000K.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "326689",
+      "name": "Ideal Lux Agos pt h60 3000k--Coffee-LED",
+      "attribute_set_id": 4,
+      "price": 81.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 0.95,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 58,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "3865"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "1261"
+        },
+        {
+          "attribute_code": "config_temperatura_colore",
+          "value": "2547"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696326689"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-agos-pt-h60-3000k-coffee-led-326689"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Agos pt h60 3000k--Coffee-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "326689_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/326689_WEB001_AGOS_PT_H60_COFFEE_3000K.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "326696",
+      "name": "Ideal Lux Agos pt h60 3000k--Nero-LED",
+      "attribute_set_id": 4,
+      "price": 81.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 0.95,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 204,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "1261"
+        },
+        {
+          "attribute_code": "config_temperatura_colore",
+          "value": "2547"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696326696"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-agos-pt-h60-3000k-nero-led-326696"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Agos pt h60 3000k--Nero-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "326696_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/326696_WEB001_AGOS_PT_H60_NERO_3000K.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "254319",
+      "name": "Ideal Lux Agos pt h80 3000k--Antracite-LED",
+      "attribute_set_id": 4,
+      "price": 102.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.1,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 585,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1846"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3763"
+        },
+        {
+          "attribute_code": "config_temperatura_colore",
+          "value": "2547"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696254319"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-agos-pt-h80-3000k-antracite-led-254319"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Agos pt h80 3000k--Antracite-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "254319_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/254319_WEB001_AGOS_PT_H80_ANTRACITE_3000K.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "268422",
+      "name": "Ideal Lux Agos pt h80 4000k--Antracite-LED",
+      "attribute_set_id": 4,
+      "price": 100.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.1,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 37,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1846"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3763"
+        },
+        {
+          "attribute_code": "config_temperatura_colore",
+          "value": "2592"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696268422"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-agos-pt-h80-4000k-antracite-led-268422"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Agos pt h80 4000k--Antracite-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "268422_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/268422_WEB001_AGOS_PT_H80_ANTRACITE_4000K.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "326726",
+      "name": "Ideal Lux Agos pt h80 3000k--Coffee-LED",
+      "attribute_set_id": 4,
+      "price": 102.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.1,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 265,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "3865"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3763"
+        },
+        {
+          "attribute_code": "config_temperatura_colore",
+          "value": "2547"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696326726"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-agos-pt-h80-3000k-coffee-led-326726"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Agos pt h80 3000k--Coffee-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "326726_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/326726_WEB001_AGOS_PT_H80_COFFEE_3000K.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "326733",
+      "name": "Ideal Lux Agos pt h80 3000k--Nero-LED",
+      "attribute_set_id": 4,
+      "price": 102.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.1,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 97,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3274"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3763"
+        },
+        {
+          "attribute_code": "config_temperatura_colore",
+          "value": "2547"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696326733"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-agos-pt-h80-3000k-nero-led-326733"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Agos pt h80 3000k--Nero-LED",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "326733_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/326733_WEB001_AGOS_PT_H80_NERO_3000K.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "284309",
+      "name": "Ideal Lux Angolo pt5--Nero-G9",
+      "attribute_set_id": 4,
+      "price": 280.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 2.7,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 122,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3265"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696284309"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-angolo-pt5-nero-g9-284309"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Angolo pt5--Nero-G9",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "284309_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/284309_WEB001_ANGOLO_PT5_NERO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "284354",
+      "name": "Ideal Lux Angolo pt5--Ottone-G9",
+      "attribute_set_id": 4,
+      "price": 280.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 2.7,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 18,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "2402"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3265"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696284354"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-angolo-pt5-ottone-g9-284354"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Angolo pt5--Ottone-G9",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "284354_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/284354_WEB001_ANGOLO_PT5_OTTONE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "298610",
+      "name": "Ideal Lux Arcadia pt1 antracite--Grigio-E27",
+      "attribute_set_id": 4,
+      "price": 152.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 6.5,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 30,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1847"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "680"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696298610"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-arcadia-pt1-antracite-grigio-e27-298610"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Arcadia pt1 antracite--Grigio-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "298610_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/298610_WEB001_ARCADIA_PT1_ANTRACITE.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "365749",
+      "name": "Ideal Lux Arcadia pt1--Bianco-E27",
+      "attribute_set_id": 4,
+      "price": 152.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 6.5,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 266,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1840"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "680"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696365749"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-arcadia-pt1-bianco-e27-365749"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Arcadia pt1--Bianco-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "365749_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/365749_WEB001_ARCADIA_PT1_BIANCO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "198644",
+      "name": "Ideal Lux Atena pt1--Bianco-E27",
+      "attribute_set_id": 4,
+      "price": 87.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.07,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 127,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1840"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "680"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696198644"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-atena-pt1-bianco-e27-198644"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Atena pt1--Bianco-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "198644_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/198644_WEB001_ATENA_PT1_BIANCO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "198637",
+      "name": "Ideal Lux Atena pt1--Grigio-E27",
+      "attribute_set_id": 4,
+      "price": 87.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.07,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 369,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1847"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "680"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696198637"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-atena-pt1-grigio-e27-198637"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Atena pt1--Grigio-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "198637_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/198637_WEB001_ATENA_PT1_GRIGIO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "198620",
+      "name": "Ideal Lux Atena pt1--Nero-E27",
+      "attribute_set_id": 4,
+      "price": 87.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.07,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 358,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "680"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696198620"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-atena-pt1-nero-e27-198620"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Atena pt1--Nero-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "198620_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/198620_WEB001_ATENA_PT1_NERO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "272245",
+      "name": "Ideal Lux Axel pt1--Bianco-E27",
+      "attribute_set_id": 4,
+      "price": 230.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 5.2,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 25,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1840"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "680"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696272245"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-axel-pt1-bianco-e27-272245"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Axel pt1--Bianco-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "272245_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/272245_WEB001_AXEL_PT1_BIANCO.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "282084",
+      "name": "Ideal Lux Axel pt1--Nero-E27",
+      "attribute_set_id": 4,
+      "price": 230.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 5.2,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 31,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "color",
+          "value": "1844"
+        },
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "680"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696282084"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-axel-pt1-nero-e27-282084"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Axel pt1--Nero-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/png",
+            "name": "282084_WEB001.png",
+            "url": "https://www.ideal-lux.com/assets/products/web/282084_WEB001_AXEL_PT1_NERO.png"
+          }
+        }
+      ]
+    }
   }
 ]
