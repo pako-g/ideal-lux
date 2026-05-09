@@ -240,6 +240,7 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
                  famiglia_varianti: pd.DataFrame) -> dict:
 
     famiglia   = row["Famiglia Articolo"]
+    print(famiglia)
     dimensione = estrai_dimensione(row["Descrizione"], row["Finitura"],
                                    famiglia, famiglia_varianti)
     tipo       = estrai_tipo(row["Descrizione"], famiglia)
@@ -365,8 +366,13 @@ if __name__ == "__main__":
     # 2. Carica lampade da terra (escludi WAY e TOFFEE)
     varianti = load_categoria(CSV_PATH, "Lampada da terra", escludi=["WAY", "TOFFEE"])
 
+    varianti["sottofamiglia"] = varianti.apply(
+        lambda r: r["Famiglia Articolo"] + ("_LED"if re.search(r'(?<![A-Z])LED(?![A-Z])',r["Descrizione"].replace("_" + r["Finitura"], ""))else ""),
+        axis=1
+    )
+
     semplici = []
-    for famiglia, gruppo in varianti.groupby("Famiglia Articolo"):
+    for sottofamiglia, gruppo in varianti.groupby("sottofamiglia"):
         for _, row in gruppo.iterrows():
             semplici.append(
                 build_simple(row, color_map, attacco_map, dimensioni_map,
