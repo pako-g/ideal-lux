@@ -141,7 +141,7 @@ def load_categoria(csv_path: str, categoria: str, escludi: list = []) -> pd.Data
 
 def estrai_modello(descrizione: str, finitura: str) -> str:
     """'A-LINE_SP1_D13_BIANCO', 'BIANCO' → 'A-line sp1 d13'"""
-    raw = descrizione.replace("_" + finitura, "").replace("_", " ").lower()
+    raw = descrizione.replace("_" + str(finitura) if pd.notna(finitura) else "", "").replace("_", " ").lower()
     return raw[0].upper() + raw[1:] if raw else raw
 
 def mm_to_cm(val_mm: int) -> str:
@@ -155,10 +155,18 @@ FAMIGLIE_LUNGHEZZA = {"SASSO"}
 FINITURA_LABEL = {
     "Coffee":   "Caffè",
     "Nickel":   "Nichel",
+    "Ambra sfumato": "Ambra",
+    "Fume' sfumato": "Fumé",
+    "Fume'": "Fumé"
 }
+
+FAMIGLIE_SENZA_DIMENSIONE = {"DRIFTWOOD", "BINOMIO"}
 
 def estrai_dimensione(descrizione: str, finitura: str, famiglia: str,
                       famiglia_varianti: pd.DataFrame) -> str:
+
+    if famiglia in FAMIGLIE_SENZA_DIMENSIONE:
+        return ""
 
     def estrai_misura(dim_str, prefix):
         m = re.search(rf'{prefix}\s+(\d+)', str(dim_str))
@@ -175,7 +183,7 @@ def estrai_dimensione(descrizione: str, finitura: str, famiglia: str,
         return f"Lunghezza {mm_to_cm(val)}cm" if val else ""
 
     # Determina il prefisso dalla descrizione (D o H) ma il valore da Dimensione Articolo
-    modello = descrizione.replace("_" + finitura, "")
+    modello = descrizione.replace("_" + str(finitura) if pd.notna(finitura) else "", "")
     match = re.search(r'_(D\d+|H\d+)$', modello)
     if match:
         prefix = match.group(1)[0]  # "D" o "H"
@@ -217,8 +225,11 @@ TIPO_LABEL = {
     "Sphere": "Sfera",
 }
 
+FAMIGLIE_SOLO_COLORE = {"DRIFTWOOD"}
 
 def estrai_tipo(descrizione: str, famiglia: str) -> str:
+    if famiglia in FAMIGLIE_SOLO_COLORE:
+        return ""
     pattern = FAMIGLIE_TIPO.get(famiglia, "")
     if not pattern:
         return ""
@@ -235,8 +246,10 @@ def estrai_temperatura(descrizione: str) -> str:
 
 
 def build_nome_semplice(modello: str, finitura: str, attacco: str, tipo: str = "") -> str:
-    tipo_str = f"-{tipo.capitalize()}" if tipo else ""
-    return f"{MARCA} {modello}-{tipo_str}-{finitura.capitalize()}-{attacco}"
+    finitura_str = str(finitura).capitalize() if pd.notna(finitura) else ""
+    attacco_str  = str(attacco) if pd.notna(attacco) else ""
+    tokens = [t for t in [modello, tipo, finitura_str, attacco_str] if t]
+    return f"{MARCA} " + "-".join(tokens)
 
 
 def build_url_key(nome: str) -> str:
@@ -272,9 +285,12 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
                                      row["Attacco Portalampada"], tipo)
     img_url    = build_url_immagine(row["Nr"], row["Descrizione"])
 
-    finitura_label = row["Finitura"].capitalize()
-    finitura_label = FINITURA_LABEL.get(finitura_label, finitura_label)
-    color_id = color_map[finitura_label]
+    if pd.notna(row["Finitura"]):
+        finitura_label = row["Finitura"].capitalize()
+        finitura_label = FINITURA_LABEL.get(finitura_label, finitura_label)
+        color_id = color_map[finitura_label]
+    else:
+        color_id = ""
 
     attacco_val     = row["Attacco Portalampada"]
     manufacturer_id = manufacturer_map[MARCA]
@@ -341,6 +357,8 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
     }
 
 
+
+
 # ─────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────
@@ -348,14 +366,14 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
 if __name__ == "__main__":
     Path("./file").mkdir(exist_ok=True)
 
-    # 1. Connessione OAuth e recupero mappa colori
-    session   = get_oauth_session()
+    # 1. Connessione OAuth e recupero mappe attributi
+    session = get_oauth_session()
 
-    color_map = get_attribute_options(session, "color")
-    attacco_map = get_attribute_options(session, "config_attacco_lamp")
-    dimensioni_map = get_attribute_options(session, "config_dimensioni")
-    tipo_map = get_attribute_options(session, "config_tipo")
-    temp_map = get_attribute_options(session, "config_temperatura_colore")
+    color_map        = get_attribute_options(session, "color")
+    attacco_map      = get_attribute_options(session, "config_attacco_lamp")
+    dimensioni_map   = get_attribute_options(session, "config_dimensioni")
+    tipo_map         = get_attribute_options(session, "config_tipo")
+    temp_map         = get_attribute_options(session, "config_temperatura_colore")
     manufacturer_map = get_attribute_options(session, "manufacturer")
 
     print("🎨  Opzioni color recuperate da Magento:")
@@ -368,12 +386,12 @@ if __name__ == "__main__":
         print(f"     {label} → {opt_id}")
     print()
 
-    print("🔌  Opzioni config_dimensioi_map recuperate da Magento:")
+    print("🔌  Opzioni config_dimensioni recuperate da Magento:")
     for label, opt_id in dimensioni_map.items():
         print(f"     {label} → {opt_id}")
     print()
 
-    print("🔌  Opzioni manufacturer_map recuperate da Magento:")
+    print("🔌  Opzioni manufacturer recuperate da Magento:")
     for label, opt_id in manufacturer_map.items():
         print(f"     {label} → {opt_id}")
     print()
@@ -391,14 +409,25 @@ if __name__ == "__main__":
     # 2. Carica lampade da terra (escludi WAY e TOFFEE)
     varianti = load_categoria(CSV_PATH, "Lampada da terra", escludi=["WAY", "TOFFEE"])
 
+    # 3. Calcola sottofamiglia per separare modelli diversi nella stessa famiglia
+    FAMIGLIE_CONFIG_TIPO = {"EDO", "ESSENCE", "TWIGGY", "DRIFTWOOD"}
+
+    def calcola_sottofamiglia(descrizione: str, famiglia: str, finitura: str) -> str:
+        if famiglia in FAMIGLIE_CONFIG_TIPO:
+            return famiglia
+        finitura_str = "" if str(finitura) == "nan" else "_" + str(finitura)
+        core = str(descrizione).replace(famiglia + "_", "").replace(finitura_str, "")
+        core = re.sub(r'_(D\d+|H\d+|L\d+|\d{4}K[^_]*).*$', '', core)
+        core = re.sub(r'^(D\d+|H\d+|L\d+|\d{4}K[^_]*).*$', '', core)
+        sottomodello = core.strip("_")
+        return f"{famiglia}_{sottomodello}" if sottomodello else famiglia
+
     varianti["sottofamiglia"] = varianti.apply(
-        lambda r: r["Famiglia Articolo"] + ("_LED" if re.search(
-            r'LED',
-            str(r["Descrizione"]).replace("_" + str(r["Finitura"]), "")
-        ) else ""),
+        lambda r: calcola_sottofamiglia(r["Descrizione"], r["Famiglia Articolo"], str(r["Finitura"])),
         axis=1
     )
 
+    # 4. Genera prodotti semplici
     semplici = []
     for sottofamiglia, gruppo in varianti.groupby("sottofamiglia"):
         for _, row in gruppo.iterrows():
@@ -407,22 +436,22 @@ if __name__ == "__main__":
                              manufacturer_map, tipo_map, temp_map, gruppo)
             )
 
-        # 3. Salva JSON
-        with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-            json.dump(semplici, f, ensure_ascii=False, indent=2)
+    # 5. Salva JSON
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(semplici, f, ensure_ascii=False, indent=2)
 
-        print(f"✅  {OUTPUT_PATH}")
-        print(f"    Prodotti generati: {len(semplici)}")
-        print()
-        for s in semplici:
-            p = s["product"]
-            ca = {a["attribute_code"]: a["value"] for a in p["custom_attributes"]}
-            print(
-                f"  [{p['sku']}]  {p['name']}\n"
-                f"           color={ca.get('color', '-')}  "
-                f"dimensioni={ca.get('config_dimensioni', '-')}  "
-                f"attacco={ca.get('config_attacco_lamp', '-')}  "
-                f"tipo={ca.get('config_tipo', '-')}  "
-                f"temp={ca.get('config_temperatura_colore', '-')}  "
-                f"€{p['price']}  qty={p['extension_attributes']['stock_item']['qty']}\n"
-            )
+    print(f"✅  {OUTPUT_PATH}")
+    print(f"    Prodotti generati: {len(semplici)}")
+    print()
+    for s in semplici:
+        p  = s["product"]
+        ca = {a["attribute_code"]: a["value"] for a in p["custom_attributes"]}
+        print(
+            f"  [{p['sku']}]  {p['name']}\n"
+            f"           color={ca.get('color', '-')}  "
+            f"dimensioni={ca.get('config_dimensioni', '-')}  "
+            f"attacco={ca.get('config_attacco_lamp', '-')}  "
+            f"tipo={ca.get('config_tipo', '-')}  "
+            f"temp={ca.get('config_temperatura_colore', '-')}  "
+            f"€{p['price']}  qty={p['extension_attributes']['stock_item']['qty']}\n"
+        )
