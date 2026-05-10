@@ -30,11 +30,9 @@ load_dotenv()
 
 CSV_PATH        = "./file/giacenzeECommerce.csv"
 OUTPUT_PATH     = "./file/aline_simple_products.json"
-
 MARCA           = "Ideal Lux"
 ATTRIBUTE_SET_ID = 4       # adatta al tuo Attribute Set in Magento
 WEBSITE_IDS     = [1]
-
 MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
 
 
@@ -245,10 +243,12 @@ def estrai_temperatura(descrizione: str) -> str:
     return match.group(1) if match else ""
 
 
-def build_nome_semplice(modello: str, finitura: str, attacco: str, tipo: str = "") -> str:
+def build_nome_semplice(modello: str, finitura: str, attacco: str, tipo: str = "", categoria: str = "") -> str:
+    cat_str      = f" {categoria.title()}" if categoria else ""
     finitura_str = str(finitura).capitalize() if pd.notna(finitura) else ""
     attacco_str  = str(attacco) if pd.notna(attacco) else ""
-    tokens = [t for t in [modello, tipo, finitura_str, attacco_str] if t]
+    modello_str  = modello[0].upper() + modello[1:] if modello else ""
+    tokens = [t for t in [f"{modello_str}{cat_str}", tipo, finitura_str, attacco_str] if t]
     return f"{MARCA} " + "-".join(tokens)
 
 
@@ -256,13 +256,25 @@ def build_url_key(nome: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", nome.lower()).strip("-")
 
 
-def build_url_immagine(ean: str, descrizione: str) -> str:
-    sku6    = str(ean)[-6:]
-    desc_up = descrizione.upper()
-    return (
-        f"https://www.ideal-lux.com/assets/products/web/"
-        f"{sku6}_WEB001_{desc_up}.png"
-    )
+IMG_DIR  = Path("./file/images")
+BASE_URL = "https://lampadestore.it/pub/media/tmp"
+
+def build_image_entry(nome: str, sku: str) -> dict | None:
+    filename = re.sub(r"[^a-z0-9]+", "-", nome.lower()).strip("-") + f"-{sku}.jpg"
+    if not (IMG_DIR / filename).exists():
+        return None
+    return {
+        "media_type": "image",
+        "label":      nome,
+        "position":   1,
+        "disabled":   False,
+        "types":      ["image", "small_image", "thumbnail"],
+        "content": {
+            "type": "image/jpeg",
+            "name": filename,
+            "url":  f"{BASE_URL}/{filename}",
+        }
+    }
 
 
 # ─────────────────────────────────────────────
@@ -281,9 +293,11 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
     tipo       = estrai_tipo(row["Descrizione"], famiglia)
     temperatura = estrai_temperatura(row["Descrizione"])
     modello    = estrai_modello(row["Descrizione"], row["Finitura"])
-    nome       = build_nome_semplice(modello, row["Finitura"],
-                                     row["Attacco Portalampada"], tipo)
-    img_url    = build_url_immagine(row["Nr"], row["Descrizione"])
+    nome = build_nome_semplice(modello, row["Finitura"],
+                               row["Attacco Portalampada"], tipo,
+                               row["Categoria Articolo"]).capitalize()
+
+    img_entry = build_image_entry(nome, row["sku"])
 
     if pd.notna(row["Finitura"]):
         finitura_label = row["Finitura"].capitalize()
@@ -339,20 +353,7 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
                 {"attribute_code": "manufacturer",  "value": manufacturer_id},
                 {"attribute_code": "url_key",       "value": build_url_key(nome) + "-" + row["sku"]},
             ],
-            "media_gallery_entries": [
-                {
-                    "media_type": "image",
-                    "label":      nome,
-                    "position":   1,
-                    "disabled":   False,
-                    "types":      ["image", "small_image", "thumbnail"],
-                    "content": {
-                        "type": "image/png",
-                        "name": f"{row['sku']}_WEB001.png",
-                        "url":  img_url,
-                    }
-                }
-            ]
+            "media_gallery_entries": [img_entry] if img_entry else [],
         }
     }
 
