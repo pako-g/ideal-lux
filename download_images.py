@@ -17,6 +17,7 @@ import requests
 from pathlib import Path
 from PIL import Image
 from io import BytesIO
+import pandas as pd
 
 # ─────────────────────────────────────────────
 # CONFIGURAZIONE
@@ -29,6 +30,7 @@ BASE_URL    = "https://lampadestore.it/pub/media/tmp"
 IMG_SIZE    = (1000, 1000)
 JPEG_QUALITY = 85
 
+CSV_PATH = "./file/giacenzeECommerce.csv"
 
 # ─────────────────────────────────────────────
 # UTILITY
@@ -82,26 +84,32 @@ def download_and_process(url: str, dest_path: Path) -> bool:
 if __name__ == "__main__":
     IMG_DIR.mkdir(parents=True, exist_ok=True)
 
+    # Legge il JSON solo per nome e sku
     with open(JSON_INPUT, encoding="utf-8") as f:
         products = json.load(f)
 
-    totale     = len(products)
-    scaricate  = 0
-    saltate    = 0
-    errori     = 0
+    # Legge il CSV per gli URL originali
+    df = pd.read_csv(CSV_PATH, sep=None, engine="python")
+    df["sku"] = df["Nr"].astype(str).str[-6:]
+    url_map = df.set_index("sku")["Indirizzo Immagine"].to_dict()
+
+    totale    = len(products)
+    scaricate = 0
+    saltate   = 0
+    errori    = 0
+    lista_errori = []
 
     for i, item in enumerate(products, start=1):
-        p       = item["product"]
-        sku     = p["sku"]
-        nome    = p["name"]
-        gallery = p.get("media_gallery_entries", [])
+        p    = item["product"]
+        sku  = p["sku"]
+        nome = p["name"]
 
-        if not gallery:
-            print(f"[{i}/{totale}] {sku} — nessuna immagine nel JSON, salto")
+        src_url = url_map.get(sku)
+        if not src_url or pd.isna(src_url):
+            print(f"[{i}/{totale}] {sku} — URL non trovato nel CSV, salto")
+            errori += 1
             continue
 
-        entry    = gallery[0]
-        src_url  = entry["content"]["url"]
         filename = build_filename(nome, sku)
         dest     = IMG_DIR / filename
 
@@ -109,19 +117,22 @@ if __name__ == "__main__":
             print(f"[{i}/{totale}] {sku} — già presente, salto")
             saltate += 1
         else:
-            print(f"[{i}/{totale}] {sku} — scarico {src_url.split('/')[-1]} ...")
+            print(f"[{i}/{totale}] {sku} — scarico ...")
             ok = download_and_process(src_url, dest)
             if ok:
                 scaricate += 1
                 print(f"     ✅  {filename} ({dest.stat().st_size // 1024} KB)")
             else:
                 errori += 1
+                print(f"     ❌  {sku} — {src_url}")
 
 
-        # Pausa educata per non sovraccaricare il server
+
+        # nel loop, quando c'è errore:
+        lista_errori.append(f"{sku} | {src_url}")
+
         if i < totale:
             time.sleep(0.3)
-
 
     print()
     print("─" * 50)
@@ -129,3 +140,11 @@ if __name__ == "__main__":
     print(f"   Scaricate : {scaricate}")
     print(f"   Saltate   : {saltate}")
     print(f"   Errori    : {errori}")
+
+
+    if lista_errori:
+        print()
+        print("─" * 50)
+        print("❌  URL con errore:")
+        for e in lista_errori:
+            print(f"   {e}")

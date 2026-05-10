@@ -295,7 +295,7 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
     modello    = estrai_modello(row["Descrizione"], row["Finitura"])
     nome = build_nome_semplice(modello, row["Finitura"],
                                row["Attacco Portalampada"], tipo,
-                               row["Categoria Articolo"]).capitalize()
+                               row["Categoria Articolo"])
 
     img_entry = build_image_entry(nome, row["sku"])
 
