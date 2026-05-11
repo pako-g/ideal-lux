@@ -216,8 +216,17 @@ def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame, attacc
       _child_skus  → SKU dei semplici da associare
       _attr_codes  → codici attributo da risolvere a runtime (attribute_id numerico)
     """
+
+    skus_gruppo = [s["product"]["sku"] for s in semplici]
+    righe_gruppo = df[df["Nr"].astype(str).str.endswith(tuple(str(s) for s in skus_gruppo))]
+
+    ip_vals = righe_gruppo["IP"].dropna().astype(int).unique().tolist()
+    is_esterno = any(v >= 44 for v in ip_vals)
+    ambiente = "Esterni" if is_esterno else "Interni"
+
     titolo = build_titolo(semplici[0]["product"]["name"])
     titolo = f"{titolo} per {ambiente}"
+
     url_key    = re.sub(r"[^a-z0-9]+", "-", titolo.lower()).strip("-")
     child_skus = [s["product"]["sku"] for s in semplici]
     attr_codes = get_config_attribute_codes(semplici)
@@ -297,11 +306,9 @@ def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame, attacc
     attacchi = [a for a in attacchi if a and a in attacco_menu_map]
     attacco_menu_val = attacco_menu_map[attacchi[0]] if len(attacchi) == 1 else ""
 
-    ip_vals = righe_gruppo["IP"].dropna().astype(int).unique().tolist()
-    is_esterno = any(v >= 44 for v in ip_vals)
-    ambiente = "Esterni" if is_esterno else "Interni"
-
-    nomi_cat = CATEGORIE_FISSE + [ambiente, "Lampade da Terra"]
+    cat_nome = "Lampade da Terra per Esterni" if ambiente == "Esterni" else "Lampade da Terra"
+    nomi_cat = CATEGORIE_FISSE + [cat_nome]
+    print(categorie_map.keys())
     category_ids = [categorie_map[n] for n in nomi_cat if n in categorie_map]
 
 
