@@ -216,7 +216,8 @@ def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame, attacc
       _child_skus  → SKU dei semplici da associare
       _attr_codes  → codici attributo da risolvere a runtime (attribute_id numerico)
     """
-    titolo     = build_titolo(semplici[0]["product"]["name"])
+    titolo = build_titolo(semplici[0]["product"]["name"])
+    titolo = f"{titolo} per {ambiente}"
     url_key    = re.sub(r"[^a-z0-9]+", "-", titolo.lower()).strip("-")
     child_skus = [s["product"]["sku"] for s in semplici]
     attr_codes = get_config_attribute_codes(semplici)
@@ -386,7 +387,7 @@ def main():
     configurabili = []
     for idx, (key, gruppo) in enumerate(sorted(gruppi.items()), start=1):
         config_sku = f"IL-CONFIG-{idx:03d}"
-        config     = build_configurable(config_sku, gruppo, df, attacco_menu_map)
+        config     = build_configurable(config_sku, gruppo, df, attacco_menu_map, categorie_map)
         configurabili.append(config)
 
         print(

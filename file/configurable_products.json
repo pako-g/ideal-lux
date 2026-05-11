@@ -11,6 +11,24 @@
       "extension_attributes": {
         "website_ids": [
           1
+        ],
+        "category_links": [
+          {
+            "position": 0,
+            "category_id": "23"
+          },
+          {
+            "position": 1,
+            "category_id": "16"
+          },
+          {
+            "position": 2,
+            "category_id": "464"
+          },
+          {
+            "position": 3,
+            "category_id": "478"
+          }
         ]
       },
       "custom_attributes": [
