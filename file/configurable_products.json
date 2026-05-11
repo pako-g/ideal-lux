@@ -1,0 +1,7736 @@
+[
+  {
+    "product": {
+      "sku": "IL-CONFIG-001",
+      "name": "Ideal Lux Acqua Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3265"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-acqua-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "135205",
+      "246918"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-002",
+      "name": "Ideal Lux Agos Pt H60 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "1261"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "2592"
+              },
+              {
+                "value_index": "2547"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-agos-pt-h60-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "254388",
+      "268439",
+      "326689",
+      "326696"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-003",
+      "name": "Ideal Lux Agos Pt H80 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3763"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "2592"
+              },
+              {
+                "value_index": "2547"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-agos-pt-h80-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "254319",
+      "268422",
+      "326726",
+      "326733"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-004",
+      "name": "Ideal Lux Angolo Pt5 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "2402"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3265"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-angolo-pt5-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "284309",
+      "284354"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-005",
+      "name": "Ideal Lux Arcadia Pt1 Antracite Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1847"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-arcadia-pt1-antracite-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "298610"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-006",
+      "name": "Ideal Lux Arcadia Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-arcadia-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "365749"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-007",
+      "name": "Ideal Lux Atena Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-atena-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "198644",
+      "198637",
+      "198620"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-008",
+      "name": "Ideal Lux Axel Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-axel-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "272245",
+      "282084"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-009",
+      "name": "Ideal Lux Binomio Pt3 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "2402"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3265"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-binomio-pt3-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "353210",
+      "369327",
+      "353265"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-010",
+      "name": "Ideal Lux Binomio Pt4 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "2402"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-binomio-pt4-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "328317",
+      "313313",
+      "328324"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-011",
+      "name": "Ideal Lux Birds Pt5 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3265"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-birds-pt5-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "273662"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-012",
+      "name": "Ideal Lux Blade Pt Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2407"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "2402"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-blade-pt-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "368641",
+      "368658",
+      "368672",
+      "368665"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-013",
+      "name": "Ideal Lux Bloom Pt2 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "2402"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-bloom-pt2-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "362861",
+      "366616"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-014",
+      "name": "Ideal Lux Boeing Pt H015 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "2575"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h015-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "346656",
+      "346663",
+      "346670"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-015",
+      "name": "Ideal Lux Boeing Pt H040 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3283"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h040-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "327242",
+      "346687",
+      "346694"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-016",
+      "name": "Ideal Lux Boeing Pt H070 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3866"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h070-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "327259",
+      "346700",
+      "346717"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-017",
+      "name": "Ideal Lux Boeing Pt H100 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "2161"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-boeing-pt-h100-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "327266",
+      "346724",
+      "346731"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-018",
+      "name": "Ideal Lux Carta Pt1 D30 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3286"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-carta-pt1-d30-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "317137"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-019",
+      "name": "Ideal Lux Carta Pt1 D40 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3287"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-carta-pt1-d40-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "317144"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-020",
+      "name": "Ideal Lux Cima Pt2 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-cima-pt2-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "246833",
+      "246840",
+      "024097"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-021",
+      "name": "Ideal Lux Clio Mpt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-clio-mpt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "249452",
+      "249469",
+      "328829",
+      "249476",
+      "249483"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-022",
+      "name": "Ideal Lux Clio Mpt2 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-clio-mpt2-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "249490",
+      "249506",
+      "328836",
+      "249513",
+      "249520"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-023",
+      "name": "Ideal Lux Comet Pt Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-comet-pt-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "304649",
+      "304168"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-024",
+      "name": "Ideal Lux Comfort-1 Pt Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "2592"
+              },
+              {
+                "value_index": "2547"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-comfort-1-pt-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "296685",
+      "306452",
+      "296678",
+      "306469"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-025",
+      "name": "Ideal Lux Comfort-2 Pt - Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3867"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-comfort-2-pt-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "345307",
+      "336220"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-026",
+      "name": "Ideal Lux Cosmo Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3349"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-cosmo-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "187877",
+      "187884",
+      "187891"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-027",
+      "name": "Ideal Lux Craft Pt Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2239"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-craft-pt-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "284484"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-028",
+      "name": "Ideal Lux Cylinder Pt2 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-cylinder-pt2-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "111452"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-029",
+      "name": "Ideal Lux Daddy Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-daddy-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "110356",
+      "110363"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-030",
+      "name": "Ideal Lux Dafne Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-dafne-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "120454",
+      "101514"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-031",
+      "name": "Ideal Lux Diesis Pt Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2407"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "2402"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-diesis-pt-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "279800",
+      "285337",
+      "285344"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-032",
+      "name": "Ideal Lux Dodo Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "2402"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3349"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-dodo-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "370422",
+      "370477",
+      "352152"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-033",
+      "name": "Ideal Lux Dorica Pt1 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1839"
+              },
+              {
+                "value_index": "2081"
+              },
+              {
+                "value_index": "3147"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "2402"
+              },
+              {
+                "value_index": "2413"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "2086"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-dorica-pt1-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "366142",
+      "354668",
+      "366111",
+      "366135",
+      "366203",
+      "366210",
+      "366128",
+      "366166",
+      "366159"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-034",
+      "name": "Ideal Lux Dorica Pt3 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "2402"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-dorica-pt3-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "366227",
+      "366234",
+      "366241"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-035",
+      "name": "Ideal Lux Doris Pt1 D30 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3286"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-doris-pt1-d30-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "214009"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-036",
+      "name": "Ideal Lux Doris Pt1 D48 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3868"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-doris-pt1-d48-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "195483"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-037",
+      "name": "Ideal Lux Doris Pt1 D58 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3869"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-doris-pt1-d58-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "195490"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-038",
+      "name": "Ideal Lux Doris Pt1 D78 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3870"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-doris-pt1-d78-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "195506"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-039",
+      "name": "Ideal Lux Dorsale Mpt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "2401"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-dorsale-mpt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "286686",
+      "286662",
+      "286679"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-040",
+      "name": "Ideal Lux Driftwood Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2239"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-driftwood-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "148939"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-041",
+      "name": "Ideal Lux Driftwood Pt3 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2239"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-driftwood-pt3-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "180946"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-042",
+      "name": "Ideal Lux Easy Pt Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "2402"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-easy-pt-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "295473",
+      "295497",
+      "295503"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-043",
+      "name": "Ideal Lux Edo Pt1 Round Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1846"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3349"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3763"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_tipo",
+            "attribute_code": "config_tipo",
+            "label": "Config Tipo",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "3361"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-edo-pt1-round-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "138510",
+      "135755",
+      "213071"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-044",
+      "name": "Ideal Lux Edo Pt1 Square Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1846"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3349"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3871"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_tipo",
+            "attribute_code": "config_tipo",
+            "label": "Config Tipo",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "3360"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-edo-pt1-square-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "135762",
+      "142999",
+      "213088"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-045",
+      "name": "Ideal Lux Ego Pt Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-ego-pt-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "344775"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-046",
+      "name": "Ideal Lux Equinoxe Pt4 Ambra Sfumato Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2400"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3466"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-equinoxe-pt4-ambra-sfumato-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "348285"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-047",
+      "name": "Ideal Lux Equinoxe Pt4 Fume' Sfumato Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2396"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3466"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-equinoxe-pt4-fume-sfumato-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "348292"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-048",
+      "name": "Ideal Lux Equinoxe Pt4 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2401"
+              },
+              {
+                "value_index": "2402"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3466"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-equinoxe-pt4-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "290959",
+      "290966"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-049",
+      "name": "Ideal Lux Essence Pt Round Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "2547"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_tipo",
+            "attribute_code": "config_tipo",
+            "label": "Config Tipo",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "3361"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-essence-pt-round-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "367163",
+      "371740"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-050",
+      "name": "Ideal Lux Essence Pt Square Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "2547"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_tipo",
+            "attribute_code": "config_tipo",
+            "label": "Config Tipo",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "3360"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-essence-pt-square-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "367170",
+      "371771"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-051",
+      "name": "Ideal Lux Etere Pt Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "2592"
+              },
+              {
+                "value_index": "2547"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-etere-pt-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "246932",
+      "172439",
+      "269160",
+      "246956",
+      "322261",
+      "322278"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-052",
+      "name": "Ideal Lux Eva Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-eva-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "295213"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-053",
+      "name": "Ideal Lux Firenze Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2403"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-firenze-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "002880",
+      "020877"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-054",
+      "name": "Ideal Lux Frame Pt Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "2547"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-frame-pt-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "299624",
+      "299617"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-055",
+      "name": "Ideal Lux Futura Pt Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2068"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-futura-pt-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "204956",
+      "272085",
+      "204949"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-056",
+      "name": "Ideal Lux Gas Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3264"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-gas-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "139470",
+      "213101",
+      "322421"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-057",
+      "name": "Ideal Lux Ginger Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3264"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-ginger-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "326665",
+      "326658"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-058",
+      "name": "Ideal Lux Ginger Pt2 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3264"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-ginger-pt2-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "345314",
+      "326672"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-059",
+      "name": "Ideal Lux Hub Pt H074 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3872"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-hub-pt-h074-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "251226"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-060",
+      "name": "Ideal Lux Hub Pt H110 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3494"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-hub-pt-h110-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "251257"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-061",
+      "name": "Ideal Lux Ipotesi Pt H50 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "2166"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-ipotesi-pt-h50-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "300658",
+      "300641"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-062",
+      "name": "Ideal Lux Ipotesi Pt H73 Bianco Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3873"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-ipotesi-pt-h73-bianco-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "282244"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-063",
+      "name": "Ideal Lux Ipotesi Pt H73 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3873"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-ipotesi-pt-h73-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "282251"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-064",
+      "name": "Ideal Lux Itaca Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-itaca-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "180953"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-065",
+      "name": "Ideal Lux Jedi Pt H040 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3283"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-jedi-pt-h040-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "363721",
+      "372259",
+      "372266"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-066",
+      "name": "Ideal Lux Jedi Pt H080 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3874"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-jedi-pt-h080-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "306780",
+      "372273",
+      "293189"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-067",
+      "name": "Ideal Lux Jedi Pt H120 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3875"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-jedi-pt-h120-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "306797",
+      "372280",
+      "293196"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-068",
+      "name": "Ideal Lux Jedi Pt H160 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3876"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-jedi-pt-h160-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "306803",
+      "372297",
+      "293202"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-069",
+      "name": "Ideal Lux Klimt Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2239"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-klimt-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "137827"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-070",
+      "name": "Ideal Lux Kurt Pt Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "2592"
+              },
+              {
+                "value_index": "2547"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-kurt-pt-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "306834",
+      "294025",
+      "306841",
+      "294049",
+      "306858",
+      "294001",
+      "306872",
+      "293172"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-071",
+      "name": "Ideal Lux London Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "2401"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-london-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "110233",
+      "032382",
+      "110240"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-072",
+      "name": "Ideal Lux Look Pt1 Round D40 H1800 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "2547"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-look-pt1-round-d40-h1800-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "304922",
+      "304915"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-073",
+      "name": "Ideal Lux Lumiere Pt Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-lumiere-pt-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "314198"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-074",
+      "name": "Ideal Lux Luna Pt1 D30 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-luna-pt1-d30-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "191577"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-075",
+      "name": "Ideal Lux Luna Pt1 D40 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-luna-pt1-d40-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "191584"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-076",
+      "name": "Ideal Lux Luna Pt1 D50 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-luna-pt1-d50-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "191607"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-077",
+      "name": "Ideal Lux Mercurio Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3265"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-mercurio-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "114347"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-078",
+      "name": "Ideal Lux Mix Up Mpt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-mix-up-mpt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "328164",
+      "328171"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-079",
+      "name": "Ideal Lux Newton Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2407"
+              },
+              {
+                "value_index": "1844"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-newton-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "003528",
+      "015286"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-080",
+      "name": "Ideal Lux Nordik Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-nordik-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "161716"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-081",
+      "name": "Ideal Lux Opera Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-opera-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "068275"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-082",
+      "name": "Ideal Lux Pagoda Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-pagoda-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "051741",
+      "051765"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-083",
+      "name": "Ideal Lux Perlage Pt4 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2396"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "2400"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3265"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-perlage-pt4-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "317816",
+      "277967",
+      "306988"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-084",
+      "name": "Ideal Lux Polly Pt2 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "2401"
+              },
+              {
+                "value_index": "2397"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-polly-pt2-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "061115",
+      "061122",
+      "061139"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-085",
+      "name": "Ideal Lux Pulsar Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-pulsar-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "135908"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-086",
+      "name": "Ideal Lux Pure Pt Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-pure-pt-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "311708",
+      "328508",
+      "328515"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-087",
+      "name": "Ideal Lux Queen Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2403"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-queen-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "077765"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-088",
+      "name": "Ideal Lux Regol Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-regol-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "014609"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-089",
+      "name": "Ideal Lux Sasso Pt1 D25 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3265"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-sasso-pt1-d25-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "161754"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-090",
+      "name": "Ideal Lux Sasso Pt1 D33 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-sasso-pt1-d33-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "161761"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-091",
+      "name": "Ideal Lux Sasso Pt1 D41 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-sasso-pt1-d41-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "161778"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-092",
+      "name": "Ideal Lux Set Up Mpt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2407"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "2402"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-set-up-mpt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "259963",
+      "259970",
+      "259994",
+      "260006"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-093",
+      "name": "Ideal Lux Sirio Pt1 H30 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3349"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "1262"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-sirio-pt1-h30-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "369860",
+      "365671",
+      "369884",
+      "369891",
+      "369914"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-094",
+      "name": "Ideal Lux Sirio Pt1 H60 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              },
+              {
+                "value_index": "3349"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "1261"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-sirio-pt1-h60-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "339627",
+      "365367",
+      "365381",
+      "365374",
+      "365350",
+      "115078",
+      "115092",
+      "213279",
+      "246970",
+      "115115"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-095",
+      "name": "Ideal Lux Sirio Pt1 H80 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              },
+              {
+                "value_index": "3349"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3763"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-sirio-pt1-h80-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "339634",
+      "365404",
+      "365428",
+      "365411",
+      "365398",
+      "115061",
+      "115085",
+      "213262",
+      "246963",
+      "115108"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-096",
+      "name": "Ideal Lux Sole Pt1 D20 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3285"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-sole-pt1-d20-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "318820"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-097",
+      "name": "Ideal Lux Sole Pt1 D30 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3286"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-sole-pt1-d30-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "191638"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-098",
+      "name": "Ideal Lux Sole Pt1 D40 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3287"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-sole-pt1-d40-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "191621"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-099",
+      "name": "Ideal Lux Sole Pt1 D50 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "2877"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-sole-pt1-d50-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "191614"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-100",
+      "name": "Ideal Lux Style Pt H030 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "1262"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "2547"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-style-pt-h030-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "364841",
+      "369594",
+      "369624",
+      "369648",
+      "369662"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-101",
+      "name": "Ideal Lux Style Pt H050 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "2166"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "2592"
+              },
+              {
+                "value_index": "2547"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-style-pt-h050-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "322612",
+      "322599",
+      "318691",
+      "322582",
+      "322575",
+      "322568",
+      "322551",
+      "322544",
+      "322537",
+      "322506"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-102",
+      "name": "Ideal Lux Style Pt H100 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "2161"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "2592"
+              },
+              {
+                "value_index": "2547"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-style-pt-h100-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "246871",
+      "209906",
+      "318707",
+      "322483",
+      "322452",
+      "322438",
+      "322384",
+      "322353",
+      "322230",
+      "322216"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-103",
+      "name": "Ideal Lux Tesla Pt4 H60 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3265"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "1261"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-tesla-pt4-h60-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "153193",
+      "153209",
+      "316048",
+      "326917"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-104",
+      "name": "Ideal Lux Tesla Pt4 H80 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1846"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3265"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3763"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-tesla-pt4-h80-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "153162",
+      "153179",
+      "326924",
+      "316055"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-105",
+      "name": "Ideal Lux Tifone Pt H35 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3451"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-tifone-pt-h35-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "250977"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-106",
+      "name": "Ideal Lux Tifone Pt H65 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3877"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-tifone-pt-h65-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "250953"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-107",
+      "name": "Ideal Lux Titano Pt H49 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3878"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3104"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "2592"
+              },
+              {
+                "value_index": "2547"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-titano-pt-h49-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "246994",
+      "157856"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-108",
+      "name": "Ideal Lux Titano Pt H74 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3878"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3879"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_temperatura_colore",
+            "attribute_code": "config_temperatura_colore",
+            "label": "Config Temperatura Colore",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "2592"
+              },
+              {
+                "value_index": "2547"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-titano-pt-h74-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "246987",
+      "187327"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-109",
+      "name": "Ideal Lux Torre Pt1 H22 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3880"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-torre-pt1-h22-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "158891",
+      "321981",
+      "321950",
+      "186979"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-110",
+      "name": "Ideal Lux Torre Pt1 H60 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "1261"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-torre-pt1-h60-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "162492",
+      "321929",
+      "321905",
+      "186955"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-111",
+      "name": "Ideal Lux Torre Pt1 H80 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3763"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-torre-pt1-h80-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "321882",
+      "321868",
+      "321851",
+      "321639"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-112",
+      "name": "Ideal Lux Tronco Pt1 H25 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3039"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-tronco-pt1-h25-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "369761",
+      "366050",
+      "369792",
+      "369815",
+      "369846"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-113",
+      "name": "Ideal Lux Tronco Pt1 H40 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3881"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-tronco-pt1-h40-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "248257",
+      "248264",
+      "248271",
+      "248288",
+      "248295"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-114",
+      "name": "Ideal Lux Tronco Pt1 H60 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3882"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-tronco-pt1-h60-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "026985",
+      "109145",
+      "163758",
+      "026954",
+      "004730"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-115",
+      "name": "Ideal Lux Tronco Pt1 H80 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3874"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-tronco-pt1-h80-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "026992",
+      "109138",
+      "163741",
+      "026961",
+      "004723"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-116",
+      "name": "Ideal Lux Twiggy Line Pt H74 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3879"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_tipo",
+            "attribute_code": "config_tipo",
+            "label": "Config Tipo",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "3883"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-twiggy-line-pt-h74-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "347875",
+      "347882"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-117",
+      "name": "Ideal Lux Twiggy Line Pt H99 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3884"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_tipo",
+            "attribute_code": "config_tipo",
+            "label": "Config Tipo",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "3883"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-twiggy-line-pt-h99-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "348339",
+      "348346"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-118",
+      "name": "Ideal Lux Twiggy Sphere Pt H65 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "3488"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_tipo",
+            "attribute_code": "config_tipo",
+            "label": "Config Tipo",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "3885"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-twiggy-sphere-pt-h65-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "347899",
+      "347905"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-119",
+      "name": "Ideal Lux Twiggy Sphere Pt H90 Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1844"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_dimensioni",
+            "attribute_code": "config_dimensioni",
+            "label": "Config Dimensioni",
+            "position": 2,
+            "values": [
+              {
+                "value_index": "1260"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_tipo",
+            "attribute_code": "config_tipo",
+            "label": "Config Tipo",
+            "position": 3,
+            "values": [
+              {
+                "value_index": "3885"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-twiggy-sphere-pt-h90-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "348353",
+      "348360"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-120",
+      "name": "Ideal Lux Vega Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              },
+              {
+                "value_index": "3865"
+              },
+              {
+                "value_index": "1847"
+              },
+              {
+                "value_index": "1846"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3265"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-vega-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "136028",
+      "136035",
+      "213361",
+      "136042",
+      "136059"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-121",
+      "name": "Ideal Lux Wally Pt1 Total Black Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-wally-pt1-total-black-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "265292"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-122",
+      "name": "Ideal Lux Yoko Pt Led Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "3274"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-yoko-pt-led-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "258874",
+      "258904"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-123",
+      "name": "Ideal Lux York Pt1 Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "1844"
+              },
+              {
+                "value_index": "1840"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-york-pt1-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "121406",
+      "121437"
+    ]
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-124",
+      "name": "Ideal Lux York Pt1 Wood Lampada Da Terra",
+      "attribute_set_id": 4,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "weight": 0,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "configurable_product_options": [
+          {
+            "attribute_id": "color",
+            "attribute_code": "color",
+            "label": "Color",
+            "position": 0,
+            "values": [
+              {
+                "value_index": "2239"
+              }
+            ]
+          },
+          {
+            "attribute_id": "config_attacco_lamp",
+            "attribute_code": "config_attacco_lamp",
+            "label": "Config Attacco Lamp",
+            "position": 1,
+            "values": [
+              {
+                "value_index": "680"
+              }
+            ]
+          }
+        ],
+        "configurable_product_links": []
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-york-pt1-wood-lampada-da-terra"
+        }
+      ]
+    },
+    "_child_skus": [
+      "089805"
+    ]
+  }
+]
