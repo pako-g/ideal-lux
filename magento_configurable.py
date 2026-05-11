@@ -16,6 +16,10 @@ import re
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+import re
+import base64
+from pathlib import Path
+import pandas as pd
 
 load_dotenv()
 
@@ -25,8 +29,9 @@ load_dotenv()
 
 INPUT_JSON       = "./file/aline_simple_products.json"
 OUTPUT_JSON      = "./file/configurable_products.json"
+CSV_PATH = "./file/giacenzeECommerce.csv"
 
-ATTRIBUTE_SET_ID = 4
+ATTRIBUTE_SET_ID = 263
 WEBSITE_IDS      = [1]
 
 # Attributi che NON sono assi di variazione del configurabile
@@ -99,7 +104,7 @@ def get_config_attribute_codes(semplici: list) -> list:
 # BUILD PRODOTTO CONFIGURABILE
 # ─────────────────────────────────────────────
 
-def build_configurable(config_sku: str, semplici: list) -> dict:
+def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame) -> dict:
     """
     Costruisce il dict del prodotto configurabile da salvare nel JSON.
 
@@ -118,10 +123,31 @@ def build_configurable(config_sku: str, semplici: list) -> dict:
          if a["attribute_code"] == "manufacturer"),
         None
     )
-    if manufacturer_val:
-        prodotto["product"]["custom_attributes"].append(
-            {"attribute_code": "manufacturer", "value": manufacturer_val}
-        )
+
+    # Raccoglie le immagini di tutti i semplici del gruppo
+    media_entries = []
+    for s in semplici:
+        nome_s = s["product"]["name"]
+        sku_s = s["product"]["sku"]
+        slug = re.sub(r"[^a-z0-9]+", "-", nome_s.lower()).strip("-")
+        path = Path(f"./file/images/{slug}-{sku_s}.jpg")
+        if path.exists():
+            media_entries.append({
+                "media_type": "image",
+                "label": nome_s.replace("-", " "),
+                "position": len(media_entries) + 1,
+                "disabled": False,
+                "types": ["image", "small_image", "thumbnail"] if len(media_entries) == 0 else [],
+                "content": {
+                    "base64_encoded_data": base64.b64encode(path.read_bytes()).decode("utf-8"),
+                    "type": "image/jpeg",
+                    "name": path.name,
+                },
+            })
+
+    primo_sku = semplici[0]["product"]["sku"]
+    riga = df[df["Codice Articolo"].astype(str) == str(primo_sku)]
+    lamp_inclusa = "1" if not riga.empty and str(riga.iloc[0]["LampadinaInclusa"]).strip().lower() == "si" else "0"
 
     return {
         "product": {
@@ -136,8 +162,11 @@ def build_configurable(config_sku: str, semplici: list) -> dict:
                 "website_ids": WEBSITE_IDS,
             },
             "custom_attributes": [
-                {"attribute_code": "url_key", "value": url_key}
+                {"attribute_code": "url_key", "value": url_key},
+                {"attribute_code": "manufacturer", "value": manufacturer_val},
+                {"attribute_code": "lamp_lampadina", "value": lamp_inclusa},
             ],
+            "media_gallery_entries": media_entries,
         },
         "_child_skus": child_skus,    # usato da magento_import.py per il linking
         "_attr_codes": attr_codes,    # risolti in attribute_id numerico a runtime
@@ -179,13 +208,15 @@ def main():
 
     print(f"📦  Prodotti semplici letti: {len(semplici_tutti)}")
 
+    df = pd.read_csv(CSV_PATH, sep=";")
+
     gruppi = raggruppa_per_sottofamiglia(semplici_tutti)
     print(f"🔗  Gruppi (configurabili) trovati: {len(gruppi)}\n")
 
     configurabili = []
     for idx, (key, gruppo) in enumerate(sorted(gruppi.items()), start=1):
         config_sku = f"IL-CONFIG-{idx:03d}"
-        config     = build_configurable(config_sku, gruppo)
+        config     = build_configurable(config_sku, gruppo, df)
         configurabili.append(config)
 
         print(
