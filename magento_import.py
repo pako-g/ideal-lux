@@ -4,14 +4,18 @@ magento_import.py — Import completo prodotti in Magento 2
 Flusso:
   1. Legge aline_simple_products.json e configurable_products.json
   2. Recupera via API gli attribute_id numerici per ogni attributo variante
-  3. Crea i prodotti semplici  → POST /rest/V1/products
+  3. Crea i prodotti semplici → POST /rest/V1/products
+     - Legge le immagini da ./file/images/{slug}-{sku}.jpg e le converte in base64
   4. Crea i prodotti configurabili con configurable_product_options → POST /rest/V1/products
   5. Associa i semplici al configurabile → POST /rest/V1/configurable-products/{sku}/child
 """
 
 import json
 import os
+import re
 import time
+import base64
+from pathlib import Path
 from dotenv import load_dotenv
 from requests_oauthlib import OAuth1Session
 import urllib3
@@ -25,9 +29,10 @@ load_dotenv()
 
 SIMPLE_JSON      = "./file/aline_simple_products.json"
 CONFIG_JSON      = "./file/configurable_products.json"
+IMAGES_DIR       = Path("./file/images")
 
 MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
-RETRY_DELAY      = 1.0   # secondi tra una chiamata e l'altra
+RETRY_DELAY      = 1.0
 MAX_RETRIES      = 3
 
 
@@ -60,20 +65,13 @@ def api_post(session: OAuth1Session, endpoint: str, payload: dict) -> dict:
             print(f"    ⚠️  {resp.status_code} — retry {attempt}/{MAX_RETRIES}...")
             time.sleep(RETRY_DELAY * attempt)
             continue
-        # Errore non recuperabile
         raise RuntimeError(
             f"POST /rest/V1/{endpoint} → {resp.status_code}\n{resp.text}"
         )
 
 
 def get_attribute_info(session: OAuth1Session, attribute_code: str) -> dict:
-    """
-    Restituisce:
-      {
-        "attribute_id": "93",           # ID numerico stringa
-        "options": {"1840": "Bianco", "1844": "Nero", ...}
-      }
-    """
+    """Restituisce attribute_id numerico e mappa opzioni per un attributo."""
     url = f"{MAGENTO_BASE_URL}/rest/V1/products/attributes/{attribute_code}"
     resp = session.get(url, verify=False)
     resp.raise_for_status()
@@ -90,6 +88,57 @@ def get_attribute_info(session: OAuth1Session, attribute_code: str) -> dict:
 
 
 # ─────────────────────────────────────────────
+# UTILITY IMMAGINI
+# ─────────────────────────────────────────────
+
+def trova_immagine(nome_prodotto: str, sku: str) -> Path | None:
+    """
+    Cerca l'immagine in ./file/images/ con il nome {slug}-{sku}.jpg
+    Il nome file viene costruito come in download_images.py:
+      slug = re.sub(r'[^a-z0-9]+', '-', nome.lower()).strip('-')
+      filename = f"{slug}-{sku}.jpg"
+    """
+    slug = re.sub(r"[^a-z0-9]+", "-", nome_prodotto.lower()).strip("-")
+    filename = f"{slug}-{sku}.jpg"
+    path = IMAGES_DIR / filename
+    return path if path.exists() else None
+
+
+def immagine_to_base64(path: Path) -> str:
+    """Legge un file immagine e restituisce la stringa base64."""
+    with open(path, "rb") as f:
+        return base64.b64encode(f.read()).decode("utf-8")
+
+
+def build_media_entry(nome_prodotto: str, sku: str) -> list:
+    """
+    Cerca l'immagine locale e costruisce media_gallery_entries
+    con base64_encoded_data per l'API Magento.
+    Restituisce lista vuota se l'immagine non è disponibile.
+    """
+    path = trova_immagine(nome_prodotto, sku)
+    if not path:
+        print(f"    ⚠️  Immagine non trovata per {sku} — prodotto creato senza immagine")
+        return []
+
+    print(f"    🖼️   Immagine trovata: {path.name}")
+    b64 = immagine_to_base64(path)
+
+    return [{
+        "media_type": "image",
+        "label": nome_prodotto,
+        "position": 1,
+        "disabled": False,
+        "types": ["image", "small_image", "thumbnail"],
+        "content": {
+            "base64_encoded_data": b64,
+            "type": "image/jpeg",
+            "name": path.name,
+        },
+    }]
+
+
+# ─────────────────────────────────────────────
 # STEP 1 — RISOLVI ATTRIBUTE_ID
 # ─────────────────────────────────────────────
 
@@ -97,16 +146,7 @@ def build_attr_map(session: OAuth1Session, configurabili: list) -> dict:
     """
     Recupera attribute_id e opzioni per tutti i codici attributo
     presenti nei configurabili.
-
-    Restituisce:
-      {
-        "color":                   {"attribute_id": "93",  "options": {...}},
-        "config_attacco_lamp":     {"attribute_id": "150", "options": {...}},
-        "config_temperatura_colore": {...},
-        ...
-      }
     """
-    # Raccogli tutti i codici unici
     codes = set()
     for c in configurabili:
         codes.update(c.get("_attr_codes", []))
@@ -126,8 +166,8 @@ def build_attr_map(session: OAuth1Session, configurabili: list) -> dict:
 
 def crea_semplici(session: OAuth1Session, semplici: list) -> dict:
     """
-    Crea ogni prodotto semplice via API.
-    Restituisce un dict {sku: entity_id} per i semplici creati con successo.
+    Crea ogni prodotto semplice via API con immagine in base64.
+    Restituisce {sku: entity_id} per i prodotti creati con successo.
     """
     creati = {}
     totale = len(semplici)
@@ -135,14 +175,20 @@ def crea_semplici(session: OAuth1Session, semplici: list) -> dict:
     for i, s in enumerate(semplici, start=1):
         sku  = s["product"]["sku"]
         nome = s["product"]["name"]
-        print(f"  [{i}/{totale}]  Creo semplice  {sku}  —  {nome}")
+        print(f"\n  [{i}/{totale}]  Creo semplice  {sku}  —  {nome}")
+
+        # Deep copy e aggiungi immagine in base64
+        payload = json.loads(json.dumps(s))
+        payload["product"]["media_gallery_entries"] = build_media_entry(nome, sku)
+
         try:
-            result = api_post(session, "products", s)
+            result    = api_post(session, "products", payload)
             entity_id = result.get("id")
             creati[sku] = entity_id
             print(f"             ✅  entity_id={entity_id}")
         except RuntimeError as e:
             print(f"             ❌  ERRORE: {e}")
+
         time.sleep(RETRY_DELAY)
 
     return creati
@@ -155,13 +201,12 @@ def crea_semplici(session: OAuth1Session, semplici: list) -> dict:
 def build_config_options(
     attr_codes: list,
     child_skus: list,
-    semplici_map: dict,    # sku → prodotto semplice
-    attr_map: dict,        # code → {attribute_id, options}
+    semplici_map: dict,
+    attr_map: dict,
 ) -> list:
     """
-    Costruisce la lista configurable_product_options da passare all'API.
-
-    Per ogni attributo raccoglie i value_index distinti dai semplici associati.
+    Costruisce configurable_product_options con attribute_id numerici reali
+    e i value_index distinti raccolti dai semplici associati.
     """
     options = []
     for pos, code in enumerate(attr_codes):
@@ -170,7 +215,6 @@ def build_config_options(
             print(f"    ⚠️  attribute_id non trovato per '{code}', salto")
             continue
 
-        # Raccoglie i valori distinti dai semplici di questo configurabile
         valori = set()
         for sku in child_skus:
             semplice = semplici_map.get(sku)
@@ -201,10 +245,8 @@ def crea_configurabili(
     attr_map: dict,
 ) -> list:
     """
-    Per ogni configurabile:
-      1. Aggiunge configurable_product_options al payload
-      2. POST /rest/V1/products
-      3. Restituisce lista di {config_sku, child_skus} per il linking
+    Crea ogni configurabile via API con configurable_product_options.
+    Restituisce lista {config_sku, child_skus} per il linking.
     """
     da_linkare = []
     totale = len(configurabili)
@@ -215,15 +257,13 @@ def crea_configurabili(
         attr_codes = c.get("_attr_codes", [])
         child_skus = c.get("_child_skus", [])
 
-        print(f"  [{i}/{totale}]  Creo configurabile  {sku}  —  {nome}")
+        print(f"\n  [{i}/{totale}]  Creo configurabile  {sku}  —  {nome}")
 
-        # Costruisci configurable_product_options
         config_options = build_config_options(
             attr_codes, child_skus, semplici_map, attr_map
         )
 
-        # Clona il payload e aggiungi le options
-        payload = json.loads(json.dumps(c["product"]))   # deep copy
+        payload = json.loads(json.dumps(c["product"]))
         payload["extension_attributes"]["configurable_product_options"] = config_options
 
         try:
@@ -271,34 +311,28 @@ def main():
     print("  MAGENTO IMPORT — Semplici + Configurabili")
     print("=" * 60)
 
-    # Carica JSON
     with open(SIMPLE_JSON, encoding="utf-8") as f:
         semplici = json.load(f)
     with open(CONFIG_JSON, encoding="utf-8") as f:
         configurabili = json.load(f)
 
-    print(f"\n📦  Semplici    : {len(semplici)}")
-    print(f"🔗  Configurabili: {len(configurabili)}")
+    print(f"\n📦  Semplici      : {len(semplici)}")
+    print(f"🔗  Configurabili  : {len(configurabili)}")
+    print(f"🖼️   Cartella img   : {IMAGES_DIR.resolve()}")
 
-    # Mappa sku → semplice (per build_config_options)
     semplici_map = {s["product"]["sku"]: s for s in semplici}
 
-    # Sessione OAuth
     session = get_oauth_session()
 
-    # ── Step 1: risolvi attribute_id ──────────────────────────
     print("\n── Step 1: Recupero attribute_id da Magento ─────────────")
     attr_map = build_attr_map(session, configurabili)
 
-    # ── Step 2: crea semplici ─────────────────────────────────
     print("\n── Step 2: Creazione prodotti semplici ──────────────────")
     crea_semplici(session, semplici)
 
-    # ── Step 3+4: crea configurabili ─────────────────────────
     print("\n── Step 3: Creazione prodotti configurabili ─────────────")
     da_linkare = crea_configurabili(session, configurabili, semplici_map, attr_map)
 
-    # ── Step 5: linka semplici ───────────────────────────────
     print("\n── Step 4: Associazione semplici ai configurabili ───────")
     linka_semplici(session, da_linkare)
 

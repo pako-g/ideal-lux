@@ -112,6 +112,17 @@ def build_configurable(config_sku: str, semplici: list) -> dict:
     child_skus = [s["product"]["sku"] for s in semplici]
     attr_codes = get_config_attribute_codes(semplici)
 
+    # Recupera manufacturer dal primo semplice
+    manufacturer_val = next(
+        (a["value"] for a in semplici[0]["product"]["custom_attributes"]
+         if a["attribute_code"] == "manufacturer"),
+        None
+    )
+    if manufacturer_val:
+        prodotto["product"]["custom_attributes"].append(
+            {"attribute_code": "manufacturer", "value": manufacturer_val}
+        )
+
     return {
         "product": {
             "sku": config_sku,
