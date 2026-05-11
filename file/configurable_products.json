@@ -21,6 +21,34 @@
         {
           "attribute_code": "manufacturer",
           "value": "3864"
+        },
+        {
+          "attribute_code": "lamp_lampadina",
+          "value": "0"
+        },
+        {
+          "attribute_code": "lamp_dimmer",
+          "value": "0"
+        },
+        {
+          "attribute_code": "lamp_dimensioni",
+          "value": "Ø13.5cm x H60cm"
+        },
+        {
+          "attribute_code": "lamp_materiali_costruzione",
+          "value": "Alluminio, Metallo"
+        },
+        {
+          "attribute_code": "lamp_max_potenza",
+          "value": "15W"
+        },
+        {
+          "attribute_code": "lamp_grado_protezione",
+          "value": "IP44"
+        },
+        {
+          "attribute_code": "lamp_attacco_lamp_menu",
+          "value": "G9"
         }
       ],
       "media_gallery_entries": [

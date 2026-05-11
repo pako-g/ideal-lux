@@ -332,7 +332,7 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
 
     return {
         "product": {
-            "sku":              row["sku"],
+            "sku":              f"IL-{row['sku']}",
             "name":             nome,
             "attribute_set_id": ATTRIBUTE_SET_ID,
             "price":            float(row["prezzo"]),

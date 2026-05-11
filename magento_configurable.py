@@ -20,6 +20,7 @@ import re
 import base64
 from pathlib import Path
 import pandas as pd
+from requests_oauthlib import OAuth1Session
 
 load_dotenv()
 
@@ -30,12 +31,57 @@ load_dotenv()
 INPUT_JSON       = "./file/aline_simple_products.json"
 OUTPUT_JSON      = "./file/configurable_products.json"
 CSV_PATH = "./file/giacenzeECommerce.csv"
+MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
 
 ATTRIBUTE_SET_ID = 263
 WEBSITE_IDS      = [1]
 
 # Attributi che NON sono assi di variazione del configurabile
 ESCLUDI_DA_CONFIG = {"lamp_ean", "manufacturer", "url_key"}
+
+
+# ─────────────────────────────────────────────
+# OAUTH SESSION
+# ─────────────────────────────────────────────
+
+def get_oauth_session() -> OAuth1Session:
+    return OAuth1Session(
+        client_key            = os.getenv("MAGENTO_CONSUMER_KEY"),
+        client_secret         = os.getenv("MAGENTO_CONSUMER_SECRET"),
+        resource_owner_key    = os.getenv("MAGENTO_ACCESS_TOKEN"),
+        resource_owner_secret = os.getenv("MAGENTO_TOKEN_SECRET"),
+        signature_method      = "HMAC-SHA256",
+    )
+
+# ─────────────────────────────────────────────
+# RECUPERO OPZIONI ATTRIBUTO DA MAGENTO
+# ─────────────────────────────────────────────
+
+def get_attribute_options(session: OAuth1Session, attribute_code: str) -> dict:
+    """
+    Recupera le opzioni di un attributo select da Magento e restituisce
+    un dizionario label → ID numerico (stringa).
+
+    Esempio:
+      get_attribute_options(session, "color")
+      → {"Bianco": "49", "Nero": "50"}
+
+    Se un valore non viene trovato nella mappa, build_simple() solleverà
+    un KeyError esplicito — meglio fallire subito che scrivere un valore sbagliato.
+    """
+    url      = f"{MAGENTO_BASE_URL}/rest/V1/products/attributes/{attribute_code}"
+    response = session.get(url, verify=False)
+    response.raise_for_status()
+
+    data    = response.json()
+    options = data.get("options", [])
+
+    # Salta la voce vuota che Magento aggiunge sempre come prima opzione
+    return {
+        opt["label"]: opt["value"]
+        for opt in options
+        if opt["label"] and opt["value"]
+    }
 
 
 # ─────────────────────────────────────────────
@@ -101,8 +147,43 @@ def get_config_attribute_codes(semplici: list) -> list:
 
 
 # ─────────────────────────────────────────────
+# UTILITY: CONVERTE MM IN CM E NORMALIZZA
+# ─────────────────────────────────────────────
+def converti_dimensione(dim_str: str) -> str:
+    """
+    Converte "D 135 x H 600 mm" → "Ø13.5cm x H60cm"
+    Gestisce D, H, L, P
+    """
+    def converti_token(match):
+        lettera = match.group(1)
+        valore  = float(match.group(2).replace(",", "."))
+        cm      = valore / 10
+        cm_str  = f"{cm:.0f}" if cm == int(cm) else f"{cm:.1f}"
+        prefisso = "Ø" if lettera == "D" else lettera
+        return f"{prefisso}{cm_str}cm"
+
+    risultato = re.sub(r'([DHLP])\s+([\d,]+)', converti_token, dim_str)
+    risultato = re.sub(r'\s*mm\s*', '', risultato)
+    return risultato.strip()
+
+
+# ─────────────────────────────────────────────
 # BUILD PRODOTTO CONFIGURABILE
 # ─────────────────────────────────────────────
+MATERIALI_MAP = {
+    "AL": "Alluminio",
+    "ME": "Metallo",
+    "CO": "Cemento",
+    "CR": "Cristallo",
+    "GE": "Gesso",
+    "LE": "Legno",
+    "MA": "Marmo",
+    "PVC": "PVC",
+    "RE": "Resina",
+    "TE": "Tessuto",
+    "VE": "Vetro",
+}
+
 
 def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame) -> dict:
     """
@@ -146,8 +227,51 @@ def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame) -> dic
             })
 
     primo_sku = semplici[0]["product"]["sku"]
-    riga = df[df["Codice Articolo"].astype(str) == str(primo_sku)]
-    lamp_inclusa = "1" if not riga.empty and str(riga.iloc[0]["LampadinaInclusa"]).strip().lower() == "si" else "0"
+    riga = df[df["Nr"].astype(str) == str(primo_sku)]
+    lamp_val = "1" if not riga.empty and str(riga.iloc[0]["LampadinaInclusa"]).strip().lower() == "si" else "0"
+
+    skus_gruppo = [s["product"]["sku"] for s in semplici]
+    righe_gruppo = df[df["Nr"].astype(str).str.endswith(tuple(str(s) for s in skus_gruppo))]
+    dimmer_val = "1" if (righe_gruppo["Dimmer"].str.strip().str.lower() == "si").any() else "0"
+
+    dimensioni = righe_gruppo["Dimensione Articolo"].dropna().str.strip().unique().tolist()
+    dimensioni = [converti_dimensione(d) for d in dimensioni if d]
+    dimensioni_val = " - ".join(dimensioni)
+
+    materiali_raw = righe_gruppo["Materiale"].dropna().str.strip()
+    materiali_set = set()
+    for m in materiali_raw:
+        for parte in m.split(","):
+            sigla = parte.strip()
+            materiali_set.add(MATERIALI_MAP.get(sigla, sigla))
+    materiali_val = ", ".join(sorted(materiali_set))
+
+    watt_vals = righe_gruppo["Watt"].dropna().str.strip().unique().tolist()
+    watt_vals = [w for w in watt_vals if w]
+
+    def formatta_watt(w: str, luci: int) -> str:
+        # Estrai il numero di watt dalla stringa es. "G9 max 1 x 15W" → "15"
+        match = re.search(r'(\d+)\s*W', w, re.IGNORECASE)
+        if not match:
+            return w
+        num_w = match.group(1)
+        return f"{luci} x {num_w}W" if luci > 1 else f"{num_w}W"
+
+    watt_formattati = set()
+    for _, riga in righe_gruppo.iterrows():
+        w = str(riga["Watt"]).strip()
+        luci = int(riga["Luci"]) if pd.notna(riga["Luci"]) else 1
+        watt_formattati.add(formatta_watt(w, luci))
+
+    watt_val = " - ".join(sorted(watt_formattati))
+
+    ip_vals = righe_gruppo["IP"].dropna().astype(str).str.strip().unique().tolist()
+    ip_vals = [f"IP{int(float(v))}" for v in ip_vals if v and v != "nan"]
+    ip_val = " - ".join(ip_vals)
+
+    attacchi = righe_gruppo["Attacco Portalampada"].dropna().str.strip().unique().tolist()
+    attacchi = [a for a in attacchi if a]
+    attacco_menu_val = " - ".join(sorted(set(attacchi)))
 
     return {
         "product": {
@@ -164,7 +288,13 @@ def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame) -> dic
             "custom_attributes": [
                 {"attribute_code": "url_key", "value": url_key},
                 {"attribute_code": "manufacturer", "value": manufacturer_val},
-                {"attribute_code": "lamp_lampadina", "value": lamp_inclusa},
+                {"attribute_code": "lamp_lampadina", "value": lamp_val},
+                {"attribute_code": "lamp_dimmer", "value": dimmer_val},
+                {"attribute_code": "lamp_dimensioni", "value": dimensioni_val},
+                {"attribute_code": "lamp_materiali_costruzione", "value": materiali_val},
+                {"attribute_code": "lamp_max_potenza", "value": watt_val},
+                {"attribute_code": "lamp_grado_protezione", "value": ip_val},
+                {"attribute_code": "lamp_attacco_lamp_menu", "value": attacco_menu_val},
             ],
             "media_gallery_entries": media_entries,
         },
@@ -209,6 +339,10 @@ def main():
     print(f"📦  Prodotti semplici letti: {len(semplici_tutti)}")
 
     df = pd.read_csv(CSV_PATH, sep=";")
+
+    url = f"{MAGENTO_BASE_URL}/rest/V1/products/attributes/{attribute_code}"
+    session = get_oauth_session(url,verify=False)
+    attacco_menu_map = get_attribute_options(session, "lamp_attacco_lamp_menu")
 
     gruppi = raggruppa_per_sottofamiglia(semplici_tutti)
     print(f"🔗  Gruppi (configurabili) trovati: {len(gruppi)}\n")
