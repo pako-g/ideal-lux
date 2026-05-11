@@ -31,7 +31,7 @@ load_dotenv()
 INPUT_JSON   = "./file/aline_simple_products.json"
 OUTPUT_JSON  = "./file/configurable_products.json"
 
-ATTRIBUTE_SET_ID = 4
+ATTRIBUTE_SET_ID = 263
 WEBSITE_IDS      = [1]
 MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
 
@@ -208,7 +208,7 @@ def build_configurable(
             "sku": config_sku,
             "name": titolo,
             "attribute_set_id": ATTRIBUTE_SET_ID,
-            "status": 1,
+            "status": 0,
             "visibility": 4,           # Catalog, Search
             "type_id": "configurable",
             "weight": 0,

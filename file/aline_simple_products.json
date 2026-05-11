@@ -3,7 +3,7 @@
     "product": {
       "sku": "135205",
       "name": "Ideal Lux Acqua pt1 Lampada Da Terra-Antracite-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -65,7 +65,7 @@
     "product": {
       "sku": "246918",
       "name": "Ideal Lux Acqua pt1 Lampada Da Terra-Coffee-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -127,7 +127,7 @@
     "product": {
       "sku": "254388",
       "name": "Ideal Lux Agos pt h60 3000k Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 81.0,
       "status": 0,
       "visibility": 1,
@@ -180,7 +180,7 @@
     "product": {
       "sku": "268439",
       "name": "Ideal Lux Agos pt h60 4000k Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 80.0,
       "status": 0,
       "visibility": 1,
@@ -233,7 +233,7 @@
     "product": {
       "sku": "326689",
       "name": "Ideal Lux Agos pt h60 3000k Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 81.0,
       "status": 0,
       "visibility": 1,
@@ -286,7 +286,7 @@
     "product": {
       "sku": "326696",
       "name": "Ideal Lux Agos pt h60 3000k Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 81.0,
       "status": 0,
       "visibility": 1,
@@ -339,7 +339,7 @@
     "product": {
       "sku": "254319",
       "name": "Ideal Lux Agos pt h80 3000k Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 102.0,
       "status": 0,
       "visibility": 1,
@@ -392,7 +392,7 @@
     "product": {
       "sku": "268422",
       "name": "Ideal Lux Agos pt h80 4000k Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -445,7 +445,7 @@
     "product": {
       "sku": "326726",
       "name": "Ideal Lux Agos pt h80 3000k Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 102.0,
       "status": 0,
       "visibility": 1,
@@ -498,7 +498,7 @@
     "product": {
       "sku": "326733",
       "name": "Ideal Lux Agos pt h80 3000k Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 102.0,
       "status": 0,
       "visibility": 1,
@@ -551,7 +551,7 @@
     "product": {
       "sku": "284309",
       "name": "Ideal Lux Angolo pt5 Lampada Da Terra-Nero-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 280.0,
       "status": 0,
       "visibility": 1,
@@ -613,7 +613,7 @@
     "product": {
       "sku": "284354",
       "name": "Ideal Lux Angolo pt5 Lampada Da Terra-Ottone-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 280.0,
       "status": 0,
       "visibility": 1,
@@ -675,7 +675,7 @@
     "product": {
       "sku": "365749",
       "name": "Ideal Lux Arcadia pt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 152.0,
       "status": 0,
       "visibility": 1,
@@ -737,7 +737,7 @@
     "product": {
       "sku": "298610",
       "name": "Ideal Lux Arcadia pt1 antracite Lampada Da Terra-Grigio-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 152.0,
       "status": 0,
       "visibility": 1,
@@ -782,7 +782,7 @@
     "product": {
       "sku": "198644",
       "name": "Ideal Lux Atena pt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 87.0,
       "status": 0,
       "visibility": 1,
@@ -844,7 +844,7 @@
     "product": {
       "sku": "198637",
       "name": "Ideal Lux Atena pt1 Lampada Da Terra-Grigio-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 87.0,
       "status": 0,
       "visibility": 1,
@@ -906,7 +906,7 @@
     "product": {
       "sku": "198620",
       "name": "Ideal Lux Atena pt1 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 87.0,
       "status": 0,
       "visibility": 1,
@@ -968,7 +968,7 @@
     "product": {
       "sku": "272245",
       "name": "Ideal Lux Axel pt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 230.0,
       "status": 0,
       "visibility": 1,
@@ -1030,7 +1030,7 @@
     "product": {
       "sku": "282084",
       "name": "Ideal Lux Axel pt1 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 230.0,
       "status": 0,
       "visibility": 1,
@@ -1092,7 +1092,7 @@
     "product": {
       "sku": "328317",
       "name": "Ideal Lux Binomio led pt4 Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 250.0,
       "status": 0,
       "visibility": 1,
@@ -1137,7 +1137,7 @@
     "product": {
       "sku": "313313",
       "name": "Ideal Lux Binomio led pt4 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 250.0,
       "status": 0,
       "visibility": 1,
@@ -1182,7 +1182,7 @@
     "product": {
       "sku": "328324",
       "name": "Ideal Lux Binomio led pt4 Lampada Da Terra-Ottone-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 250.0,
       "status": 0,
       "visibility": 1,
@@ -1227,7 +1227,7 @@
     "product": {
       "sku": "353210",
       "name": "Ideal Lux Binomio pt3 Lampada Da Terra-Bianco-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -1289,7 +1289,7 @@
     "product": {
       "sku": "369327",
       "name": "Ideal Lux Binomio pt3 Lampada Da Terra-Nero-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -1351,7 +1351,7 @@
     "product": {
       "sku": "353265",
       "name": "Ideal Lux Binomio pt3 Lampada Da Terra-Ottone-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -1413,7 +1413,7 @@
     "product": {
       "sku": "273662",
       "name": "Ideal Lux Birds pt5 Lampada Da Terra-Nero-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 340.0,
       "status": 0,
       "visibility": 1,
@@ -1475,7 +1475,7 @@
     "product": {
       "sku": "368641",
       "name": "Ideal Lux Blade pt Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 750.0,
       "status": 0,
       "visibility": 1,
@@ -1537,7 +1537,7 @@
     "product": {
       "sku": "368658",
       "name": "Ideal Lux Blade pt Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 750.0,
       "status": 0,
       "visibility": 1,
@@ -1599,7 +1599,7 @@
     "product": {
       "sku": "368672",
       "name": "Ideal Lux Blade pt Lampada Da Terra-Nickel-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 750.0,
       "status": 0,
       "visibility": 1,
@@ -1661,7 +1661,7 @@
     "product": {
       "sku": "368665",
       "name": "Ideal Lux Blade pt Lampada Da Terra-Ottone-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 750.0,
       "status": 0,
       "visibility": 1,
@@ -1723,7 +1723,7 @@
     "product": {
       "sku": "362861",
       "name": "Ideal Lux Bloom pt2 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 500.0,
       "status": 0,
       "visibility": 1,
@@ -1785,7 +1785,7 @@
     "product": {
       "sku": "366616",
       "name": "Ideal Lux Bloom pt2 Lampada Da Terra-Ottone-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 500.0,
       "status": 0,
       "visibility": 1,
@@ -1847,7 +1847,7 @@
     "product": {
       "sku": "346656",
       "name": "Ideal Lux Boeing pt h015 Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 140.0,
       "status": 0,
       "visibility": 1,
@@ -1913,7 +1913,7 @@
     "product": {
       "sku": "346663",
       "name": "Ideal Lux Boeing pt h015 Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 140.0,
       "status": 0,
       "visibility": 1,
@@ -1979,7 +1979,7 @@
     "product": {
       "sku": "346670",
       "name": "Ideal Lux Boeing pt h015 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 140.0,
       "status": 0,
       "visibility": 1,
@@ -2045,7 +2045,7 @@
     "product": {
       "sku": "327242",
       "name": "Ideal Lux Boeing pt h040 Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -2111,7 +2111,7 @@
     "product": {
       "sku": "346687",
       "name": "Ideal Lux Boeing pt h040 Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -2177,7 +2177,7 @@
     "product": {
       "sku": "346694",
       "name": "Ideal Lux Boeing pt h040 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -2243,7 +2243,7 @@
     "product": {
       "sku": "327259",
       "name": "Ideal Lux Boeing pt h070 Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -2309,7 +2309,7 @@
     "product": {
       "sku": "346700",
       "name": "Ideal Lux Boeing pt h070 Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -2375,7 +2375,7 @@
     "product": {
       "sku": "346717",
       "name": "Ideal Lux Boeing pt h070 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -2441,7 +2441,7 @@
     "product": {
       "sku": "327266",
       "name": "Ideal Lux Boeing pt h100 Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 210.0,
       "status": 0,
       "visibility": 1,
@@ -2507,7 +2507,7 @@
     "product": {
       "sku": "346724",
       "name": "Ideal Lux Boeing pt h100 Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 210.0,
       "status": 0,
       "visibility": 1,
@@ -2573,7 +2573,7 @@
     "product": {
       "sku": "346731",
       "name": "Ideal Lux Boeing pt h100 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 210.0,
       "status": 0,
       "visibility": 1,
@@ -2639,7 +2639,7 @@
     "product": {
       "sku": "317137",
       "name": "Ideal Lux Carta pt1 d30 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 110.0,
       "status": 0,
       "visibility": 1,
@@ -2688,7 +2688,7 @@
     "product": {
       "sku": "317144",
       "name": "Ideal Lux Carta pt1 d40 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 225.0,
       "status": 0,
       "visibility": 1,
@@ -2737,7 +2737,7 @@
     "product": {
       "sku": "246833",
       "name": "Ideal Lux Cima pt2 Lampada Da Terra-Antracite-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 330.0,
       "status": 0,
       "visibility": 1,
@@ -2799,7 +2799,7 @@
     "product": {
       "sku": "246840",
       "name": "Ideal Lux Cima pt2 Lampada Da Terra-Coffee-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 330.0,
       "status": 0,
       "visibility": 1,
@@ -2861,7 +2861,7 @@
     "product": {
       "sku": "024097",
       "name": "Ideal Lux Cima pt2 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 330.0,
       "status": 0,
       "visibility": 1,
@@ -2923,7 +2923,7 @@
     "product": {
       "sku": "249452",
       "name": "Ideal Lux Clio mpt1 Lampada Da Terra-Antracite-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -2985,7 +2985,7 @@
     "product": {
       "sku": "249469",
       "name": "Ideal Lux Clio mpt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -3047,7 +3047,7 @@
     "product": {
       "sku": "328829",
       "name": "Ideal Lux Clio mpt1 Lampada Da Terra-Coffee-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -3109,7 +3109,7 @@
     "product": {
       "sku": "249476",
       "name": "Ideal Lux Clio mpt1 Lampada Da Terra-Grigio-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -3154,7 +3154,7 @@
     "product": {
       "sku": "249483",
       "name": "Ideal Lux Clio mpt1 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -3216,7 +3216,7 @@
     "product": {
       "sku": "249490",
       "name": "Ideal Lux Clio mpt2 Lampada Da Terra-Antracite-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 285.0,
       "status": 0,
       "visibility": 1,
@@ -3278,7 +3278,7 @@
     "product": {
       "sku": "249506",
       "name": "Ideal Lux Clio mpt2 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 285.0,
       "status": 0,
       "visibility": 1,
@@ -3340,7 +3340,7 @@
     "product": {
       "sku": "328836",
       "name": "Ideal Lux Clio mpt2 Lampada Da Terra-Coffee-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 285.0,
       "status": 0,
       "visibility": 1,
@@ -3402,7 +3402,7 @@
     "product": {
       "sku": "249513",
       "name": "Ideal Lux Clio mpt2 Lampada Da Terra-Grigio-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 285.0,
       "status": 0,
       "visibility": 1,
@@ -3447,7 +3447,7 @@
     "product": {
       "sku": "249520",
       "name": "Ideal Lux Clio mpt2 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 285.0,
       "status": 0,
       "visibility": 1,
@@ -3509,7 +3509,7 @@
     "product": {
       "sku": "304649",
       "name": "Ideal Lux Comet pt Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 295.0,
       "status": 0,
       "visibility": 1,
@@ -3571,7 +3571,7 @@
     "product": {
       "sku": "304168",
       "name": "Ideal Lux Comet pt Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 295.0,
       "status": 0,
       "visibility": 1,
@@ -3633,7 +3633,7 @@
     "product": {
       "sku": "296685",
       "name": "Ideal Lux Comfort-1 pt 3000k Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 650.0,
       "status": 0,
       "visibility": 1,
@@ -3682,7 +3682,7 @@
     "product": {
       "sku": "306452",
       "name": "Ideal Lux Comfort-1 pt 4000k Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 650.0,
       "status": 0,
       "visibility": 1,
@@ -3731,7 +3731,7 @@
     "product": {
       "sku": "296678",
       "name": "Ideal Lux Comfort-1 pt 3000k  Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 650.0,
       "status": 0,
       "visibility": 1,
@@ -3780,7 +3780,7 @@
     "product": {
       "sku": "306469",
       "name": "Ideal Lux Comfort-1 pt 4000k  Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 650.0,
       "status": 0,
       "visibility": 1,
@@ -3829,7 +3829,7 @@
     "product": {
       "sku": "345307",
       "name": "Ideal Lux Comfort-2 pt 2700k-5700k Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 950.0,
       "status": 0,
       "visibility": 1,
@@ -3878,7 +3878,7 @@
     "product": {
       "sku": "336220",
       "name": "Ideal Lux Comfort-2 pt 2700k-5700k Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 950.0,
       "status": 0,
       "visibility": 1,
@@ -3927,7 +3927,7 @@
     "product": {
       "sku": "187877",
       "name": "Ideal Lux Cosmo pt1 Lampada Da Terra-Bianco-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -3989,7 +3989,7 @@
     "product": {
       "sku": "187884",
       "name": "Ideal Lux Cosmo pt1 Lampada Da Terra-Grigio-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -4051,7 +4051,7 @@
     "product": {
       "sku": "187891",
       "name": "Ideal Lux Cosmo pt1 Lampada Da Terra-Nero-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -4113,7 +4113,7 @@
     "product": {
       "sku": "284484",
       "name": "Ideal Lux Craft pt Lampada Da Terra-Legno-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 395.0,
       "status": 0,
       "visibility": 1,
@@ -4175,7 +4175,7 @@
     "product": {
       "sku": "111452",
       "name": "Ideal Lux Cylinder pt2 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 260.0,
       "status": 0,
       "visibility": 1,
@@ -4237,7 +4237,7 @@
     "product": {
       "sku": "110356",
       "name": "Ideal Lux Daddy pt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 340.0,
       "status": 0,
       "visibility": 1,
@@ -4299,7 +4299,7 @@
     "product": {
       "sku": "110363",
       "name": "Ideal Lux Daddy pt1 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 340.0,
       "status": 0,
       "visibility": 1,
@@ -4361,7 +4361,7 @@
     "product": {
       "sku": "120454",
       "name": "Ideal Lux Dafne pt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 89.0,
       "status": 0,
       "visibility": 1,
@@ -4423,7 +4423,7 @@
     "product": {
       "sku": "101514",
       "name": "Ideal Lux Dafne pt1 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 89.0,
       "status": 0,
       "visibility": 1,
@@ -4485,7 +4485,7 @@
     "product": {
       "sku": "279800",
       "name": "Ideal Lux Diesis pt Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -4547,7 +4547,7 @@
     "product": {
       "sku": "285337",
       "name": "Ideal Lux Diesis pt Lampada Da Terra-Nickel-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -4609,7 +4609,7 @@
     "product": {
       "sku": "285344",
       "name": "Ideal Lux Diesis pt Lampada Da Terra-Ottone-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -4671,7 +4671,7 @@
     "product": {
       "sku": "370422",
       "name": "Ideal Lux Dodo pt1 Lampada Da Terra-Bianco-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 140.0,
       "status": 0,
       "visibility": 1,
@@ -4733,7 +4733,7 @@
     "product": {
       "sku": "370477",
       "name": "Ideal Lux Dodo pt1 Lampada Da Terra-Nero-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 140.0,
       "status": 0,
       "visibility": 1,
@@ -4795,7 +4795,7 @@
     "product": {
       "sku": "352152",
       "name": "Ideal Lux Dodo pt1 Lampada Da Terra-Ottone-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 140.0,
       "status": 0,
       "visibility": 1,
@@ -4857,7 +4857,7 @@
     "product": {
       "sku": "366142",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Acciaio-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -4919,7 +4919,7 @@
     "product": {
       "sku": "354668",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Arancione-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -4981,7 +4981,7 @@
     "product": {
       "sku": "366111",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -5043,7 +5043,7 @@
     "product": {
       "sku": "366135",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Blu-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -5105,7 +5105,7 @@
     "product": {
       "sku": "366203",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Bronzo-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -5167,7 +5167,7 @@
     "product": {
       "sku": "366210",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Grigio-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -5229,7 +5229,7 @@
     "product": {
       "sku": "366128",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -5291,7 +5291,7 @@
     "product": {
       "sku": "366166",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Ottone-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -5353,7 +5353,7 @@
     "product": {
       "sku": "366159",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Rame-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -5415,7 +5415,7 @@
     "product": {
       "sku": "366227",
       "name": "Ideal Lux Dorica pt3 Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 750.0,
       "status": 0,
       "visibility": 1,
@@ -5477,7 +5477,7 @@
     "product": {
       "sku": "366234",
       "name": "Ideal Lux Dorica pt3 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 750.0,
       "status": 0,
       "visibility": 1,
@@ -5539,7 +5539,7 @@
     "product": {
       "sku": "366241",
       "name": "Ideal Lux Dorica pt3 Lampada Da Terra-Ottone-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 750.0,
       "status": 0,
       "visibility": 1,
@@ -5601,7 +5601,7 @@
     "product": {
       "sku": "214009",
       "name": "Ideal Lux Doris pt1 d30 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -5667,7 +5667,7 @@
     "product": {
       "sku": "195483",
       "name": "Ideal Lux Doris pt1 d48 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 215.0,
       "status": 0,
       "visibility": 1,
@@ -5733,7 +5733,7 @@
     "product": {
       "sku": "195490",
       "name": "Ideal Lux Doris pt1 d58 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 325.0,
       "status": 0,
       "visibility": 1,
@@ -5799,7 +5799,7 @@
     "product": {
       "sku": "195506",
       "name": "Ideal Lux Doris pt1 d78 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 545.0,
       "status": 0,
       "visibility": 1,
@@ -5865,7 +5865,7 @@
     "product": {
       "sku": "286686",
       "name": "Ideal Lux Dorsale mpt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 605.0,
       "status": 0,
       "visibility": 1,
@@ -5927,7 +5927,7 @@
     "product": {
       "sku": "286662",
       "name": "Ideal Lux Dorsale mpt1 Lampada Da Terra-Cromo-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 605.0,
       "status": 0,
       "visibility": 1,
@@ -5989,7 +5989,7 @@
     "product": {
       "sku": "286679",
       "name": "Ideal Lux Dorsale mpt1 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 605.0,
       "status": 0,
       "visibility": 1,
@@ -6051,7 +6051,7 @@
     "product": {
       "sku": "148939",
       "name": "Ideal Lux Driftwood pt1 Lampada Da Terra-Legno-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 665.0,
       "status": 0,
       "visibility": 1,
@@ -6113,7 +6113,7 @@
     "product": {
       "sku": "180946",
       "name": "Ideal Lux Driftwood pt3 Lampada Da Terra-Legno-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 745.0,
       "status": 0,
       "visibility": 1,
@@ -6158,7 +6158,7 @@
     "product": {
       "sku": "295473",
       "name": "Ideal Lux Easy pt Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -6220,7 +6220,7 @@
     "product": {
       "sku": "295497",
       "name": "Ideal Lux Easy pt Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -6282,7 +6282,7 @@
     "product": {
       "sku": "295503",
       "name": "Ideal Lux Easy pt Lampada Da Terra-Ottone-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -6344,7 +6344,7 @@
     "product": {
       "sku": "138510",
       "name": "Ideal Lux Edo pt1 round Lampada Da Terra-Rotondo-Antracite-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 139.0,
       "status": 0,
       "visibility": 1,
@@ -6397,7 +6397,7 @@
     "product": {
       "sku": "135755",
       "name": "Ideal Lux Edo pt1 round Lampada Da Terra-Rotondo-Bianco-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 139.0,
       "status": 0,
       "visibility": 1,
@@ -6450,7 +6450,7 @@
     "product": {
       "sku": "213071",
       "name": "Ideal Lux Edo pt1 round Lampada Da Terra-Rotondo-Coffee-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 139.0,
       "status": 0,
       "visibility": 1,
@@ -6503,7 +6503,7 @@
     "product": {
       "sku": "135762",
       "name": "Ideal Lux Edo pt1 square Lampada Da Terra-Quadrato-Antracite-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 139.0,
       "status": 0,
       "visibility": 1,
@@ -6556,7 +6556,7 @@
     "product": {
       "sku": "142999",
       "name": "Ideal Lux Edo pt1 square Lampada Da Terra-Quadrato-Bianco-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 139.0,
       "status": 0,
       "visibility": 1,
@@ -6609,7 +6609,7 @@
     "product": {
       "sku": "213088",
       "name": "Ideal Lux Edo pt1 square Lampada Da Terra-Quadrato-Coffee-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 139.0,
       "status": 0,
       "visibility": 1,
@@ -6662,7 +6662,7 @@
     "product": {
       "sku": "344775",
       "name": "Ideal Lux Ego pt Lampada Da Terra-Nero",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 300.0,
       "status": 0,
       "visibility": 1,
@@ -6720,7 +6720,7 @@
     "product": {
       "sku": "290959",
       "name": "Ideal Lux Equinoxe pt4 Lampada Da Terra-Cromo-G4",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 550.0,
       "status": 0,
       "visibility": 1,
@@ -6782,7 +6782,7 @@
     "product": {
       "sku": "290966",
       "name": "Ideal Lux Equinoxe pt4 Lampada Da Terra-Ottone-G4",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 550.0,
       "status": 0,
       "visibility": 1,
@@ -6844,7 +6844,7 @@
     "product": {
       "sku": "348285",
       "name": "Ideal Lux Equinoxe pt4 ambra sfumato Lampada Da Terra-Ambra sfumato-G4",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 550.0,
       "status": 0,
       "visibility": 1,
@@ -6906,7 +6906,7 @@
     "product": {
       "sku": "348292",
       "name": "Ideal Lux Equinoxe pt4 fume' sfumato Lampada Da Terra-Fume' sfumato-G4",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 550.0,
       "status": 0,
       "visibility": 1,
@@ -6951,7 +6951,7 @@
     "product": {
       "sku": "367163",
       "name": "Ideal Lux Essence pt round 3000k Lampada Da Terra-Rotondo-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 220.0,
       "status": 0,
       "visibility": 1,
@@ -7021,7 +7021,7 @@
     "product": {
       "sku": "371740",
       "name": "Ideal Lux Essence pt round 3000k Lampada Da Terra-Rotondo-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 220.0,
       "status": 0,
       "visibility": 1,
@@ -7091,7 +7091,7 @@
     "product": {
       "sku": "367170",
       "name": "Ideal Lux Essence pt square 3000k Lampada Da Terra-Quadrato-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 220.0,
       "status": 0,
       "visibility": 1,
@@ -7161,7 +7161,7 @@
     "product": {
       "sku": "371771",
       "name": "Ideal Lux Essence pt square 3000k Lampada Da Terra-Quadrato-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 220.0,
       "status": 0,
       "visibility": 1,
@@ -7231,7 +7231,7 @@
     "product": {
       "sku": "246932",
       "name": "Ideal Lux Etere pt 3000k Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -7297,7 +7297,7 @@
     "product": {
       "sku": "172439",
       "name": "Ideal Lux Etere pt 4000k Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -7363,7 +7363,7 @@
     "product": {
       "sku": "269160",
       "name": "Ideal Lux Etere pt 3000k Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -7429,7 +7429,7 @@
     "product": {
       "sku": "246956",
       "name": "Ideal Lux Etere pt 4000k Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -7495,7 +7495,7 @@
     "product": {
       "sku": "322261",
       "name": "Ideal Lux Etere pt 3000k Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -7561,7 +7561,7 @@
     "product": {
       "sku": "322278",
       "name": "Ideal Lux Etere pt 4000k Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -7627,7 +7627,7 @@
     "product": {
       "sku": "295213",
       "name": "Ideal Lux Eva pt1 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 275.0,
       "status": 0,
       "visibility": 1,
@@ -7689,7 +7689,7 @@
     "product": {
       "sku": "002880",
       "name": "Ideal Lux Firenze pt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 370.0,
       "status": 0,
       "visibility": 1,
@@ -7751,7 +7751,7 @@
     "product": {
       "sku": "020877",
       "name": "Ideal Lux Firenze pt1 Lampada Da Terra-Oro-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 370.0,
       "status": 0,
       "visibility": 1,
@@ -7813,7 +7813,7 @@
     "product": {
       "sku": "299624",
       "name": "Ideal Lux Frame pt 3000k Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 450.0,
       "status": 0,
       "visibility": 1,
@@ -7862,7 +7862,7 @@
     "product": {
       "sku": "299617",
       "name": "Ideal Lux Frame pt 3000k Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 450.0,
       "status": 0,
       "visibility": 1,
@@ -7911,7 +7911,7 @@
     "product": {
       "sku": "204956",
       "name": "Ideal Lux Futura pt Lampada Da Terra-Alluminio-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -7973,7 +7973,7 @@
     "product": {
       "sku": "272085",
       "name": "Ideal Lux Futura pt Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -8035,7 +8035,7 @@
     "product": {
       "sku": "204949",
       "name": "Ideal Lux Futura pt Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -8097,7 +8097,7 @@
     "product": {
       "sku": "139470",
       "name": "Ideal Lux Gas pt1 Lampada Da Terra-Antracite-GU10",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 116.0,
       "status": 0,
       "visibility": 1,
@@ -8159,7 +8159,7 @@
     "product": {
       "sku": "213101",
       "name": "Ideal Lux Gas pt1 Lampada Da Terra-Coffee-GU10",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 116.0,
       "status": 0,
       "visibility": 1,
@@ -8221,7 +8221,7 @@
     "product": {
       "sku": "322421",
       "name": "Ideal Lux Gas pt1 Lampada Da Terra-Nero-GU10",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 116.0,
       "status": 0,
       "visibility": 1,
@@ -8283,7 +8283,7 @@
     "product": {
       "sku": "326665",
       "name": "Ideal Lux Ginger pt1 Lampada Da Terra-Bianco-GU10",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -8345,7 +8345,7 @@
     "product": {
       "sku": "326658",
       "name": "Ideal Lux Ginger pt1 Lampada Da Terra-Nero-GU10",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -8407,7 +8407,7 @@
     "product": {
       "sku": "345314",
       "name": "Ideal Lux Ginger pt2 Lampada Da Terra-Bianco-GU10",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -8469,7 +8469,7 @@
     "product": {
       "sku": "326672",
       "name": "Ideal Lux Ginger pt2 Lampada Da Terra-Nero-GU10",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -8531,7 +8531,7 @@
     "product": {
       "sku": "251226",
       "name": "Ideal Lux Hub pt h074 Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 122.0,
       "status": 0,
       "visibility": 1,
@@ -8597,7 +8597,7 @@
     "product": {
       "sku": "251257",
       "name": "Ideal Lux Hub pt h110 Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 134.0,
       "status": 0,
       "visibility": 1,
@@ -8663,7 +8663,7 @@
     "product": {
       "sku": "300658",
       "name": "Ideal Lux Ipotesi pt h50 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 435.0,
       "status": 0,
       "visibility": 1,
@@ -8712,7 +8712,7 @@
     "product": {
       "sku": "300641",
       "name": "Ideal Lux Ipotesi pt h50 Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 435.0,
       "status": 0,
       "visibility": 1,
@@ -8761,7 +8761,7 @@
     "product": {
       "sku": "282251",
       "name": "Ideal Lux Ipotesi pt h73 Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 335.0,
       "status": 0,
       "visibility": 1,
@@ -8810,7 +8810,7 @@
     "product": {
       "sku": "282244",
       "name": "Ideal Lux Ipotesi pt h73 bianco Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 335.0,
       "status": 0,
       "visibility": 1,
@@ -8859,7 +8859,7 @@
     "product": {
       "sku": "180953",
       "name": "Ideal Lux Itaca pt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 310.0,
       "status": 0,
       "visibility": 1,
@@ -8904,7 +8904,7 @@
     "product": {
       "sku": "363721",
       "name": "Ideal Lux Jedi pt h040 Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 74.0,
       "status": 0,
       "visibility": 1,
@@ -8970,7 +8970,7 @@
     "product": {
       "sku": "372259",
       "name": "Ideal Lux Jedi pt h040 Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 74.0,
       "status": 0,
       "visibility": 1,
@@ -9036,7 +9036,7 @@
     "product": {
       "sku": "372266",
       "name": "Ideal Lux Jedi pt h040 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 74.0,
       "status": 0,
       "visibility": 1,
@@ -9102,7 +9102,7 @@
     "product": {
       "sku": "306780",
       "name": "Ideal Lux Jedi pt h080 Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -9168,7 +9168,7 @@
     "product": {
       "sku": "372273",
       "name": "Ideal Lux Jedi pt h080 Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -9234,7 +9234,7 @@
     "product": {
       "sku": "293189",
       "name": "Ideal Lux Jedi pt h080 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -9300,7 +9300,7 @@
     "product": {
       "sku": "306797",
       "name": "Ideal Lux Jedi pt h120 Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 131.0,
       "status": 0,
       "visibility": 1,
@@ -9366,7 +9366,7 @@
     "product": {
       "sku": "372280",
       "name": "Ideal Lux Jedi pt h120 Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 131.0,
       "status": 0,
       "visibility": 1,
@@ -9432,7 +9432,7 @@
     "product": {
       "sku": "293196",
       "name": "Ideal Lux Jedi pt h120 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 131.0,
       "status": 0,
       "visibility": 1,
@@ -9498,7 +9498,7 @@
     "product": {
       "sku": "306803",
       "name": "Ideal Lux Jedi pt h160 Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 163.0,
       "status": 0,
       "visibility": 1,
@@ -9564,7 +9564,7 @@
     "product": {
       "sku": "372297",
       "name": "Ideal Lux Jedi pt h160 Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 163.0,
       "status": 0,
       "visibility": 1,
@@ -9630,7 +9630,7 @@
     "product": {
       "sku": "293202",
       "name": "Ideal Lux Jedi pt h160 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 163.0,
       "status": 0,
       "visibility": 1,
@@ -9696,7 +9696,7 @@
     "product": {
       "sku": "137827",
       "name": "Ideal Lux Klimt pt1 Lampada Da Terra-Legno-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -9741,7 +9741,7 @@
     "product": {
       "sku": "306834",
       "name": "Ideal Lux Kurt pt 3000k Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -9807,7 +9807,7 @@
     "product": {
       "sku": "294025",
       "name": "Ideal Lux Kurt pt 4000k Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -9873,7 +9873,7 @@
     "product": {
       "sku": "306841",
       "name": "Ideal Lux Kurt pt 3000k Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -9939,7 +9939,7 @@
     "product": {
       "sku": "294049",
       "name": "Ideal Lux Kurt pt 4000k Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -10005,7 +10005,7 @@
     "product": {
       "sku": "306858",
       "name": "Ideal Lux Kurt pt 3000k Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -10071,7 +10071,7 @@
     "product": {
       "sku": "294001",
       "name": "Ideal Lux Kurt pt 4000k Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -10137,7 +10137,7 @@
     "product": {
       "sku": "306872",
       "name": "Ideal Lux Kurt pt 3000k Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -10203,7 +10203,7 @@
     "product": {
       "sku": "293172",
       "name": "Ideal Lux Kurt pt 4000k Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -10269,7 +10269,7 @@
     "product": {
       "sku": "110233",
       "name": "Ideal Lux London pt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -10331,7 +10331,7 @@
     "product": {
       "sku": "032382",
       "name": "Ideal Lux London pt1 Lampada Da Terra-Cromo-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -10393,7 +10393,7 @@
     "product": {
       "sku": "110240",
       "name": "Ideal Lux London pt1 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -10455,7 +10455,7 @@
     "product": {
       "sku": "304922",
       "name": "Ideal Lux Look pt1 round d40 h1800 3000k Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 250.0,
       "status": 0,
       "visibility": 1,
@@ -10504,7 +10504,7 @@
     "product": {
       "sku": "304915",
       "name": "Ideal Lux Look pt1 round d40 h1800 3000k Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 250.0,
       "status": 0,
       "visibility": 1,
@@ -10553,7 +10553,7 @@
     "product": {
       "sku": "314198",
       "name": "Ideal Lux Lumiere pt Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 510.0,
       "status": 0,
       "visibility": 1,
@@ -10615,7 +10615,7 @@
     "product": {
       "sku": "191577",
       "name": "Ideal Lux Luna pt1 d30 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -10677,7 +10677,7 @@
     "product": {
       "sku": "191584",
       "name": "Ideal Lux Luna pt1 d40 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 210.0,
       "status": 0,
       "visibility": 1,
@@ -10739,7 +10739,7 @@
     "product": {
       "sku": "191607",
       "name": "Ideal Lux Luna pt1 d50 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 290.0,
       "status": 0,
       "visibility": 1,
@@ -10801,7 +10801,7 @@
     "product": {
       "sku": "114347",
       "name": "Ideal Lux Mercurio pt1 Lampada Da Terra-Antracite-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -10863,7 +10863,7 @@
     "product": {
       "sku": "328164",
       "name": "Ideal Lux Mix up mpt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -10925,7 +10925,7 @@
     "product": {
       "sku": "328171",
       "name": "Ideal Lux Mix up mpt1 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -10987,7 +10987,7 @@
     "product": {
       "sku": "003528",
       "name": "Ideal Lux Newton pt1 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 120.0,
       "status": 0,
       "visibility": 1,
@@ -11049,7 +11049,7 @@
     "product": {
       "sku": "015286",
       "name": "Ideal Lux Newton pt1 Lampada Da Terra-Nickel-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 120.0,
       "status": 0,
       "visibility": 1,
@@ -11111,7 +11111,7 @@
     "product": {
       "sku": "161716",
       "name": "Ideal Lux Nordik pt1 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 240.0,
       "status": 0,
       "visibility": 1,
@@ -11173,7 +11173,7 @@
     "product": {
       "sku": "068275",
       "name": "Ideal Lux Opera pt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 315.0,
       "status": 0,
       "visibility": 1,
@@ -11235,7 +11235,7 @@
     "product": {
       "sku": "051741",
       "name": "Ideal Lux Pagoda pt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 390.0,
       "status": 0,
       "visibility": 1,
@@ -11297,7 +11297,7 @@
     "product": {
       "sku": "051765",
       "name": "Ideal Lux Pagoda pt1 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 390.0,
       "status": 0,
       "visibility": 1,
@@ -11359,7 +11359,7 @@
     "product": {
       "sku": "317816",
       "name": "Ideal Lux Perlage pt4 Lampada Da Terra-Ambra-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 325.0,
       "status": 0,
       "visibility": 1,
@@ -11421,7 +11421,7 @@
     "product": {
       "sku": "277967",
       "name": "Ideal Lux Perlage pt4 Lampada Da Terra-Bianco-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 325.0,
       "status": 0,
       "visibility": 1,
@@ -11483,7 +11483,7 @@
     "product": {
       "sku": "306988",
       "name": "Ideal Lux Perlage pt4 Lampada Da Terra-Fume'-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 325.0,
       "status": 0,
       "visibility": 1,
@@ -11545,7 +11545,7 @@
     "product": {
       "sku": "061115",
       "name": "Ideal Lux Polly pt2 Lampada Da Terra-Argento-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 132.0,
       "status": 0,
       "visibility": 1,
@@ -11607,7 +11607,7 @@
     "product": {
       "sku": "061122",
       "name": "Ideal Lux Polly pt2 Lampada Da Terra-Cromo-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 132.0,
       "status": 0,
       "visibility": 1,
@@ -11669,7 +11669,7 @@
     "product": {
       "sku": "061139",
       "name": "Ideal Lux Polly pt2 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 132.0,
       "status": 0,
       "visibility": 1,
@@ -11731,7 +11731,7 @@
     "product": {
       "sku": "135908",
       "name": "Ideal Lux Pulsar pt1 Lampada Da Terra-Antracite-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -11793,7 +11793,7 @@
     "product": {
       "sku": "311708",
       "name": "Ideal Lux Pure pt Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 117.0,
       "status": 0,
       "visibility": 1,
@@ -11855,7 +11855,7 @@
     "product": {
       "sku": "328508",
       "name": "Ideal Lux Pure pt Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 117.0,
       "status": 0,
       "visibility": 1,
@@ -11917,7 +11917,7 @@
     "product": {
       "sku": "328515",
       "name": "Ideal Lux Pure pt Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 117.0,
       "status": 0,
       "visibility": 1,
@@ -11979,7 +11979,7 @@
     "product": {
       "sku": "077765",
       "name": "Ideal Lux Queen pt1 Lampada Da Terra-Oro-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 370.0,
       "status": 0,
       "visibility": 1,
@@ -12041,7 +12041,7 @@
     "product": {
       "sku": "014609",
       "name": "Ideal Lux Regol pt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 280.0,
       "status": 0,
       "visibility": 1,
@@ -12103,7 +12103,7 @@
     "product": {
       "sku": "161754",
       "name": "Ideal Lux Sasso pt1 d25 Lampada Da Terra-Bianco-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 105.0,
       "status": 0,
       "visibility": 1,
@@ -12165,7 +12165,7 @@
     "product": {
       "sku": "161761",
       "name": "Ideal Lux Sasso pt1 d33 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -12227,7 +12227,7 @@
     "product": {
       "sku": "161778",
       "name": "Ideal Lux Sasso pt1 d41 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 205.0,
       "status": 0,
       "visibility": 1,
@@ -12289,7 +12289,7 @@
     "product": {
       "sku": "259963",
       "name": "Ideal Lux Set up mpt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 166.0,
       "status": 0,
       "visibility": 1,
@@ -12351,7 +12351,7 @@
     "product": {
       "sku": "259970",
       "name": "Ideal Lux Set up mpt1 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 166.0,
       "status": 0,
       "visibility": 1,
@@ -12413,7 +12413,7 @@
     "product": {
       "sku": "259994",
       "name": "Ideal Lux Set up mpt1 Lampada Da Terra-Nickel-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 166.0,
       "status": 0,
       "visibility": 1,
@@ -12475,7 +12475,7 @@
     "product": {
       "sku": "260006",
       "name": "Ideal Lux Set up mpt1 Lampada Da Terra-Ottone-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 166.0,
       "status": 0,
       "visibility": 1,
@@ -12537,7 +12537,7 @@
     "product": {
       "sku": "339627",
       "name": "Ideal Lux Sirio led pt1 h60 Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 190.0,
       "status": 0,
       "visibility": 1,
@@ -12603,7 +12603,7 @@
     "product": {
       "sku": "365367",
       "name": "Ideal Lux Sirio led pt1 h60 Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 190.0,
       "status": 0,
       "visibility": 1,
@@ -12669,7 +12669,7 @@
     "product": {
       "sku": "365381",
       "name": "Ideal Lux Sirio led pt1 h60 Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 190.0,
       "status": 0,
       "visibility": 1,
@@ -12735,7 +12735,7 @@
     "product": {
       "sku": "365374",
       "name": "Ideal Lux Sirio led pt1 h60 Lampada Da Terra-Grigio-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 190.0,
       "status": 0,
       "visibility": 1,
@@ -12801,7 +12801,7 @@
     "product": {
       "sku": "365350",
       "name": "Ideal Lux Sirio led pt1 h60 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 190.0,
       "status": 0,
       "visibility": 1,
@@ -12867,7 +12867,7 @@
     "product": {
       "sku": "339634",
       "name": "Ideal Lux Sirio led pt1 h80 Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -12933,7 +12933,7 @@
     "product": {
       "sku": "365404",
       "name": "Ideal Lux Sirio led pt1 h80 Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -12999,7 +12999,7 @@
     "product": {
       "sku": "365428",
       "name": "Ideal Lux Sirio led pt1 h80 Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -13065,7 +13065,7 @@
     "product": {
       "sku": "365411",
       "name": "Ideal Lux Sirio led pt1 h80 Lampada Da Terra-Grigio-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -13131,7 +13131,7 @@
     "product": {
       "sku": "365398",
       "name": "Ideal Lux Sirio led pt1 h80 Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -13197,7 +13197,7 @@
     "product": {
       "sku": "369860",
       "name": "Ideal Lux Sirio pt1 h30 Lampada Da Terra-Antracite-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -13263,7 +13263,7 @@
     "product": {
       "sku": "365671",
       "name": "Ideal Lux Sirio pt1 h30 Lampada Da Terra-Bianco-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -13329,7 +13329,7 @@
     "product": {
       "sku": "369884",
       "name": "Ideal Lux Sirio pt1 h30 Lampada Da Terra-Coffee-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -13395,7 +13395,7 @@
     "product": {
       "sku": "369891",
       "name": "Ideal Lux Sirio pt1 h30 Lampada Da Terra-Grigio-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -13461,7 +13461,7 @@
     "product": {
       "sku": "369914",
       "name": "Ideal Lux Sirio pt1 h30 Lampada Da Terra-Nero-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -13527,7 +13527,7 @@
     "product": {
       "sku": "115078",
       "name": "Ideal Lux Sirio pt1 h60 Lampada Da Terra-Antracite-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -13576,7 +13576,7 @@
     "product": {
       "sku": "115092",
       "name": "Ideal Lux Sirio pt1 h60 Lampada Da Terra-Bianco-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -13625,7 +13625,7 @@
     "product": {
       "sku": "213279",
       "name": "Ideal Lux Sirio pt1 h60 Lampada Da Terra-Coffee-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -13674,7 +13674,7 @@
     "product": {
       "sku": "246970",
       "name": "Ideal Lux Sirio pt1 h60 Lampada Da Terra-Grigio-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -13723,7 +13723,7 @@
     "product": {
       "sku": "115115",
       "name": "Ideal Lux Sirio pt1 h60 Lampada Da Terra-Nero-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -13772,7 +13772,7 @@
     "product": {
       "sku": "115061",
       "name": "Ideal Lux Sirio pt1 h80 Lampada Da Terra-Antracite-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -13821,7 +13821,7 @@
     "product": {
       "sku": "115085",
       "name": "Ideal Lux Sirio pt1 h80 Lampada Da Terra-Bianco-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -13870,7 +13870,7 @@
     "product": {
       "sku": "213262",
       "name": "Ideal Lux Sirio pt1 h80 Lampada Da Terra-Coffee-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -13919,7 +13919,7 @@
     "product": {
       "sku": "246963",
       "name": "Ideal Lux Sirio pt1 h80 Lampada Da Terra-Grigio-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -13968,7 +13968,7 @@
     "product": {
       "sku": "115108",
       "name": "Ideal Lux Sirio pt1 h80 Lampada Da Terra-Nero-GX53",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -14017,7 +14017,7 @@
     "product": {
       "sku": "318820",
       "name": "Ideal Lux Sole pt1 d20 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 110.0,
       "status": 0,
       "visibility": 1,
@@ -14083,7 +14083,7 @@
     "product": {
       "sku": "191638",
       "name": "Ideal Lux Sole pt1 d30 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 120.0,
       "status": 0,
       "visibility": 1,
@@ -14149,7 +14149,7 @@
     "product": {
       "sku": "191621",
       "name": "Ideal Lux Sole pt1 d40 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -14215,7 +14215,7 @@
     "product": {
       "sku": "191614",
       "name": "Ideal Lux Sole pt1 d50 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 225.0,
       "status": 0,
       "visibility": 1,
@@ -14281,7 +14281,7 @@
     "product": {
       "sku": "364841",
       "name": "Ideal Lux Style pt h030 3000k Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 129.0,
       "status": 0,
       "visibility": 1,
@@ -14351,7 +14351,7 @@
     "product": {
       "sku": "369594",
       "name": "Ideal Lux Style pt h030 3000k Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 129.0,
       "status": 0,
       "visibility": 1,
@@ -14421,7 +14421,7 @@
     "product": {
       "sku": "369624",
       "name": "Ideal Lux Style pt h030 3000k Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 129.0,
       "status": 0,
       "visibility": 1,
@@ -14491,7 +14491,7 @@
     "product": {
       "sku": "369648",
       "name": "Ideal Lux Style pt h030 3000k Lampada Da Terra-Grigio-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 129.0,
       "status": 0,
       "visibility": 1,
@@ -14561,7 +14561,7 @@
     "product": {
       "sku": "369662",
       "name": "Ideal Lux Style pt h030 3000k Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 129.0,
       "status": 0,
       "visibility": 1,
@@ -14631,7 +14631,7 @@
     "product": {
       "sku": "322612",
       "name": "Ideal Lux Style pt h050 3000k Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -14701,7 +14701,7 @@
     "product": {
       "sku": "322599",
       "name": "Ideal Lux Style pt h050 4000k Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -14771,7 +14771,7 @@
     "product": {
       "sku": "318691",
       "name": "Ideal Lux Style pt h050 3000k Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -14841,7 +14841,7 @@
     "product": {
       "sku": "322582",
       "name": "Ideal Lux Style pt h050 4000k Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -14911,7 +14911,7 @@
     "product": {
       "sku": "322575",
       "name": "Ideal Lux Style pt h050 3000k Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -14981,7 +14981,7 @@
     "product": {
       "sku": "322568",
       "name": "Ideal Lux Style pt h050 4000k Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -15051,7 +15051,7 @@
     "product": {
       "sku": "322551",
       "name": "Ideal Lux Style pt h050 3000k Lampada Da Terra-Grigio-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -15121,7 +15121,7 @@
     "product": {
       "sku": "322544",
       "name": "Ideal Lux Style pt h050 4000k Lampada Da Terra-Grigio-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -15191,7 +15191,7 @@
     "product": {
       "sku": "322537",
       "name": "Ideal Lux Style pt h050 3000k Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -15261,7 +15261,7 @@
     "product": {
       "sku": "322506",
       "name": "Ideal Lux Style pt h050 4000k Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -15331,7 +15331,7 @@
     "product": {
       "sku": "246871",
       "name": "Ideal Lux Style pt h100 3000k Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -15401,7 +15401,7 @@
     "product": {
       "sku": "209906",
       "name": "Ideal Lux Style pt h100 4000k Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -15471,7 +15471,7 @@
     "product": {
       "sku": "318707",
       "name": "Ideal Lux Style pt h100 3000k Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -15541,7 +15541,7 @@
     "product": {
       "sku": "322483",
       "name": "Ideal Lux Style pt h100 4000k Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -15611,7 +15611,7 @@
     "product": {
       "sku": "322452",
       "name": "Ideal Lux Style pt h100 3000k Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -15681,7 +15681,7 @@
     "product": {
       "sku": "322438",
       "name": "Ideal Lux Style pt h100 4000k Lampada Da Terra-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -15751,7 +15751,7 @@
     "product": {
       "sku": "322384",
       "name": "Ideal Lux Style pt h100 3000k Lampada Da Terra-Grigio-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -15821,7 +15821,7 @@
     "product": {
       "sku": "322353",
       "name": "Ideal Lux Style pt h100 4000k Lampada Da Terra-Grigio-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -15891,7 +15891,7 @@
     "product": {
       "sku": "322230",
       "name": "Ideal Lux Style pt h100 3000k Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -15961,7 +15961,7 @@
     "product": {
       "sku": "322216",
       "name": "Ideal Lux Style pt h100 4000k Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -16031,7 +16031,7 @@
     "product": {
       "sku": "153193",
       "name": "Ideal Lux Tesla pt4 h60 Lampada Da Terra-Antracite-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -16097,7 +16097,7 @@
     "product": {
       "sku": "153209",
       "name": "Ideal Lux Tesla pt4 h60 Lampada Da Terra-Bianco-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -16163,7 +16163,7 @@
     "product": {
       "sku": "316048",
       "name": "Ideal Lux Tesla pt4 h60 Lampada Da Terra-Coffee-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -16229,7 +16229,7 @@
     "product": {
       "sku": "326917",
       "name": "Ideal Lux Tesla pt4 h60 Lampada Da Terra-Nero-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -16295,7 +16295,7 @@
     "product": {
       "sku": "153162",
       "name": "Ideal Lux Tesla pt4 h80 Lampada Da Terra-Antracite-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 155.0,
       "status": 0,
       "visibility": 1,
@@ -16361,7 +16361,7 @@
     "product": {
       "sku": "153179",
       "name": "Ideal Lux Tesla pt4 h80 Lampada Da Terra-Bianco-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 155.0,
       "status": 0,
       "visibility": 1,
@@ -16427,7 +16427,7 @@
     "product": {
       "sku": "326924",
       "name": "Ideal Lux Tesla pt4 h80 Lampada Da Terra-Coffee-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 155.0,
       "status": 0,
       "visibility": 1,
@@ -16493,7 +16493,7 @@
     "product": {
       "sku": "316055",
       "name": "Ideal Lux Tesla pt4 h80 Lampada Da Terra-Nero-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 155.0,
       "status": 0,
       "visibility": 1,
@@ -16559,7 +16559,7 @@
     "product": {
       "sku": "250977",
       "name": "Ideal Lux Tifone pt h35 Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 106.0,
       "status": 0,
       "visibility": 1,
@@ -16625,7 +16625,7 @@
     "product": {
       "sku": "250953",
       "name": "Ideal Lux Tifone pt h65 Lampada Da Terra-Antracite-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 124.0,
       "status": 0,
       "visibility": 1,
@@ -16691,7 +16691,7 @@
     "product": {
       "sku": "246994",
       "name": "Ideal Lux Titano pt h49 3000k Lampada Da Terra-Granito-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 275.0,
       "status": 0,
       "visibility": 1,
@@ -16761,7 +16761,7 @@
     "product": {
       "sku": "157856",
       "name": "Ideal Lux Titano pt h49 4000k Lampada Da Terra-Granito-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 275.0,
       "status": 0,
       "visibility": 1,
@@ -16831,7 +16831,7 @@
     "product": {
       "sku": "246987",
       "name": "Ideal Lux Titano pt h74 3000k Lampada Da Terra-Granito-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 350.0,
       "status": 0,
       "visibility": 1,
@@ -16901,7 +16901,7 @@
     "product": {
       "sku": "187327",
       "name": "Ideal Lux Titano pt h74 4000k Lampada Da Terra-Granito-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 350.0,
       "status": 0,
       "visibility": 1,
@@ -16971,7 +16971,7 @@
     "product": {
       "sku": "158891",
       "name": "Ideal Lux Torre pt1 h22 Lampada Da Terra-Antracite-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 144.0,
       "status": 0,
       "visibility": 1,
@@ -17037,7 +17037,7 @@
     "product": {
       "sku": "321981",
       "name": "Ideal Lux Torre pt1 h22 Lampada Da Terra-Coffee-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 144.0,
       "status": 0,
       "visibility": 1,
@@ -17103,7 +17103,7 @@
     "product": {
       "sku": "321950",
       "name": "Ideal Lux Torre pt1 h22 Lampada Da Terra-Grigio-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 144.0,
       "status": 0,
       "visibility": 1,
@@ -17169,7 +17169,7 @@
     "product": {
       "sku": "186979",
       "name": "Ideal Lux Torre pt1 h22 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 144.0,
       "status": 0,
       "visibility": 1,
@@ -17235,7 +17235,7 @@
     "product": {
       "sku": "162492",
       "name": "Ideal Lux Torre pt1 h60 Lampada Da Terra-Antracite-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 168.0,
       "status": 0,
       "visibility": 1,
@@ -17301,7 +17301,7 @@
     "product": {
       "sku": "321929",
       "name": "Ideal Lux Torre pt1 h60 Lampada Da Terra-Coffee-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 168.0,
       "status": 0,
       "visibility": 1,
@@ -17367,7 +17367,7 @@
     "product": {
       "sku": "321905",
       "name": "Ideal Lux Torre pt1 h60 Lampada Da Terra-Grigio-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 168.0,
       "status": 0,
       "visibility": 1,
@@ -17433,7 +17433,7 @@
     "product": {
       "sku": "186955",
       "name": "Ideal Lux Torre pt1 h60 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 168.0,
       "status": 0,
       "visibility": 1,
@@ -17499,7 +17499,7 @@
     "product": {
       "sku": "321882",
       "name": "Ideal Lux Torre pt1 h80 Lampada Da Terra-Antracite-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -17565,7 +17565,7 @@
     "product": {
       "sku": "321868",
       "name": "Ideal Lux Torre pt1 h80 Lampada Da Terra-Coffee-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -17631,7 +17631,7 @@
     "product": {
       "sku": "321851",
       "name": "Ideal Lux Torre pt1 h80 Lampada Da Terra-Grigio-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -17697,7 +17697,7 @@
     "product": {
       "sku": "321639",
       "name": "Ideal Lux Torre pt1 h80 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -17763,7 +17763,7 @@
     "product": {
       "sku": "369761",
       "name": "Ideal Lux Tronco pt1 h25 Lampada Da Terra-Antracite-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 109.0,
       "status": 0,
       "visibility": 1,
@@ -17829,7 +17829,7 @@
     "product": {
       "sku": "366050",
       "name": "Ideal Lux Tronco pt1 h25 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 109.0,
       "status": 0,
       "visibility": 1,
@@ -17895,7 +17895,7 @@
     "product": {
       "sku": "369792",
       "name": "Ideal Lux Tronco pt1 h25 Lampada Da Terra-Coffee-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 109.0,
       "status": 0,
       "visibility": 1,
@@ -17961,7 +17961,7 @@
     "product": {
       "sku": "369815",
       "name": "Ideal Lux Tronco pt1 h25 Lampada Da Terra-Grigio-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 109.0,
       "status": 0,
       "visibility": 1,
@@ -18027,7 +18027,7 @@
     "product": {
       "sku": "369846",
       "name": "Ideal Lux Tronco pt1 h25 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 109.0,
       "status": 0,
       "visibility": 1,
@@ -18093,7 +18093,7 @@
     "product": {
       "sku": "248257",
       "name": "Ideal Lux Tronco pt1 h40 Lampada Da Terra-Antracite-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -18159,7 +18159,7 @@
     "product": {
       "sku": "248264",
       "name": "Ideal Lux Tronco pt1 h40 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -18225,7 +18225,7 @@
     "product": {
       "sku": "248271",
       "name": "Ideal Lux Tronco pt1 h40 Lampada Da Terra-Coffee-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -18291,7 +18291,7 @@
     "product": {
       "sku": "248288",
       "name": "Ideal Lux Tronco pt1 h40 Lampada Da Terra-Grigio-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -18357,7 +18357,7 @@
     "product": {
       "sku": "248295",
       "name": "Ideal Lux Tronco pt1 h40 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -18423,7 +18423,7 @@
     "product": {
       "sku": "026985",
       "name": "Ideal Lux Tronco pt1 h60 Lampada Da Terra-Antracite-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -18489,7 +18489,7 @@
     "product": {
       "sku": "109145",
       "name": "Ideal Lux Tronco pt1 h60 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -18555,7 +18555,7 @@
     "product": {
       "sku": "163758",
       "name": "Ideal Lux Tronco pt1 h60 Lampada Da Terra-Coffee-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -18621,7 +18621,7 @@
     "product": {
       "sku": "026954",
       "name": "Ideal Lux Tronco pt1 h60 Lampada Da Terra-Grigio-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -18687,7 +18687,7 @@
     "product": {
       "sku": "004730",
       "name": "Ideal Lux Tronco pt1 h60 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -18753,7 +18753,7 @@
     "product": {
       "sku": "026992",
       "name": "Ideal Lux Tronco pt1 h80 Lampada Da Terra-Antracite-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -18819,7 +18819,7 @@
     "product": {
       "sku": "109138",
       "name": "Ideal Lux Tronco pt1 h80 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -18885,7 +18885,7 @@
     "product": {
       "sku": "163741",
       "name": "Ideal Lux Tronco pt1 h80 Lampada Da Terra-Coffee-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -18951,7 +18951,7 @@
     "product": {
       "sku": "026961",
       "name": "Ideal Lux Tronco pt1 h80 Lampada Da Terra-Grigio-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -19017,7 +19017,7 @@
     "product": {
       "sku": "004723",
       "name": "Ideal Lux Tronco pt1 h80 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -19083,7 +19083,7 @@
     "product": {
       "sku": "347875",
       "name": "Ideal Lux Twiggy line pt h74 Lampada Da Terra-Linea-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 47.0,
       "status": 0,
       "visibility": 1,
@@ -19153,7 +19153,7 @@
     "product": {
       "sku": "347882",
       "name": "Ideal Lux Twiggy line pt h74 Lampada Da Terra-Linea-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 47.0,
       "status": 0,
       "visibility": 1,
@@ -19223,7 +19223,7 @@
     "product": {
       "sku": "348339",
       "name": "Ideal Lux Twiggy line pt h99 Lampada Da Terra-Linea-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 52.0,
       "status": 0,
       "visibility": 1,
@@ -19293,7 +19293,7 @@
     "product": {
       "sku": "348346",
       "name": "Ideal Lux Twiggy line pt h99 Lampada Da Terra-Linea-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 52.0,
       "status": 0,
       "visibility": 1,
@@ -19363,7 +19363,7 @@
     "product": {
       "sku": "347899",
       "name": "Ideal Lux Twiggy sphere pt h65 Lampada Da Terra-Sfera-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 58.0,
       "status": 0,
       "visibility": 1,
@@ -19433,7 +19433,7 @@
     "product": {
       "sku": "347905",
       "name": "Ideal Lux Twiggy sphere pt h65 Lampada Da Terra-Sfera-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 58.0,
       "status": 0,
       "visibility": 1,
@@ -19503,7 +19503,7 @@
     "product": {
       "sku": "348353",
       "name": "Ideal Lux Twiggy sphere pt h90 Lampada Da Terra-Sfera-Coffee-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 63.0,
       "status": 0,
       "visibility": 1,
@@ -19573,7 +19573,7 @@
     "product": {
       "sku": "348360",
       "name": "Ideal Lux Twiggy sphere pt h90 Lampada Da Terra-Sfera-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 63.0,
       "status": 0,
       "visibility": 1,
@@ -19643,7 +19643,7 @@
     "product": {
       "sku": "136028",
       "name": "Ideal Lux Vega pt1 Lampada Da Terra-Antracite-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -19705,7 +19705,7 @@
     "product": {
       "sku": "136035",
       "name": "Ideal Lux Vega pt1 Lampada Da Terra-Bianco-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -19767,7 +19767,7 @@
     "product": {
       "sku": "213361",
       "name": "Ideal Lux Vega pt1 Lampada Da Terra-Coffee-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -19829,7 +19829,7 @@
     "product": {
       "sku": "136042",
       "name": "Ideal Lux Vega pt1 Lampada Da Terra-Grigio-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -19891,7 +19891,7 @@
     "product": {
       "sku": "136059",
       "name": "Ideal Lux Vega pt1 Lampada Da Terra-Nero-G9",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -19953,7 +19953,7 @@
     "product": {
       "sku": "265292",
       "name": "Ideal Lux Wally pt1 total black Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 250.0,
       "status": 0,
       "visibility": 1,
@@ -19998,7 +19998,7 @@
     "product": {
       "sku": "258874",
       "name": "Ideal Lux Yoko pt Lampada Da Terra-Bianco-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -20060,7 +20060,7 @@
     "product": {
       "sku": "258904",
       "name": "Ideal Lux Yoko pt Lampada Da Terra-Nero-LED",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -20122,7 +20122,7 @@
     "product": {
       "sku": "121406",
       "name": "Ideal Lux York pt1 Lampada Da Terra-Bianco-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 230.0,
       "status": 0,
       "visibility": 1,
@@ -20167,7 +20167,7 @@
     "product": {
       "sku": "121437",
       "name": "Ideal Lux York pt1 Lampada Da Terra-Nero-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 230.0,
       "status": 0,
       "visibility": 1,
@@ -20212,7 +20212,7 @@
     "product": {
       "sku": "089805",
       "name": "Ideal Lux York pt1 wood Lampada Da Terra-Legno-E27",
-      "attribute_set_id": 4,
+      "attribute_set_id": 263,
       "price": 230.0,
       "status": 0,
       "visibility": 1,
