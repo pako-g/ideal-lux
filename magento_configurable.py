@@ -41,6 +41,8 @@ WEBSITE_IDS      = [1]
 # Attributi che NON sono assi di variazione del configurabile
 ESCLUDI_DA_CONFIG = {"lamp_ean", "manufacturer", "url_key"}
 
+CATEGORIE_FISSE = ["Marchi", "Ideal Lux", "Illuminazione"]
+
 
 # ─────────────────────────────────────────────
 # OAUTH SESSION
@@ -85,6 +87,25 @@ def get_attribute_options(session: OAuth1Session, attribute_code: str) -> dict:
         if opt["label"] and opt["value"]
     }
 
+
+
+# ─────────────────────────────────────────────
+# UTILITY: COSTRUZIONE CATEGORIE
+# ─────────────────────────────────────────────
+def build_categorie_map(session: OAuth1Session) -> dict:
+    url = f"{MAGENTO_BASE_URL}/rest/V1/categories"
+    resp = session.get(url, verify=False)
+    resp.raise_for_status()
+
+    categorie_map = {}
+
+    def scorri(nodo):
+        categorie_map[nodo["name"]] = nodo["id"]
+        for figlio in nodo.get("children_data", []):
+            scorri(figlio)
+
+    scorri(resp.json())
+    return categorie_map
 
 # ─────────────────────────────────────────────
 # UTILITY: COSTRUZIONE TITOLO CONFIGURABILE
@@ -187,7 +208,7 @@ MATERIALI_MAP = {
 }
 
 
-def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame, attacco_menu_map: dict) -> dict:
+def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame, attacco_menu_map: dict, categorie_map: dict) -> dict:
     """
     Costruisce il dict del prodotto configurabile da salvare nel JSON.
 
@@ -275,6 +296,13 @@ def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame, attacc
     attacchi = [a for a in attacchi if a and a in attacco_menu_map]
     attacco_menu_val = attacco_menu_map[attacchi[0]] if len(attacchi) == 1 else ""
 
+    ip_vals = righe_gruppo["IP"].dropna().astype(int).unique().tolist()
+    is_esterno = any(v >= 44 for v in ip_vals)
+    ambiente = "Esterni" if is_esterno else "Interni"
+
+    nomi_cat = CATEGORIE_FISSE + [ambiente, "Lampade da Terra"]
+    category_ids = [categorie_map[n] for n in nomi_cat if n in categorie_map]
+
 
     return {
         "product": {
@@ -287,6 +315,10 @@ def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame, attacc
             "weight": 0,
             "extension_attributes": {
                 "website_ids": WEBSITE_IDS,
+                "category_links": [
+                    {"position": i, "category_id": str(cat_id)}
+                    for i, cat_id in enumerate(category_ids)
+                ],
             },
             "custom_attributes": [
                 {"attribute_code": "url_key", "value": url_key},
@@ -344,7 +376,9 @@ def main():
     df = pd.read_csv(CSV_PATH, sep=";")
 
     session = get_oauth_session()
+
     attacco_menu_map = get_attribute_options(session, "lamp_attacco_lamp_menu")
+    categorie_map = build_categorie_map(session)
 
     gruppi = raggruppa_per_sottofamiglia(semplici_tutti)
     print(f"🔗  Gruppi (configurabili) trovati: {len(gruppi)}\n")
