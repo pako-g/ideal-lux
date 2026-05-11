@@ -21,6 +21,8 @@ import base64
 from pathlib import Path
 import pandas as pd
 from requests_oauthlib import OAuth1Session
+import warnings
+warnings.filterwarnings("ignore")
 
 load_dotenv()
 
@@ -185,7 +187,7 @@ MATERIALI_MAP = {
 }
 
 
-def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame) -> dict:
+def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame, attacco_menu_map: dict) -> dict:
     """
     Costruisce il dict del prodotto configurabile da salvare nel JSON.
 
@@ -270,8 +272,9 @@ def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame) -> dic
     ip_val = " - ".join(ip_vals)
 
     attacchi = righe_gruppo["Attacco Portalampada"].dropna().str.strip().unique().tolist()
-    attacchi = [a for a in attacchi if a]
-    attacco_menu_val = " - ".join(sorted(set(attacchi)))
+    attacchi = [a for a in attacchi if a and a in attacco_menu_map]
+    attacco_menu_val = attacco_menu_map[attacchi[0]] if len(attacchi) == 1 else ""
+
 
     return {
         "product": {
@@ -340,8 +343,7 @@ def main():
 
     df = pd.read_csv(CSV_PATH, sep=";")
 
-    url = f"{MAGENTO_BASE_URL}/rest/V1/products/attributes/{attribute_code}"
-    session = get_oauth_session(url,verify=False)
+    session = get_oauth_session()
     attacco_menu_map = get_attribute_options(session, "lamp_attacco_lamp_menu")
 
     gruppi = raggruppa_per_sottofamiglia(semplici_tutti)
@@ -350,7 +352,7 @@ def main():
     configurabili = []
     for idx, (key, gruppo) in enumerate(sorted(gruppi.items()), start=1):
         config_sku = f"IL-CONFIG-{idx:03d}"
-        config     = build_configurable(config_sku, gruppo, df)
+        config     = build_configurable(config_sku, gruppo, df, attacco_menu_map)
         configurabili.append(config)
 
         print(
