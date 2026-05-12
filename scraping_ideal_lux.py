@@ -53,8 +53,7 @@ def scarica_immagini(codice: str, img_urls: list) -> list:
 
     paths = []
     for i, url in enumerate(img_urls, start=1):
-        ext = Path(url.split("?")[0]).suffix or ".jpg"
-        filename = f"{codice}_{i:02d}{ext}"
+        filename = f"{codice}_{i:02d}.jpg"
         path = cartella / filename
 
         if path.exists():
@@ -62,10 +61,17 @@ def scarica_immagini(codice: str, img_urls: list) -> list:
             continue
 
         try:
-            resp = requests.get(url, headers=HEADERS, timeout=15, stream=True)
+            resp = requests.get(url, headers=HEADERS, timeout=15)
             resp.raise_for_status()
-            with open(path, "wb") as f:
-                shutil.copyfileobj(resp.raw, f)
+
+            img = Image.open(io.BytesIO(resp.content)).convert("RGB")
+            img.thumbnail((1000, 1000), Image.LANCZOS)
+
+            background = Image.new("RGB", (1000, 1000), (255, 255, 255))
+            offset = ((1000 - img.width) // 2, (1000 - img.height) // 2)
+            background.paste(img, offset)
+            background.save(path, "JPEG", quality=85, optimize=True)
+
             paths.append(str(path))
         except Exception as e:
             print(f"    ⚠️  Errore download img {url}: {e}")
