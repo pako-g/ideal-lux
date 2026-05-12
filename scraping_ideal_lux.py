@@ -16,6 +16,10 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
+import re
+import shutil
+from PIL import Image
+import io
 
 # ─────────────────────────────────────────────
 # CONFIGURAZIONE
@@ -32,6 +36,41 @@ HEADERS       = {
         "Chrome/120.0.0.0 Safari/537.36"
     )
 }
+
+IMAGES_DIR = Path("./file/scraping")
+
+# ─────────────────────────────────────────────
+# SCARICA IMMAGINI
+# ─────────────────────────────────────────────
+
+def scarica_immagini(codice: str, img_urls: list) -> list:
+    """
+    Scarica le immagini del prodotto in ./file/scraping/{codice}/
+    Restituisce la lista dei path salvati.
+    """
+    cartella = IMAGES_DIR / codice
+    cartella.mkdir(parents=True, exist_ok=True)
+
+    paths = []
+    for i, url in enumerate(img_urls, start=1):
+        ext = Path(url.split("?")[0]).suffix or ".jpg"
+        filename = f"{codice}_{i:02d}{ext}"
+        path = cartella / filename
+
+        if path.exists():
+            paths.append(str(path))
+            continue
+
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=15, stream=True)
+            resp.raise_for_status()
+            with open(path, "wb") as f:
+                shutil.copyfileobj(resp.raw, f)
+            paths.append(str(path))
+        except Exception as e:
+            print(f"    ⚠️  Errore download img {url}: {e}")
+
+    return paths
 
 
 # ─────────────────────────────────────────────
@@ -127,10 +166,22 @@ def scrapa_pagina(url: str) -> dict | None:
             if desc_div:
                 descrizione = desc_div.get_text(strip=True)
 
+    # Immagini dalla swiper gallery
+    img_urls = []
+    swiper = soup.find("div", class_="swiper-wrapper")
+    if swiper:
+        for img in swiper.find_all("img", class_="product-gallery-image"):
+            src = img.get("src")
+            if src:
+                img_urls.append(src)
+
+    immagini = scarica_immagini(codice, img_urls)
+
     return {
         "codice": codice,
         "url": url,
         "descrizione": descrizione,
+        "immagini": immagini,
     }
 
 

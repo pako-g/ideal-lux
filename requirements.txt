@@ -4,4 +4,5 @@ python-dotenv==1.2.2
 urllib3==2.7.0
 Image==1.5.33
 requests==2.34.0
-BeautifulSoup==3.2.2
+beautifulsoup4==4.12.3
+Pillow==11.2.1
