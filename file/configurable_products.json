@@ -7,11 +7,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
-      "weight": 0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
+        "stock_item": {
+          "qty": 0,
+          "is_in_stock": 1,
+          "manage_stock": false
+        },
         "category_links": [
           {
             "position": 0,
@@ -19,10 +23,14 @@
           },
           {
             "position": 1,
-            "category_id": "16"
+            "category_id": "54"
           },
           {
             "position": 2,
+            "category_id": "16"
+          },
+          {
+            "position": 3,
             "category_id": "479"
           }
         ]

@@ -320,9 +320,13 @@ def build_configurable(config_sku: str, semplici: list, df: pd.DataFrame, attacc
             "status": 1,
             "visibility": 4,          # Catalog, Search
             "type_id": "configurable",
-            "weight": 0,
             "extension_attributes": {
                 "website_ids": WEBSITE_IDS,
+                "stock_item": {
+                    "qty": 0,
+                    "is_in_stock": 1,
+                    "manage_stock": False,
+                },
                 "category_links": [
                     {"position": i, "category_id": str(cat_id)}
                     for i, cat_id in enumerate(category_ids)
