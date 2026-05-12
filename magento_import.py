@@ -94,6 +94,12 @@ def get_attribute_info(session: OAuth1Session, attribute_code: str) -> dict:
 def trova_immagine(nome_prodotto: str, sku: str) -> Path | None:
     sku_pulito = sku.replace("IL-", "")
     slug = re.sub(r"[^a-z0-9]+", "-", nome_prodotto.lower()).strip("-")
+
+    print(f"    🔍  Slug: {slug}")
+    print(f"    🔍  Pattern: {slug}-*.jpg")
+    print(f"    🔍  Files trovati: {list(scraping_dir.glob(f'{slug}-*.jpg'))}")
+
+
     filename = f"{slug}-{sku_pulito}.jpg"
     path = IMAGES_DIR / filename
     return path if path.exists() else None
@@ -273,6 +279,9 @@ def crea_configurabili(
 
         payload = json.loads(json.dumps(c["product"]))
         payload["extension_attributes"]["configurable_product_options"] = config_options
+
+        scraping_entries = build_media_entry(nome, sku, SCRAPING_DIR)
+        payload["media_gallery_entries"] = payload.get("media_gallery_entries", []) + scraping_entries
 
         try:
             result = api_post(session, "products", {"product": payload})
