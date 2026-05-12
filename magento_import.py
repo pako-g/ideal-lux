@@ -20,6 +20,8 @@ from dotenv import load_dotenv
 from requests_oauthlib import OAuth1Session
 import urllib3
 
+from rinomina_immagini_scraping import SCRAPING_DIR
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 load_dotenv()
 
@@ -110,32 +112,45 @@ def immagine_to_base64(path: Path) -> str:
         return base64.b64encode(f.read()).decode("utf-8")
 
 
-def build_media_entry(nome_prodotto: str, sku: str) -> list:
-    """
-    Cerca l'immagine locale e costruisce media_gallery_entries
-    con base64_encoded_data per l'API Magento.
-    Restituisce lista vuota se l'immagine non è disponibile.
-    """
+def build_media_entry(nome_prodotto: str, sku: str, scraping_dir: Path = None) -> list:
+    entries = []
+
+    # Immagine dal semplice in ./file/images/
     path = trova_immagine(nome_prodotto, sku)
-    if not path:
-        print(f"    ⚠️  Immagine non trovata per {sku} — prodotto creato senza immagine")
-        return []
+    if path:
+        print(f"    🖼️   Immagine semplice: {path.name}")
+        entries.append({
+            "media_type": "image",
+            "label": nome_prodotto,
+            "position": 1,
+            "disabled": False,
+            "types": ["image", "small_image", "thumbnail"],
+            "content": {
+                "base64_encoded_data": immagine_to_base64(path),
+                "type": "image/jpeg",
+                "name": path.name,
+            },
+        })
 
-    print(f"    🖼️   Immagine trovata: {path.name}")
-    b64 = immagine_to_base64(path)
+    # Immagini scraping (solo per configurabili)
+    if scraping_dir:
+        slug = re.sub(r"[^a-z0-9]+", "-", nome_prodotto.lower()).strip("-")
+        for i, img_path in enumerate(sorted(scraping_dir.glob(f"{slug}-*.jpg")), start=len(entries) + 1):
+            print(f"    🖼️   Immagine scraping: {img_path.name}")
+            entries.append({
+                "media_type": "image",
+                "label": img_path.stem.replace("-", " ").replace("_", " "),
+                "position": i,
+                "disabled": False,
+                "types": [],
+                "content": {
+                    "base64_encoded_data": immagine_to_base64(img_path),
+                    "type": "image/jpeg",
+                    "name": img_path.name,
+                },
+            })
 
-    return [{
-        "media_type": "image",
-        "label": nome_prodotto,
-        "position": 1,
-        "disabled": False,
-        "types": ["image", "small_image", "thumbnail"],
-        "content": {
-            "base64_encoded_data": b64,
-            "type": "image/jpeg",
-            "name": path.name,
-        },
-    }]
+    return entries
 
 
 # ─────────────────────────────────────────────
@@ -179,7 +194,7 @@ def crea_semplici(session: OAuth1Session, semplici: list) -> dict:
 
         # Deep copy e aggiungi immagine in base64
         payload = json.loads(json.dumps(s))
-        payload["product"]["media_gallery_entries"] = build_media_entry(nome, sku)
+        payload["product"]["media_gallery_entries"] = build_media_entry(nome, sku, SCRAPING_DIR)
 
         try:
             result    = api_post(session, "products", payload)
@@ -265,6 +280,7 @@ def crea_configurabili(
 
         payload = json.loads(json.dumps(c["product"]))
         payload["extension_attributes"]["configurable_product_options"] = config_options
+
 
         try:
             result = api_post(session, "products", {"product": payload})

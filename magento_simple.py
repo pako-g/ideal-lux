@@ -29,7 +29,7 @@ load_dotenv()
 # ─────────────────────────────────────────────
 
 CSV_PATH        = "./file/giacenzeECommerce.csv"
-OUTPUT_PATH     = "./file/aline_simple_products.json"
+OUTPUT_PATH     = "./file/simple_products.json"
 MARCA           = "Ideal Lux"
 ATTRIBUTE_SET_ID = 263      # adatta al tuo Attribute Set in Magento
 WEBSITE_IDS     = [1]
@@ -257,7 +257,7 @@ def build_url_key(nome: str) -> str:
 
 
 IMG_DIR  = Path("./file/images")
-BASE_URL = "https://lampadestore.it/pub/media/tmp"
+BASE_URL = "./file/images/"
 
 def build_image_entry(nome: str, sku: str) -> dict | None:
     filename = re.sub(r"[^a-z0-9]+", "-", nome.lower()).strip("-") + f"-{sku}.jpg"
