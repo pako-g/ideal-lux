@@ -38,6 +38,7 @@ HEADERS       = {
 }
 
 IMAGES_DIR = Path("./file/scraping")
+NOT_FOUND_JSON = "./file/scraping_not_found.json"
 
 # ─────────────────────────────────────────────
 # SCARICA IMMAGINI
@@ -48,11 +49,15 @@ def scarica_immagini(codice: str, img_urls: list) -> list:
     Scarica le immagini del prodotto in ./file/scraping/{codice}/
     Restituisce la lista dei path salvati.
     """
-    cartella = IMAGES_DIR / codice
+    cartella = IMAGES_DIR
     cartella.mkdir(parents=True, exist_ok=True)
 
     paths = []
     for i, url in enumerate(img_urls, start=1):
+
+        if url.endswith(".webp"):
+            continue
+
         filename = f"{codice}_{i:02d}.jpg"
         path = cartella / filename
 
@@ -65,12 +70,13 @@ def scarica_immagini(codice: str, img_urls: list) -> list:
             resp.raise_for_status()
 
             img = Image.open(io.BytesIO(resp.content)).convert("RGB")
-            img.thumbnail((1000, 1000), Image.LANCZOS)
+            if img.width > 1000 or img.height > 1000:
+                img.thumbnail((1000, 1000), Image.LANCZOS)
 
             background = Image.new("RGB", (1000, 1000), (255, 255, 255))
             offset = ((1000 - img.width) // 2, (1000 - img.height) // 2)
             background.paste(img, offset)
-            background.save(path, "JPEG", quality=85, optimize=True)
+            background.save(path, "JPEG", quality=95, optimize=True)
 
             paths.append(str(path))
         except Exception as e:
@@ -174,12 +180,12 @@ def scrapa_pagina(url: str) -> dict | None:
 
     # Immagini dalla swiper gallery
     img_urls = []
-    swiper = soup.find("div", class_="swiper-wrapper")
-    if swiper:
-        for img in swiper.find_all("img", class_="product-gallery-image"):
-            src = img.get("src")
-            if src:
-                img_urls.append(src)
+    for img in soup.find_all("img", class_="product-gallery-image"):
+        src = img.get("src")
+        if src:
+            # Sostituisci _webp1k con _webp2k per immagini ad alta risoluzione
+            src = src.replace("_webp1k", "_webp2k")
+            img_urls.append(src)
 
     immagini = scarica_immagini(codice, img_urls)
 
@@ -231,10 +237,19 @@ def main():
         print(f"  [{i}/{totale}]  {url}")
 
         result = scrapa_pagina(url)
+        not_found_list = []
 
         if result is None:
             non_trovati += 1
-            print(f"             ⚠️  404 o codice non trovato")
+            parti = url.rstrip("/").split("/")
+            famiglia = parti[-2] if len(parti) >= 2 else ""
+            modello = parti[-1] if len(parti) >= 1 else ""
+            not_found_list.append({
+                "url": url,
+                "famiglia": famiglia,
+                "modello": modello,
+            })
+            print(f"             ⚠️  404 — {famiglia} / {modello}")
         elif result["codice"] in codici_presenti:
             # Stesso codice su URL diverso (variante colore ecc.) — aggiorna descrizione se mancante
             saltati += 1
@@ -260,6 +275,10 @@ def main():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(risultati, f, ensure_ascii=False, indent=2)
 
+    with open(NOT_FOUND_JSON, "w", encoding="utf-8") as f:
+        json.dump(not_found_list, f, ensure_ascii=False, indent=2)
+    print(f"❌  Not found salvati: {NOT_FOUND_JSON}")
+
     print("\n" + "=" * 60)
     print(f"✅  Completato")
     print(f"   Prodotti scrappati : {ok}")
@@ -271,3 +290,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
