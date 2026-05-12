@@ -274,8 +274,6 @@ def crea_configurabili(
         payload = json.loads(json.dumps(c["product"]))
         payload["extension_attributes"]["configurable_product_options"] = config_options
 
-        print(f"    🖼️   Immagini nel payload: {len(payload.get('media_gallery_entries', []))}")
-
         try:
             result = api_post(session, "products", {"product": payload})
             print(f"             ✅  entity_id={result.get('id')}")

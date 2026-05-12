@@ -226,7 +226,7 @@ def build_configurable(
     media_entries = []
     for s in semplici:
         nome_s = s["product"]["name"]
-        sku_s  = s["product"]["sku"]
+        sku_s  = s["product"]["sku"].replace("IL-", "")
         slug   = re.sub(r"[^a-z0-9]+", "-", nome_s.lower()).strip("-")
         path   = Path(f"./file/images/{slug}-{sku_s}.jpg")
         if path.exists():
