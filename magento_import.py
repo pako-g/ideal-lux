@@ -20,8 +20,6 @@ from dotenv import load_dotenv
 from requests_oauthlib import OAuth1Session
 import urllib3
 
-from rinomina_immagini_scraping import SCRAPING_DIR
-
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 load_dotenv()
 
@@ -32,7 +30,7 @@ load_dotenv()
 SIMPLE_JSON      = "./file/simple_products.json"
 CONFIG_JSON      = "./file/configurable_products.json"
 IMAGES_DIR       = Path("./file/images")
-
+SCRAPING_DIR = Path("./file/scraping")
 MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
 RETRY_DELAY      = 1.0
 MAX_RETRIES      = 3
@@ -194,7 +192,7 @@ def crea_semplici(session: OAuth1Session, semplici: list) -> dict:
 
         # Deep copy e aggiungi immagine in base64
         payload = json.loads(json.dumps(s))
-        payload["product"]["media_gallery_entries"] = build_media_entry(nome, sku, SCRAPING_DIR)
+        payload["product"]["media_gallery_entries"] = build_media_entry(nome, sku)
 
         try:
             result    = api_post(session, "products", payload)
