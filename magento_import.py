@@ -29,7 +29,7 @@ load_dotenv()
 # CONFIGURAZIONE
 # ─────────────────────────────────────────────
 
-SIMPLE_JSON      = "./file/aline_simple_products.json"
+SIMPLE_JSON      = "./file/simple_products.json"
 CONFIG_JSON      = "./file/configurable_products.json"
 IMAGES_DIR       = Path("./file/images")
 
