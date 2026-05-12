@@ -1,6 +1,7 @@
-pandas==3.0.2
+pandas==3.0.3
 requests_oauthlib==2.0.0
 python-dotenv==1.2.2
 urllib3==2.7.0
 Image==1.5.33
-requests==2.33.1
+requests==2.34.0
+BeautifulSoup==3.2.2
