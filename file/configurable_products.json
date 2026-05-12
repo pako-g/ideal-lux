@@ -1,0 +1,87 @@
+[
+  {
+    "product": {
+      "sku": "IL-CONFIG-001",
+      "name": "Ideal Lux Acqua Pt1 Lampada Da Terra per Esterni",
+      "attribute_set_id": 263,
+      "status": 1,
+      "visibility": 4,
+      "type_id": "configurable",
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 0,
+          "is_in_stock": 1,
+          "manage_stock": false
+        },
+        "category_links": [
+          {
+            "position": 0,
+            "category_id": "23"
+          },
+          {
+            "position": 1,
+            "category_id": "54"
+          },
+          {
+            "position": 2,
+            "category_id": "16"
+          },
+          {
+            "position": 3,
+            "category_id": "479"
+          }
+        ]
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-acqua-pt1-lampada-da-terra-per-esterni"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "lamp_lampadina",
+          "value": "0"
+        },
+        {
+          "attribute_code": "lamp_dimmer",
+          "value": "0"
+        },
+        {
+          "attribute_code": "lamp_dimensioni",
+          "value": "Ø13.5cm x H60cm"
+        },
+        {
+          "attribute_code": "lamp_materiali_costruzione",
+          "value": "Alluminio, Metallo"
+        },
+        {
+          "attribute_code": "lamp_max_potenza",
+          "value": "15W"
+        },
+        {
+          "attribute_code": "lamp_grado_protezione",
+          "value": "IP44"
+        },
+        {
+          "attribute_code": "lamp_attacco_lamp_menu",
+          "value": "201"
+        }
+      ],
+      "media_gallery_entries": []
+    },
+    "_child_skus": [
+      "IL-135205",
+      "IL-246918"
+    ],
+    "_attr_codes": [
+      "color",
+      "config_attacco_lamp"
+    ]
+  }
+]
