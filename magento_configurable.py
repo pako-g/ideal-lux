@@ -30,7 +30,7 @@ load_dotenv()
 # CONFIGURAZIONE
 # ─────────────────────────────────────────────
 
-INPUT_JSON       = "./file/aline_simple_products.json"
+INPUT_JSON       = "./file/simple_products.json"
 OUTPUT_JSON      = "./file/configurable_products.json"
 CSV_PATH = "./file/giacenzeECommerce.csv"
 MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
