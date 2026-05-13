@@ -105,11 +105,12 @@ def immagine_to_base64(path: Path) -> str:
         return base64.b64encode(f.read()).decode("utf-8")
 
 
-def build_media_entry(nome_prodotto: str, sku: str, scraping_dir: Path = None) -> list:
+def build_media_entry(nome_prodotto: str, sku: str | list, scraping_dir: Path = None) -> list:
     entries = []
 
     # Immagine dal semplice in ./file/images/
-    path = trova_immagine(nome_prodotto, sku)
+    sku_str = sku[0] if isinstance(sku, list) else sku
+    path = trova_immagine(nome_prodotto, sku_str)
     if path:
         print(f"    🖼️   Immagine semplice: {path.name}")
         entries.append({
@@ -127,12 +128,14 @@ def build_media_entry(nome_prodotto: str, sku: str, scraping_dir: Path = None) -
 
     # Immagini scraping (solo per configurabili)
     if scraping_dir:
-        slug = re.sub(r"[^a-z0-9]+", "-", nome_prodotto.lower()).strip("-")
+        skus = sku if isinstance(sku, list) else [sku]
+        imgs = []
+        for s in skus:
+            sku_pulito = s.replace("IL-", "")
+            imgs.extend(sorted(scraping_dir.glob(f"*-{sku_pulito}-*.jpg")))
+        imgs = sorted(imgs)
 
-        print(f"    🔍  Scraping slug: {slug}")
-        print(f"    🔍  Files trovati: {list(sorted(scraping_dir.glob(f'{slug}-*.jpg')))}")
-
-        for i, img_path in enumerate(sorted(scraping_dir.glob(f"{slug}-*.jpg")), start=len(entries) + 1):
+        for i, img_path in enumerate(imgs, start=len(entries) + 1):
             print(f"    🖼️   Immagine scraping: {img_path.name}")
             entries.append({
                 "media_type": "image",
@@ -278,7 +281,7 @@ def crea_configurabili(
         payload = json.loads(json.dumps(c["product"]))
         payload["extension_attributes"]["configurable_product_options"] = config_options
 
-        scraping_entries = build_media_entry(nome, sku, SCRAPING_DIR)
+        scraping_entries = build_media_entry(nome, child_skus, SCRAPING_DIR)
         payload["media_gallery_entries"] = payload.get("media_gallery_entries", []) + scraping_entries
 
         try:
