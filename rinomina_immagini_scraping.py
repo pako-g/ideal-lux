@@ -12,6 +12,8 @@ Esempio:
 import json
 import re
 from pathlib import Path
+import hashlib
+from collections import defaultdict
 
 # ─────────────────────────────────────────────
 # CONFIGURAZIONE
@@ -19,6 +21,27 @@ from pathlib import Path
 
 CONFIG_JSON  = "./file/configurable_products.json"
 SCRAPING_DIR = Path("./file/scraping")
+
+
+
+
+def deduplicа_immagini(cartella: Path) -> None:
+    """Cancella i duplicati mantenendo solo il primo file per ogni hash MD5."""
+    hash_map = defaultdict(list)
+    for img in sorted(cartella.glob("*.jpg")):
+        h = hashlib.md5(img.read_bytes()).hexdigest()
+        hash_map[h].append(img)
+
+    cancellati = 0
+    for h, files in hash_map.items():
+        if len(files) > 1:
+            # Tieni il primo, cancella gli altri
+            for f in files[1:]:
+                print(f"  🗑️   Duplicato cancellato: {f.name}")
+                f.unlink()
+                cancellati += 1
+
+    print(f"🗑️   Duplicati cancellati: {cancellati}\n")
 
 
 # ─────────────────────────────────────────────
@@ -38,6 +61,10 @@ def nome_to_slug(nome: str) -> str:
 # ─────────────────────────────────────────────
 
 def main():
+
+    print("── Deduplicazione immagini ──────────────────────────────")
+    deduplicа_immagini(SCRAPING_DIR)
+
     # 1. Carica configurabili
     with open(CONFIG_JSON, encoding="utf-8") as f:
         configurabili = json.load(f)

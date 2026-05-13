@@ -330,6 +330,35 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
             {"attribute_code": "config_temperatura_colore", "value": temp_map[temperatura]}
         )
 
+    # Tieni solo gli attributi config_ e color che variano nel gruppo
+    attrs_varianti = []
+    for attr in attrs_config:
+        code = attr["attribute_code"]
+        valori_gruppo = set()
+        for _, r in famiglia_varianti.iterrows():
+            # Ricalcola il valore per ogni riga del gruppo
+            if code == "color":
+                fin = r["Finitura"]
+                if pd.notna(fin):
+                    fin_label = fin.capitalize()
+                    fin_label = FINITURA_LABEL.get(fin_label, fin_label)
+                    valori_gruppo.add(color_map.get(fin_label, ""))
+            elif code == "config_attacco_lamp":
+                valori_gruppo.add(str(r["Attacco Portalampada"]))
+            elif code == "config_dimensioni":
+                valori_gruppo.add(estrai_dimensione(r["Descrizione"], r["Finitura"],
+                                                    row["Famiglia Articolo"], famiglia_varianti))
+            elif code == "config_tipo":
+                valori_gruppo.add(estrai_tipo(r["Descrizione"], row["Famiglia Articolo"]))
+            elif code == "config_temperatura_colore":
+                valori_gruppo.add(estrai_temperatura(r["Descrizione"]))
+
+        if len(valori_gruppo) > 1:
+            attrs_varianti.append(attr)
+
+    attrs_config = attrs_varianti
+
+
     return {
         "product": {
             "sku":              f"IL-{row['sku']}",
