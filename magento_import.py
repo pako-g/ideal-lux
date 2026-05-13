@@ -2,10 +2,9 @@
 magento_import.py — Import completo prodotti in Magento 2
 
 Flusso:
-  1. Legge aline_simple_products.json e configurable_products.json
+  1. Legge simple_products.json e configurable_products.json
   2. Recupera via API gli attribute_id numerici per ogni attributo variante
   3. Crea i prodotti semplici → POST /rest/V1/products
-     - Legge le immagini da ./file/images/{slug}-{sku}.jpg e le converte in base64
   4. Crea i prodotti configurabili con configurable_product_options → POST /rest/V1/products
   5. Associa i semplici al configurabile → POST /rest/V1/configurable-products/{sku}/child
 """
@@ -30,7 +29,7 @@ load_dotenv()
 SIMPLE_JSON      = "./file/simple_products.json"
 CONFIG_JSON      = "./file/configurable_products.json"
 IMAGES_DIR       = Path("./file/images")
-SCRAPING_DIR = Path("./file/scraping")
+SCRAPING_DIR     = Path("./file/scraping")
 MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
 RETRY_DELAY      = 1.0
 MAX_RETRIES      = 3
@@ -94,9 +93,13 @@ def get_attribute_info(session: OAuth1Session, attribute_code: str) -> dict:
 def trova_immagine(nome_prodotto: str, sku: str) -> Path | None:
     sku_pulito = sku.replace("IL-", "")
     slug = re.sub(r"[^a-z0-9]+", "-", nome_prodotto.lower()).strip("-")
-    filename = f"{slug}-{sku_pulito}.jpg"
-    path = IMAGES_DIR / filename
-    return path if path.exists() else None
+    # Cerca prima per nome esatto
+    path = IMAGES_DIR / f"{slug}-{sku_pulito}.jpg"
+    if path.exists():
+        return path
+    # Fallback: cerca qualsiasi file che contenga lo SKU
+    matches = list(IMAGES_DIR.glob(f"*{sku_pulito}*.jpg"))
+    return matches[0] if matches else None
 
 
 def immagine_to_base64(path: Path) -> str:
@@ -105,51 +108,58 @@ def immagine_to_base64(path: Path) -> str:
         return base64.b64encode(f.read()).decode("utf-8")
 
 
-def build_media_entry(nome_prodotto: str, sku: str | list, scraping_dir: Path = None) -> list:
+def build_media_entry(nome_prodotto: str, sku: str) -> list:
+    """
+    Costruisce media_gallery_entries per un prodotto semplice.
+    Cerca l'immagine in ./file/images/ per nome e SKU.
+    """
     entries = []
-
-    # Immagine dal semplice in ./file/images/
-    sku_str = sku[0] if isinstance(sku, list) else sku
-    path = trova_immagine(nome_prodotto, sku_str)
+    path = trova_immagine(nome_prodotto, sku)
     if path:
         print(f"    🖼️   Immagine semplice: {path.name}")
         entries.append({
             "media_type": "image",
-            "label": nome_prodotto,
-            "position": 1,
-            "disabled": False,
-            "types": ["image", "small_image", "thumbnail"],
+            "label":      nome_prodotto,
+            "position":   1,
+            "disabled":   False,
+            "types":      ["image", "small_image", "thumbnail"],
             "content": {
                 "base64_encoded_data": immagine_to_base64(path),
                 "type": "image/jpeg",
                 "name": path.name,
             },
         })
+    else:
+        print(f"    ⚠️   Immagine non trovata per {sku}")
+    return entries
 
-    # Immagini scraping (solo per configurabili)
-    if scraping_dir:
-        skus = sku if isinstance(sku, list) else [sku]
-        imgs = []
-        for s in skus:
-            sku_pulito = s.replace("IL-", "")
-            imgs.extend(sorted(scraping_dir.glob(f"*-{sku_pulito}-*.jpg")))
-        imgs = sorted(imgs)
 
-        for i, img_path in enumerate(imgs, start=len(entries) + 1):
-            print(f"    🖼️   Immagine scraping: {img_path.name}")
-            entries.append({
-                "media_type": "image",
-                "label": img_path.stem.replace("-", " ").replace("_", " "),
-                "position": i,
-                "disabled": False,
-                "types": [],
-                "content": {
-                    "base64_encoded_data": immagine_to_base64(img_path),
-                    "type": "image/jpeg",
-                    "name": img_path.name,
-                },
-            })
+def build_scraping_entries(nome_prodotto: str, child_skus: list, scraping_dir: Path) -> list:
+    """
+    Costruisce media_gallery_entries per le immagini scraping del configurabile.
+    Cerca per ogni SKU figlio le immagini in ./file/scraping/.
+    """
+    imgs = []
+    for s in child_skus:
+        sku_pulito = s.replace("IL-", "")
+        imgs.extend(sorted(scraping_dir.glob(f"*-{sku_pulito}-*.jpg")))
+    imgs = sorted(imgs)
 
+    entries = []
+    for i, img_path in enumerate(imgs, start=1):
+        print(f"    🖼️   Immagine scraping: {img_path.name}")
+        entries.append({
+            "media_type": "image",
+            "label":      nome_prodotto,
+            "position":   i,
+            "disabled":   False,
+            "types":      [],
+            "content": {
+                "base64_encoded_data": immagine_to_base64(img_path),
+                "type": "image/jpeg",
+                "name": img_path.name,
+            },
+        })
     return entries
 
 
@@ -192,7 +202,6 @@ def crea_semplici(session: OAuth1Session, semplici: list) -> dict:
         nome = s["product"]["name"]
         print(f"\n  [{i}/{totale}]  Creo semplice  {sku}  —  {nome}")
 
-        # Deep copy e aggiungi immagine in base64
         payload = json.loads(json.dumps(s))
         payload["product"]["media_gallery_entries"] = build_media_entry(nome, sku)
 
@@ -241,9 +250,9 @@ def build_config_options(
 
         options.append({
             "attribute_id": info["attribute_id"],
-            "label": code.replace("_", " ").title(),
-            "position": pos,
-            "values": [{"value_index": v} for v in sorted(valori)],
+            "label":        code.replace("_", " ").title(),
+            "position":     pos,
+            "values":       [{"value_index": v} for v in sorted(valori)],
         })
 
     return options
@@ -261,6 +270,9 @@ def crea_configurabili(
 ) -> list:
     """
     Crea ogni configurabile via API con configurable_product_options.
+    Le immagini del configurabile sono:
+      - media_gallery_entries già nel JSON (immagini dei semplici in base64)
+      - immagini scraping cercate per SKU figlio in ./file/scraping/
     Restituisce lista {config_sku, child_skus} per il linking.
     """
     da_linkare = []
@@ -274,15 +286,27 @@ def crea_configurabili(
 
         print(f"\n  [{i}/{totale}]  Creo configurabile  {sku}  —  {nome}")
 
+        # Costruisci configurable_product_options
         config_options = build_config_options(
             attr_codes, child_skus, semplici_map, attr_map
         )
 
+        # Deep copy del payload — include già media_gallery_entries dal JSON
         payload = json.loads(json.dumps(c["product"]))
         payload["extension_attributes"]["configurable_product_options"] = config_options
 
-        scraping_entries = build_media_entry(nome, child_skus, SCRAPING_DIR)
-        payload["media_gallery_entries"] = payload.get("media_gallery_entries", []) + scraping_entries
+        # Aggiunge immagini scraping (cercate per SKU figlio)
+        scraping_entries = build_scraping_entries(nome, child_skus, SCRAPING_DIR)
+        existing = payload.get("media_gallery_entries", [])
+
+        # Aggiorna position per le scraping (continuano dopo quelle esistenti)
+        offset = len(existing)
+        for j, entry in enumerate(scraping_entries):
+            entry["position"] = offset + j + 1
+
+        payload["media_gallery_entries"] = existing + scraping_entries
+
+        print(f"    🖼️   Totale immagini: {len(payload['media_gallery_entries'])}")
 
         try:
             result = api_post(session, "products", {"product": payload})
@@ -337,6 +361,7 @@ def main():
     print(f"\n📦  Semplici      : {len(semplici)}")
     print(f"🔗  Configurabili  : {len(configurabili)}")
     print(f"🖼️   Cartella img   : {IMAGES_DIR.resolve()}")
+    print(f"🖼️   Cartella scraping: {SCRAPING_DIR.resolve()}")
 
     semplici_map = {s["product"]["sku"]: s for s in semplici}
 

@@ -23,7 +23,7 @@ import pandas as pd
 # CONFIGURAZIONE
 # ─────────────────────────────────────────────
 
-JSON_INPUT  = "./file/aline_simple_products.json"
+JSON_INPUT  = "./file/simple_products.json"
 IMG_DIR     = Path("./file/images")
 BASE_URL    = "https://lampadestore.it/pub/media/tmp"
 

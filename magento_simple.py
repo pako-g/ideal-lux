@@ -138,8 +138,11 @@ def load_categoria(csv_path: str, categoria: str, escludi: list = []) -> pd.Data
 
 
 def estrai_modello(descrizione: str, finitura: str) -> str:
-    """'A-LINE_SP1_D13_BIANCO', 'BIANCO' → 'A-line sp1 d13'"""
     raw = descrizione.replace("_" + str(finitura) if pd.notna(finitura) else "", "").replace("_", " ").lower()
+    # Non includere token di dimensione (h60, d30 ecc.) e temperatura (3000k, 4000k)
+    raw = re.sub(r'\b[hdlp]\d+\b', '', raw)
+    raw = re.sub(r'\b\d{4}k(?:-\d{4}k)?\b', '', raw)
+    raw = re.sub(r'\s{2,}', ' ', raw).strip()
     return raw[0].upper() + raw[1:] if raw else raw
 
 def mm_to_cm(val_mm: int) -> str:
