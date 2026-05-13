@@ -115,6 +115,7 @@ def build_media_entry(nome_prodotto: str, sku: str) -> list:
     """
     entries = []
     path = trova_immagine(nome_prodotto, sku)
+    print(f"    🏷️   Label immagine: {nome_prodotto}")
     if path:
         print(f"    🖼️   Immagine semplice: {path.name}")
         entries.append({
@@ -148,6 +149,7 @@ def build_scraping_entries(nome_prodotto: str, child_skus: list, scraping_dir: P
     entries = []
     for i, img_path in enumerate(imgs, start=1):
         print(f"    🖼️   Immagine scraping: {img_path.name}")
+        print(f"    🏷️   Label immagine: {nome_prodotto}")
         entries.append({
             "media_type": "image",
             "label":      nome_prodotto,

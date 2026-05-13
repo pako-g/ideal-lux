@@ -54,7 +54,7 @@ CATEGORIA_PLURALE = {
     "Lampada Da Soffitto": "Lampade da Soffitto",
     "Lampada Portatile": "Lampade Portatili",
 }
-
+DESC_CSV = "./file/descrizioni_configurabili_lampade_da_terra.csv"
 
 # ─────────────────────────────────────────────
 # OAUTH
@@ -335,6 +335,7 @@ def build_configurable(
                 {"attribute_code": "lamp_max_potenza",           "value": watt_val},
                 {"attribute_code": "lamp_grado_protezione",      "value": ip_val},
                 {"attribute_code": "lamp_attacco_lamp_menu",     "value": attacco_menu_val},
+                {"attribute_code": "meta_title",                 "value": titolo},
             ],
             "media_gallery_entries": media_entries,
         },

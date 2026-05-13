@@ -104,13 +104,14 @@ if __name__ == "__main__":
         sku  = p["sku"]
         nome = p["name"]
 
-        src_url = url_map.get(sku)
+        sku_pulito = sku.replace("IL-", "")
+        src_url = url_map.get(sku_pulito)
         if not src_url or pd.isna(src_url):
             print(f"[{i}/{totale}] {sku} — URL non trovato nel CSV, salto")
             errori += 1
             continue
 
-        filename = build_filename(nome, sku)
+        filename = build_filename(nome, sku_pulito)
         dest     = IMG_DIR / filename
 
         if dest.exists():
@@ -124,12 +125,11 @@ if __name__ == "__main__":
                 print(f"     ✅  {filename} ({dest.stat().st_size // 1024} KB)")
             else:
                 errori += 1
+                # nel loop, quando c'è errore:
+                lista_errori.append(f"{sku} | {src_url}")
                 print(f"     ❌  {sku} — {src_url}")
 
 
-
-        # nel loop, quando c'è errore:
-        lista_errori.append(f"{sku} | {src_url}")
 
         if i < totale:
             time.sleep(0.3)
