@@ -2,7 +2,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-001",
-      "name": "Ideal Lux Acqua Pt1 Lampada Da Terra per Esterni",
+      "name": "Ideal Lux Acqua Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 263,
       "status": 1,
       "visibility": 4,
@@ -38,7 +38,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-acqua-pt1-lampada-da-terra-per-esterni"
+          "value": "ideal-lux-acqua-pt1-lampade-da-terra-per-esterni"
         },
         {
           "attribute_code": "manufacturer",

@@ -47,6 +47,14 @@ MATERIALI_MAP = {
     "VE": "Vetro",
 }
 
+CATEGORIA_PLURALE = {
+    "Lampada Da Terra": "Lampade da Terra",
+    "Lampada Da Tavolo": "Lampade da Tavolo",
+    "Lampada Da Parete": "Lampade da Parete",
+    "Lampada Da Soffitto": "Lampade da Soffitto",
+    "Lampada Portatile": "Lampade Portatili",
+}
+
 
 # ─────────────────────────────────────────────
 # OAUTH
@@ -209,6 +217,9 @@ def build_configurable(
 
     # ── Titolo e url_key ──
     titolo  = f"{build_titolo(semplici[0]['product']['name'])} per {ambiente}"
+    for singolare, plurale in CATEGORIA_PLURALE.items():
+        titolo = titolo.replace(singolare, plurale)
+
     url_key = re.sub(r"[^a-z0-9]+", "-", titolo.lower()).strip("-")
 
     # ── SKU e attr_codes ──
