@@ -199,12 +199,13 @@ def raggruppa_per_sottofamiglia(semplici: list) -> dict:
 # ─────────────────────────────────────────────
 
 def build_configurable(
-    config_sku: str,
-    semplici: list,
-    df: pd.DataFrame,
-    attacco_menu_map: dict,
-    categorie_map: dict,
-) -> dict:
+        config_sku: str,
+        semplici: list,
+        df: pd.DataFrame,
+        df_desc: pd.DataFrame,
+        attacco_menu_map: dict,
+        categorie_map: dict
+    ) -> dict:
 
     # ── Righe CSV del gruppo (usa SKU senza prefisso IL-) ──
     skus_puliti  = [s["product"]["sku"].replace("IL-", "") for s in semplici]
@@ -305,6 +306,11 @@ def build_configurable(
     nomi_cat    = CATEGORIE_FISSE + [cat_nome]
     category_ids = [categorie_map[n] for n in nomi_cat if n in categorie_map]
 
+    desc_row = df_desc.loc[config_sku] if config_sku in df_desc.index else None
+    short_desc = desc_row["short_description"] if desc_row is not None else ""
+    description = desc_row["description"] if desc_row is not None else ""
+    meta_desc = desc_row["meta_description"] if desc_row is not None else ""
+
     return {
         "product": {
             "sku":               config_sku,
@@ -336,6 +342,9 @@ def build_configurable(
                 {"attribute_code": "lamp_grado_protezione",      "value": ip_val},
                 {"attribute_code": "lamp_attacco_lamp_menu",     "value": attacco_menu_val},
                 {"attribute_code": "meta_title",                 "value": titolo},
+                {"attribute_code": "short_description",          "value": short_desc},
+                {"attribute_code": "description",                "value": description},
+                {"attribute_code": "meta_description",           "value": meta_desc},
             ],
             "media_gallery_entries": media_entries,
         },
@@ -349,6 +358,9 @@ def build_configurable(
 # ─────────────────────────────────────────────
 
 def main():
+
+    df_desc = pd.read_csv(DESC_CSV, sep=",", encoding="utf-8").set_index("sku")
+
     with open(INPUT_JSON, encoding="utf-8") as f:
         semplici_tutti = json.load(f)
 
@@ -365,7 +377,7 @@ def main():
     configurabili = []
     for idx, (key, gruppo) in enumerate(sorted(gruppi.items()), start=1):
         config_sku = f"IL-CONFIG-{idx:03d}"
-        config     = build_configurable(config_sku, gruppo, df, attacco_menu_map, categorie_map)
+        config = build_configurable(config_sku, gruppo, df, df_desc, attacco_menu_map, categorie_map)
         configurabili.append(config)
         print(
             f"  [{config_sku}]  {config['product']['name']}\n"
