@@ -311,7 +311,7 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
     temperatura_nome = temperatura if len(temp_gruppo) > 1 else ""
 
     nome = build_nome_semplice(modello, finitura_nome, attacco_nome, tipo_nome,
-                               row["Categoria Articolo"])
+                               row["Categoria Articolo"], dimensione_nome, temperatura_nome)
 
     img_entry = build_image_entry(nome, row["sku"])
 
