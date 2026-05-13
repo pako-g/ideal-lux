@@ -250,8 +250,9 @@ def build_nome_semplice(modello: str, finitura: str, attacco: str, tipo: str = "
     finitura_str = FINITURA_LABEL.get(finitura_str, finitura_str)
     attacco_str  = str(attacco) if attacco else ""
     modello_str  = modello[0].upper() + modello[1:] if modello else ""
+    dimensione_str = dimensione.replace(" ", "-") if dimensione else ""
     tokens = [t for t in [f"{modello_str}{cat_str}", tipo, finitura_str,
-                           dimensione, temperatura, attacco_str] if t]
+                          dimensione_str, temperatura, attacco_str] if t]
     return f"{MARCA} " + "-".join(tokens)
 
 
@@ -304,6 +305,8 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
     tipi_gruppo = set(estrai_tipo(r["Descrizione"], famiglia) for _, r in famiglia_varianti.iterrows())
     temp_gruppo = set(estrai_temperatura(r["Descrizione"]) for _, r in famiglia_varianti.iterrows())
 
+    attacco_val = row["Attacco Portalampada"]
+
     finitura_nome = row["Finitura"] if pd.notna(row["Finitura"]) else ""
     attacco_nome = str(attacco_val) if len(attacchi_gruppo) > 1 else ""
     dimensione_nome = dimensione if len(dimensioni_gruppo) > 1 else ""
@@ -322,7 +325,7 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
     else:
         color_id = ""
 
-    attacco_val     = row["Attacco Portalampada"]
+
     manufacturer_id = manufacturer_map[MARCA]
 
     # Attributi configurabili — solo se presenti
