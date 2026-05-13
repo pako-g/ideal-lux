@@ -243,12 +243,15 @@ def estrai_temperatura(descrizione: str) -> str:
     return match.group(1) if match else ""
 
 
-def build_nome_semplice(modello: str, finitura: str, attacco: str, tipo: str = "", categoria: str = "") -> str:
+def build_nome_semplice(modello: str, finitura: str, attacco: str, tipo: str = "",
+                        categoria: str = "", dimensione: str = "", temperatura: str = "") -> str:
     cat_str      = f" {categoria.title()}" if categoria else ""
-    finitura_str = str(finitura).capitalize() if pd.notna(finitura) else ""
-    attacco_str  = str(attacco) if pd.notna(attacco) else ""
+    finitura_str = str(finitura).capitalize() if finitura and pd.notna(finitura) else ""
+    finitura_str = FINITURA_LABEL.get(finitura_str, finitura_str)
+    attacco_str  = str(attacco) if attacco else ""
     modello_str  = modello[0].upper() + modello[1:] if modello else ""
-    tokens = [t for t in [f"{modello_str}{cat_str}", tipo, finitura_str, attacco_str] if t]
+    tokens = [t for t in [f"{modello_str}{cat_str}", tipo, finitura_str,
+                           dimensione, temperatura, attacco_str] if t]
     return f"{MARCA} " + "-".join(tokens)
 
 
@@ -293,8 +296,21 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
     tipo       = estrai_tipo(row["Descrizione"], famiglia)
     temperatura = estrai_temperatura(row["Descrizione"])
     modello    = estrai_modello(row["Descrizione"], row["Finitura"])
-    nome = build_nome_semplice(modello, row["Finitura"],
-                               row["Attacco Portalampada"], tipo,
+
+    # Calcola quali attributi variano nel gruppo
+    attacchi_gruppo = set(str(r["Attacco Portalampada"]) for _, r in famiglia_varianti.iterrows())
+    dimensioni_gruppo = set(estrai_dimensione(r["Descrizione"], r["Finitura"], famiglia, famiglia_varianti) for _, r in
+                            famiglia_varianti.iterrows())
+    tipi_gruppo = set(estrai_tipo(r["Descrizione"], famiglia) for _, r in famiglia_varianti.iterrows())
+    temp_gruppo = set(estrai_temperatura(r["Descrizione"]) for _, r in famiglia_varianti.iterrows())
+
+    finitura_nome = row["Finitura"] if pd.notna(row["Finitura"]) else ""
+    attacco_nome = str(attacco_val) if len(attacchi_gruppo) > 1 else ""
+    dimensione_nome = dimensione if len(dimensioni_gruppo) > 1 else ""
+    tipo_nome = tipo if len(tipi_gruppo) > 1 else ""
+    temperatura_nome = temperatura if len(temp_gruppo) > 1 else ""
+
+    nome = build_nome_semplice(modello, finitura_nome, attacco_nome, tipo_nome,
                                row["Categoria Articolo"])
 
     img_entry = build_image_entry(nome, row["sku"])
