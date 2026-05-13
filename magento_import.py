@@ -94,12 +94,6 @@ def get_attribute_info(session: OAuth1Session, attribute_code: str) -> dict:
 def trova_immagine(nome_prodotto: str, sku: str) -> Path | None:
     sku_pulito = sku.replace("IL-", "")
     slug = re.sub(r"[^a-z0-9]+", "-", nome_prodotto.lower()).strip("-")
-
-    print(f"    🔍  Slug: {slug}")
-    print(f"    🔍  Pattern: {slug}-*.jpg")
-    print(f"    🔍  Files trovati: {list(scraping_dir.glob(f'{slug}-*.jpg'))}")
-
-
     filename = f"{slug}-{sku_pulito}.jpg"
     path = IMAGES_DIR / filename
     return path if path.exists() else None
@@ -134,6 +128,10 @@ def build_media_entry(nome_prodotto: str, sku: str, scraping_dir: Path = None) -
     # Immagini scraping (solo per configurabili)
     if scraping_dir:
         slug = re.sub(r"[^a-z0-9]+", "-", nome_prodotto.lower()).strip("-")
+
+        print(f"    🔍  Scraping slug: {slug}")
+        print(f"    🔍  Files trovati: {list(sorted(scraping_dir.glob(f'{slug}-*.jpg')))}")
+
         for i, img_path in enumerate(sorted(scraping_dir.glob(f"{slug}-*.jpg")), start=len(entries) + 1):
             print(f"    🖼️   Immagine scraping: {img_path.name}")
             entries.append({
