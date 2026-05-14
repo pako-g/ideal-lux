@@ -61,13 +61,24 @@ DESC_CSV = "./file/descrizioni_configurabili_lampade_da_terra.csv"
 # ─────────────────────────────────────────────
 
 def get_oauth_session() -> OAuth1Session:
-    return OAuth1Session(
+    # 1. Crea l'istanza della sessione
+    session = OAuth1Session(
         client_key            = os.getenv("MAGENTO_CONSUMER_KEY"),
         client_secret         = os.getenv("MAGENTO_CONSUMER_SECRET"),
         resource_owner_key    = os.getenv("MAGENTO_ACCESS_TOKEN"),
         resource_owner_secret = os.getenv("MAGENTO_TOKEN_SECRET"),
         signature_method      = "HMAC-SHA256",
     )
+
+    # 2. Aggiungi gli header globali
+    # Questi verranno usati per OGNI chiamata fatta con questa sessione
+    session.headers.update({
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+    })
+
+    return session
 
 
 # ─────────────────────────────────────────────
@@ -340,7 +351,7 @@ def build_configurable(
                 {"attribute_code": "lamp_materiali_costruzione", "value": materiali_val},
                 {"attribute_code": "lamp_max_potenza",           "value": watt_val},
                 {"attribute_code": "lamp_grado_protezione",      "value": ip_val},
-                {"attribute_code": "lamp_attacco_lamp_menu",     "value": attacco_menu_val},
+                *([{"attribute_code": "lamp_attacco_lamp_menu", "value": attacco_menu_val}] if attacco_menu_val else []),
                 {"attribute_code": "meta_title",                 "value": titolo},
                 {"attribute_code": "short_description",          "value": short_desc},
                 {"attribute_code": "description",                "value": description},

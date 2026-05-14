@@ -40,13 +40,24 @@ MAX_RETRIES      = 3
 # ─────────────────────────────────────────────
 
 def get_oauth_session() -> OAuth1Session:
-    return OAuth1Session(
+    # 1. Crea l'istanza della sessione
+    session = OAuth1Session(
         client_key            = os.getenv("MAGENTO_CONSUMER_KEY"),
         client_secret         = os.getenv("MAGENTO_CONSUMER_SECRET"),
         resource_owner_key    = os.getenv("MAGENTO_ACCESS_TOKEN"),
         resource_owner_secret = os.getenv("MAGENTO_TOKEN_SECRET"),
         signature_method      = "HMAC-SHA256",
     )
+
+    # 2. Aggiungi gli header globali
+    # Questi verranno usati per OGNI chiamata fatta con questa sessione
+    session.headers.update({
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+    })
+
+    return session
 
 
 # ─────────────────────────────────────────────
@@ -72,6 +83,7 @@ def api_post(session: OAuth1Session, endpoint: str, payload: dict) -> dict:
 def get_attribute_info(session: OAuth1Session, attribute_code: str) -> dict:
     """Restituisce attribute_id numerico e mappa opzioni per un attributo."""
     url = f"{MAGENTO_BASE_URL}/rest/V1/products/attributes/{attribute_code}"
+
     resp = session.get(url, verify=False)
     resp.raise_for_status()
     data = resp.json()

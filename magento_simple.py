@@ -41,13 +41,24 @@ MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
 # ─────────────────────────────────────────────
 
 def get_oauth_session() -> OAuth1Session:
-    return OAuth1Session(
+    # 1. Crea l'istanza della sessione
+    session = OAuth1Session(
         client_key            = os.getenv("MAGENTO_CONSUMER_KEY"),
         client_secret         = os.getenv("MAGENTO_CONSUMER_SECRET"),
         resource_owner_key    = os.getenv("MAGENTO_ACCESS_TOKEN"),
         resource_owner_secret = os.getenv("MAGENTO_TOKEN_SECRET"),
         signature_method      = "HMAC-SHA256",
     )
+
+    # 2. Aggiungi gli header globali
+    # Questi verranno usati per OGNI chiamata fatta con questa sessione
+    session.headers.update({
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+    })
+
+    return session
 
 
 # ─────────────────────────────────────────────
