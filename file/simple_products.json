@@ -9786,7 +9786,7 @@
   {
     "product": {
       "sku": "IL-191577",
-      "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco",
+      "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Diametro-30cm",
       "attribute_set_id": 263,
       "price": 150.0,
       "status": 0,
@@ -9805,6 +9805,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3286"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696191577"
         },
@@ -9814,33 +9818,16 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-luna-pt1-lampada-da-terra-bianco-191577"
+          "value": "ideal-lux-luna-pt1-lampada-da-terra-bianco-diametro-30cm-191577"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-luna-pt1-lampada-da-terra-bianco-191577.jpg",
-            "url": "./file/images//ideal-lux-luna-pt1-lampada-da-terra-bianco-191577.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
     "product": {
       "sku": "IL-191584",
-      "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco",
+      "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Diametro-40cm",
       "attribute_set_id": 263,
       "price": 210.0,
       "status": 0,
@@ -9859,6 +9846,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3287"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696191584"
         },
@@ -9868,33 +9859,16 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-luna-pt1-lampada-da-terra-bianco-191584"
+          "value": "ideal-lux-luna-pt1-lampada-da-terra-bianco-diametro-40cm-191584"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-luna-pt1-lampada-da-terra-bianco-191584.jpg",
-            "url": "./file/images//ideal-lux-luna-pt1-lampada-da-terra-bianco-191584.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
     "product": {
       "sku": "IL-191607",
-      "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco",
+      "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Diametro-50cm",
       "attribute_set_id": 263,
       "price": 290.0,
       "status": 0,
@@ -9913,6 +9887,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "2877"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696191607"
         },
@@ -9922,27 +9900,10 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-luna-pt1-lampada-da-terra-bianco-191607"
+          "value": "ideal-lux-luna-pt1-lampada-da-terra-bianco-diametro-50cm-191607"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-luna-pt1-lampada-da-terra-bianco-191607.jpg",
-            "url": "./file/images//ideal-lux-luna-pt1-lampada-da-terra-bianco-191607.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {

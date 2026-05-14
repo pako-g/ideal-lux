@@ -195,6 +195,7 @@ def estrai_dimensione(descrizione: str, finitura: str, famiglia: str,
     # Determina il prefisso dalla descrizione (D o H) ma il valore da Dimensione Articolo
     modello = descrizione.replace("_" + str(finitura) if pd.notna(finitura) else "", "")
     match = re.search(r'_(D\d+|H\d+)$', modello)
+
     if match:
         prefix = match.group(1)[0]  # "D" o "H"
         val = estrai_misura(
@@ -203,6 +204,14 @@ def estrai_dimensione(descrizione: str, finitura: str, famiglia: str,
                 "Dimensione Articolo"
             ].iloc[0], prefix
         )
+        # Fallback: se D non trovato nel CSV prova con L
+        if val is None and prefix == "D":
+            val = estrai_misura(
+                famiglia_varianti.loc[
+                    famiglia_varianti["Descrizione"] == descrizione,
+                    "Dimensione Articolo"
+                ].iloc[0], "L"
+            )
         label = "Diametro" if prefix == "D" else "Altezza"
         return f"{label} {mm_to_cm(val)}cm" if val else ""
 
