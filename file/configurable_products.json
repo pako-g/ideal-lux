@@ -7,6 +7,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -136,6 +137,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -244,6 +246,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -373,14 +376,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 152.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 30,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -456,11 +460,7 @@
         }
       ],
       "media_gallery_entries": []
-    },
-    "_child_skus": [
-      "IL-298610"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -470,14 +470,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 152.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 266,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -570,11 +571,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-365749"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -584,6 +581,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -726,6 +724,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -855,6 +854,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -997,6 +997,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -1098,14 +1099,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 340.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 42,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -1198,11 +1200,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-273662"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -1212,6 +1210,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -1367,6 +1366,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -1496,6 +1496,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -1756,6 +1757,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -1856,6 +1858,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -1998,6 +2001,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -2154,6 +2158,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -2310,6 +2315,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -2439,6 +2445,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -2542,6 +2549,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -2642,6 +2650,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -2784,14 +2793,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 395.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 102,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -2884,11 +2894,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-284484"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -2898,14 +2904,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 260.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 60,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -2998,11 +3005,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-111452"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -3012,6 +3015,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -3141,6 +3145,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -3270,6 +3275,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -3412,6 +3418,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -3554,6 +3561,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -3774,6 +3782,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -3916,6 +3925,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -4071,6 +4081,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -4213,14 +4224,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 665.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 4,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -4313,11 +4325,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-148939"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -4327,14 +4335,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 745.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 33,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -4410,11 +4419,7 @@
         }
       ],
       "media_gallery_entries": []
-    },
-    "_child_skus": [
-      "IL-180946"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -4424,6 +4429,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -4566,6 +4572,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -4669,6 +4676,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -4772,14 +4780,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 300.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 25,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -4868,11 +4877,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-344775"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -4882,14 +4887,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 550.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 17,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -4982,11 +4988,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-348285"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -4996,14 +4998,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 550.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 34,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -5079,11 +5082,7 @@
         }
       ],
       "media_gallery_entries": []
-    },
-    "_child_skus": [
-      "IL-348292"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -5093,6 +5092,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -5222,6 +5222,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -5352,6 +5353,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -5482,6 +5484,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -5664,14 +5667,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 275.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 78,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -5764,11 +5768,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-295213"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -5778,6 +5778,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -5907,6 +5908,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -6007,6 +6009,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -6149,6 +6152,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -6291,6 +6295,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -6420,6 +6425,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -6549,6 +6555,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -6678,14 +6685,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 335.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 21,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -6761,14 +6769,7 @@
         }
       ],
       "media_gallery_entries": []
-    },
-    "_child_skus": [
-      "IL-282244"
-    ],
-    "_attr_codes": [
-      "color",
-      "config_dimensioni"
-    ]
+    }
   },
   {
     "product": {
@@ -6778,6 +6779,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -6880,14 +6882,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 310.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 82,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -6963,11 +6966,7 @@
         }
       ],
       "media_gallery_entries": []
-    },
-    "_child_skus": [
-      "IL-180953"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -6977,6 +6976,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -7237,14 +7237,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 400.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
           "qty": 0,
-          "is_in_stock": 1,
-          "manage_stock": false
+          "is_in_stock": 0,
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -7320,11 +7321,7 @@
         }
       ],
       "media_gallery_entries": []
-    },
-    "_child_skus": [
-      "IL-137827"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -7334,6 +7331,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -7542,6 +7540,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -7684,6 +7683,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -7784,14 +7784,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 510.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 78,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -7884,11 +7885,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-314198"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -7898,6 +7895,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -8040,14 +8038,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 160.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 188,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -8140,11 +8139,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-114347"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -8154,6 +8149,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -8283,6 +8279,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -8412,14 +8409,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 240.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 142,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -8512,11 +8510,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-161716"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -8526,14 +8520,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 315.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 28,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -8626,11 +8621,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-068275"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -8640,6 +8631,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -8769,6 +8761,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -8911,6 +8904,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -9053,14 +9047,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 200.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 73,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -9153,11 +9148,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-135908"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -9167,6 +9158,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -9309,14 +9301,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 370.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 48,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -9409,11 +9402,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-077765"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -9423,14 +9412,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 280.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 70,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -9523,11 +9513,7 @@
           }
         }
       ]
-    },
-    "_child_skus": [
-      "IL-014609"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -9537,6 +9523,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -9676,6 +9663,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -9831,6 +9819,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -10136,6 +10125,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -10291,6 +10281,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -10721,6 +10712,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -10929,6 +10921,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -11058,6 +11051,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -11214,6 +11208,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -11474,6 +11469,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -11838,6 +11834,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -11995,6 +11992,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -12152,6 +12150,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -12320,14 +12319,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 250.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 0,
+          "qty": 8,
           "is_in_stock": 1,
-          "manage_stock": false
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -12403,11 +12403,7 @@
         }
       ],
       "media_gallery_entries": []
-    },
-    "_child_skus": [
-      "IL-265292"
-    ],
-    "_attr_codes": []
+    }
   },
   {
     "product": {
@@ -12417,6 +12413,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -12546,6 +12543,7 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": null,
       "extension_attributes": {
         "website_ids": [
           1
@@ -12646,14 +12644,15 @@
       "status": 1,
       "visibility": 4,
       "type_id": "configurable",
+      "price": 230.0,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
           "qty": 0,
-          "is_in_stock": 1,
-          "manage_stock": false
+          "is_in_stock": 0,
+          "manage_stock": true
         },
         "category_links": [
           {
@@ -12729,10 +12728,6 @@
         }
       ],
       "media_gallery_entries": []
-    },
-    "_child_skus": [
-      "IL-089805"
-    ],
-    "_attr_codes": []
+    }
   }
 ]

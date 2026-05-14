@@ -490,6 +490,9 @@ if __name__ == "__main__":
         axis=1
     )
 
+    print(varianti[varianti["Famiglia Articolo"] == "SIRIO"][
+              ["Descrizione", "sottofamiglia", "Attacco Portalampada"]].to_string())
+
     # 4. Genera prodotti semplici
     semplici = []
     for sottofamiglia, gruppo in varianti.groupby("sottofamiglia"):

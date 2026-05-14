@@ -236,6 +236,19 @@ def build_configurable(
 
     # ── SKU e attr_codes ──
     child_skus = [s["product"]["sku"] for s in semplici]
+
+    prezzo_val = 0
+    qty_val = 0
+    is_in_stock = 0
+    is_single = len(child_skus) == 1
+
+    # Se prodotto singolo recupera prezzo e qty dal semplice
+    if is_single:
+        solo = semplici[0]["product"]
+        prezzo_val = solo.get("price", 0)
+        qty_val = solo["extension_attributes"]["stock_item"]["qty"]
+        is_in_stock = solo["extension_attributes"]["stock_item"]["is_in_stock"]
+
     attr_codes = get_config_attribute_codes(semplici)
 
     # ── Manufacturer dal primo semplice ──
@@ -330,12 +343,13 @@ def build_configurable(
             "status":            1,
             "visibility":        4,
             "type_id":           "configurable",
+            "price": prezzo_val if is_single else None,
             "extension_attributes": {
                 "website_ids": WEBSITE_IDS,
                 "stock_item": {
-                    "qty":          0,
-                    "is_in_stock":  1,
-                    "manage_stock": False,
+                    "qty":          qty_val if is_single else 0,
+                    "is_in_stock":  is_in_stock if is_single else 1,
+                    "manage_stock": True if is_single else False,
                 },
                 "category_links": [
                     {"position": i, "category_id": str(cat_id)}
@@ -359,8 +373,7 @@ def build_configurable(
             ],
             "media_gallery_entries": media_entries,
         },
-        "_child_skus": child_skus,
-        "_attr_codes": attr_codes,
+        **({} if is_single else {"_child_skus": child_skus, "_attr_codes": attr_codes}),
     }
 
 
@@ -390,11 +403,18 @@ def main():
         config_sku = f"IL-CONFIG-{idx:03d}"
         config = build_configurable(config_sku, gruppo, df, df_desc, attacco_menu_map, categorie_map)
         configurabili.append(config)
-        print(
-            f"  [{config_sku}]  {config['product']['name']}\n"
-            f"           attributi varianti : {config['_attr_codes']}\n"
-            f"           semplici ({len(config['_child_skus'])}): {config['_child_skus']}\n"
-        )
+
+        if "_child_skus" in config:
+            print(
+                f"  [{config_sku}]  {config['product']['name']}\n"
+                f"           attributi varianti : {config['_attr_codes']}\n"
+                f"           semplici ({len(config['_child_skus'])}): {config['_child_skus']}\n"
+            )
+        else:
+            print(
+                f"  [{config_sku}]  {config['product']['name']}\n"
+                f"           prodotto singolo\n"
+            )
 
     Path(OUTPUT_JSON).parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
