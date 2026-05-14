@@ -1,0 +1,176 @@
+[
+  {
+    "product": {
+      "sku": "IL-161754",
+      "name": "Ideal Lux Sasso pt1 Lampada Da Terra-Bianco-G9",
+      "attribute_set_id": 263,
+      "price": 105.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 0.71,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 345,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "3265"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696161754"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3988"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-sasso-pt1-lampada-da-terra-bianco-g9-161754"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Sasso pt1 Lampada Da Terra-Bianco-G9",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/jpeg",
+            "name": "ideal-lux-sasso-pt1-lampada-da-terra-bianco-g9-161754.jpg",
+            "url": "./file/images//ideal-lux-sasso-pt1-lampada-da-terra-bianco-g9-161754.jpg"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "IL-161761",
+      "name": "Ideal Lux Sasso pt1 Lampada Da Terra-Bianco-E27",
+      "attribute_set_id": 263,
+      "price": 145.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 0.9,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 392,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "680"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696161761"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3988"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-sasso-pt1-lampada-da-terra-bianco-e27-161761"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Sasso pt1 Lampada Da Terra-Bianco-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/jpeg",
+            "name": "ideal-lux-sasso-pt1-lampada-da-terra-bianco-e27-161761.jpg",
+            "url": "./file/images//ideal-lux-sasso-pt1-lampada-da-terra-bianco-e27-161761.jpg"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "sku": "IL-161778",
+      "name": "Ideal Lux Sasso pt1 Lampada Da Terra-Bianco-E27",
+      "attribute_set_id": 263,
+      "price": 205.0,
+      "status": 0,
+      "visibility": 1,
+      "type_id": "simple",
+      "weight": 1.5,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 265,
+          "is_in_stock": 1,
+          "manage_stock": true
+        }
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "config_attacco_lamp",
+          "value": "680"
+        },
+        {
+          "attribute_code": "lamp_ean",
+          "value": "8021696161778"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3988"
+        },
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-sasso-pt1-lampada-da-terra-bianco-e27-161778"
+        }
+      ],
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Sasso pt1 Lampada Da Terra-Bianco-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/jpeg",
+            "name": "ideal-lux-sasso-pt1-lampada-da-terra-bianco-e27-161778.jpg",
+            "url": "./file/images//ideal-lux-sasso-pt1-lampada-da-terra-bianco-e27-161778.jpg"
+          }
+        }
+      ]
+    }
+  }
+]
