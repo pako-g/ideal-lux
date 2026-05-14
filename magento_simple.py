@@ -391,7 +391,6 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
 
     attrs_config = attrs_varianti
 
-
     return {
         "product": {
             "sku":              f"IL-{row['sku']}",

@@ -404,6 +404,7 @@ def main():
         config = build_configurable(config_sku, gruppo, df, df_desc, attacco_menu_map, categorie_map)
         configurabili.append(config)
 
+
         if "_child_skus" in config:
             print(
                 f"  [{config_sku}]  {config['product']['name']}\n"
