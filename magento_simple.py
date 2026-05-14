@@ -184,35 +184,28 @@ def estrai_dimensione(descrizione: str, finitura: str, famiglia: str,
         m = re.search(rf'{prefix}\s+(\d+)', str(dim_str))
         return int(m.group(1)) if m else None
 
-    if famiglia in FAMIGLIE_LUNGHEZZA:
-        dim_str = famiglia_varianti.loc[
-            famiglia_varianti["Descrizione"] == descrizione,
-            "Dimensione Articolo"
-        ].iloc[0]
-        val = estrai_misura(dim_str, "D") or estrai_misura(dim_str, "L")
-        return f"Lunghezza {mm_to_cm(val)}cm" if val else ""
-
     # Determina il prefisso dalla descrizione (D o H) ma il valore da Dimensione Articolo
     modello = descrizione.replace("_" + str(finitura) if pd.notna(finitura) else "", "")
     match = re.search(r'_(D\d+|H\d+)$', modello)
 
     if match:
         prefix = match.group(1)[0]  # "D" o "H"
-        val = estrai_misura(
-            famiglia_varianti.loc[
-                famiglia_varianti["Descrizione"] == descrizione,
-                "Dimensione Articolo"
-            ].iloc[0], prefix
-        )
-        # Fallback: se D non trovato nel CSV prova con L
-        if val is None and prefix == "D":
-            val = estrai_misura(
-                famiglia_varianti.loc[
-                    famiglia_varianti["Descrizione"] == descrizione,
-                    "Dimensione Articolo"
-                ].iloc[0], "L"
-            )
-        label = "Diametro" if prefix == "D" else "Altezza"
+        dim_str = famiglia_varianti.loc[
+            famiglia_varianti["Descrizione"] == descrizione,
+            "Dimensione Articolo"
+        ].iloc[0]
+
+        if prefix == "D":
+            val = estrai_misura(dim_str, "D")
+            if val:
+                label = "Diametro"
+            else:
+                val = estrai_misura(dim_str, "L")
+                label = "Lunghezza"
+        else:
+            val = estrai_misura(dim_str, prefix)
+            label = "Altezza" if prefix == "H" else prefix
+
         return f"{label} {mm_to_cm(val)}cm" if val else ""
 
     # Nessun token in descrizione: cerca quale misura cambia tra le varianti

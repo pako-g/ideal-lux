@@ -9786,7 +9786,7 @@
   {
     "product": {
       "sku": "IL-191577",
-      "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Diametro-30cm",
+      "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Lunghezza-30cm",
       "attribute_set_id": 263,
       "price": 150.0,
       "status": 0,
@@ -9806,7 +9806,7 @@
       "custom_attributes": [
         {
           "attribute_code": "config_dimensioni",
-          "value": "3286"
+          "value": "2947"
         },
         {
           "attribute_code": "lamp_ean",
@@ -9818,16 +9818,33 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-luna-pt1-lampada-da-terra-bianco-diametro-30cm-191577"
+          "value": "ideal-lux-luna-pt1-lampada-da-terra-bianco-lunghezza-30cm-191577"
         }
       ],
-      "media_gallery_entries": []
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Lunghezza-30cm",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/jpeg",
+            "name": "ideal-lux-luna-pt1-lampada-da-terra-bianco-lunghezza-30cm-191577.jpg",
+            "url": "./file/images//ideal-lux-luna-pt1-lampada-da-terra-bianco-lunghezza-30cm-191577.jpg"
+          }
+        }
+      ]
     }
   },
   {
     "product": {
       "sku": "IL-191584",
-      "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Diametro-40cm",
+      "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Lunghezza-40cm",
       "attribute_set_id": 263,
       "price": 210.0,
       "status": 0,
@@ -9847,7 +9864,7 @@
       "custom_attributes": [
         {
           "attribute_code": "config_dimensioni",
-          "value": "3287"
+          "value": "2600"
         },
         {
           "attribute_code": "lamp_ean",
@@ -9859,16 +9876,33 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-luna-pt1-lampada-da-terra-bianco-diametro-40cm-191584"
+          "value": "ideal-lux-luna-pt1-lampada-da-terra-bianco-lunghezza-40cm-191584"
         }
       ],
-      "media_gallery_entries": []
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Lunghezza-40cm",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/jpeg",
+            "name": "ideal-lux-luna-pt1-lampada-da-terra-bianco-lunghezza-40cm-191584.jpg",
+            "url": "./file/images//ideal-lux-luna-pt1-lampada-da-terra-bianco-lunghezza-40cm-191584.jpg"
+          }
+        }
+      ]
     }
   },
   {
     "product": {
       "sku": "IL-191607",
-      "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Diametro-50cm",
+      "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Lunghezza-50cm",
       "attribute_set_id": 263,
       "price": 290.0,
       "status": 0,
@@ -9888,7 +9922,7 @@
       "custom_attributes": [
         {
           "attribute_code": "config_dimensioni",
-          "value": "2877"
+          "value": "2989"
         },
         {
           "attribute_code": "lamp_ean",
@@ -9900,10 +9934,27 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-luna-pt1-lampada-da-terra-bianco-diametro-50cm-191607"
+          "value": "ideal-lux-luna-pt1-lampada-da-terra-bianco-lunghezza-50cm-191607"
         }
       ],
-      "media_gallery_entries": []
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Lunghezza-50cm",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/jpeg",
+            "name": "ideal-lux-luna-pt1-lampada-da-terra-bianco-lunghezza-50cm-191607.jpg",
+            "url": "./file/images//ideal-lux-luna-pt1-lampada-da-terra-bianco-lunghezza-50cm-191607.jpg"
+          }
+        }
+      ]
     }
   },
   {
@@ -11142,7 +11193,24 @@
           "value": "ideal-lux-sasso-pt1-lampada-da-terra-bianco-lunghezza-25cm-g9-161754"
         }
       ],
-      "media_gallery_entries": []
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Sasso pt1 Lampada Da Terra-Bianco-Lunghezza-25cm-G9",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/jpeg",
+            "name": "ideal-lux-sasso-pt1-lampada-da-terra-bianco-lunghezza-25cm-g9-161754.jpg",
+            "url": "./file/images//ideal-lux-sasso-pt1-lampada-da-terra-bianco-lunghezza-25cm-g9-161754.jpg"
+          }
+        }
+      ]
     }
   },
   {
@@ -11187,7 +11255,24 @@
           "value": "ideal-lux-sasso-pt1-lampada-da-terra-bianco-lunghezza-33cm-e27-161761"
         }
       ],
-      "media_gallery_entries": []
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Sasso pt1 Lampada Da Terra-Bianco-Lunghezza-33cm-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/jpeg",
+            "name": "ideal-lux-sasso-pt1-lampada-da-terra-bianco-lunghezza-33cm-e27-161761.jpg",
+            "url": "./file/images//ideal-lux-sasso-pt1-lampada-da-terra-bianco-lunghezza-33cm-e27-161761.jpg"
+          }
+        }
+      ]
     }
   },
   {
@@ -11232,7 +11317,24 @@
           "value": "ideal-lux-sasso-pt1-lampada-da-terra-bianco-lunghezza-41cm-e27-161778"
         }
       ],
-      "media_gallery_entries": []
+      "media_gallery_entries": [
+        {
+          "media_type": "image",
+          "label": "Ideal Lux Sasso pt1 Lampada Da Terra-Bianco-Lunghezza-41cm-E27",
+          "position": 1,
+          "disabled": false,
+          "types": [
+            "image",
+            "small_image",
+            "thumbnail"
+          ],
+          "content": {
+            "type": "image/jpeg",
+            "name": "ideal-lux-sasso-pt1-lampada-da-terra-bianco-lunghezza-41cm-e27-161778.jpg",
+            "url": "./file/images//ideal-lux-sasso-pt1-lampada-da-terra-bianco-lunghezza-41cm-e27-161778.jpg"
+          }
+        }
+      ]
     }
   },
   {
