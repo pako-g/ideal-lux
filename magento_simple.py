@@ -184,14 +184,12 @@ def estrai_dimensione(descrizione: str, finitura: str, famiglia: str,
         m = re.search(rf'{prefix}\s+(\d+)', str(dim_str))
         return int(m.group(1)) if m else None
 
-    # Caso SASSO: usa sempre L da Dimensione Articolo
     if famiglia in FAMIGLIE_LUNGHEZZA:
-        val = estrai_misura(
-            famiglia_varianti.loc[
-                famiglia_varianti["Descrizione"] == descrizione,
-                "Dimensione Articolo"
-            ].iloc[0], "D"  # nel CSV SASSO ha D nella dim articolo
-        )
+        dim_str = famiglia_varianti.loc[
+            famiglia_varianti["Descrizione"] == descrizione,
+            "Dimensione Articolo"
+        ].iloc[0]
+        val = estrai_misura(dim_str, "D") or estrai_misura(dim_str, "L")
         return f"Lunghezza {mm_to_cm(val)}cm" if val else ""
 
     # Determina il prefisso dalla descrizione (D o H) ma il valore da Dimensione Articolo
