@@ -340,7 +340,7 @@ def build_configurable(
             "sku":               config_sku,
             "name":              titolo,
             "attribute_set_id":  ATTRIBUTE_SET_ID,
-            "status":            0,
+            "status":            2, #disable
             "visibility":        4,
             "type_id":           "configurable",
             "price": prezzo_val if is_single else None,
