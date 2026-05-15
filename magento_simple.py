@@ -31,7 +31,7 @@ load_dotenv()
 CSV_PATH        = "./file/giacenzeECommerce.csv"
 OUTPUT_PATH     = "./file/simple_products.json"
 MARCA           = "Ideal Lux"
-ATTRIBUTE_SET_ID = 263      # adatta al tuo Attribute Set in Magento
+ATTRIBUTE_SET_ID = 264      # adatta al tuo Attribute Set in Magento
 WEBSITE_IDS     = [1]
 MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
 

@@ -3,7 +3,7 @@
     "product": {
       "sku": "IL-135205",
       "name": "Ideal Lux Acqua pt1 Lampada Da Terra-Antracite",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -30,7 +30,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -61,7 +61,7 @@
     "product": {
       "sku": "IL-246918",
       "name": "Ideal Lux Acqua pt1 Lampada Da Terra-Caffè",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -80,7 +80,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "lamp_ean",
@@ -88,7 +88,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -119,7 +119,7 @@
     "product": {
       "sku": "IL-254388",
       "name": "Ideal Lux Agos pt Lampada Da Terra-Antracite-Altezza-60cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 81.0,
       "status": 0,
       "visibility": 1,
@@ -154,7 +154,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -168,7 +168,7 @@
     "product": {
       "sku": "IL-268439",
       "name": "Ideal Lux Agos pt Lampada Da Terra-Antracite-Altezza-60cm-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 80.0,
       "status": 0,
       "visibility": 1,
@@ -203,7 +203,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -217,7 +217,7 @@
     "product": {
       "sku": "IL-326689",
       "name": "Ideal Lux Agos pt Lampada Da Terra-Caffè-Altezza-60cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 81.0,
       "status": 0,
       "visibility": 1,
@@ -236,7 +236,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -252,7 +252,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -266,7 +266,7 @@
     "product": {
       "sku": "IL-326696",
       "name": "Ideal Lux Agos pt Lampada Da Terra-Nero-Altezza-60cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 81.0,
       "status": 0,
       "visibility": 1,
@@ -301,7 +301,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -315,7 +315,7 @@
     "product": {
       "sku": "IL-254319",
       "name": "Ideal Lux Agos pt Lampada Da Terra-Antracite-Altezza-80cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 102.0,
       "status": 0,
       "visibility": 1,
@@ -350,7 +350,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -364,7 +364,7 @@
     "product": {
       "sku": "IL-268422",
       "name": "Ideal Lux Agos pt Lampada Da Terra-Antracite-Altezza-80cm-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -399,7 +399,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -413,7 +413,7 @@
     "product": {
       "sku": "IL-326726",
       "name": "Ideal Lux Agos pt Lampada Da Terra-Caffè-Altezza-80cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 102.0,
       "status": 0,
       "visibility": 1,
@@ -432,7 +432,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -448,7 +448,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -462,7 +462,7 @@
     "product": {
       "sku": "IL-326733",
       "name": "Ideal Lux Agos pt Lampada Da Terra-Nero-Altezza-80cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 102.0,
       "status": 0,
       "visibility": 1,
@@ -497,7 +497,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -511,7 +511,7 @@
     "product": {
       "sku": "IL-284309",
       "name": "Ideal Lux Angolo pt5 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 280.0,
       "status": 0,
       "visibility": 1,
@@ -538,7 +538,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -569,7 +569,7 @@
     "product": {
       "sku": "IL-284354",
       "name": "Ideal Lux Angolo pt5 Lampada Da Terra-Ottone",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 280.0,
       "status": 0,
       "visibility": 1,
@@ -596,7 +596,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -627,7 +627,7 @@
     "product": {
       "sku": "IL-365749",
       "name": "Ideal Lux Arcadia pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 152.0,
       "status": 0,
       "visibility": 1,
@@ -650,7 +650,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -681,7 +681,7 @@
     "product": {
       "sku": "IL-298610",
       "name": "Ideal Lux Arcadia pt1 antracite Lampada Da Terra-Grigio",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 152.0,
       "status": 0,
       "visibility": 1,
@@ -704,7 +704,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -718,7 +718,7 @@
     "product": {
       "sku": "IL-198644",
       "name": "Ideal Lux Atena pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 87.0,
       "status": 0,
       "visibility": 1,
@@ -745,7 +745,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -776,7 +776,7 @@
     "product": {
       "sku": "IL-198637",
       "name": "Ideal Lux Atena pt1 Lampada Da Terra-Grigio",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 87.0,
       "status": 0,
       "visibility": 1,
@@ -803,7 +803,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -834,7 +834,7 @@
     "product": {
       "sku": "IL-198620",
       "name": "Ideal Lux Atena pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 87.0,
       "status": 0,
       "visibility": 1,
@@ -861,7 +861,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -892,7 +892,7 @@
     "product": {
       "sku": "IL-272245",
       "name": "Ideal Lux Axel pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 230.0,
       "status": 0,
       "visibility": 1,
@@ -919,7 +919,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -950,7 +950,7 @@
     "product": {
       "sku": "IL-282084",
       "name": "Ideal Lux Axel pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 230.0,
       "status": 0,
       "visibility": 1,
@@ -977,7 +977,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1008,7 +1008,7 @@
     "product": {
       "sku": "IL-328317",
       "name": "Ideal Lux Binomio led pt4 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 250.0,
       "status": 0,
       "visibility": 1,
@@ -1035,7 +1035,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1049,7 +1049,7 @@
     "product": {
       "sku": "IL-313313",
       "name": "Ideal Lux Binomio led pt4 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 250.0,
       "status": 0,
       "visibility": 1,
@@ -1076,7 +1076,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1090,7 +1090,7 @@
     "product": {
       "sku": "IL-328324",
       "name": "Ideal Lux Binomio led pt4 Lampada Da Terra-Ottone",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 250.0,
       "status": 0,
       "visibility": 1,
@@ -1117,7 +1117,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1131,7 +1131,7 @@
     "product": {
       "sku": "IL-353210",
       "name": "Ideal Lux Binomio pt3 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -1158,7 +1158,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1189,7 +1189,7 @@
     "product": {
       "sku": "IL-369327",
       "name": "Ideal Lux Binomio pt3 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -1216,7 +1216,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1247,7 +1247,7 @@
     "product": {
       "sku": "IL-353265",
       "name": "Ideal Lux Binomio pt3 Lampada Da Terra-Ottone",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -1274,7 +1274,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1305,7 +1305,7 @@
     "product": {
       "sku": "IL-273662",
       "name": "Ideal Lux Birds pt5 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 340.0,
       "status": 0,
       "visibility": 1,
@@ -1328,7 +1328,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1359,7 +1359,7 @@
     "product": {
       "sku": "IL-368641",
       "name": "Ideal Lux Blade pt Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 750.0,
       "status": 0,
       "visibility": 1,
@@ -1386,7 +1386,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1417,7 +1417,7 @@
     "product": {
       "sku": "IL-368658",
       "name": "Ideal Lux Blade pt Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 750.0,
       "status": 0,
       "visibility": 1,
@@ -1444,7 +1444,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1475,7 +1475,7 @@
     "product": {
       "sku": "IL-368672",
       "name": "Ideal Lux Blade pt Lampada Da Terra-Nichel",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 750.0,
       "status": 0,
       "visibility": 1,
@@ -1502,7 +1502,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1533,7 +1533,7 @@
     "product": {
       "sku": "IL-368665",
       "name": "Ideal Lux Blade pt Lampada Da Terra-Ottone",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 750.0,
       "status": 0,
       "visibility": 1,
@@ -1560,7 +1560,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1591,7 +1591,7 @@
     "product": {
       "sku": "IL-362861",
       "name": "Ideal Lux Bloom pt2 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 500.0,
       "status": 0,
       "visibility": 1,
@@ -1618,7 +1618,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1649,7 +1649,7 @@
     "product": {
       "sku": "IL-366616",
       "name": "Ideal Lux Bloom pt2 Lampada Da Terra-Ottone",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 500.0,
       "status": 0,
       "visibility": 1,
@@ -1676,7 +1676,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1707,7 +1707,7 @@
     "product": {
       "sku": "IL-346656",
       "name": "Ideal Lux Boeing pt Lampada Da Terra-Antracite-Altezza-15cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 140.0,
       "status": 0,
       "visibility": 1,
@@ -1738,7 +1738,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1769,7 +1769,7 @@
     "product": {
       "sku": "IL-346663",
       "name": "Ideal Lux Boeing pt Lampada Da Terra-Caffè-Altezza-15cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 140.0,
       "status": 0,
       "visibility": 1,
@@ -1788,7 +1788,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -1800,7 +1800,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1831,7 +1831,7 @@
     "product": {
       "sku": "IL-346670",
       "name": "Ideal Lux Boeing pt Lampada Da Terra-Nero-Altezza-15cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 140.0,
       "status": 0,
       "visibility": 1,
@@ -1862,7 +1862,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1893,7 +1893,7 @@
     "product": {
       "sku": "IL-327242",
       "name": "Ideal Lux Boeing pt Lampada Da Terra-Antracite-Altezza-40cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -1924,7 +1924,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -1955,7 +1955,7 @@
     "product": {
       "sku": "IL-346687",
       "name": "Ideal Lux Boeing pt Lampada Da Terra-Caffè-Altezza-40cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -1974,7 +1974,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -1986,7 +1986,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2017,7 +2017,7 @@
     "product": {
       "sku": "IL-346694",
       "name": "Ideal Lux Boeing pt Lampada Da Terra-Nero-Altezza-40cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -2048,7 +2048,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2079,7 +2079,7 @@
     "product": {
       "sku": "IL-327259",
       "name": "Ideal Lux Boeing pt Lampada Da Terra-Antracite-Altezza-70cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -2102,7 +2102,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3866"
+          "value": "3990"
         },
         {
           "attribute_code": "lamp_ean",
@@ -2110,7 +2110,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2141,7 +2141,7 @@
     "product": {
       "sku": "IL-346700",
       "name": "Ideal Lux Boeing pt Lampada Da Terra-Caffè-Altezza-70cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -2160,11 +2160,11 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3866"
+          "value": "3990"
         },
         {
           "attribute_code": "lamp_ean",
@@ -2172,7 +2172,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2203,7 +2203,7 @@
     "product": {
       "sku": "IL-346717",
       "name": "Ideal Lux Boeing pt Lampada Da Terra-Nero-Altezza-70cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -2226,7 +2226,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3866"
+          "value": "3990"
         },
         {
           "attribute_code": "lamp_ean",
@@ -2234,7 +2234,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2265,7 +2265,7 @@
     "product": {
       "sku": "IL-327266",
       "name": "Ideal Lux Boeing pt Lampada Da Terra-Antracite-Altezza-100cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 210.0,
       "status": 0,
       "visibility": 1,
@@ -2296,7 +2296,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2327,7 +2327,7 @@
     "product": {
       "sku": "IL-346724",
       "name": "Ideal Lux Boeing pt Lampada Da Terra-Caffè-Altezza-100cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 210.0,
       "status": 0,
       "visibility": 1,
@@ -2346,7 +2346,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -2358,7 +2358,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2389,7 +2389,7 @@
     "product": {
       "sku": "IL-346731",
       "name": "Ideal Lux Boeing pt Lampada Da Terra-Nero-Altezza-100cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 210.0,
       "status": 0,
       "visibility": 1,
@@ -2420,7 +2420,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2451,7 +2451,7 @@
     "product": {
       "sku": "IL-317137",
       "name": "Ideal Lux Carta pt1 Lampada Da Terra-Bianco-Diametro-30cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 110.0,
       "status": 0,
       "visibility": 1,
@@ -2478,7 +2478,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2492,7 +2492,7 @@
     "product": {
       "sku": "IL-317144",
       "name": "Ideal Lux Carta pt1 Lampada Da Terra-Bianco-Diametro-40cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 225.0,
       "status": 0,
       "visibility": 1,
@@ -2519,7 +2519,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2533,7 +2533,7 @@
     "product": {
       "sku": "IL-246833",
       "name": "Ideal Lux Cima pt2 Lampada Da Terra-Antracite",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 330.0,
       "status": 0,
       "visibility": 1,
@@ -2560,7 +2560,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2591,7 +2591,7 @@
     "product": {
       "sku": "IL-246840",
       "name": "Ideal Lux Cima pt2 Lampada Da Terra-Caffè",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 330.0,
       "status": 0,
       "visibility": 1,
@@ -2610,7 +2610,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "lamp_ean",
@@ -2618,7 +2618,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2649,7 +2649,7 @@
     "product": {
       "sku": "IL-024097",
       "name": "Ideal Lux Cima pt2 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 330.0,
       "status": 0,
       "visibility": 1,
@@ -2676,7 +2676,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2707,7 +2707,7 @@
     "product": {
       "sku": "IL-249452",
       "name": "Ideal Lux Clio mpt1 Lampada Da Terra-Antracite",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -2734,7 +2734,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2765,7 +2765,7 @@
     "product": {
       "sku": "IL-249469",
       "name": "Ideal Lux Clio mpt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -2792,7 +2792,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2823,7 +2823,7 @@
     "product": {
       "sku": "IL-328829",
       "name": "Ideal Lux Clio mpt1 Lampada Da Terra-Caffè",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -2842,7 +2842,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "lamp_ean",
@@ -2850,7 +2850,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2881,7 +2881,7 @@
     "product": {
       "sku": "IL-249476",
       "name": "Ideal Lux Clio mpt1 Lampada Da Terra-Grigio",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -2908,7 +2908,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2922,7 +2922,7 @@
     "product": {
       "sku": "IL-249483",
       "name": "Ideal Lux Clio mpt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -2949,7 +2949,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -2980,7 +2980,7 @@
     "product": {
       "sku": "IL-249490",
       "name": "Ideal Lux Clio mpt2 Lampada Da Terra-Antracite",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 285.0,
       "status": 0,
       "visibility": 1,
@@ -3007,7 +3007,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3038,7 +3038,7 @@
     "product": {
       "sku": "IL-249506",
       "name": "Ideal Lux Clio mpt2 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 285.0,
       "status": 0,
       "visibility": 1,
@@ -3065,7 +3065,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3096,7 +3096,7 @@
     "product": {
       "sku": "IL-328836",
       "name": "Ideal Lux Clio mpt2 Lampada Da Terra-Caffè",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 285.0,
       "status": 0,
       "visibility": 1,
@@ -3115,7 +3115,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "lamp_ean",
@@ -3123,7 +3123,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3154,7 +3154,7 @@
     "product": {
       "sku": "IL-249513",
       "name": "Ideal Lux Clio mpt2 Lampada Da Terra-Grigio",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 285.0,
       "status": 0,
       "visibility": 1,
@@ -3181,7 +3181,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3195,7 +3195,7 @@
     "product": {
       "sku": "IL-249520",
       "name": "Ideal Lux Clio mpt2 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 285.0,
       "status": 0,
       "visibility": 1,
@@ -3222,7 +3222,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3253,7 +3253,7 @@
     "product": {
       "sku": "IL-304649",
       "name": "Ideal Lux Comet pt Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 295.0,
       "status": 0,
       "visibility": 1,
@@ -3280,7 +3280,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3311,7 +3311,7 @@
     "product": {
       "sku": "IL-304168",
       "name": "Ideal Lux Comet pt Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 295.0,
       "status": 0,
       "visibility": 1,
@@ -3338,7 +3338,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3369,7 +3369,7 @@
     "product": {
       "sku": "IL-296685",
       "name": "Ideal Lux Comfort-1 pt Lampada Da Terra-Bianco-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 650.0,
       "status": 0,
       "visibility": 1,
@@ -3400,7 +3400,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3414,7 +3414,7 @@
     "product": {
       "sku": "IL-306452",
       "name": "Ideal Lux Comfort-1 pt Lampada Da Terra-Bianco-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 650.0,
       "status": 0,
       "visibility": 1,
@@ -3445,7 +3445,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3459,7 +3459,7 @@
     "product": {
       "sku": "IL-296678",
       "name": "Ideal Lux Comfort-1 pt Lampada Da Terra-Nero-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 650.0,
       "status": 0,
       "visibility": 1,
@@ -3490,7 +3490,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3504,7 +3504,7 @@
     "product": {
       "sku": "IL-306469",
       "name": "Ideal Lux Comfort-1 pt Lampada Da Terra-Nero-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 650.0,
       "status": 0,
       "visibility": 1,
@@ -3535,7 +3535,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3549,7 +3549,7 @@
     "product": {
       "sku": "IL-345307",
       "name": "Ideal Lux Comfort-2 pt Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 950.0,
       "status": 0,
       "visibility": 1,
@@ -3576,7 +3576,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3590,7 +3590,7 @@
     "product": {
       "sku": "IL-336220",
       "name": "Ideal Lux Comfort-2 pt Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 950.0,
       "status": 0,
       "visibility": 1,
@@ -3617,7 +3617,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3631,7 +3631,7 @@
     "product": {
       "sku": "IL-187877",
       "name": "Ideal Lux Cosmo pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -3658,7 +3658,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3689,7 +3689,7 @@
     "product": {
       "sku": "IL-187884",
       "name": "Ideal Lux Cosmo pt1 Lampada Da Terra-Grigio",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -3716,7 +3716,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3747,7 +3747,7 @@
     "product": {
       "sku": "IL-187891",
       "name": "Ideal Lux Cosmo pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -3774,7 +3774,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3805,7 +3805,7 @@
     "product": {
       "sku": "IL-284484",
       "name": "Ideal Lux Craft pt Lampada Da Terra-Legno",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 395.0,
       "status": 0,
       "visibility": 1,
@@ -3828,7 +3828,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3859,7 +3859,7 @@
     "product": {
       "sku": "IL-111452",
       "name": "Ideal Lux Cylinder pt2 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 260.0,
       "status": 0,
       "visibility": 1,
@@ -3882,7 +3882,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3913,7 +3913,7 @@
     "product": {
       "sku": "IL-110356",
       "name": "Ideal Lux Daddy pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 340.0,
       "status": 0,
       "visibility": 1,
@@ -3940,7 +3940,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -3971,7 +3971,7 @@
     "product": {
       "sku": "IL-110363",
       "name": "Ideal Lux Daddy pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 340.0,
       "status": 0,
       "visibility": 1,
@@ -3998,7 +3998,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4029,7 +4029,7 @@
     "product": {
       "sku": "IL-120454",
       "name": "Ideal Lux Dafne pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 89.0,
       "status": 0,
       "visibility": 1,
@@ -4056,7 +4056,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4087,7 +4087,7 @@
     "product": {
       "sku": "IL-101514",
       "name": "Ideal Lux Dafne pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 89.0,
       "status": 0,
       "visibility": 1,
@@ -4114,7 +4114,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4145,7 +4145,7 @@
     "product": {
       "sku": "IL-279800",
       "name": "Ideal Lux Diesis pt Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -4172,7 +4172,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4203,7 +4203,7 @@
     "product": {
       "sku": "IL-285337",
       "name": "Ideal Lux Diesis pt Lampada Da Terra-Nichel",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -4230,7 +4230,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4261,7 +4261,7 @@
     "product": {
       "sku": "IL-285344",
       "name": "Ideal Lux Diesis pt Lampada Da Terra-Ottone",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -4288,7 +4288,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4319,7 +4319,7 @@
     "product": {
       "sku": "IL-370422",
       "name": "Ideal Lux Dodo pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 140.0,
       "status": 0,
       "visibility": 1,
@@ -4346,7 +4346,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4377,7 +4377,7 @@
     "product": {
       "sku": "IL-370477",
       "name": "Ideal Lux Dodo pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 140.0,
       "status": 0,
       "visibility": 1,
@@ -4404,7 +4404,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4435,7 +4435,7 @@
     "product": {
       "sku": "IL-352152",
       "name": "Ideal Lux Dodo pt1 Lampada Da Terra-Ottone",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 140.0,
       "status": 0,
       "visibility": 1,
@@ -4462,7 +4462,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4493,7 +4493,7 @@
     "product": {
       "sku": "IL-366142",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Acciaio",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -4520,7 +4520,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4551,7 +4551,7 @@
     "product": {
       "sku": "IL-354668",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Arancione",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -4578,7 +4578,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4609,7 +4609,7 @@
     "product": {
       "sku": "IL-366111",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -4636,7 +4636,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4667,7 +4667,7 @@
     "product": {
       "sku": "IL-366135",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Blu",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -4694,7 +4694,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4725,7 +4725,7 @@
     "product": {
       "sku": "IL-366203",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Bronzo",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -4752,7 +4752,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4783,7 +4783,7 @@
     "product": {
       "sku": "IL-366210",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Grigio",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -4810,7 +4810,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4841,7 +4841,7 @@
     "product": {
       "sku": "IL-366128",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -4868,7 +4868,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4899,7 +4899,7 @@
     "product": {
       "sku": "IL-366166",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Ottone",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -4926,7 +4926,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -4957,7 +4957,7 @@
     "product": {
       "sku": "IL-366159",
       "name": "Ideal Lux Dorica pt1 Lampada Da Terra-Rame",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -4984,7 +4984,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5015,7 +5015,7 @@
     "product": {
       "sku": "IL-366227",
       "name": "Ideal Lux Dorica pt3 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 750.0,
       "status": 0,
       "visibility": 1,
@@ -5042,7 +5042,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5073,7 +5073,7 @@
     "product": {
       "sku": "IL-366234",
       "name": "Ideal Lux Dorica pt3 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 750.0,
       "status": 0,
       "visibility": 1,
@@ -5100,7 +5100,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5131,7 +5131,7 @@
     "product": {
       "sku": "IL-366241",
       "name": "Ideal Lux Dorica pt3 Lampada Da Terra-Ottone",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 750.0,
       "status": 0,
       "visibility": 1,
@@ -5158,7 +5158,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5189,7 +5189,7 @@
     "product": {
       "sku": "IL-214009",
       "name": "Ideal Lux Doris pt1 Lampada Da Terra-Bianco-Diametro-30cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -5216,7 +5216,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5247,7 +5247,7 @@
     "product": {
       "sku": "IL-195483",
       "name": "Ideal Lux Doris pt1 Lampada Da Terra-Bianco-Diametro-48cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 215.0,
       "status": 0,
       "visibility": 1,
@@ -5266,7 +5266,7 @@
       "custom_attributes": [
         {
           "attribute_code": "config_dimensioni",
-          "value": "3868"
+          "value": "3992"
         },
         {
           "attribute_code": "lamp_ean",
@@ -5274,7 +5274,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5305,7 +5305,7 @@
     "product": {
       "sku": "IL-195490",
       "name": "Ideal Lux Doris pt1 Lampada Da Terra-Bianco-Diametro-58cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 325.0,
       "status": 0,
       "visibility": 1,
@@ -5324,7 +5324,7 @@
       "custom_attributes": [
         {
           "attribute_code": "config_dimensioni",
-          "value": "3869"
+          "value": "3993"
         },
         {
           "attribute_code": "lamp_ean",
@@ -5332,7 +5332,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5363,7 +5363,7 @@
     "product": {
       "sku": "IL-195506",
       "name": "Ideal Lux Doris pt1 Lampada Da Terra-Bianco-Diametro-78cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 545.0,
       "status": 0,
       "visibility": 1,
@@ -5382,7 +5382,7 @@
       "custom_attributes": [
         {
           "attribute_code": "config_dimensioni",
-          "value": "3870"
+          "value": "3994"
         },
         {
           "attribute_code": "lamp_ean",
@@ -5390,7 +5390,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5421,7 +5421,7 @@
     "product": {
       "sku": "IL-286686",
       "name": "Ideal Lux Dorsale mpt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 605.0,
       "status": 0,
       "visibility": 1,
@@ -5448,7 +5448,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5479,7 +5479,7 @@
     "product": {
       "sku": "IL-286662",
       "name": "Ideal Lux Dorsale mpt1 Lampada Da Terra-Cromo",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 605.0,
       "status": 0,
       "visibility": 1,
@@ -5506,7 +5506,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5537,7 +5537,7 @@
     "product": {
       "sku": "IL-286679",
       "name": "Ideal Lux Dorsale mpt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 605.0,
       "status": 0,
       "visibility": 1,
@@ -5564,7 +5564,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5595,7 +5595,7 @@
     "product": {
       "sku": "IL-148939",
       "name": "Ideal Lux Driftwood pt1 Lampada Da Terra-Legno",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 665.0,
       "status": 0,
       "visibility": 1,
@@ -5618,7 +5618,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5649,7 +5649,7 @@
     "product": {
       "sku": "IL-180946",
       "name": "Ideal Lux Driftwood pt3 Lampada Da Terra-Legno",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 745.0,
       "status": 0,
       "visibility": 1,
@@ -5672,7 +5672,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5686,7 +5686,7 @@
     "product": {
       "sku": "IL-295473",
       "name": "Ideal Lux Easy pt Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -5713,7 +5713,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5744,7 +5744,7 @@
     "product": {
       "sku": "IL-295497",
       "name": "Ideal Lux Easy pt Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -5771,7 +5771,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5802,7 +5802,7 @@
     "product": {
       "sku": "IL-295503",
       "name": "Ideal Lux Easy pt Lampada Da Terra-Ottone",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -5829,7 +5829,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5860,7 +5860,7 @@
     "product": {
       "sku": "IL-138510",
       "name": "Ideal Lux Edo pt1 round Lampada Da Terra-Rotondo-Antracite-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 139.0,
       "status": 0,
       "visibility": 1,
@@ -5895,7 +5895,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5909,7 +5909,7 @@
     "product": {
       "sku": "IL-135755",
       "name": "Ideal Lux Edo pt1 round Lampada Da Terra-Rotondo-Bianco-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 139.0,
       "status": 0,
       "visibility": 1,
@@ -5944,7 +5944,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -5958,7 +5958,7 @@
     "product": {
       "sku": "IL-213071",
       "name": "Ideal Lux Edo pt1 round Lampada Da Terra-Rotondo-Caffè-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 139.0,
       "status": 0,
       "visibility": 1,
@@ -5977,7 +5977,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -5993,7 +5993,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6007,7 +6007,7 @@
     "product": {
       "sku": "IL-135762",
       "name": "Ideal Lux Edo pt1 square Lampada Da Terra-Quadrato-Antracite-Altezza-79cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 139.0,
       "status": 0,
       "visibility": 1,
@@ -6030,7 +6030,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3871"
+          "value": "3995"
         },
         {
           "attribute_code": "config_tipo",
@@ -6042,7 +6042,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6056,7 +6056,7 @@
     "product": {
       "sku": "IL-142999",
       "name": "Ideal Lux Edo pt1 square Lampada Da Terra-Quadrato-Bianco-Altezza-79cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 139.0,
       "status": 0,
       "visibility": 1,
@@ -6079,7 +6079,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3871"
+          "value": "3995"
         },
         {
           "attribute_code": "config_tipo",
@@ -6091,7 +6091,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6105,7 +6105,7 @@
     "product": {
       "sku": "IL-213088",
       "name": "Ideal Lux Edo pt1 square Lampada Da Terra-Quadrato-Caffè-Altezza-79cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 139.0,
       "status": 0,
       "visibility": 1,
@@ -6124,11 +6124,11 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3871"
+          "value": "3995"
         },
         {
           "attribute_code": "config_tipo",
@@ -6140,7 +6140,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6154,7 +6154,7 @@
     "product": {
       "sku": "IL-344775",
       "name": "Ideal Lux Ego pt Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 300.0,
       "status": 0,
       "visibility": 1,
@@ -6177,7 +6177,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6208,7 +6208,7 @@
     "product": {
       "sku": "IL-290959",
       "name": "Ideal Lux Equinoxe pt4 Lampada Da Terra-Cromo",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 550.0,
       "status": 0,
       "visibility": 1,
@@ -6235,7 +6235,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6266,7 +6266,7 @@
     "product": {
       "sku": "IL-290966",
       "name": "Ideal Lux Equinoxe pt4 Lampada Da Terra-Ottone",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 550.0,
       "status": 0,
       "visibility": 1,
@@ -6293,7 +6293,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6324,7 +6324,7 @@
     "product": {
       "sku": "IL-348285",
       "name": "Ideal Lux Equinoxe pt4 ambra sfumato Lampada Da Terra-Ambra",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 550.0,
       "status": 0,
       "visibility": 1,
@@ -6347,7 +6347,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6378,7 +6378,7 @@
     "product": {
       "sku": "IL-348292",
       "name": "Ideal Lux Equinoxe pt4 fume' sfumato Lampada Da Terra-Fumé",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 550.0,
       "status": 0,
       "visibility": 1,
@@ -6401,7 +6401,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6415,7 +6415,7 @@
     "product": {
       "sku": "IL-367163",
       "name": "Ideal Lux Essence pt round Lampada Da Terra-Rotondo-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 220.0,
       "status": 0,
       "visibility": 1,
@@ -6446,7 +6446,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6477,7 +6477,7 @@
     "product": {
       "sku": "IL-371740",
       "name": "Ideal Lux Essence pt round Lampada Da Terra-Rotondo-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 220.0,
       "status": 0,
       "visibility": 1,
@@ -6508,7 +6508,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6539,7 +6539,7 @@
     "product": {
       "sku": "IL-367170",
       "name": "Ideal Lux Essence pt square Lampada Da Terra-Quadrato-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 220.0,
       "status": 0,
       "visibility": 1,
@@ -6570,7 +6570,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6601,7 +6601,7 @@
     "product": {
       "sku": "IL-371771",
       "name": "Ideal Lux Essence pt square Lampada Da Terra-Quadrato-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 220.0,
       "status": 0,
       "visibility": 1,
@@ -6632,7 +6632,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6663,7 +6663,7 @@
     "product": {
       "sku": "IL-246932",
       "name": "Ideal Lux Etere pt Lampada Da Terra-Antracite-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -6694,7 +6694,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6725,7 +6725,7 @@
     "product": {
       "sku": "IL-172439",
       "name": "Ideal Lux Etere pt Lampada Da Terra-Antracite-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -6756,7 +6756,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6787,7 +6787,7 @@
     "product": {
       "sku": "IL-269160",
       "name": "Ideal Lux Etere pt Lampada Da Terra-Caffè-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -6806,7 +6806,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_temperatura_colore",
@@ -6818,7 +6818,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6849,7 +6849,7 @@
     "product": {
       "sku": "IL-246956",
       "name": "Ideal Lux Etere pt Lampada Da Terra-Caffè-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -6868,7 +6868,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_temperatura_colore",
@@ -6880,7 +6880,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6911,7 +6911,7 @@
     "product": {
       "sku": "IL-322261",
       "name": "Ideal Lux Etere pt Lampada Da Terra-Nero-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -6942,7 +6942,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -6973,7 +6973,7 @@
     "product": {
       "sku": "IL-322278",
       "name": "Ideal Lux Etere pt Lampada Da Terra-Nero-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 121.0,
       "status": 0,
       "visibility": 1,
@@ -7004,7 +7004,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7035,7 +7035,7 @@
     "product": {
       "sku": "IL-295213",
       "name": "Ideal Lux Eva pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 275.0,
       "status": 0,
       "visibility": 1,
@@ -7058,7 +7058,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7089,7 +7089,7 @@
     "product": {
       "sku": "IL-002880",
       "name": "Ideal Lux Firenze pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 370.0,
       "status": 0,
       "visibility": 1,
@@ -7116,7 +7116,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7147,7 +7147,7 @@
     "product": {
       "sku": "IL-020877",
       "name": "Ideal Lux Firenze pt1 Lampada Da Terra-Oro",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 370.0,
       "status": 0,
       "visibility": 1,
@@ -7174,7 +7174,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7205,7 +7205,7 @@
     "product": {
       "sku": "IL-299624",
       "name": "Ideal Lux Frame pt Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 450.0,
       "status": 0,
       "visibility": 1,
@@ -7232,7 +7232,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7246,7 +7246,7 @@
     "product": {
       "sku": "IL-299617",
       "name": "Ideal Lux Frame pt Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 450.0,
       "status": 0,
       "visibility": 1,
@@ -7273,7 +7273,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7287,7 +7287,7 @@
     "product": {
       "sku": "IL-204956",
       "name": "Ideal Lux Futura pt Lampada Da Terra-Alluminio",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -7314,7 +7314,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7345,7 +7345,7 @@
     "product": {
       "sku": "IL-272085",
       "name": "Ideal Lux Futura pt Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -7372,7 +7372,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7403,7 +7403,7 @@
     "product": {
       "sku": "IL-204949",
       "name": "Ideal Lux Futura pt Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -7430,7 +7430,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7461,7 +7461,7 @@
     "product": {
       "sku": "IL-139470",
       "name": "Ideal Lux Gas pt1 Lampada Da Terra-Antracite",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 116.0,
       "status": 0,
       "visibility": 1,
@@ -7488,7 +7488,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7519,7 +7519,7 @@
     "product": {
       "sku": "IL-213101",
       "name": "Ideal Lux Gas pt1 Lampada Da Terra-Caffè",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 116.0,
       "status": 0,
       "visibility": 1,
@@ -7538,7 +7538,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "lamp_ean",
@@ -7546,7 +7546,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7577,7 +7577,7 @@
     "product": {
       "sku": "IL-322421",
       "name": "Ideal Lux Gas pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 116.0,
       "status": 0,
       "visibility": 1,
@@ -7604,7 +7604,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7635,7 +7635,7 @@
     "product": {
       "sku": "IL-326665",
       "name": "Ideal Lux Ginger pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -7662,7 +7662,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7693,7 +7693,7 @@
     "product": {
       "sku": "IL-326658",
       "name": "Ideal Lux Ginger pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -7720,7 +7720,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7751,7 +7751,7 @@
     "product": {
       "sku": "IL-345314",
       "name": "Ideal Lux Ginger pt2 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -7778,7 +7778,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7809,7 +7809,7 @@
     "product": {
       "sku": "IL-326672",
       "name": "Ideal Lux Ginger pt2 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -7836,7 +7836,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7867,7 +7867,7 @@
     "product": {
       "sku": "IL-251226",
       "name": "Ideal Lux Hub pt Lampada Da Terra-Antracite-Altezza-74.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 122.0,
       "status": 0,
       "visibility": 1,
@@ -7886,7 +7886,7 @@
       "custom_attributes": [
         {
           "attribute_code": "config_dimensioni",
-          "value": "3872"
+          "value": "3996"
         },
         {
           "attribute_code": "lamp_ean",
@@ -7894,7 +7894,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7925,7 +7925,7 @@
     "product": {
       "sku": "IL-251257",
       "name": "Ideal Lux Hub pt Lampada Da Terra-Antracite-Altezza-110cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 134.0,
       "status": 0,
       "visibility": 1,
@@ -7952,7 +7952,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -7983,7 +7983,7 @@
     "product": {
       "sku": "IL-300658",
       "name": "Ideal Lux Ipotesi pt Lampada Da Terra-Nero-Altezza-50cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 435.0,
       "status": 0,
       "visibility": 1,
@@ -8014,7 +8014,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8028,7 +8028,7 @@
     "product": {
       "sku": "IL-300641",
       "name": "Ideal Lux Ipotesi pt Lampada Da Terra-Bianco-Altezza-50cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 435.0,
       "status": 0,
       "visibility": 1,
@@ -8059,7 +8059,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8073,7 +8073,7 @@
     "product": {
       "sku": "IL-282251",
       "name": "Ideal Lux Ipotesi pt Lampada Da Terra-Bianco-Altezza-73cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 335.0,
       "status": 0,
       "visibility": 1,
@@ -8096,7 +8096,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3873"
+          "value": "3997"
         },
         {
           "attribute_code": "lamp_ean",
@@ -8104,7 +8104,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8118,7 +8118,7 @@
     "product": {
       "sku": "IL-282244",
       "name": "Ideal Lux Ipotesi pt bianco Lampada Da Terra-Nero-Altezza-73cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 335.0,
       "status": 0,
       "visibility": 1,
@@ -8141,7 +8141,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3873"
+          "value": "3997"
         },
         {
           "attribute_code": "lamp_ean",
@@ -8149,7 +8149,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8163,7 +8163,7 @@
     "product": {
       "sku": "IL-180953",
       "name": "Ideal Lux Itaca pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 310.0,
       "status": 0,
       "visibility": 1,
@@ -8186,7 +8186,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8200,7 +8200,7 @@
     "product": {
       "sku": "IL-363721",
       "name": "Ideal Lux Jedi pt Lampada Da Terra-Antracite-Altezza-40cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 74.0,
       "status": 0,
       "visibility": 1,
@@ -8231,7 +8231,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8262,7 +8262,7 @@
     "product": {
       "sku": "IL-372259",
       "name": "Ideal Lux Jedi pt Lampada Da Terra-Caffè-Altezza-40cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 74.0,
       "status": 0,
       "visibility": 1,
@@ -8281,7 +8281,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -8293,7 +8293,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8324,7 +8324,7 @@
     "product": {
       "sku": "IL-372266",
       "name": "Ideal Lux Jedi pt Lampada Da Terra-Nero-Altezza-40cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 74.0,
       "status": 0,
       "visibility": 1,
@@ -8355,7 +8355,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8386,7 +8386,7 @@
     "product": {
       "sku": "IL-306780",
       "name": "Ideal Lux Jedi pt Lampada Da Terra-Antracite-Altezza-80.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -8409,7 +8409,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3874"
+          "value": "3998"
         },
         {
           "attribute_code": "lamp_ean",
@@ -8417,7 +8417,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8448,7 +8448,7 @@
     "product": {
       "sku": "IL-372273",
       "name": "Ideal Lux Jedi pt Lampada Da Terra-Caffè-Altezza-80.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -8467,11 +8467,11 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3874"
+          "value": "3998"
         },
         {
           "attribute_code": "lamp_ean",
@@ -8479,7 +8479,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8510,7 +8510,7 @@
     "product": {
       "sku": "IL-293189",
       "name": "Ideal Lux Jedi pt Lampada Da Terra-Nero-Altezza-80.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 95.0,
       "status": 0,
       "visibility": 1,
@@ -8533,7 +8533,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3874"
+          "value": "3998"
         },
         {
           "attribute_code": "lamp_ean",
@@ -8541,7 +8541,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8572,7 +8572,7 @@
     "product": {
       "sku": "IL-306797",
       "name": "Ideal Lux Jedi pt Lampada Da Terra-Antracite-Altezza-120.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 131.0,
       "status": 0,
       "visibility": 1,
@@ -8595,7 +8595,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3875"
+          "value": "3999"
         },
         {
           "attribute_code": "lamp_ean",
@@ -8603,7 +8603,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8634,7 +8634,7 @@
     "product": {
       "sku": "IL-372280",
       "name": "Ideal Lux Jedi pt Lampada Da Terra-Caffè-Altezza-120.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 131.0,
       "status": 0,
       "visibility": 1,
@@ -8653,11 +8653,11 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3875"
+          "value": "3999"
         },
         {
           "attribute_code": "lamp_ean",
@@ -8665,7 +8665,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8696,7 +8696,7 @@
     "product": {
       "sku": "IL-293196",
       "name": "Ideal Lux Jedi pt Lampada Da Terra-Nero-Altezza-120.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 131.0,
       "status": 0,
       "visibility": 1,
@@ -8719,7 +8719,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3875"
+          "value": "3999"
         },
         {
           "attribute_code": "lamp_ean",
@@ -8727,7 +8727,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8758,7 +8758,7 @@
     "product": {
       "sku": "IL-306803",
       "name": "Ideal Lux Jedi pt Lampada Da Terra-Antracite-Altezza-160.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 163.0,
       "status": 0,
       "visibility": 1,
@@ -8781,7 +8781,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3876"
+          "value": "4000"
         },
         {
           "attribute_code": "lamp_ean",
@@ -8789,7 +8789,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8820,7 +8820,7 @@
     "product": {
       "sku": "IL-372297",
       "name": "Ideal Lux Jedi pt Lampada Da Terra-Caffè-Altezza-160.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 163.0,
       "status": 0,
       "visibility": 1,
@@ -8839,11 +8839,11 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3876"
+          "value": "4000"
         },
         {
           "attribute_code": "lamp_ean",
@@ -8851,7 +8851,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8882,7 +8882,7 @@
     "product": {
       "sku": "IL-293202",
       "name": "Ideal Lux Jedi pt Lampada Da Terra-Nero-Altezza-160.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 163.0,
       "status": 0,
       "visibility": 1,
@@ -8905,7 +8905,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3876"
+          "value": "4000"
         },
         {
           "attribute_code": "lamp_ean",
@@ -8913,7 +8913,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8944,7 +8944,7 @@
     "product": {
       "sku": "IL-137827",
       "name": "Ideal Lux Klimt pt1 Lampada Da Terra-Legno",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 400.0,
       "status": 0,
       "visibility": 1,
@@ -8967,7 +8967,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -8981,7 +8981,7 @@
     "product": {
       "sku": "IL-306834",
       "name": "Ideal Lux Kurt pt Lampada Da Terra-Antracite-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -9012,7 +9012,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9043,7 +9043,7 @@
     "product": {
       "sku": "IL-294025",
       "name": "Ideal Lux Kurt pt Lampada Da Terra-Antracite-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -9074,7 +9074,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9105,7 +9105,7 @@
     "product": {
       "sku": "IL-306841",
       "name": "Ideal Lux Kurt pt Lampada Da Terra-Bianco-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -9136,7 +9136,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9167,7 +9167,7 @@
     "product": {
       "sku": "IL-294049",
       "name": "Ideal Lux Kurt pt Lampada Da Terra-Bianco-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -9198,7 +9198,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9229,7 +9229,7 @@
     "product": {
       "sku": "IL-306858",
       "name": "Ideal Lux Kurt pt Lampada Da Terra-Caffè-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -9248,7 +9248,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_temperatura_colore",
@@ -9260,7 +9260,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9291,7 +9291,7 @@
     "product": {
       "sku": "IL-294001",
       "name": "Ideal Lux Kurt pt Lampada Da Terra-Caffè-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -9310,7 +9310,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_temperatura_colore",
@@ -9322,7 +9322,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9353,7 +9353,7 @@
     "product": {
       "sku": "IL-306872",
       "name": "Ideal Lux Kurt pt Lampada Da Terra-Nero-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -9384,7 +9384,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9415,7 +9415,7 @@
     "product": {
       "sku": "IL-293172",
       "name": "Ideal Lux Kurt pt Lampada Da Terra-Nero-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 127.0,
       "status": 0,
       "visibility": 1,
@@ -9446,7 +9446,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9477,7 +9477,7 @@
     "product": {
       "sku": "IL-110233",
       "name": "Ideal Lux London pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -9504,7 +9504,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9535,7 +9535,7 @@
     "product": {
       "sku": "IL-032382",
       "name": "Ideal Lux London pt1 Lampada Da Terra-Cromo",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -9562,7 +9562,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9593,7 +9593,7 @@
     "product": {
       "sku": "IL-110240",
       "name": "Ideal Lux London pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -9620,7 +9620,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9651,7 +9651,7 @@
     "product": {
       "sku": "IL-304922",
       "name": "Ideal Lux Look pt1 round Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 250.0,
       "status": 0,
       "visibility": 1,
@@ -9678,7 +9678,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9692,7 +9692,7 @@
     "product": {
       "sku": "IL-304915",
       "name": "Ideal Lux Look pt1 round Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 250.0,
       "status": 0,
       "visibility": 1,
@@ -9719,7 +9719,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9733,7 +9733,7 @@
     "product": {
       "sku": "IL-314198",
       "name": "Ideal Lux Lumiere pt Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 510.0,
       "status": 0,
       "visibility": 1,
@@ -9756,7 +9756,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9787,7 +9787,7 @@
     "product": {
       "sku": "IL-191577",
       "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Lunghezza-30cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -9814,7 +9814,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9845,7 +9845,7 @@
     "product": {
       "sku": "IL-191584",
       "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Lunghezza-40cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 210.0,
       "status": 0,
       "visibility": 1,
@@ -9872,7 +9872,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9903,7 +9903,7 @@
     "product": {
       "sku": "IL-191607",
       "name": "Ideal Lux Luna pt1 Lampada Da Terra-Bianco-Lunghezza-50cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 290.0,
       "status": 0,
       "visibility": 1,
@@ -9930,7 +9930,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -9961,7 +9961,7 @@
     "product": {
       "sku": "IL-114347",
       "name": "Ideal Lux Mercurio pt1 Lampada Da Terra-Antracite",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -9984,7 +9984,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10015,7 +10015,7 @@
     "product": {
       "sku": "IL-328164",
       "name": "Ideal Lux Mix up mpt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -10042,7 +10042,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10073,7 +10073,7 @@
     "product": {
       "sku": "IL-328171",
       "name": "Ideal Lux Mix up mpt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -10100,7 +10100,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10131,7 +10131,7 @@
     "product": {
       "sku": "IL-003528",
       "name": "Ideal Lux Newton pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 120.0,
       "status": 0,
       "visibility": 1,
@@ -10158,7 +10158,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10189,7 +10189,7 @@
     "product": {
       "sku": "IL-015286",
       "name": "Ideal Lux Newton pt1 Lampada Da Terra-Nichel",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 120.0,
       "status": 0,
       "visibility": 1,
@@ -10216,7 +10216,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10247,7 +10247,7 @@
     "product": {
       "sku": "IL-161716",
       "name": "Ideal Lux Nordik pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 240.0,
       "status": 0,
       "visibility": 1,
@@ -10270,7 +10270,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10301,7 +10301,7 @@
     "product": {
       "sku": "IL-068275",
       "name": "Ideal Lux Opera pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 315.0,
       "status": 0,
       "visibility": 1,
@@ -10324,7 +10324,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10355,7 +10355,7 @@
     "product": {
       "sku": "IL-051741",
       "name": "Ideal Lux Pagoda pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 390.0,
       "status": 0,
       "visibility": 1,
@@ -10382,7 +10382,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10413,7 +10413,7 @@
     "product": {
       "sku": "IL-051765",
       "name": "Ideal Lux Pagoda pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 390.0,
       "status": 0,
       "visibility": 1,
@@ -10440,7 +10440,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10471,7 +10471,7 @@
     "product": {
       "sku": "IL-317816",
       "name": "Ideal Lux Perlage pt4 Lampada Da Terra-Ambra",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 325.0,
       "status": 0,
       "visibility": 1,
@@ -10498,7 +10498,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10529,7 +10529,7 @@
     "product": {
       "sku": "IL-277967",
       "name": "Ideal Lux Perlage pt4 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 325.0,
       "status": 0,
       "visibility": 1,
@@ -10556,7 +10556,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10587,7 +10587,7 @@
     "product": {
       "sku": "IL-306988",
       "name": "Ideal Lux Perlage pt4 Lampada Da Terra-Fumé",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 325.0,
       "status": 0,
       "visibility": 1,
@@ -10614,7 +10614,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10645,7 +10645,7 @@
     "product": {
       "sku": "IL-061115",
       "name": "Ideal Lux Polly pt2 Lampada Da Terra-Argento",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 132.0,
       "status": 0,
       "visibility": 1,
@@ -10672,7 +10672,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10703,7 +10703,7 @@
     "product": {
       "sku": "IL-061122",
       "name": "Ideal Lux Polly pt2 Lampada Da Terra-Cromo",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 132.0,
       "status": 0,
       "visibility": 1,
@@ -10730,7 +10730,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10761,7 +10761,7 @@
     "product": {
       "sku": "IL-061139",
       "name": "Ideal Lux Polly pt2 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 132.0,
       "status": 0,
       "visibility": 1,
@@ -10788,7 +10788,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10819,7 +10819,7 @@
     "product": {
       "sku": "IL-135908",
       "name": "Ideal Lux Pulsar pt1 Lampada Da Terra-Antracite",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -10842,7 +10842,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10873,7 +10873,7 @@
     "product": {
       "sku": "IL-311708",
       "name": "Ideal Lux Pure pt Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 117.0,
       "status": 0,
       "visibility": 1,
@@ -10900,7 +10900,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10931,7 +10931,7 @@
     "product": {
       "sku": "IL-328508",
       "name": "Ideal Lux Pure pt Lampada Da Terra-Caffè",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 117.0,
       "status": 0,
       "visibility": 1,
@@ -10950,7 +10950,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "lamp_ean",
@@ -10958,7 +10958,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -10989,7 +10989,7 @@
     "product": {
       "sku": "IL-328515",
       "name": "Ideal Lux Pure pt Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 117.0,
       "status": 0,
       "visibility": 1,
@@ -11016,7 +11016,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11047,7 +11047,7 @@
     "product": {
       "sku": "IL-077765",
       "name": "Ideal Lux Queen pt1 Lampada Da Terra-Oro",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 370.0,
       "status": 0,
       "visibility": 1,
@@ -11070,7 +11070,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11101,7 +11101,7 @@
     "product": {
       "sku": "IL-014609",
       "name": "Ideal Lux Regol pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 280.0,
       "status": 0,
       "visibility": 1,
@@ -11124,7 +11124,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11155,7 +11155,7 @@
     "product": {
       "sku": "IL-161754",
       "name": "Ideal Lux Sasso pt1 Lampada Da Terra-Bianco-Lunghezza-25cm-G9",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 105.0,
       "status": 0,
       "visibility": 1,
@@ -11186,7 +11186,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11217,7 +11217,7 @@
     "product": {
       "sku": "IL-161761",
       "name": "Ideal Lux Sasso pt1 Lampada Da Terra-Bianco-Lunghezza-33cm-E27",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -11248,7 +11248,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11279,7 +11279,7 @@
     "product": {
       "sku": "IL-161778",
       "name": "Ideal Lux Sasso pt1 Lampada Da Terra-Bianco-Lunghezza-41cm-E27",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 205.0,
       "status": 0,
       "visibility": 1,
@@ -11302,7 +11302,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3886"
+          "value": "4010"
         },
         {
           "attribute_code": "lamp_ean",
@@ -11310,7 +11310,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11341,7 +11341,7 @@
     "product": {
       "sku": "IL-259963",
       "name": "Ideal Lux Set up mpt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 166.0,
       "status": 0,
       "visibility": 1,
@@ -11368,7 +11368,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11399,7 +11399,7 @@
     "product": {
       "sku": "IL-259970",
       "name": "Ideal Lux Set up mpt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 166.0,
       "status": 0,
       "visibility": 1,
@@ -11426,7 +11426,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11457,7 +11457,7 @@
     "product": {
       "sku": "IL-259994",
       "name": "Ideal Lux Set up mpt1 Lampada Da Terra-Nichel",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 166.0,
       "status": 0,
       "visibility": 1,
@@ -11484,7 +11484,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11515,7 +11515,7 @@
     "product": {
       "sku": "IL-260006",
       "name": "Ideal Lux Set up mpt1 Lampada Da Terra-Ottone",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 166.0,
       "status": 0,
       "visibility": 1,
@@ -11542,7 +11542,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11573,7 +11573,7 @@
     "product": {
       "sku": "IL-339627",
       "name": "Ideal Lux Sirio led pt1 Lampada Da Terra-Antracite-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 190.0,
       "status": 0,
       "visibility": 1,
@@ -11604,7 +11604,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11635,7 +11635,7 @@
     "product": {
       "sku": "IL-365367",
       "name": "Ideal Lux Sirio led pt1 Lampada Da Terra-Bianco-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 190.0,
       "status": 0,
       "visibility": 1,
@@ -11666,7 +11666,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11697,7 +11697,7 @@
     "product": {
       "sku": "IL-365381",
       "name": "Ideal Lux Sirio led pt1 Lampada Da Terra-Caffè-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 190.0,
       "status": 0,
       "visibility": 1,
@@ -11716,7 +11716,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -11728,7 +11728,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11759,7 +11759,7 @@
     "product": {
       "sku": "IL-365374",
       "name": "Ideal Lux Sirio led pt1 Lampada Da Terra-Grigio-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 190.0,
       "status": 0,
       "visibility": 1,
@@ -11790,7 +11790,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11821,7 +11821,7 @@
     "product": {
       "sku": "IL-365350",
       "name": "Ideal Lux Sirio led pt1 Lampada Da Terra-Nero-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 190.0,
       "status": 0,
       "visibility": 1,
@@ -11852,7 +11852,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11883,7 +11883,7 @@
     "product": {
       "sku": "IL-339634",
       "name": "Ideal Lux Sirio led pt1 Lampada Da Terra-Antracite-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -11914,7 +11914,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -11945,7 +11945,7 @@
     "product": {
       "sku": "IL-365404",
       "name": "Ideal Lux Sirio led pt1 Lampada Da Terra-Bianco-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -11976,7 +11976,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12007,7 +12007,7 @@
     "product": {
       "sku": "IL-365428",
       "name": "Ideal Lux Sirio led pt1 Lampada Da Terra-Caffè-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -12026,7 +12026,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -12038,7 +12038,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12069,7 +12069,7 @@
     "product": {
       "sku": "IL-365411",
       "name": "Ideal Lux Sirio led pt1 Lampada Da Terra-Grigio-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -12100,7 +12100,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12131,7 +12131,7 @@
     "product": {
       "sku": "IL-365398",
       "name": "Ideal Lux Sirio led pt1 Lampada Da Terra-Nero-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 200.0,
       "status": 0,
       "visibility": 1,
@@ -12162,7 +12162,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12193,7 +12193,7 @@
     "product": {
       "sku": "IL-369860",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Antracite-Altezza-30cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -12224,7 +12224,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12255,7 +12255,7 @@
     "product": {
       "sku": "IL-365671",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Bianco-Altezza-30cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -12286,7 +12286,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12317,7 +12317,7 @@
     "product": {
       "sku": "IL-369884",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Caffè-Altezza-30cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -12336,7 +12336,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -12348,7 +12348,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12379,7 +12379,7 @@
     "product": {
       "sku": "IL-369891",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Grigio-Altezza-30cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -12410,7 +12410,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12441,7 +12441,7 @@
     "product": {
       "sku": "IL-369914",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Nero-Altezza-30cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 100.0,
       "status": 0,
       "visibility": 1,
@@ -12472,7 +12472,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12503,7 +12503,7 @@
     "product": {
       "sku": "IL-115078",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Antracite-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -12534,7 +12534,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12548,7 +12548,7 @@
     "product": {
       "sku": "IL-115092",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Bianco-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -12579,7 +12579,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12593,7 +12593,7 @@
     "product": {
       "sku": "IL-213279",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Caffè-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -12612,7 +12612,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -12624,7 +12624,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12638,7 +12638,7 @@
     "product": {
       "sku": "IL-246970",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Grigio-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -12669,7 +12669,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12683,7 +12683,7 @@
     "product": {
       "sku": "IL-115115",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Nero-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 130.0,
       "status": 0,
       "visibility": 1,
@@ -12714,7 +12714,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12728,7 +12728,7 @@
     "product": {
       "sku": "IL-115061",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Antracite-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -12759,7 +12759,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12773,7 +12773,7 @@
     "product": {
       "sku": "IL-115085",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Bianco-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -12804,7 +12804,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12818,7 +12818,7 @@
     "product": {
       "sku": "IL-213262",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Caffè-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -12837,7 +12837,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -12849,7 +12849,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12863,7 +12863,7 @@
     "product": {
       "sku": "IL-246963",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Grigio-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -12894,7 +12894,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12908,7 +12908,7 @@
     "product": {
       "sku": "IL-115108",
       "name": "Ideal Lux Sirio pt1 Lampada Da Terra-Nero-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -12939,7 +12939,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -12953,7 +12953,7 @@
     "product": {
       "sku": "IL-318820",
       "name": "Ideal Lux Sole pt1 Lampada Da Terra-Bianco-Diametro-20cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 110.0,
       "status": 0,
       "visibility": 1,
@@ -12980,7 +12980,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13011,7 +13011,7 @@
     "product": {
       "sku": "IL-191638",
       "name": "Ideal Lux Sole pt1 Lampada Da Terra-Bianco-Diametro-30cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 120.0,
       "status": 0,
       "visibility": 1,
@@ -13038,7 +13038,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13069,7 +13069,7 @@
     "product": {
       "sku": "IL-191621",
       "name": "Ideal Lux Sole pt1 Lampada Da Terra-Bianco-Diametro-40cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -13096,7 +13096,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13127,7 +13127,7 @@
     "product": {
       "sku": "IL-191614",
       "name": "Ideal Lux Sole pt1 Lampada Da Terra-Bianco-Diametro-50cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 225.0,
       "status": 0,
       "visibility": 1,
@@ -13154,7 +13154,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13185,7 +13185,7 @@
     "product": {
       "sku": "IL-364841",
       "name": "Ideal Lux Style pt Lampada Da Terra-Antracite-Altezza-30cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 129.0,
       "status": 0,
       "visibility": 1,
@@ -13220,7 +13220,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13251,7 +13251,7 @@
     "product": {
       "sku": "IL-369594",
       "name": "Ideal Lux Style pt Lampada Da Terra-Bianco-Altezza-30cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 129.0,
       "status": 0,
       "visibility": 1,
@@ -13286,7 +13286,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13317,7 +13317,7 @@
     "product": {
       "sku": "IL-369624",
       "name": "Ideal Lux Style pt Lampada Da Terra-Caffè-Altezza-30cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 129.0,
       "status": 0,
       "visibility": 1,
@@ -13336,7 +13336,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -13352,7 +13352,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13383,7 +13383,7 @@
     "product": {
       "sku": "IL-369648",
       "name": "Ideal Lux Style pt Lampada Da Terra-Grigio-Altezza-30cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 129.0,
       "status": 0,
       "visibility": 1,
@@ -13418,7 +13418,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13449,7 +13449,7 @@
     "product": {
       "sku": "IL-369662",
       "name": "Ideal Lux Style pt Lampada Da Terra-Nero-Altezza-30cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 129.0,
       "status": 0,
       "visibility": 1,
@@ -13484,7 +13484,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13515,7 +13515,7 @@
     "product": {
       "sku": "IL-322612",
       "name": "Ideal Lux Style pt Lampada Da Terra-Antracite-Altezza-50cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -13550,7 +13550,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13581,7 +13581,7 @@
     "product": {
       "sku": "IL-322599",
       "name": "Ideal Lux Style pt Lampada Da Terra-Antracite-Altezza-50cm-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -13616,7 +13616,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13647,7 +13647,7 @@
     "product": {
       "sku": "IL-318691",
       "name": "Ideal Lux Style pt Lampada Da Terra-Bianco-Altezza-50cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -13682,7 +13682,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13713,7 +13713,7 @@
     "product": {
       "sku": "IL-322582",
       "name": "Ideal Lux Style pt Lampada Da Terra-Bianco-Altezza-50cm-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -13748,7 +13748,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13779,7 +13779,7 @@
     "product": {
       "sku": "IL-322575",
       "name": "Ideal Lux Style pt Lampada Da Terra-Caffè-Altezza-50cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -13798,7 +13798,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -13814,7 +13814,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13845,7 +13845,7 @@
     "product": {
       "sku": "IL-322568",
       "name": "Ideal Lux Style pt Lampada Da Terra-Caffè-Altezza-50cm-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -13864,7 +13864,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -13880,7 +13880,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13911,7 +13911,7 @@
     "product": {
       "sku": "IL-322551",
       "name": "Ideal Lux Style pt Lampada Da Terra-Grigio-Altezza-50cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -13946,7 +13946,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -13977,7 +13977,7 @@
     "product": {
       "sku": "IL-322544",
       "name": "Ideal Lux Style pt Lampada Da Terra-Grigio-Altezza-50cm-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -14012,7 +14012,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14043,7 +14043,7 @@
     "product": {
       "sku": "IL-322537",
       "name": "Ideal Lux Style pt Lampada Da Terra-Nero-Altezza-50cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -14078,7 +14078,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14109,7 +14109,7 @@
     "product": {
       "sku": "IL-322506",
       "name": "Ideal Lux Style pt Lampada Da Terra-Nero-Altezza-50cm-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -14144,7 +14144,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14175,7 +14175,7 @@
     "product": {
       "sku": "IL-246871",
       "name": "Ideal Lux Style pt Lampada Da Terra-Antracite-Altezza-100cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -14210,7 +14210,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14241,7 +14241,7 @@
     "product": {
       "sku": "IL-209906",
       "name": "Ideal Lux Style pt Lampada Da Terra-Antracite-Altezza-100cm-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -14276,7 +14276,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14307,7 +14307,7 @@
     "product": {
       "sku": "IL-318707",
       "name": "Ideal Lux Style pt Lampada Da Terra-Bianco-Altezza-100cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -14342,7 +14342,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14373,7 +14373,7 @@
     "product": {
       "sku": "IL-322483",
       "name": "Ideal Lux Style pt Lampada Da Terra-Bianco-Altezza-100cm-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -14408,7 +14408,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14439,7 +14439,7 @@
     "product": {
       "sku": "IL-322452",
       "name": "Ideal Lux Style pt Lampada Da Terra-Caffè-Altezza-100cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -14458,7 +14458,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -14474,7 +14474,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14505,7 +14505,7 @@
     "product": {
       "sku": "IL-322438",
       "name": "Ideal Lux Style pt Lampada Da Terra-Caffè-Altezza-100cm-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -14524,7 +14524,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -14540,7 +14540,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14571,7 +14571,7 @@
     "product": {
       "sku": "IL-322384",
       "name": "Ideal Lux Style pt Lampada Da Terra-Grigio-Altezza-100cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -14606,7 +14606,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14637,7 +14637,7 @@
     "product": {
       "sku": "IL-322353",
       "name": "Ideal Lux Style pt Lampada Da Terra-Grigio-Altezza-100cm-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -14672,7 +14672,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14703,7 +14703,7 @@
     "product": {
       "sku": "IL-322230",
       "name": "Ideal Lux Style pt Lampada Da Terra-Nero-Altezza-100cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -14738,7 +14738,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14769,7 +14769,7 @@
     "product": {
       "sku": "IL-322216",
       "name": "Ideal Lux Style pt Lampada Da Terra-Nero-Altezza-100cm-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -14804,7 +14804,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14835,7 +14835,7 @@
     "product": {
       "sku": "IL-153193",
       "name": "Ideal Lux Tesla pt4 Lampada Da Terra-Antracite-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -14866,7 +14866,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14897,7 +14897,7 @@
     "product": {
       "sku": "IL-153209",
       "name": "Ideal Lux Tesla pt4 Lampada Da Terra-Bianco-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -14928,7 +14928,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -14959,7 +14959,7 @@
     "product": {
       "sku": "IL-316048",
       "name": "Ideal Lux Tesla pt4 Lampada Da Terra-Caffè-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -14978,7 +14978,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -14990,7 +14990,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15021,7 +15021,7 @@
     "product": {
       "sku": "IL-326917",
       "name": "Ideal Lux Tesla pt4 Lampada Da Terra-Nero-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 145.0,
       "status": 0,
       "visibility": 1,
@@ -15052,7 +15052,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15083,7 +15083,7 @@
     "product": {
       "sku": "IL-153162",
       "name": "Ideal Lux Tesla pt4 Lampada Da Terra-Antracite-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 155.0,
       "status": 0,
       "visibility": 1,
@@ -15114,7 +15114,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15145,7 +15145,7 @@
     "product": {
       "sku": "IL-153179",
       "name": "Ideal Lux Tesla pt4 Lampada Da Terra-Bianco-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 155.0,
       "status": 0,
       "visibility": 1,
@@ -15176,7 +15176,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15207,7 +15207,7 @@
     "product": {
       "sku": "IL-326924",
       "name": "Ideal Lux Tesla pt4 Lampada Da Terra-Caffè-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 155.0,
       "status": 0,
       "visibility": 1,
@@ -15226,7 +15226,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -15238,7 +15238,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15269,7 +15269,7 @@
     "product": {
       "sku": "IL-316055",
       "name": "Ideal Lux Tesla pt4 Lampada Da Terra-Nero-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 155.0,
       "status": 0,
       "visibility": 1,
@@ -15300,7 +15300,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15331,7 +15331,7 @@
     "product": {
       "sku": "IL-250977",
       "name": "Ideal Lux Tifone pt Lampada Da Terra-Antracite-Altezza-35cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 106.0,
       "status": 0,
       "visibility": 1,
@@ -15358,7 +15358,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15389,7 +15389,7 @@
     "product": {
       "sku": "IL-250953",
       "name": "Ideal Lux Tifone pt Lampada Da Terra-Antracite-Altezza-65.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 124.0,
       "status": 0,
       "visibility": 1,
@@ -15408,7 +15408,7 @@
       "custom_attributes": [
         {
           "attribute_code": "config_dimensioni",
-          "value": "3877"
+          "value": "4001"
         },
         {
           "attribute_code": "lamp_ean",
@@ -15416,7 +15416,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15447,7 +15447,7 @@
     "product": {
       "sku": "IL-246994",
       "name": "Ideal Lux Titano pt Lampada Da Terra-Granito-Altezza-49cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 275.0,
       "status": 0,
       "visibility": 1,
@@ -15478,7 +15478,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15509,7 +15509,7 @@
     "product": {
       "sku": "IL-157856",
       "name": "Ideal Lux Titano pt Lampada Da Terra-Granito-Altezza-49cm-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 275.0,
       "status": 0,
       "visibility": 1,
@@ -15540,7 +15540,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15571,7 +15571,7 @@
     "product": {
       "sku": "IL-246987",
       "name": "Ideal Lux Titano pt Lampada Da Terra-Granito-Altezza-74cm-3000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 350.0,
       "status": 0,
       "visibility": 1,
@@ -15590,7 +15590,7 @@
       "custom_attributes": [
         {
           "attribute_code": "config_dimensioni",
-          "value": "3879"
+          "value": "4003"
         },
         {
           "attribute_code": "config_temperatura_colore",
@@ -15602,7 +15602,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15633,7 +15633,7 @@
     "product": {
       "sku": "IL-187327",
       "name": "Ideal Lux Titano pt Lampada Da Terra-Granito-Altezza-74cm-4000K",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 350.0,
       "status": 0,
       "visibility": 1,
@@ -15652,7 +15652,7 @@
       "custom_attributes": [
         {
           "attribute_code": "config_dimensioni",
-          "value": "3879"
+          "value": "4003"
         },
         {
           "attribute_code": "config_temperatura_colore",
@@ -15664,7 +15664,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15695,7 +15695,7 @@
     "product": {
       "sku": "IL-158891",
       "name": "Ideal Lux Torre pt1 Lampada Da Terra-Antracite-Altezza-22cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 144.0,
       "status": 0,
       "visibility": 1,
@@ -15718,7 +15718,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3880"
+          "value": "4004"
         },
         {
           "attribute_code": "lamp_ean",
@@ -15726,7 +15726,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15757,7 +15757,7 @@
     "product": {
       "sku": "IL-321981",
       "name": "Ideal Lux Torre pt1 Lampada Da Terra-Caffè-Altezza-22cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 144.0,
       "status": 0,
       "visibility": 1,
@@ -15776,11 +15776,11 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3880"
+          "value": "4004"
         },
         {
           "attribute_code": "lamp_ean",
@@ -15788,7 +15788,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15819,7 +15819,7 @@
     "product": {
       "sku": "IL-321950",
       "name": "Ideal Lux Torre pt1 Lampada Da Terra-Grigio-Altezza-22cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 144.0,
       "status": 0,
       "visibility": 1,
@@ -15842,7 +15842,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3880"
+          "value": "4004"
         },
         {
           "attribute_code": "lamp_ean",
@@ -15850,7 +15850,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15881,7 +15881,7 @@
     "product": {
       "sku": "IL-186979",
       "name": "Ideal Lux Torre pt1 Lampada Da Terra-Nero-Altezza-22cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 144.0,
       "status": 0,
       "visibility": 1,
@@ -15904,7 +15904,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3880"
+          "value": "4004"
         },
         {
           "attribute_code": "lamp_ean",
@@ -15912,7 +15912,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -15943,7 +15943,7 @@
     "product": {
       "sku": "IL-162492",
       "name": "Ideal Lux Torre pt1 Lampada Da Terra-Antracite-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 168.0,
       "status": 0,
       "visibility": 1,
@@ -15974,7 +15974,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16005,7 +16005,7 @@
     "product": {
       "sku": "IL-321929",
       "name": "Ideal Lux Torre pt1 Lampada Da Terra-Caffè-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 168.0,
       "status": 0,
       "visibility": 1,
@@ -16024,7 +16024,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -16036,7 +16036,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16067,7 +16067,7 @@
     "product": {
       "sku": "IL-321905",
       "name": "Ideal Lux Torre pt1 Lampada Da Terra-Grigio-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 168.0,
       "status": 0,
       "visibility": 1,
@@ -16098,7 +16098,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16129,7 +16129,7 @@
     "product": {
       "sku": "IL-186955",
       "name": "Ideal Lux Torre pt1 Lampada Da Terra-Nero-Altezza-60cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 168.0,
       "status": 0,
       "visibility": 1,
@@ -16160,7 +16160,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16191,7 +16191,7 @@
     "product": {
       "sku": "IL-321882",
       "name": "Ideal Lux Torre pt1 Lampada Da Terra-Antracite-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -16222,7 +16222,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16253,7 +16253,7 @@
     "product": {
       "sku": "IL-321868",
       "name": "Ideal Lux Torre pt1 Lampada Da Terra-Caffè-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -16272,7 +16272,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -16284,7 +16284,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16315,7 +16315,7 @@
     "product": {
       "sku": "IL-321851",
       "name": "Ideal Lux Torre pt1 Lampada Da Terra-Grigio-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -16346,7 +16346,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16377,7 +16377,7 @@
     "product": {
       "sku": "IL-321639",
       "name": "Ideal Lux Torre pt1 Lampada Da Terra-Nero-Altezza-80cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -16408,7 +16408,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16439,7 +16439,7 @@
     "product": {
       "sku": "IL-369761",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Antracite-Altezza-25cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 109.0,
       "status": 0,
       "visibility": 1,
@@ -16470,7 +16470,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16501,7 +16501,7 @@
     "product": {
       "sku": "IL-366050",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Bianco-Altezza-25cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 109.0,
       "status": 0,
       "visibility": 1,
@@ -16532,7 +16532,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16563,7 +16563,7 @@
     "product": {
       "sku": "IL-369792",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Caffè-Altezza-25cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 109.0,
       "status": 0,
       "visibility": 1,
@@ -16582,7 +16582,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -16594,7 +16594,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16625,7 +16625,7 @@
     "product": {
       "sku": "IL-369815",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Grigio-Altezza-25cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 109.0,
       "status": 0,
       "visibility": 1,
@@ -16656,7 +16656,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16687,7 +16687,7 @@
     "product": {
       "sku": "IL-369846",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Nero-Altezza-25cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 109.0,
       "status": 0,
       "visibility": 1,
@@ -16718,7 +16718,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16749,7 +16749,7 @@
     "product": {
       "sku": "IL-248257",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Antracite-Altezza-40.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -16772,7 +16772,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3881"
+          "value": "4005"
         },
         {
           "attribute_code": "lamp_ean",
@@ -16780,7 +16780,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16811,7 +16811,7 @@
     "product": {
       "sku": "IL-248264",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Bianco-Altezza-40.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -16834,7 +16834,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3881"
+          "value": "4005"
         },
         {
           "attribute_code": "lamp_ean",
@@ -16842,7 +16842,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16873,7 +16873,7 @@
     "product": {
       "sku": "IL-248271",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Caffè-Altezza-40.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -16892,11 +16892,11 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3881"
+          "value": "4005"
         },
         {
           "attribute_code": "lamp_ean",
@@ -16904,7 +16904,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16935,7 +16935,7 @@
     "product": {
       "sku": "IL-248288",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Grigio-Altezza-40.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -16958,7 +16958,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3881"
+          "value": "4005"
         },
         {
           "attribute_code": "lamp_ean",
@@ -16966,7 +16966,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -16997,7 +16997,7 @@
     "product": {
       "sku": "IL-248295",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Nero-Altezza-40.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 125.0,
       "status": 0,
       "visibility": 1,
@@ -17020,7 +17020,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3881"
+          "value": "4005"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17028,7 +17028,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17059,7 +17059,7 @@
     "product": {
       "sku": "IL-026985",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Antracite-Altezza-60.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -17082,7 +17082,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3882"
+          "value": "4006"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17090,7 +17090,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17121,7 +17121,7 @@
     "product": {
       "sku": "IL-109145",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Bianco-Altezza-60.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -17144,7 +17144,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3882"
+          "value": "4006"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17152,7 +17152,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17183,7 +17183,7 @@
     "product": {
       "sku": "IL-163758",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Caffè-Altezza-60.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -17202,11 +17202,11 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3882"
+          "value": "4006"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17214,7 +17214,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17245,7 +17245,7 @@
     "product": {
       "sku": "IL-026954",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Grigio-Altezza-60.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -17268,7 +17268,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3882"
+          "value": "4006"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17276,7 +17276,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17307,7 +17307,7 @@
     "product": {
       "sku": "IL-004730",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Nero-Altezza-60.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 138.0,
       "status": 0,
       "visibility": 1,
@@ -17330,7 +17330,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3882"
+          "value": "4006"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17338,7 +17338,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17369,7 +17369,7 @@
     "product": {
       "sku": "IL-026992",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Antracite-Altezza-80.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -17392,7 +17392,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3874"
+          "value": "3998"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17400,7 +17400,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17431,7 +17431,7 @@
     "product": {
       "sku": "IL-109138",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Bianco-Altezza-80.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -17454,7 +17454,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3874"
+          "value": "3998"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17462,7 +17462,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17493,7 +17493,7 @@
     "product": {
       "sku": "IL-163741",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Caffè-Altezza-80.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -17512,11 +17512,11 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3874"
+          "value": "3998"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17524,7 +17524,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17555,7 +17555,7 @@
     "product": {
       "sku": "IL-026961",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Grigio-Altezza-80.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -17578,7 +17578,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3874"
+          "value": "3998"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17586,7 +17586,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17617,7 +17617,7 @@
     "product": {
       "sku": "IL-004723",
       "name": "Ideal Lux Tronco pt1 Lampada Da Terra-Nero-Altezza-80.5cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 160.0,
       "status": 0,
       "visibility": 1,
@@ -17640,7 +17640,7 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3874"
+          "value": "3998"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17648,7 +17648,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17679,7 +17679,7 @@
     "product": {
       "sku": "IL-347875",
       "name": "Ideal Lux Twiggy line pt Lampada Da Terra-Linea-Caffè-Altezza-74cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 47.0,
       "status": 0,
       "visibility": 1,
@@ -17698,15 +17698,15 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3879"
+          "value": "4003"
         },
         {
           "attribute_code": "config_tipo",
-          "value": "3883"
+          "value": "4007"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17714,7 +17714,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17745,7 +17745,7 @@
     "product": {
       "sku": "IL-347882",
       "name": "Ideal Lux Twiggy line pt Lampada Da Terra-Linea-Nero-Altezza-74cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 47.0,
       "status": 0,
       "visibility": 1,
@@ -17768,11 +17768,11 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3879"
+          "value": "4003"
         },
         {
           "attribute_code": "config_tipo",
-          "value": "3883"
+          "value": "4007"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17780,7 +17780,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17811,7 +17811,7 @@
     "product": {
       "sku": "IL-348339",
       "name": "Ideal Lux Twiggy line pt Lampada Da Terra-Linea-Caffè-Altezza-99cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 52.0,
       "status": 0,
       "visibility": 1,
@@ -17830,15 +17830,15 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3884"
+          "value": "4008"
         },
         {
           "attribute_code": "config_tipo",
-          "value": "3883"
+          "value": "4007"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17846,7 +17846,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17877,7 +17877,7 @@
     "product": {
       "sku": "IL-348346",
       "name": "Ideal Lux Twiggy line pt Lampada Da Terra-Linea-Nero-Altezza-99cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 52.0,
       "status": 0,
       "visibility": 1,
@@ -17900,11 +17900,11 @@
         },
         {
           "attribute_code": "config_dimensioni",
-          "value": "3884"
+          "value": "4008"
         },
         {
           "attribute_code": "config_tipo",
-          "value": "3883"
+          "value": "4007"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17912,7 +17912,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -17943,7 +17943,7 @@
     "product": {
       "sku": "IL-347899",
       "name": "Ideal Lux Twiggy sphere pt Lampada Da Terra-Sfera-Caffè-Altezza-65cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 58.0,
       "status": 0,
       "visibility": 1,
@@ -17962,7 +17962,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -17970,7 +17970,7 @@
         },
         {
           "attribute_code": "config_tipo",
-          "value": "3885"
+          "value": "4009"
         },
         {
           "attribute_code": "lamp_ean",
@@ -17978,7 +17978,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -18009,7 +18009,7 @@
     "product": {
       "sku": "IL-347905",
       "name": "Ideal Lux Twiggy sphere pt Lampada Da Terra-Sfera-Nero-Altezza-65cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 58.0,
       "status": 0,
       "visibility": 1,
@@ -18036,7 +18036,7 @@
         },
         {
           "attribute_code": "config_tipo",
-          "value": "3885"
+          "value": "4009"
         },
         {
           "attribute_code": "lamp_ean",
@@ -18044,7 +18044,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -18075,7 +18075,7 @@
     "product": {
       "sku": "IL-348353",
       "name": "Ideal Lux Twiggy sphere pt Lampada Da Terra-Sfera-Caffè-Altezza-90cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 63.0,
       "status": 0,
       "visibility": 1,
@@ -18094,7 +18094,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "config_dimensioni",
@@ -18102,7 +18102,7 @@
         },
         {
           "attribute_code": "config_tipo",
-          "value": "3885"
+          "value": "4009"
         },
         {
           "attribute_code": "lamp_ean",
@@ -18110,7 +18110,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -18141,7 +18141,7 @@
     "product": {
       "sku": "IL-348360",
       "name": "Ideal Lux Twiggy sphere pt Lampada Da Terra-Sfera-Nero-Altezza-90cm",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 63.0,
       "status": 0,
       "visibility": 1,
@@ -18168,7 +18168,7 @@
         },
         {
           "attribute_code": "config_tipo",
-          "value": "3885"
+          "value": "4009"
         },
         {
           "attribute_code": "lamp_ean",
@@ -18176,7 +18176,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -18207,7 +18207,7 @@
     "product": {
       "sku": "IL-136028",
       "name": "Ideal Lux Vega pt1 Lampada Da Terra-Antracite",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -18234,7 +18234,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -18265,7 +18265,7 @@
     "product": {
       "sku": "IL-136035",
       "name": "Ideal Lux Vega pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -18292,7 +18292,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -18323,7 +18323,7 @@
     "product": {
       "sku": "IL-213361",
       "name": "Ideal Lux Vega pt1 Lampada Da Terra-Caffè",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -18342,7 +18342,7 @@
       "custom_attributes": [
         {
           "attribute_code": "color",
-          "value": "3865"
+          "value": "3989"
         },
         {
           "attribute_code": "lamp_ean",
@@ -18350,7 +18350,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -18381,7 +18381,7 @@
     "product": {
       "sku": "IL-136042",
       "name": "Ideal Lux Vega pt1 Lampada Da Terra-Grigio",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -18408,7 +18408,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -18439,7 +18439,7 @@
     "product": {
       "sku": "IL-136059",
       "name": "Ideal Lux Vega pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 180.0,
       "status": 0,
       "visibility": 1,
@@ -18466,7 +18466,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -18497,7 +18497,7 @@
     "product": {
       "sku": "IL-265292",
       "name": "Ideal Lux Wally pt1 total black Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 250.0,
       "status": 0,
       "visibility": 1,
@@ -18520,7 +18520,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -18534,7 +18534,7 @@
     "product": {
       "sku": "IL-258874",
       "name": "Ideal Lux Yoko pt Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -18561,7 +18561,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -18592,7 +18592,7 @@
     "product": {
       "sku": "IL-258904",
       "name": "Ideal Lux Yoko pt Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 150.0,
       "status": 0,
       "visibility": 1,
@@ -18619,7 +18619,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -18650,7 +18650,7 @@
     "product": {
       "sku": "IL-121406",
       "name": "Ideal Lux York pt1 Lampada Da Terra-Bianco",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 230.0,
       "status": 0,
       "visibility": 1,
@@ -18677,7 +18677,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -18691,7 +18691,7 @@
     "product": {
       "sku": "IL-121437",
       "name": "Ideal Lux York pt1 Lampada Da Terra-Nero",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 230.0,
       "status": 0,
       "visibility": 1,
@@ -18718,7 +18718,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
@@ -18732,7 +18732,7 @@
     "product": {
       "sku": "IL-089805",
       "name": "Ideal Lux York pt1 wood Lampada Da Terra-Legno",
-      "attribute_set_id": 263,
+      "attribute_set_id": 264,
       "price": 230.0,
       "status": 0,
       "visibility": 1,
@@ -18755,7 +18755,7 @@
         },
         {
           "attribute_code": "manufacturer",
-          "value": "3864"
+          "value": "3988"
         },
         {
           "attribute_code": "url_key",
