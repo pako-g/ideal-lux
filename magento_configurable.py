@@ -285,7 +285,7 @@ def build_configurable(
     lamp_val = (
         "1"
         if not riga_primo.empty
-        and str(riga_primo.iloc[0]["LampadinaInclusa"]).strip().lower() == "si"
+        and str(riga_primo.iloc[0]["LampadinaInclusa"]).strip().lower() == "sì"
         else "0"
     )
 
@@ -293,7 +293,7 @@ def build_configurable(
     dimmer_val = (
         "1"
         if not righe_gruppo.empty
-        and (righe_gruppo["Dimmer"].dropna().str.strip().str.lower() == "si").any()
+        and (righe_gruppo["Dimmer"].dropna().str.strip().str.lower() == "sì").any()
         else "0"
     )
 

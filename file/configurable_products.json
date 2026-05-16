@@ -4,7 +4,7 @@
       "sku": "IL-CONFIG-001",
       "name": "Ideal Lux Acqua Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -134,7 +134,7 @@
       "sku": "IL-CONFIG-002",
       "name": "Ideal Lux Agos Pt Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -177,7 +177,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -243,7 +243,7 @@
       "sku": "IL-CONFIG-003",
       "name": "Ideal Lux Angolo Pt5 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -286,7 +286,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -373,7 +373,7 @@
       "sku": "IL-CONFIG-004",
       "name": "Ideal Lux Arcadia Pt1 Antracite Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 152.0,
@@ -467,7 +467,7 @@
       "sku": "IL-CONFIG-005",
       "name": "Ideal Lux Arcadia Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 152.0,
@@ -578,7 +578,7 @@
       "sku": "IL-CONFIG-006",
       "name": "Ideal Lux Atena Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -621,7 +621,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -721,7 +721,7 @@
       "sku": "IL-CONFIG-007",
       "name": "Ideal Lux Axel Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -851,7 +851,7 @@
       "sku": "IL-CONFIG-008",
       "name": "Ideal Lux Binomio Pt3 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -894,7 +894,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -994,7 +994,7 @@
       "sku": "IL-CONFIG-009",
       "name": "Ideal Lux Binomio Pt4 Led Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -1037,7 +1037,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -1096,7 +1096,7 @@
       "sku": "IL-CONFIG-010",
       "name": "Ideal Lux Birds Pt5 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 340.0,
@@ -1139,7 +1139,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -1207,7 +1207,7 @@
       "sku": "IL-CONFIG-011",
       "name": "Ideal Lux Blade Pt Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -1250,7 +1250,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -1363,7 +1363,7 @@
       "sku": "IL-CONFIG-012",
       "name": "Ideal Lux Bloom Pt2 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -1406,7 +1406,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -1493,7 +1493,7 @@
       "sku": "IL-CONFIG-013",
       "name": "Ideal Lux Boeing Pt Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -1536,7 +1536,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -1754,7 +1754,7 @@
       "sku": "IL-CONFIG-014",
       "name": "Ideal Lux Carta Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -1855,7 +1855,7 @@
       "sku": "IL-CONFIG-015",
       "name": "Ideal Lux Cima Pt2 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -1998,7 +1998,7 @@
       "sku": "IL-CONFIG-016",
       "name": "Ideal Lux Clio Mpt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -2155,7 +2155,7 @@
       "sku": "IL-CONFIG-017",
       "name": "Ideal Lux Clio Mpt2 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -2312,7 +2312,7 @@
       "sku": "IL-CONFIG-018",
       "name": "Ideal Lux Comet Pt Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -2355,7 +2355,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -2442,7 +2442,7 @@
       "sku": "IL-CONFIG-019",
       "name": "Ideal Lux Comfort-1 Pt Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -2485,7 +2485,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -2546,7 +2546,7 @@
       "sku": "IL-CONFIG-020",
       "name": "Ideal Lux Comfort-2 Pt Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -2589,7 +2589,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -2647,7 +2647,7 @@
       "sku": "IL-CONFIG-021",
       "name": "Ideal Lux Cosmo Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -2690,7 +2690,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -2790,7 +2790,7 @@
       "sku": "IL-CONFIG-022",
       "name": "Ideal Lux Craft Pt Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 395.0,
@@ -2833,7 +2833,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -2901,7 +2901,7 @@
       "sku": "IL-CONFIG-023",
       "name": "Ideal Lux Cylinder Pt2 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 260.0,
@@ -3012,7 +3012,7 @@
       "sku": "IL-CONFIG-024",
       "name": "Ideal Lux Daddy Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -3142,7 +3142,7 @@
       "sku": "IL-CONFIG-025",
       "name": "Ideal Lux Dafne Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -3185,7 +3185,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -3272,7 +3272,7 @@
       "sku": "IL-CONFIG-026",
       "name": "Ideal Lux Diesis Pt Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -3315,7 +3315,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -3415,7 +3415,7 @@
       "sku": "IL-CONFIG-027",
       "name": "Ideal Lux Dodo Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -3458,7 +3458,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -3558,7 +3558,7 @@
       "sku": "IL-CONFIG-028",
       "name": "Ideal Lux Dorica Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -3601,7 +3601,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -3779,7 +3779,7 @@
       "sku": "IL-CONFIG-029",
       "name": "Ideal Lux Dorica Pt3 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -3822,7 +3822,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -3922,7 +3922,7 @@
       "sku": "IL-CONFIG-030",
       "name": "Ideal Lux Doris Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -4078,7 +4078,7 @@
       "sku": "IL-CONFIG-031",
       "name": "Ideal Lux Dorsale Mpt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -4221,7 +4221,7 @@
       "sku": "IL-CONFIG-032",
       "name": "Ideal Lux Driftwood Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 665.0,
@@ -4332,7 +4332,7 @@
       "sku": "IL-CONFIG-033",
       "name": "Ideal Lux Driftwood Pt3 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 745.0,
@@ -4426,7 +4426,7 @@
       "sku": "IL-CONFIG-034",
       "name": "Ideal Lux Easy Pt Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -4469,7 +4469,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -4569,7 +4569,7 @@
       "sku": "IL-CONFIG-035",
       "name": "Ideal Lux Edo Pt1 Round Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -4673,7 +4673,7 @@
       "sku": "IL-CONFIG-036",
       "name": "Ideal Lux Edo Pt1 Square Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -4777,7 +4777,7 @@
       "sku": "IL-CONFIG-037",
       "name": "Ideal Lux Ego Pt Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 300.0,
@@ -4884,7 +4884,7 @@
       "sku": "IL-CONFIG-038",
       "name": "Ideal Lux Equinoxe Pt4 Ambra Sfumato Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 550.0,
@@ -4995,7 +4995,7 @@
       "sku": "IL-CONFIG-039",
       "name": "Ideal Lux Equinoxe Pt4 Fume' Sfumato Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 550.0,
@@ -5089,7 +5089,7 @@
       "sku": "IL-CONFIG-040",
       "name": "Ideal Lux Equinoxe Pt4 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -5132,7 +5132,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -5219,7 +5219,7 @@
       "sku": "IL-CONFIG-041",
       "name": "Ideal Lux Essence Pt Round Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -5262,7 +5262,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -5350,7 +5350,7 @@
       "sku": "IL-CONFIG-042",
       "name": "Ideal Lux Essence Pt Square Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -5393,7 +5393,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -5481,7 +5481,7 @@
       "sku": "IL-CONFIG-043",
       "name": "Ideal Lux Etere Pt Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -5524,7 +5524,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -5664,7 +5664,7 @@
       "sku": "IL-CONFIG-044",
       "name": "Ideal Lux Eva Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 275.0,
@@ -5775,7 +5775,7 @@
       "sku": "IL-CONFIG-045",
       "name": "Ideal Lux Firenze Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -5905,7 +5905,7 @@
       "sku": "IL-CONFIG-046",
       "name": "Ideal Lux Frame Pt Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -5948,7 +5948,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -6006,7 +6006,7 @@
       "sku": "IL-CONFIG-047",
       "name": "Ideal Lux Futura Pt Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -6049,7 +6049,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -6149,7 +6149,7 @@
       "sku": "IL-CONFIG-048",
       "name": "Ideal Lux Gas Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -6292,7 +6292,7 @@
       "sku": "IL-CONFIG-049",
       "name": "Ideal Lux Ginger Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -6335,7 +6335,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -6422,7 +6422,7 @@
       "sku": "IL-CONFIG-050",
       "name": "Ideal Lux Ginger Pt2 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -6465,7 +6465,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -6552,7 +6552,7 @@
       "sku": "IL-CONFIG-051",
       "name": "Ideal Lux Hub Pt Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -6595,7 +6595,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -6682,7 +6682,7 @@
       "sku": "IL-CONFIG-052",
       "name": "Ideal Lux Ipotesi Pt Bianco Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 335.0,
@@ -6725,7 +6725,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -6776,7 +6776,7 @@
       "sku": "IL-CONFIG-053",
       "name": "Ideal Lux Ipotesi Pt Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -6819,7 +6819,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -6879,7 +6879,7 @@
       "sku": "IL-CONFIG-054",
       "name": "Ideal Lux Itaca Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 310.0,
@@ -6973,7 +6973,7 @@
       "sku": "IL-CONFIG-055",
       "name": "Ideal Lux Jedi Pt Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -7016,7 +7016,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -7234,7 +7234,7 @@
       "sku": "IL-CONFIG-056",
       "name": "Ideal Lux Klimt Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 400.0,
@@ -7328,7 +7328,7 @@
       "sku": "IL-CONFIG-057",
       "name": "Ideal Lux Kurt Pt Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -7371,7 +7371,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -7537,7 +7537,7 @@
       "sku": "IL-CONFIG-058",
       "name": "Ideal Lux London Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -7680,7 +7680,7 @@
       "sku": "IL-CONFIG-059",
       "name": "Ideal Lux Look Pt1 Round Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -7723,7 +7723,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -7781,7 +7781,7 @@
       "sku": "IL-CONFIG-060",
       "name": "Ideal Lux Lumiere Pt Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 510.0,
@@ -7824,7 +7824,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -7892,7 +7892,7 @@
       "sku": "IL-CONFIG-061",
       "name": "Ideal Lux Luna Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -8035,7 +8035,7 @@
       "sku": "IL-CONFIG-062",
       "name": "Ideal Lux Mercurio Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 160.0,
@@ -8146,7 +8146,7 @@
       "sku": "IL-CONFIG-063",
       "name": "Ideal Lux Mix Up Mpt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -8276,7 +8276,7 @@
       "sku": "IL-CONFIG-064",
       "name": "Ideal Lux Newton Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -8406,7 +8406,7 @@
       "sku": "IL-CONFIG-065",
       "name": "Ideal Lux Nordik Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 240.0,
@@ -8517,7 +8517,7 @@
       "sku": "IL-CONFIG-066",
       "name": "Ideal Lux Opera Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 315.0,
@@ -8628,7 +8628,7 @@
       "sku": "IL-CONFIG-067",
       "name": "Ideal Lux Pagoda Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -8758,7 +8758,7 @@
       "sku": "IL-CONFIG-068",
       "name": "Ideal Lux Perlage Pt4 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -8801,7 +8801,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -8901,7 +8901,7 @@
       "sku": "IL-CONFIG-069",
       "name": "Ideal Lux Polly Pt2 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -9044,7 +9044,7 @@
       "sku": "IL-CONFIG-070",
       "name": "Ideal Lux Pulsar Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 200.0,
@@ -9155,7 +9155,7 @@
       "sku": "IL-CONFIG-071",
       "name": "Ideal Lux Pure Pt Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -9198,7 +9198,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -9298,7 +9298,7 @@
       "sku": "IL-CONFIG-072",
       "name": "Ideal Lux Queen Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 370.0,
@@ -9409,7 +9409,7 @@
       "sku": "IL-CONFIG-073",
       "name": "Ideal Lux Regol Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 280.0,
@@ -9520,7 +9520,7 @@
       "sku": "IL-CONFIG-074",
       "name": "Ideal Lux Sasso Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -9660,7 +9660,7 @@
       "sku": "IL-CONFIG-075",
       "name": "Ideal Lux Set Up Mpt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -9816,7 +9816,7 @@
       "sku": "IL-CONFIG-076",
       "name": "Ideal Lux Sirio Pt1 Led Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -9859,7 +9859,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -10122,7 +10122,7 @@
       "sku": "IL-CONFIG-077",
       "name": "Ideal Lux Sole Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -10278,7 +10278,7 @@
       "sku": "IL-CONFIG-078",
       "name": "Ideal Lux Style Pt Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -10321,7 +10321,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -10709,7 +10709,7 @@
       "sku": "IL-CONFIG-079",
       "name": "Ideal Lux Tesla Pt4 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -10918,7 +10918,7 @@
       "sku": "IL-CONFIG-080",
       "name": "Ideal Lux Tifone Pt Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -10961,7 +10961,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -11048,7 +11048,7 @@
       "sku": "IL-CONFIG-081",
       "name": "Ideal Lux Titano Pt Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -11091,7 +11091,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -11205,7 +11205,7 @@
       "sku": "IL-CONFIG-082",
       "name": "Ideal Lux Torre Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -11466,7 +11466,7 @@
       "sku": "IL-CONFIG-083",
       "name": "Ideal Lux Tronco Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -11831,7 +11831,7 @@
       "sku": "IL-CONFIG-084",
       "name": "Ideal Lux Twiggy Line Pt Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -11874,7 +11874,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -11989,7 +11989,7 @@
       "sku": "IL-CONFIG-085",
       "name": "Ideal Lux Twiggy Sphere Pt Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -12032,7 +12032,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -12147,7 +12147,7 @@
       "sku": "IL-CONFIG-086",
       "name": "Ideal Lux Vega Pt1 Lampade da Terra per Esterni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -12316,7 +12316,7 @@
       "sku": "IL-CONFIG-087",
       "name": "Ideal Lux Wally Pt1 Total Black Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 250.0,
@@ -12410,7 +12410,7 @@
       "sku": "IL-CONFIG-088",
       "name": "Ideal Lux Yoko Pt Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -12453,7 +12453,7 @@
         },
         {
           "attribute_code": "lamp_lampadina",
-          "value": "0"
+          "value": "1"
         },
         {
           "attribute_code": "lamp_dimmer",
@@ -12540,7 +12540,7 @@
       "sku": "IL-CONFIG-089",
       "name": "Ideal Lux York Pt1 Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": null,
@@ -12641,7 +12641,7 @@
       "sku": "IL-CONFIG-090",
       "name": "Ideal Lux York Pt1 Wood Lampade da Terra per Interni",
       "attribute_set_id": 264,
-      "status": 0,
+      "status": 2,
       "visibility": 4,
       "type_id": "configurable",
       "price": 230.0,
