@@ -150,7 +150,7 @@ def crea_semplici(session: OAuth1Session, semplici: list) -> dict:
         payload["product"]["media_gallery_entries"] = build_media_entry(nome, sku)
 
         try:
-            result    = api_post(session, "products", payload)
+            result = api_post(session, "products", payload)
             entity_id = result.get("id")
             creati[sku] = entity_id
             print(f"             ✅  entity_id={entity_id}")
