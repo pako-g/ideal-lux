@@ -37,24 +37,7 @@
           "value": "ideal-lux-angolo-tl1-lampada-da-tavolo-nero-284316"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Angolo tl1 Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-angolo-tl1-lampada-da-tavolo-nero-284316.jpg",
-            "url": "./file/images//ideal-lux-angolo-tl1-lampada-da-tavolo-nero-284316.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -95,24 +78,7 @@
           "value": "ideal-lux-angolo-tl1-lampada-da-tavolo-ottone-284361"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Angolo tl1 Lampada Da Tavolo-Ottone",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-angolo-tl1-lampada-da-tavolo-ottone-284361.jpg",
-            "url": "./file/images//ideal-lux-angolo-tl1-lampada-da-tavolo-ottone-284361.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -149,24 +115,7 @@
           "value": "ideal-lux-arcadia-tl1-lampada-da-tavolo-bianco-365756"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Arcadia tl1 Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-arcadia-tl1-lampada-da-tavolo-bianco-365756.jpg",
-            "url": "./file/images//ideal-lux-arcadia-tl1-lampada-da-tavolo-bianco-365756.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -244,24 +193,7 @@
           "value": "ideal-lux-axel-tl1-lampada-da-tavolo-bianco-282091"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Axel tl1 Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-axel-tl1-lampada-da-tavolo-bianco-282091.jpg",
-            "url": "./file/images//ideal-lux-axel-tl1-lampada-da-tavolo-bianco-282091.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -302,24 +234,7 @@
           "value": "ideal-lux-axel-tl1-lampada-da-tavolo-nero-272238"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Axel tl1 Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-axel-tl1-lampada-da-tavolo-nero-272238.jpg",
-            "url": "./file/images//ideal-lux-axel-tl1-lampada-da-tavolo-nero-272238.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -483,24 +398,7 @@
           "value": "ideal-lux-binomio-tl1-lampada-da-tavolo-bianco-353203"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Binomio tl1 Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-binomio-tl1-lampada-da-tavolo-bianco-353203.jpg",
-            "url": "./file/images//ideal-lux-binomio-tl1-lampada-da-tavolo-bianco-353203.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -541,24 +439,7 @@
           "value": "ideal-lux-binomio-tl1-lampada-da-tavolo-nero-353302"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Binomio tl1 Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-binomio-tl1-lampada-da-tavolo-nero-353302.jpg",
-            "url": "./file/images//ideal-lux-binomio-tl1-lampada-da-tavolo-nero-353302.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -599,24 +480,7 @@
           "value": "ideal-lux-binomio-tl1-lampada-da-tavolo-ottone-353258"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Binomio tl1 Lampada Da Tavolo-Ottone",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-binomio-tl1-lampada-da-tavolo-ottone-353258.jpg",
-            "url": "./file/images//ideal-lux-binomio-tl1-lampada-da-tavolo-ottone-353258.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -653,24 +517,7 @@
           "value": "ideal-lux-birds-tl1-lampada-da-tavolo-nero-273679"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Birds tl1 Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-birds-tl1-lampada-da-tavolo-nero-273679.jpg",
-            "url": "./file/images//ideal-lux-birds-tl1-lampada-da-tavolo-nero-273679.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -711,24 +558,7 @@
           "value": "ideal-lux-bloom-tl1-big-lampada-da-tavolo-nero-352848"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Bloom tl1 big Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-bloom-tl1-big-lampada-da-tavolo-nero-352848.jpg",
-            "url": "./file/images//ideal-lux-bloom-tl1-big-lampada-da-tavolo-nero-352848.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -769,24 +599,7 @@
           "value": "ideal-lux-bloom-tl1-big-lampada-da-tavolo-ottone-366524"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Bloom tl1 big Lampada Da Tavolo-Ottone",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-bloom-tl1-big-lampada-da-tavolo-ottone-366524.jpg",
-            "url": "./file/images//ideal-lux-bloom-tl1-big-lampada-da-tavolo-ottone-366524.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -827,24 +640,7 @@
           "value": "ideal-lux-bloom-tl1-small-lampada-da-tavolo-nero-366517"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Bloom tl1 small Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-bloom-tl1-small-lampada-da-tavolo-nero-366517.jpg",
-            "url": "./file/images//ideal-lux-bloom-tl1-small-lampada-da-tavolo-nero-366517.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -885,24 +681,7 @@
           "value": "ideal-lux-bloom-tl1-small-lampada-da-tavolo-ottone-366500"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Bloom tl1 small Lampada Da Tavolo-Ottone",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-bloom-tl1-small-lampada-da-tavolo-ottone-366500.jpg",
-            "url": "./file/images//ideal-lux-bloom-tl1-small-lampada-da-tavolo-ottone-366500.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -939,24 +718,7 @@
           "value": "ideal-lux-candy-tl1-lampada-da-tavolo-bianco-086804"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Candy tl1 Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-candy-tl1-lampada-da-tavolo-bianco-086804.jpg",
-            "url": "./file/images//ideal-lux-candy-tl1-lampada-da-tavolo-bianco-086804.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1001,24 +763,7 @@
           "value": "ideal-lux-carta-tl1-lampada-da-tavolo-bianco-diametro-10cm-g9-317151"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Carta tl1 Lampada Da Tavolo-Bianco-Diametro-10cm-G9",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-carta-tl1-lampada-da-tavolo-bianco-diametro-10cm-g9-317151.jpg",
-            "url": "./file/images//ideal-lux-carta-tl1-lampada-da-tavolo-bianco-diametro-10cm-g9-317151.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1063,24 +808,7 @@
           "value": "ideal-lux-carta-tl1-lampada-da-tavolo-bianco-diametro-20cm-e27-317168"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Carta tl1 Lampada Da Tavolo-Bianco-Diametro-20cm-E27",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-carta-tl1-lampada-da-tavolo-bianco-diametro-20cm-e27-317168.jpg",
-            "url": "./file/images//ideal-lux-carta-tl1-lampada-da-tavolo-bianco-diametro-20cm-e27-317168.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1158,24 +886,7 @@
           "value": "ideal-lux-cute-tl-lampada-da-tavolo-bianco-346892"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Cute tl Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-cute-tl-lampada-da-tavolo-bianco-346892.jpg",
-            "url": "./file/images//ideal-lux-cute-tl-lampada-da-tavolo-bianco-346892.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1216,24 +927,7 @@
           "value": "ideal-lux-cute-tl-lampada-da-tavolo-caff-346915"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Cute tl Lampada Da Tavolo-Caffè",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-cute-tl-lampada-da-tavolo-caff-346915.jpg",
-            "url": "./file/images//ideal-lux-cute-tl-lampada-da-tavolo-caff-346915.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1274,24 +968,7 @@
           "value": "ideal-lux-cute-tl-lampada-da-tavolo-nero-346908"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Cute tl Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-cute-tl-lampada-da-tavolo-nero-346908.jpg",
-            "url": "./file/images//ideal-lux-cute-tl-lampada-da-tavolo-nero-346908.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1332,24 +1009,7 @@
           "value": "ideal-lux-cute-tl-lampada-da-tavolo-oro-346939"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Cute tl Lampada Da Tavolo-Oro",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-cute-tl-lampada-da-tavolo-oro-346939.jpg",
-            "url": "./file/images//ideal-lux-cute-tl-lampada-da-tavolo-oro-346939.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1386,24 +1046,7 @@
           "value": "ideal-lux-diamond-tl1-lampada-da-tavolo-trasparente-343488"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Diamond tl1 Lampada Da Tavolo-Trasparente",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-diamond-tl1-lampada-da-tavolo-trasparente-343488.jpg",
-            "url": "./file/images//ideal-lux-diamond-tl1-lampada-da-tavolo-trasparente-343488.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1444,24 +1087,7 @@
           "value": "ideal-lux-diesis-tl-lampada-da-tavolo-nero-283333"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Diesis tl Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-diesis-tl-lampada-da-tavolo-nero-283333.jpg",
-            "url": "./file/images//ideal-lux-diesis-tl-lampada-da-tavolo-nero-283333.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1502,24 +1128,7 @@
           "value": "ideal-lux-diesis-tl-lampada-da-tavolo-nichel-291093"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Diesis tl Lampada Da Tavolo-Nichel",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-diesis-tl-lampada-da-tavolo-nichel-291093.jpg",
-            "url": "./file/images//ideal-lux-diesis-tl-lampada-da-tavolo-nichel-291093.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1560,24 +1169,7 @@
           "value": "ideal-lux-diesis-tl-lampada-da-tavolo-ottone-291109"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Diesis tl Lampada Da Tavolo-Ottone",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-diesis-tl-lampada-da-tavolo-ottone-291109.jpg",
-            "url": "./file/images//ideal-lux-diesis-tl-lampada-da-tavolo-ottone-291109.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1618,24 +1210,7 @@
           "value": "ideal-lux-dorica-tl1-lampada-da-tavolo-acciaio-354149"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Dorica tl1 Lampada Da Tavolo-Acciaio",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-dorica-tl1-lampada-da-tavolo-acciaio-354149.jpg",
-            "url": "./file/images//ideal-lux-dorica-tl1-lampada-da-tavolo-acciaio-354149.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1676,24 +1251,7 @@
           "value": "ideal-lux-dorica-tl1-lampada-da-tavolo-arancione-366098"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Dorica tl1 Lampada Da Tavolo-Arancione",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-dorica-tl1-lampada-da-tavolo-arancione-366098.jpg",
-            "url": "./file/images//ideal-lux-dorica-tl1-lampada-da-tavolo-arancione-366098.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1734,24 +1292,7 @@
           "value": "ideal-lux-dorica-tl1-lampada-da-tavolo-bianco-366074"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Dorica tl1 Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-dorica-tl1-lampada-da-tavolo-bianco-366074.jpg",
-            "url": "./file/images//ideal-lux-dorica-tl1-lampada-da-tavolo-bianco-366074.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1792,24 +1333,7 @@
           "value": "ideal-lux-dorica-tl1-lampada-da-tavolo-blu-366104"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Dorica tl1 Lampada Da Tavolo-Blu",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-dorica-tl1-lampada-da-tavolo-blu-366104.jpg",
-            "url": "./file/images//ideal-lux-dorica-tl1-lampada-da-tavolo-blu-366104.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1891,24 +1415,7 @@
           "value": "ideal-lux-dorica-tl1-lampada-da-tavolo-nero-366081"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Dorica tl1 Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-dorica-tl1-lampada-da-tavolo-nero-366081.jpg",
-            "url": "./file/images//ideal-lux-dorica-tl1-lampada-da-tavolo-nero-366081.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -1949,24 +1456,7 @@
           "value": "ideal-lux-dorica-tl1-lampada-da-tavolo-ottone-362533"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Dorica tl1 Lampada Da Tavolo-Ottone",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-dorica-tl1-lampada-da-tavolo-ottone-362533.jpg",
-            "url": "./file/images//ideal-lux-dorica-tl1-lampada-da-tavolo-ottone-362533.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -2007,24 +1497,7 @@
           "value": "ideal-lux-dorica-tl1-lampada-da-tavolo-rame-362557"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Dorica tl1 Lampada Da Tavolo-Rame",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-dorica-tl1-lampada-da-tavolo-rame-362557.jpg",
-            "url": "./file/images//ideal-lux-dorica-tl1-lampada-da-tavolo-rame-362557.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -2061,24 +1534,7 @@
           "value": "ideal-lux-dorica-tl1-bronzo-lampada-da-tavolo-362540"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Dorica tl1 bronzo Lampada Da Tavolo",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-dorica-tl1-bronzo-lampada-da-tavolo-362540.jpg",
-            "url": "./file/images//ideal-lux-dorica-tl1-bronzo-lampada-da-tavolo-362540.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -2115,24 +1571,7 @@
           "value": "ideal-lux-driftwood-tl1-lampada-da-tavolo-legno-129570"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Driftwood tl1 Lampada Da Tavolo-Legno",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-driftwood-tl1-lampada-da-tavolo-legno-129570.jpg",
-            "url": "./file/images//ideal-lux-driftwood-tl1-lampada-da-tavolo-legno-129570.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -2210,24 +1649,7 @@
           "value": "ideal-lux-easy-tl-lampada-da-tavolo-bianco-295510"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Easy tl Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-easy-tl-lampada-da-tavolo-bianco-295510.jpg",
-            "url": "./file/images//ideal-lux-easy-tl-lampada-da-tavolo-bianco-295510.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -2268,24 +1690,7 @@
           "value": "ideal-lux-easy-tl-lampada-da-tavolo-nero-295534"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Easy tl Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-easy-tl-lampada-da-tavolo-nero-295534.jpg",
-            "url": "./file/images//ideal-lux-easy-tl-lampada-da-tavolo-nero-295534.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -2326,24 +1731,7 @@
           "value": "ideal-lux-easy-tl-lampada-da-tavolo-ottone-295541"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Easy tl Lampada Da Tavolo-Ottone",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-easy-tl-lampada-da-tavolo-ottone-295541.jpg",
-            "url": "./file/images//ideal-lux-easy-tl-lampada-da-tavolo-ottone-295541.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -2421,24 +1809,7 @@
           "value": "ideal-lux-enya-tl-lampada-da-tavolo-bianco-323251"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Enya tl Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-enya-tl-lampada-da-tavolo-bianco-323251.jpg",
-            "url": "./file/images//ideal-lux-enya-tl-lampada-da-tavolo-bianco-323251.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -2479,24 +1850,7 @@
           "value": "ideal-lux-enya-tl-lampada-da-tavolo-caff-323244"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Enya tl Lampada Da Tavolo-Caffè",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-enya-tl-lampada-da-tavolo-caff-323244.jpg",
-            "url": "./file/images//ideal-lux-enya-tl-lampada-da-tavolo-caff-323244.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -2537,24 +1891,7 @@
           "value": "ideal-lux-enya-tl-lampada-da-tavolo-nero-323237"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Enya tl Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-enya-tl-lampada-da-tavolo-nero-323237.jpg",
-            "url": "./file/images//ideal-lux-enya-tl-lampada-da-tavolo-nero-323237.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -2595,24 +1932,7 @@
           "value": "ideal-lux-essence-tl-round-lampada-da-tavolo-bianco-367149"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Essence tl round Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-essence-tl-round-lampada-da-tavolo-bianco-367149.jpg",
-            "url": "./file/images//ideal-lux-essence-tl-round-lampada-da-tavolo-bianco-367149.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -2653,24 +1973,7 @@
           "value": "ideal-lux-essence-tl-round-lampada-da-tavolo-nero-371870"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Essence tl round Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-essence-tl-round-lampada-da-tavolo-nero-371870.jpg",
-            "url": "./file/images//ideal-lux-essence-tl-round-lampada-da-tavolo-nero-371870.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -2711,24 +2014,7 @@
           "value": "ideal-lux-essence-tl-square-lampada-da-tavolo-bianco-367156"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Essence tl square Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-essence-tl-square-lampada-da-tavolo-bianco-367156.jpg",
-            "url": "./file/images//ideal-lux-essence-tl-square-lampada-da-tavolo-bianco-367156.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -2769,24 +2055,7 @@
           "value": "ideal-lux-essence-tl-square-lampada-da-tavolo-nero-371900"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Essence tl square Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-essence-tl-square-lampada-da-tavolo-nero-371900.jpg",
-            "url": "./file/images//ideal-lux-essence-tl-square-lampada-da-tavolo-nero-371900.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -2950,24 +2219,7 @@
           "value": "ideal-lux-firenze-tl1-lampada-da-tavolo-bianco-012889"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Firenze tl1 Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-firenze-tl1-lampada-da-tavolo-bianco-012889.jpg",
-            "url": "./file/images//ideal-lux-firenze-tl1-lampada-da-tavolo-bianco-012889.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -3008,24 +2260,7 @@
           "value": "ideal-lux-firenze-tl1-lampada-da-tavolo-oro-020853"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Firenze tl1 Lampada Da Tavolo-Oro",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-firenze-tl1-lampada-da-tavolo-oro-020853.jpg",
-            "url": "./file/images//ideal-lux-firenze-tl1-lampada-da-tavolo-oro-020853.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -3066,24 +2301,7 @@
           "value": "ideal-lux-futura-tl-lampada-da-tavolo-alluminio-204895"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Futura tl Lampada Da Tavolo-Alluminio",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-futura-tl-lampada-da-tavolo-alluminio-204895.jpg",
-            "url": "./file/images//ideal-lux-futura-tl-lampada-da-tavolo-alluminio-204895.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -3124,24 +2342,7 @@
           "value": "ideal-lux-futura-tl-lampada-da-tavolo-bianco-272078"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Futura tl Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-futura-tl-lampada-da-tavolo-bianco-272078.jpg",
-            "url": "./file/images//ideal-lux-futura-tl-lampada-da-tavolo-bianco-272078.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -3182,24 +2383,7 @@
           "value": "ideal-lux-futura-tl-lampada-da-tavolo-nero-204888"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Futura tl Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-futura-tl-lampada-da-tavolo-nero-204888.jpg",
-            "url": "./file/images//ideal-lux-futura-tl-lampada-da-tavolo-nero-204888.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -3351,24 +2535,7 @@
           "value": "ideal-lux-lawyer-tl1-lampada-da-tavolo-brunito-045030"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Lawyer tl1 Lampada Da Tavolo-Brunito",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-lawyer-tl1-lampada-da-tavolo-brunito-045030.jpg",
-            "url": "./file/images//ideal-lux-lawyer-tl1-lampada-da-tavolo-brunito-045030.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -3409,24 +2576,7 @@
           "value": "ideal-lux-lawyer-tl1-lampada-da-tavolo-ottone-013657"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Lawyer tl1 Lampada Da Tavolo-Ottone",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-lawyer-tl1-lampada-da-tavolo-ottone-013657.jpg",
-            "url": "./file/images//ideal-lux-lawyer-tl1-lampada-da-tavolo-ottone-013657.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -3467,24 +2617,7 @@
           "value": "ideal-lux-lingotto-tl1-big-lampada-da-tavolo-nero-327877"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Lingotto tl1 big Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-lingotto-tl1-big-lampada-da-tavolo-nero-327877.jpg",
-            "url": "./file/images//ideal-lux-lingotto-tl1-big-lampada-da-tavolo-nero-327877.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -3525,24 +2658,7 @@
           "value": "ideal-lux-lingotto-tl1-big-lampada-da-tavolo-ottone-251127"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Lingotto tl1 big Lampada Da Tavolo-Ottone",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-lingotto-tl1-big-lampada-da-tavolo-ottone-251127.jpg",
-            "url": "./file/images//ideal-lux-lingotto-tl1-big-lampada-da-tavolo-ottone-251127.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -3624,24 +2740,7 @@
           "value": "ideal-lux-lingotto-tl1-small-lampada-da-tavolo-ottone-259222"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Lingotto tl1 small Lampada Da Tavolo-Ottone",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-lingotto-tl1-small-lampada-da-tavolo-ottone-259222.jpg",
-            "url": "./file/images//ideal-lux-lingotto-tl1-small-lampada-da-tavolo-ottone-259222.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -3682,24 +2781,7 @@
           "value": "ideal-lux-lolita-tl-lampada-da-tavolo-bianco-286723"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Lolita tl Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-lolita-tl-lampada-da-tavolo-bianco-286723.jpg",
-            "url": "./file/images//ideal-lux-lolita-tl-lampada-da-tavolo-bianco-286723.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -3740,24 +2822,7 @@
           "value": "ideal-lux-lolita-tl-lampada-da-tavolo-caff-286747"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Lolita tl Lampada Da Tavolo-Caffè",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-lolita-tl-lampada-da-tavolo-caff-286747.jpg",
-            "url": "./file/images//ideal-lux-lolita-tl-lampada-da-tavolo-caff-286747.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -3798,24 +2863,7 @@
           "value": "ideal-lux-lolita-tl-lampada-da-tavolo-nero-286716"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Lolita tl Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-lolita-tl-lampada-da-tavolo-nero-286716.jpg",
-            "url": "./file/images//ideal-lux-lolita-tl-lampada-da-tavolo-nero-286716.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -3852,24 +2900,7 @@
           "value": "ideal-lux-lolita-tl-cool-grey-lampada-da-tavolo-grigio-286730"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Lolita tl cool grey Lampada Da Tavolo-Grigio",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-lolita-tl-cool-grey-lampada-da-tavolo-grigio-286730.jpg",
-            "url": "./file/images//ideal-lux-lolita-tl-cool-grey-lampada-da-tavolo-grigio-286730.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -4152,24 +3183,7 @@
           "value": "ideal-lux-lumiere-tl-lampada-da-tavolo-bianco-314204"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Lumiere tl Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-lumiere-tl-lampada-da-tavolo-bianco-314204.jpg",
-            "url": "./file/images//ideal-lux-lumiere-tl-lampada-da-tavolo-bianco-314204.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -4214,24 +3228,7 @@
           "value": "ideal-lux-mapa-tl1-lampada-da-tavolo-bianco-diametro-10cm-g9-310817"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Mapa tl1 Lampada Da Tavolo-Bianco-Diametro-10cm-G9",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-mapa-tl1-lampada-da-tavolo-bianco-diametro-10cm-g9-310817.jpg",
-            "url": "./file/images//ideal-lux-mapa-tl1-lampada-da-tavolo-bianco-diametro-10cm-g9-310817.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -4276,24 +3273,7 @@
           "value": "ideal-lux-mapa-tl1-lampada-da-tavolo-bianco-diametro-20cm-e27-009155"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Mapa tl1 Lampada Da Tavolo-Bianco-Diametro-20cm-E27",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-mapa-tl1-lampada-da-tavolo-bianco-diametro-20cm-e27-009155.jpg",
-            "url": "./file/images//ideal-lux-mapa-tl1-lampada-da-tavolo-bianco-diametro-20cm-e27-009155.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -4338,24 +3318,7 @@
           "value": "ideal-lux-mapa-tl1-lampada-da-tavolo-bianco-diametro-30cm-e27-009131"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Mapa tl1 Lampada Da Tavolo-Bianco-Diametro-30cm-E27",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-mapa-tl1-lampada-da-tavolo-bianco-diametro-30cm-e27-009131.jpg",
-            "url": "./file/images//ideal-lux-mapa-tl1-lampada-da-tavolo-bianco-diametro-30cm-e27-009131.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -4400,24 +3363,7 @@
           "value": "ideal-lux-mapa-tl1-lampada-da-tavolo-bianco-diametro-40cm-e27-000206"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Mapa tl1 Lampada Da Tavolo-Bianco-Diametro-40cm-E27",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-mapa-tl1-lampada-da-tavolo-bianco-diametro-40cm-e27-000206.jpg",
-            "url": "./file/images//ideal-lux-mapa-tl1-lampada-da-tavolo-bianco-diametro-40cm-e27-000206.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -4577,24 +3523,7 @@
           "value": "ideal-lux-ninfea-tl1-lampada-da-tavolo-bianco-318325"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Ninfea tl1 Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-ninfea-tl1-lampada-da-tavolo-bianco-318325.jpg",
-            "url": "./file/images//ideal-lux-ninfea-tl1-lampada-da-tavolo-bianco-318325.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -4635,24 +3564,7 @@
           "value": "ideal-lux-ninfea-tl1-lampada-da-tavolo-ottone-346526"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Ninfea tl1 Lampada Da Tavolo-Ottone",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-ninfea-tl1-lampada-da-tavolo-ottone-346526.jpg",
-            "url": "./file/images//ideal-lux-ninfea-tl1-lampada-da-tavolo-ottone-346526.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -4689,24 +3601,7 @@
           "value": "ideal-lux-nordik-tl1-lampada-da-tavolo-nero-161686"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Nordik tl1 Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-nordik-tl1-lampada-da-tavolo-nero-161686.jpg",
-            "url": "./file/images//ideal-lux-nordik-tl1-lampada-da-tavolo-nero-161686.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -4743,24 +3638,7 @@
           "value": "ideal-lux-opera-tl1-lampada-da-tavolo-bianco-068305"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Opera tl1 Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-opera-tl1-lampada-da-tavolo-bianco-068305.jpg",
-            "url": "./file/images//ideal-lux-opera-tl1-lampada-da-tavolo-bianco-068305.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -4805,24 +3683,7 @@
           "value": "ideal-lux-oz-tl-on-off-lampada-da-tavolo-bianco-2700k-342467"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Oz tl on-off Lampada Da Tavolo-Bianco-2700K",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-oz-tl-on-off-lampada-da-tavolo-bianco-2700k-342467.jpg",
-            "url": "./file/images//ideal-lux-oz-tl-on-off-lampada-da-tavolo-bianco-2700k-342467.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -4912,24 +3773,7 @@
           "value": "ideal-lux-oz-tl-on-off-lampada-da-tavolo-bianco-4000k-342498"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Oz tl on-off Lampada Da Tavolo-Bianco-4000K",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-oz-tl-on-off-lampada-da-tavolo-bianco-4000k-342498.jpg",
-            "url": "./file/images//ideal-lux-oz-tl-on-off-lampada-da-tavolo-bianco-4000k-342498.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -4974,24 +3818,7 @@
           "value": "ideal-lux-oz-tl-on-off-lampada-da-tavolo-nero-2700k-342474"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Oz tl on-off Lampada Da Tavolo-Nero-2700K",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-oz-tl-on-off-lampada-da-tavolo-nero-2700k-342474.jpg",
-            "url": "./file/images//ideal-lux-oz-tl-on-off-lampada-da-tavolo-nero-2700k-342474.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5081,24 +3908,7 @@
           "value": "ideal-lux-oz-tl-on-off-lampada-da-tavolo-nero-4000k-342504"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Oz tl on-off Lampada Da Tavolo-Nero-4000K",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-oz-tl-on-off-lampada-da-tavolo-nero-4000k-342504.jpg",
-            "url": "./file/images//ideal-lux-oz-tl-on-off-lampada-da-tavolo-nero-4000k-342504.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5143,24 +3953,7 @@
           "value": "ideal-lux-oz-tl-on-off-lampada-da-tavolo-ottone-2700k-342481"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Oz tl on-off Lampada Da Tavolo-Ottone-2700K",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-oz-tl-on-off-lampada-da-tavolo-ottone-2700k-342481.jpg",
-            "url": "./file/images//ideal-lux-oz-tl-on-off-lampada-da-tavolo-ottone-2700k-342481.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5250,24 +4043,7 @@
           "value": "ideal-lux-oz-tl-on-off-lampada-da-tavolo-ottone-4000k-342511"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Oz tl on-off Lampada Da Tavolo-Ottone-4000K",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-oz-tl-on-off-lampada-da-tavolo-ottone-4000k-342511.jpg",
-            "url": "./file/images//ideal-lux-oz-tl-on-off-lampada-da-tavolo-ottone-4000k-342511.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5304,24 +4080,7 @@
           "value": "ideal-lux-pegaso-tl1-big-lampada-da-tavolo-bianco-059259"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Pegaso tl1 big Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-pegaso-tl1-big-lampada-da-tavolo-bianco-059259.jpg",
-            "url": "./file/images//ideal-lux-pegaso-tl1-big-lampada-da-tavolo-bianco-059259.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5362,24 +4121,7 @@
           "value": "ideal-lux-pegaso-tl1-small-lampada-da-tavolo-bianco-059266"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Pegaso tl1 small Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-pegaso-tl1-small-lampada-da-tavolo-bianco-059266.jpg",
-            "url": "./file/images//ideal-lux-pegaso-tl1-small-lampada-da-tavolo-bianco-059266.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5420,24 +4162,7 @@
           "value": "ideal-lux-pegaso-tl1-small-lampada-da-tavolo-ottone-197753"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Pegaso tl1 small Lampada Da Tavolo-Ottone",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-pegaso-tl1-small-lampada-da-tavolo-ottone-197753.jpg",
-            "url": "./file/images//ideal-lux-pegaso-tl1-small-lampada-da-tavolo-ottone-197753.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5478,24 +4203,7 @@
           "value": "ideal-lux-perlage-tl1-lampada-da-tavolo-ambra-317823"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Perlage tl1 Lampada Da Tavolo-Ambra",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-perlage-tl1-lampada-da-tavolo-ambra-317823.jpg",
-            "url": "./file/images//ideal-lux-perlage-tl1-lampada-da-tavolo-ambra-317823.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5536,24 +4244,7 @@
           "value": "ideal-lux-perlage-tl1-lampada-da-tavolo-bianco-292458"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Perlage tl1 Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-perlage-tl1-lampada-da-tavolo-bianco-292458.jpg",
-            "url": "./file/images//ideal-lux-perlage-tl1-lampada-da-tavolo-bianco-292458.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5594,24 +4285,7 @@
           "value": "ideal-lux-perlage-tl1-lampada-da-tavolo-fum-292441"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Perlage tl1 Lampada Da Tavolo-Fumé",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-perlage-tl1-lampada-da-tavolo-fum-292441.jpg",
-            "url": "./file/images//ideal-lux-perlage-tl1-lampada-da-tavolo-fum-292441.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5652,24 +4326,7 @@
           "value": "ideal-lux-perlage-tl3-lampada-da-tavolo-ambra-322759"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Perlage tl3 Lampada Da Tavolo-Ambra",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-perlage-tl3-lampada-da-tavolo-ambra-322759.jpg",
-            "url": "./file/images//ideal-lux-perlage-tl3-lampada-da-tavolo-ambra-322759.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5710,24 +4367,7 @@
           "value": "ideal-lux-perlage-tl3-lampada-da-tavolo-bianco-292472"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Perlage tl3 Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-perlage-tl3-lampada-da-tavolo-bianco-292472.jpg",
-            "url": "./file/images//ideal-lux-perlage-tl3-lampada-da-tavolo-bianco-292472.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5768,24 +4408,7 @@
           "value": "ideal-lux-perlage-tl3-lampada-da-tavolo-fum-292465"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Perlage tl3 Lampada Da Tavolo-Fumé",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-perlage-tl3-lampada-da-tavolo-fum-292465.jpg",
-            "url": "./file/images//ideal-lux-perlage-tl3-lampada-da-tavolo-fum-292465.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5826,24 +4449,7 @@
           "value": "ideal-lux-pivot-tl-lampada-da-tavolo-bianco-289168"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Pivot tl Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-pivot-tl-lampada-da-tavolo-bianco-289168.jpg",
-            "url": "./file/images//ideal-lux-pivot-tl-lampada-da-tavolo-bianco-289168.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5884,24 +4490,7 @@
           "value": "ideal-lux-pivot-tl-lampada-da-tavolo-nero-289151"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Pivot tl Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-pivot-tl-lampada-da-tavolo-nero-289151.jpg",
-            "url": "./file/images//ideal-lux-pivot-tl-lampada-da-tavolo-nero-289151.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5938,24 +4527,7 @@
           "value": "ideal-lux-prato-tl1-big-lampada-da-tavolo-bianco-074702"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Prato tl1 big Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-prato-tl1-big-lampada-da-tavolo-bianco-074702.jpg",
-            "url": "./file/images//ideal-lux-prato-tl1-big-lampada-da-tavolo-bianco-074702.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -5992,24 +4564,7 @@
           "value": "ideal-lux-prato-tl1-small-lampada-da-tavolo-bianco-074726"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Prato tl1 small Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-prato-tl1-small-lampada-da-tavolo-bianco-074726.jpg",
-            "url": "./file/images//ideal-lux-prato-tl1-small-lampada-da-tavolo-bianco-074726.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6169,24 +4724,7 @@
           "value": "ideal-lux-queen-tl1-big-lampada-da-tavolo-oro-077758"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Queen tl1 big Lampada Da Tavolo-Oro",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-queen-tl1-big-lampada-da-tavolo-oro-077758.jpg",
-            "url": "./file/images//ideal-lux-queen-tl1-big-lampada-da-tavolo-oro-077758.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6223,24 +4761,7 @@
           "value": "ideal-lux-queen-tl1-medium-lampada-da-tavolo-oro-077741"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Queen tl1 medium Lampada Da Tavolo-Oro",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-queen-tl1-medium-lampada-da-tavolo-oro-077741.jpg",
-            "url": "./file/images//ideal-lux-queen-tl1-medium-lampada-da-tavolo-oro-077741.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6277,24 +4798,7 @@
           "value": "ideal-lux-queen-tl1-small-lampada-da-tavolo-oro-077734"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Queen tl1 small Lampada Da Tavolo-Oro",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-queen-tl1-small-lampada-da-tavolo-oro-077734.jpg",
-            "url": "./file/images//ideal-lux-queen-tl1-small-lampada-da-tavolo-oro-077734.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6335,24 +4839,7 @@
           "value": "ideal-lux-set-up-mtl1-big-lampada-da-tavolo-bianco-259918"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Set up mtl1 big Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-set-up-mtl1-big-lampada-da-tavolo-bianco-259918.jpg",
-            "url": "./file/images//ideal-lux-set-up-mtl1-big-lampada-da-tavolo-bianco-259918.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6393,24 +4880,7 @@
           "value": "ideal-lux-set-up-mtl1-big-lampada-da-tavolo-nero-259925"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Set up mtl1 big Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-set-up-mtl1-big-lampada-da-tavolo-nero-259925.jpg",
-            "url": "./file/images//ideal-lux-set-up-mtl1-big-lampada-da-tavolo-nero-259925.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6451,24 +4921,7 @@
           "value": "ideal-lux-set-up-mtl1-big-lampada-da-tavolo-nichel-259949"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Set up mtl1 big Lampada Da Tavolo-Nichel",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-set-up-mtl1-big-lampada-da-tavolo-nichel-259949.jpg",
-            "url": "./file/images//ideal-lux-set-up-mtl1-big-lampada-da-tavolo-nichel-259949.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6509,24 +4962,7 @@
           "value": "ideal-lux-set-up-mtl1-big-lampada-da-tavolo-ottone-259956"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Set up mtl1 big Lampada Da Tavolo-Ottone",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-set-up-mtl1-big-lampada-da-tavolo-ottone-259956.jpg",
-            "url": "./file/images//ideal-lux-set-up-mtl1-big-lampada-da-tavolo-ottone-259956.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6567,24 +5003,7 @@
           "value": "ideal-lux-set-up-mtl1-small-lampada-da-tavolo-bianco-259864"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Set up mtl1 small Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-set-up-mtl1-small-lampada-da-tavolo-bianco-259864.jpg",
-            "url": "./file/images//ideal-lux-set-up-mtl1-small-lampada-da-tavolo-bianco-259864.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6625,24 +5044,7 @@
           "value": "ideal-lux-set-up-mtl1-small-lampada-da-tavolo-nero-259871"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Set up mtl1 small Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-set-up-mtl1-small-lampada-da-tavolo-nero-259871.jpg",
-            "url": "./file/images//ideal-lux-set-up-mtl1-small-lampada-da-tavolo-nero-259871.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6683,24 +5085,7 @@
           "value": "ideal-lux-set-up-mtl1-small-lampada-da-tavolo-nichel-259895"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Set up mtl1 small Lampada Da Tavolo-Nichel",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-set-up-mtl1-small-lampada-da-tavolo-nichel-259895.jpg",
-            "url": "./file/images//ideal-lux-set-up-mtl1-small-lampada-da-tavolo-nichel-259895.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6741,24 +5126,7 @@
           "value": "ideal-lux-set-up-mtl1-small-lampada-da-tavolo-ottone-259901"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Set up mtl1 small Lampada Da Tavolo-Ottone",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-set-up-mtl1-small-lampada-da-tavolo-ottone-259901.jpg",
-            "url": "./file/images//ideal-lux-set-up-mtl1-small-lampada-da-tavolo-ottone-259901.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6803,24 +5171,7 @@
           "value": "ideal-lux-smarties-tl1-lampada-da-tavolo-bianco-diametro-14cm-g9-032078"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Smarties tl1 Lampada Da Tavolo-Bianco-Diametro-14cm-G9",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-smarties-tl1-lampada-da-tavolo-bianco-diametro-14cm-g9-032078.jpg",
-            "url": "./file/images//ideal-lux-smarties-tl1-lampada-da-tavolo-bianco-diametro-14cm-g9-032078.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6865,24 +5216,7 @@
           "value": "ideal-lux-smarties-tl1-lampada-da-tavolo-bianco-diametro-30cm-e27-327907"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Smarties tl1 Lampada Da Tavolo-Bianco-Diametro-30cm-E27",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-smarties-tl1-lampada-da-tavolo-bianco-diametro-30cm-e27-327907.jpg",
-            "url": "./file/images//ideal-lux-smarties-tl1-lampada-da-tavolo-bianco-diametro-30cm-e27-327907.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6927,24 +5261,7 @@
           "value": "ideal-lux-smarties-tl1-lampada-da-tavolo-bianco-diametro-40cm-e27-327914"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Smarties tl1 Lampada Da Tavolo-Bianco-Diametro-40cm-E27",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-smarties-tl1-lampada-da-tavolo-bianco-diametro-40cm-e27-327914.jpg",
-            "url": "./file/images//ideal-lux-smarties-tl1-lampada-da-tavolo-bianco-diametro-40cm-e27-327914.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -6985,24 +5302,7 @@
           "value": "ideal-lux-toffee-tl-lampada-da-tavolo-bianco-311715"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Toffee tl Lampada Da Tavolo-Bianco",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-toffee-tl-lampada-da-tavolo-bianco-311715.jpg",
-            "url": "./file/images//ideal-lux-toffee-tl-lampada-da-tavolo-bianco-311715.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -7043,24 +5343,7 @@
           "value": "ideal-lux-toffee-tl-lampada-da-tavolo-caff-347868"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Toffee tl Lampada Da Tavolo-Caffè",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-toffee-tl-lampada-da-tavolo-caff-347868.jpg",
-            "url": "./file/images//ideal-lux-toffee-tl-lampada-da-tavolo-caff-347868.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -7101,24 +5384,7 @@
           "value": "ideal-lux-toffee-tl-lampada-da-tavolo-nero-328614"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Toffee tl Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-toffee-tl-lampada-da-tavolo-nero-328614.jpg",
-            "url": "./file/images//ideal-lux-toffee-tl-lampada-da-tavolo-nero-328614.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {
@@ -7155,24 +5421,7 @@
           "value": "ideal-lux-wally-tl1-rame-lampada-da-tavolo-nero-061191"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Wally tl1 rame Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-wally-tl1-rame-lampada-da-tavolo-nero-061191.jpg",
-            "url": "./file/images//ideal-lux-wally-tl1-rame-lampada-da-tavolo-nero-061191.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   },
   {

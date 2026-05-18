@@ -141,6 +141,30 @@ def build_categorie_map(session: OAuth1Session) -> dict:
 
 
 # ─────────────────────────────────────────────
+# ATTRIBUTI CONFIGURABILI
+# ─────────────────────────────────────────────
+
+def build_attr_map(session: OAuth1Session, configurabili: list) -> dict:
+    """
+    Recupera attribute_id e opzioni per tutti i codici attributo
+    presenti nei configurabili.
+
+    Restituisce {attribute_code: {"attribute_id": str, "options": {id: label}}}
+    """
+    codes = set()
+    for c in configurabili:
+        codes.update(c.get("_attr_codes", []))
+
+    attr_map = {}
+    for code in sorted(codes):
+        print(f"  🔍  Recupero attribute_id per '{code}'...")
+        attr_map[code] = get_attribute_info(session, code)
+        print(f"       → id={attr_map[code]['attribute_id']}  "
+              f"opzioni={len(attr_map[code]['options'])}")
+    return attr_map
+
+
+# ─────────────────────────────────────────────
 # LINKING SEMPLICI → CONFIGURABILE
 # ─────────────────────────────────────────────
 

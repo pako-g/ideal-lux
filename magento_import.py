@@ -20,150 +20,93 @@ from utility.magento_api import *
 # CONFIGURAZIONE
 # ─────────────────────────────────────────────
 
-CATEGORIA   = "Lampada da tavolo"
-SIMPLE_JSON = f"./file/simple_products_{CATEGORIA.lower().replace(' ', '_')}.json"
-CONFIG_JSON = f"./file/configurable_products_{CATEGORIA.lower().replace(' ', '_')}.json"
-IMAGES_DIR       = Path("./file/images")
-SCRAPING_DIR     = Path("./file/scraping")
+CATEGORIA    = "Lampada da tavolo"
+SIMPLE_JSON  = f"./file/simple_products_{CATEGORIA.lower().replace(' ', '_')}.json"
+CONFIG_JSON  = f"./file/configurable_products_{CATEGORIA.lower().replace(' ', '_')}.json"
+IMAGES_DIR   = Path("./file/images")
+SCRAPING_DIR = Path("./file/scraping")
 
 
 # ─────────────────────────────────────────────
 # UTILITY IMMAGINI
 # ─────────────────────────────────────────────
 
-def trova_immagine(nome_prodotto: str, sku: str) -> Path | None:
+def _trova_immagine(nome_prodotto: str, sku: str) -> Path | None:
+    """Cerca l'immagine principale per nome+sku, con fallback glob."""
     sku_pulito = sku.replace("IL-", "")
     slug = re.sub(r"[^a-z0-9]+", "-", nome_prodotto.lower()).strip("-")
-    # Cerca prima per nome esatto
     path = IMAGES_DIR / f"{slug}-{sku_pulito}.jpg"
     if path.exists():
         return path
-    # Fallback: cerca qualsiasi file che contenga lo SKU
     matches = list(IMAGES_DIR.glob(f"*{sku_pulito}*.jpg"))
     print(f"    🔍  Fallback trovati: {[m.name for m in matches]}")
     return matches[0] if matches else None
 
 
-def immagine_to_base64(path: Path) -> str:
-    """Legge un file immagine e restituisce la stringa base64."""
-    with open(path, "rb") as f:
-        return base64.b64encode(f.read()).decode("utf-8")
+def _to_base64(path: Path) -> str:
+    return base64.b64encode(path.read_bytes()).decode("utf-8")
 
 
-def build_media_entry(nome_prodotto: str, sku: str) -> list:
+def _media_entry(path: Path, label: str, position: int, is_main: bool) -> dict:
+    """Costruisce una singola entry media gallery."""
+    return {
+        "media_type": "image",
+        "label":      label,
+        "position":   position,
+        "disabled":   False,
+        "types":      ["image", "small_image", "thumbnail"] if is_main else [],
+        "content": {
+            "base64_encoded_data": _to_base64(path),
+            "type": "image/jpeg",
+            "name": path.name,
+        },
+    }
+
+
+def build_media_entry_semplice(nome_prodotto: str, sku: str) -> list:
     """
-    Costruisce media_gallery_entries per un prodotto semplice.
-    Cerca l'immagine in ./file/images/ per nome e SKU.
+    Restituisce una lista con la singola immagine principale del prodotto semplice.
     """
-    entries = []
-    path = trova_immagine(nome_prodotto, sku)
     print(f"    🏷️   Label immagine: {nome_prodotto}")
-    if path:
-        print(f"    🖼️   Immagine semplice: {path.name}")
-        entries.append({
-            "media_type": "image",
-            "label":      nome_prodotto,
-            "position":   1,
-            "disabled":   False,
-            "types":      ["image", "small_image", "thumbnail"],
-            "content": {
-                "base64_encoded_data": immagine_to_base64(path),
-                "type": "image/jpeg",
-                "name": path.name,
-            },
-        })
-    else:
+    path = _trova_immagine(nome_prodotto, sku)
+    if not path:
         print(f"    ⚠️   Immagine non trovata per {sku}")
-    return entries
+        return []
+    print(f"    🖼️   Immagine semplice: {path.name}")
+    return [_media_entry(path, nome_prodotto, position=1, is_main=True)]
 
 
-def build_scraping_entries(nome_prodotto: str, child_skus: list, scraping_dir: Path) -> list:
+def build_media_entries_configurabile(nome_prodotto: str, child_skus: list) -> list:
     """
-    Costruisce media_gallery_entries per le immagini scraping del configurabile.
-    Cerca per ogni SKU figlio le immagini in ./file/scraping/.
+    Restituisce tutte le immagini del configurabile:
+      - immagine principale di ogni semplice figlio (da IMAGES_DIR)
+      - immagini scraping (da SCRAPING_DIR)
+    La prima immagine trovata è quella principale (types = image/small_image/thumbnail).
     """
-    imgs = []
-    for s in child_skus:
-        sku_pulito = s.replace("IL-", "")
-        imgs.extend(sorted(scraping_dir.glob(f"*-{sku_pulito}-*.jpg")))
-    imgs = sorted(imgs)
-
     entries = []
-    for i, img_path in enumerate(imgs, start=1):
-        print(f"    🖼️   Immagine scraping: {img_path.name}")
-        print(f"    🏷️   Label immagine: {nome_prodotto}")
-        entries.append({
-            "media_type": "image",
-            "label":      nome_prodotto,
-            "position":   i,
-            "disabled":   False,
-            "types":      [],
-            "content": {
-                "base64_encoded_data": immagine_to_base64(img_path),
-                "type": "image/jpeg",
-                "name": img_path.name,
-            },
-        })
+
+    # Immagini principali dei semplici figli
+    for sku in child_skus:
+        path = _trova_immagine(nome_prodotto, sku)
+        if path:
+            print(f"    🖼️   Immagine semplice: {path.name}")
+            entries.append(_media_entry(path, nome_prodotto, len(entries) + 1, is_main=not entries))
+
+    # Immagini scraping
+    scraping_imgs = []
+    for sku in child_skus:
+        sku_pulito = sku.replace("IL-", "")
+        scraping_imgs.extend(sorted(SCRAPING_DIR.glob(f"*-{sku_pulito}-*.jpg")))
+
+    for path in sorted(scraping_imgs):
+        print(f"    🖼️   Immagine scraping: {path.name}")
+        entries.append(_media_entry(path, nome_prodotto, len(entries) + 1, is_main=False))
+
     return entries
 
 
 # ─────────────────────────────────────────────
-# STEP 1 — RISOLVI ATTRIBUTE_ID
-# ─────────────────────────────────────────────
-
-def build_attr_map(session: OAuth1Session, configurabili: list) -> dict:
-    """
-    Recupera attribute_id e opzioni per tutti i codici attributo
-    presenti nei configurabili.
-    """
-    codes = set()
-    for c in configurabili:
-        codes.update(c.get("_attr_codes", []))
-
-    attr_map = {}
-    for code in sorted(codes):
-        print(f"  🔍  Recupero attribute_id per '{code}'...")
-        attr_map[code] = get_attribute_info(session, code)
-        print(f"       → id={attr_map[code]['attribute_id']}  "
-              f"opzioni={len(attr_map[code]['options'])}")
-    return attr_map
-
-
-# ─────────────────────────────────────────────
-# STEP 2 — CREA PRODOTTI SEMPLICI
-# ─────────────────────────────────────────────
-
-def crea_semplici(session: OAuth1Session, semplici: list) -> dict:
-    """
-    Crea ogni prodotto semplice via API con immagine in base64.
-    Restituisce {sku: entity_id} per i prodotti creati con successo.
-    """
-    creati = {}
-    totale = len(semplici)
-
-    for i, s in enumerate(semplici, start=1):
-        sku  = s["product"]["sku"]
-        nome = s["product"]["name"]
-        print(f"\n  [{i}/{totale}]  Creo semplice  {sku}  —  {nome}")
-
-        payload = json.loads(json.dumps(s))
-        payload["product"]["media_gallery_entries"] = build_media_entry(nome, sku)
-
-        try:
-            result = api_post(session, "products", payload)
-            entity_id = result.get("id")
-            creati[sku] = entity_id
-            print(f"             ✅  entity_id={entity_id}")
-        except RuntimeError as e:
-            print(f"             ❌  ERRORE: {e}")
-
-        time.sleep(RETRY_DELAY)
-
-    return creati
-
-
-# ─────────────────────────────────────────────
-# STEP 3 — COSTRUISCI configurable_product_options
+# ATTRIBUTI CONFIGURABILI
 # ─────────────────────────────────────────────
 
 def build_config_options(
@@ -203,8 +146,37 @@ def build_config_options(
 
 
 # ─────────────────────────────────────────────
-# STEP 4 — CREA PRODOTTI CONFIGURABILI
+# CREAZIONE PRODOTTI
 # ─────────────────────────────────────────────
+
+def crea_semplici(session: OAuth1Session, semplici: list) -> dict:
+    """
+    Crea ogni prodotto semplice via API con la sua immagine principale.
+    Restituisce {sku: entity_id} per i prodotti creati con successo.
+    """
+    creati = {}
+    totale = len(semplici)
+
+    for i, s in enumerate(semplici, start=1):
+        sku  = s["product"]["sku"]
+        nome = s["product"]["name"]
+        print(f"\n  [{i}/{totale}]  Creo semplice  {sku}  —  {nome}")
+
+        payload = json.loads(json.dumps(s))
+        payload["product"]["media_gallery_entries"] = build_media_entry_semplice(nome, sku)
+
+        try:
+            result = api_post(session, "products", payload)
+            entity_id = result.get("id")
+            creati[sku] = entity_id
+            print(f"             ✅  entity_id={entity_id}")
+        except RuntimeError as e:
+            print(f"             ❌  ERRORE: {e}")
+
+        time.sleep(RETRY_DELAY)
+
+    return creati
+
 
 def crea_configurabili(
     session: OAuth1Session,
@@ -213,10 +185,7 @@ def crea_configurabili(
     attr_map: dict,
 ) -> list:
     """
-    Crea ogni configurabile via API con configurable_product_options.
-    Le immagini del configurabile sono:
-      - media_gallery_entries già nel JSON (immagini dei semplici in base64)
-      - immagini scraping cercate per SKU figlio in ./file/scraping/
+    Crea ogni configurabile via API con configurable_product_options e tutte le immagini.
     Restituisce lista {config_sku, child_skus} per il linking.
     """
     da_linkare = []
@@ -230,25 +199,11 @@ def crea_configurabili(
 
         print(f"\n  [{i}/{totale}]  Creo configurabile  {sku}  —  {nome}")
 
-        # Costruisci configurable_product_options
-        config_options = build_config_options(
+        payload = json.loads(json.dumps(c["product"]))
+        payload["extension_attributes"]["configurable_product_options"] = build_config_options(
             attr_codes, child_skus, semplici_map, attr_map
         )
-
-        # Deep copy del payload — include già media_gallery_entries dal JSON
-        payload = json.loads(json.dumps(c["product"]))
-        payload["extension_attributes"]["configurable_product_options"] = config_options
-
-        # Aggiunge immagini scraping (cercate per SKU figlio)
-        scraping_entries = build_scraping_entries(nome, child_skus, SCRAPING_DIR)
-        existing = payload.get("media_gallery_entries", [])
-
-        # Aggiorna position per le scraping (continuano dopo quelle esistenti)
-        offset = len(existing)
-        for j, entry in enumerate(scraping_entries):
-            entry["position"] = offset + j + 1
-
-        payload["media_gallery_entries"] = existing + scraping_entries
+        payload["media_gallery_entries"] = build_media_entries_configurabile(nome, child_skus)
 
         print(f"    🖼️   Totale immagini: {len(payload['media_gallery_entries'])}")
 
@@ -278,14 +233,13 @@ def main():
     with open(CONFIG_JSON, encoding="utf-8") as f:
         configurabili = json.load(f)
 
-    print(f"\n📦  Semplici      : {len(semplici)}")
+    print(f"\n📦  Semplici       : {len(semplici)}")
     print(f"🔗  Configurabili  : {len(configurabili)}")
     print(f"🖼️   Cartella img   : {IMAGES_DIR.resolve()}")
     print(f"🖼️   Cartella scraping: {SCRAPING_DIR.resolve()}")
 
     semplici_map = {s["product"]["sku"]: s for s in semplici}
-
-    session = get_oauth_session()
+    session      = get_oauth_session()
 
     print("\n── Step 1: Recupero attribute_id da Magento ─────────────")
     attr_map = build_attr_map(session, configurabili)
@@ -297,9 +251,13 @@ def main():
     da_linkare = crea_configurabili(session, configurabili, semplici_map, attr_map)
 
     print("\n── Step 4: Associazione semplici ai configurabili ───────")
-    linka_semplici(session, da_linkare)
+    risultati = linka_semplici(session, da_linkare)
 
-    print("\n✅  Import completato!")
+    falliti = [sku for sku, ok in risultati.items() if not ok]
+    if falliti:
+        print(f"\n⚠️   Link falliti ({len(falliti)}): {falliti}")
+    else:
+        print("\n✅  Import completato!")
 
 
 if __name__ == "__main__":
