@@ -56,22 +56,6 @@ CATEGORIA_PLURALE = {
 }
 DESC_CSV = "./file/descrizioni_configurabili_lampade_da_terra.csv"
 
-def build_categorie_map(session: OAuth1Session) -> dict:
-    """Restituisce {nome_categoria: id} percorrendo l'albero Magento."""
-    url = f"{MAGENTO_BASE_URL}/rest/V1/categories"
-    resp = session.get(url, verify=False)
-    resp.raise_for_status()
-
-    categorie_map = {}
-
-    def scorri(nodo):
-        categorie_map[nodo["name"]] = nodo["id"]
-        for figlio in nodo.get("children_data", []):
-            scorri(figlio)
-
-    scorri(resp.json())
-    return categorie_map
-
 
 # ─────────────────────────────────────────────
 # UTILITY TITOLO

@@ -112,6 +112,24 @@ def get_attribute_set_id(session: OAuth1Session, name: str) -> int:
     items = resp.json().get("items", [])
     return items[0]["attribute_set_id"] if items else None
 
+# ───────────────────────────────────────────────
+# RECUPERO CATEGORIES DA MAGENTO
+# ───────────────────────────────────────────────
+def build_categorie_map(session: OAuth1Session) -> dict:
+    """Restituisce {nome_categoria: id} percorrendo l'albero Magento."""
+    url = f"{MAGENTO_BASE_URL}/rest/V1/categories"
+    resp = session.get(url, verify=False)
+    resp.raise_for_status()
+
+    categorie_map = {}
+
+    def scorri(nodo):
+        categorie_map[nodo["name"]] = nodo["id"]
+        for figlio in nodo.get("children_data", []):
+            scorri(figlio)
+
+    scorri(resp.json())
+    return categorie_map
 
 
 def api_post(session: OAuth1Session, endpoint: str, payload: dict) -> dict:
