@@ -51,7 +51,7 @@
           "content": {
             "type": "image/jpeg",
             "name": "ideal-lux-futura-tl-lampada-da-tavolo-alluminio-204895.jpg",
-            "url": "./file/images//ideal-lux-futura-tl-lampada-da-tavolo-alluminio-204895.jpg"
+            "url": "./file/images/ideal-lux-futura-tl-lampada-da-tavolo-alluminio-204895.jpg"
           }
         }
       ]
@@ -109,7 +109,7 @@
           "content": {
             "type": "image/jpeg",
             "name": "ideal-lux-futura-tl-lampada-da-tavolo-bianco-272078.jpg",
-            "url": "./file/images//ideal-lux-futura-tl-lampada-da-tavolo-bianco-272078.jpg"
+            "url": "./file/images/ideal-lux-futura-tl-lampada-da-tavolo-bianco-272078.jpg"
           }
         }
       ]
@@ -153,24 +153,7 @@
           "value": "ideal-lux-futura-tl-lampada-da-tavolo-nero-204888"
         }
       ],
-      "media_gallery_entries": [
-        {
-          "media_type": "image",
-          "label": "Ideal Lux Futura tl Lampada Da Tavolo-Nero",
-          "position": 1,
-          "disabled": false,
-          "types": [
-            "image",
-            "small_image",
-            "thumbnail"
-          ],
-          "content": {
-            "type": "image/jpeg",
-            "name": "ideal-lux-futura-tl-lampada-da-tavolo-nero-204888.jpg",
-            "url": "./file/images//ideal-lux-futura-tl-lampada-da-tavolo-nero-204888.jpg"
-          }
-        }
-      ]
+      "media_gallery_entries": []
     }
   }
 ]

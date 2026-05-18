@@ -112,6 +112,7 @@ def trova_immagine(nome_prodotto: str, sku: str) -> Path | None:
         return path
     # Fallback: cerca qualsiasi file che contenga lo SKU
     matches = list(IMAGES_DIR.glob(f"*{sku_pulito}*.jpg"))
+    print(f"    🔍  Fallback trovati: {[m.name for m in matches]}")
     return matches[0] if matches else None
 
 
