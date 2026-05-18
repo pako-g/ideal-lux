@@ -32,7 +32,7 @@ CSV_PATH        = "./file/giacenzeECommerce.csv"
 CATEGORIA   = "Lampada da tavolo"
 OUTPUT_PATH = f"./file/simple_products_{CATEGORIA.lower().replace(' ', '_')}.json"
 MARCA           = "Ideal Lux"
-ATTRIBUTE_SET_ID = 264      # adatta al tuo Attribute Set in Magento
+ATTRIBUTE_SET_NAME="Ideal-Lux"
 WEBSITE_IDS     = [1]
 MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
 
@@ -240,6 +240,17 @@ TIPO_LABEL = {
 
 FAMIGLIE_SOLO_COLORE = {"DRIFTWOOD"}
 
+def get_attribute_set_id(session: OAuth1Session, name: str) -> int:
+    url = f"{MAGENTO_BASE_URL}/rest/V1/eav/attribute-sets/list"
+    resp = session.get(url, params={
+        "searchCriteria[filter_groups][0][filters][0][field]": "attribute_set_name",
+        "searchCriteria[filter_groups][0][filters][0][value]": name,
+    }, verify=False)
+    resp.raise_for_status()
+    items = resp.json().get("items", [])
+    return items[0]["attribute_set_id"] if items else None
+
+
 def estrai_tipo(descrizione: str, famiglia: str) -> str:
     if famiglia in FAMIGLIE_SOLO_COLORE:
         return ""
@@ -303,7 +314,10 @@ def build_image_entry(nome: str, sku: str) -> dict | None:
 def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
                  dimensioni_map: dict, manufacturer_map: dict,
                  tipo_map: dict, temp_map: dict,
-                 famiglia_varianti: pd.DataFrame) -> dict:
+                 famiglia_varianti: pd.DataFrame, attribute_set_id: int) -> dict:
+
+
+
 
     famiglia   = row["Famiglia Articolo"]
     print(famiglia)
@@ -396,7 +410,7 @@ def build_simple(row: pd.Series, color_map: dict, attacco_map: dict,
         "product": {
             "sku":              f"IL-{row['sku']}",
             "name":             nome,
-            "attribute_set_id": ATTRIBUTE_SET_ID,
+            "attribute_set_id": attribute_set_id,
             "price":            float(row["prezzo"]),
             "status":           2,
             "visibility":       1,
@@ -432,12 +446,15 @@ if __name__ == "__main__":
     # 1. Connessione OAuth e recupero mappe attributi
     session = get_oauth_session()
 
+    attribute_set_id_map = get_attribute_set_id(session, ATTRIBUTE_SET_NAME)
+
     color_map        = get_attribute_options(session, "color")
     attacco_map      = get_attribute_options(session, "config_attacco_lamp")
     dimensioni_map   = get_attribute_options(session, "config_dimensioni")
     tipo_map         = get_attribute_options(session, "config_tipo")
     temp_map         = get_attribute_options(session, "config_temperatura_colore")
     manufacturer_map = get_attribute_options(session, "manufacturer")
+
 
     print("🎨  Opzioni color recuperate da Magento:")
     for label, opt_id in color_map.items():
@@ -499,7 +516,7 @@ if __name__ == "__main__":
         for _, row in gruppo.iterrows():
             semplici.append(
                 build_simple(row, color_map, attacco_map, dimensioni_map,
-                             manufacturer_map, tipo_map, temp_map, gruppo)
+                             manufacturer_map, tipo_map, temp_map, gruppo, attribute_set_id_map)
             )
 
     # 5. Salva JSON

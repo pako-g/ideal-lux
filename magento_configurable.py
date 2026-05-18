@@ -28,9 +28,9 @@ OUTPUT_JSON = f"./file/configurable_products_{CATEGORIA.lower().replace(' ', '_'
 CSV_PATH         = "./file/giacenzeECommerce.csv"
 MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
 
-ATTRIBUTE_SET_ID = 264
-WEBSITE_IDS      = [1]
 
+WEBSITE_IDS      = [1]
+ATTRIBUTE_SET_NAME="Ideal-Lux"
 ESCLUDI_DA_CONFIG = {"lamp_ean", "manufacturer", "url_key"}
 CATEGORIE_FISSE   = ["Marchi", "Ideal Lux", "Illuminazione"]
 
@@ -85,6 +85,17 @@ def get_oauth_session() -> OAuth1Session:
 # ─────────────────────────────────────────────
 # API MAGENTO
 # ─────────────────────────────────────────────
+
+def get_attribute_set_id(session: OAuth1Session, name: str) -> int:
+    url = f"{MAGENTO_BASE_URL}/rest/V1/eav/attribute-sets/list"
+    resp = session.get(url, params={
+        "searchCriteria[filter_groups][0][filters][0][field]": "attribute_set_name",
+        "searchCriteria[filter_groups][0][filters][0][value]": name,
+    }, verify=False)
+    resp.raise_for_status()
+    items = resp.json().get("items", [])
+    return items[0]["attribute_set_id"] if items else None
+
 
 def get_attribute_options(session: OAuth1Session, attribute_code: str) -> dict:
     """Restituisce {label: id} per un attributo select."""
@@ -216,7 +227,8 @@ def build_configurable(
         df: pd.DataFrame,
         df_desc: pd.DataFrame,
         attacco_menu_map: dict,
-        categorie_map: dict
+        categorie_map: dict,
+        attribute_set_id_map: int
     ) -> dict:
 
     # ── Righe CSV del gruppo (usa SKU senza prefisso IL-) ──
@@ -340,7 +352,7 @@ def build_configurable(
         "product": {
             "sku":               config_sku,
             "name":              titolo,
-            "attribute_set_id":  ATTRIBUTE_SET_ID,
+            "attribute_set_id":  attribute_set_id_map,
             "status":            2, #disable
             "visibility":        4,
             "type_id":           "configurable",
@@ -393,6 +405,8 @@ def main():
 
     df               = pd.read_csv(CSV_PATH, sep=";")
     session          = get_oauth_session()
+
+    attribute_set_id_map = get_attribute_set_id(session, ATTRIBUTE_SET_NAME)
     attacco_menu_map = get_attribute_options(session, "lamp_attacco_lamp_menu")
     categorie_map    = build_categorie_map(session)
 
@@ -402,7 +416,7 @@ def main():
     configurabili = []
     for idx, (key, gruppo) in enumerate(sorted(gruppi.items()), start=1):
         config_sku = f"IL-CONFIG-{idx:03d}"
-        config = build_configurable(config_sku, gruppo, df, df_desc, attacco_menu_map, categorie_map)
+        config = build_configurable(config_sku, gruppo, df, df_desc, attacco_menu_map, categorie_map, attribute_set_id_map)
         configurabili.append(config)
 
 
