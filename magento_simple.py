@@ -15,14 +15,9 @@ import re
 import os
 import pandas as pd
 from pathlib import Path
-from dotenv import load_dotenv
-from requests_oauthlib import OAuth1Session
-import urllib3
+from utility.magento_api import *
 
-# Disabilita il warning SSL per certificati self-signed (solo sviluppo locale)
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-load_dotenv()
 
 # ─────────────────────────────────────────────
 # CONFIGURAZIONE
@@ -34,63 +29,7 @@ OUTPUT_PATH = f"./file/simple_products_{CATEGORIA.lower().replace(' ', '_')}.jso
 MARCA           = "Ideal Lux"
 ATTRIBUTE_SET_NAME="Ideal-Lux"
 WEBSITE_IDS     = [1]
-MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
 
-
-# ─────────────────────────────────────────────
-# OAUTH SESSION
-# ─────────────────────────────────────────────
-
-def get_oauth_session() -> OAuth1Session:
-    # 1. Crea l'istanza della sessione
-    session = OAuth1Session(
-        client_key            = os.getenv("MAGENTO_CONSUMER_KEY"),
-        client_secret         = os.getenv("MAGENTO_CONSUMER_SECRET"),
-        resource_owner_key    = os.getenv("MAGENTO_ACCESS_TOKEN"),
-        resource_owner_secret = os.getenv("MAGENTO_TOKEN_SECRET"),
-        signature_method      = "HMAC-SHA256",
-    )
-
-    # 2. Aggiungi gli header globali
-    # Questi verranno usati per OGNI chiamata fatta con questa sessione
-    session.headers.update({
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-    })
-
-    return session
-
-
-# ─────────────────────────────────────────────
-# RECUPERO OPZIONI ATTRIBUTO DA MAGENTO
-# ─────────────────────────────────────────────
-
-def get_attribute_options(session: OAuth1Session, attribute_code: str) -> dict:
-    """
-    Recupera le opzioni di un attributo select da Magento e restituisce
-    un dizionario label → ID numerico (stringa).
-
-    Esempio:
-      get_attribute_options(session, "color")
-      → {"Bianco": "49", "Nero": "50"}
-
-    Se un valore non viene trovato nella mappa, build_simple() solleverà
-    un KeyError esplicito — meglio fallire subito che scrivere un valore sbagliato.
-    """
-    url      = f"{MAGENTO_BASE_URL}/rest/V1/products/attributes/{attribute_code}"
-    response = session.get(url, verify=False)
-    response.raise_for_status()
-
-    data    = response.json()
-    options = data.get("options", [])
-
-    # Salta la voce vuota che Magento aggiunge sempre come prima opzione
-    return {
-        opt["label"]: opt["value"]
-        for opt in options
-        if opt["label"] and opt["value"]
-    }
 
 
 # ─────────────────────────────────────────────
@@ -240,15 +179,7 @@ TIPO_LABEL = {
 
 FAMIGLIE_SOLO_COLORE = {"DRIFTWOOD"}
 
-def get_attribute_set_id(session: OAuth1Session, name: str) -> int:
-    url = f"{MAGENTO_BASE_URL}/rest/V1/eav/attribute-sets/list"
-    resp = session.get(url, params={
-        "searchCriteria[filter_groups][0][filters][0][field]": "attribute_set_name",
-        "searchCriteria[filter_groups][0][filters][0][value]": name,
-    }, verify=False)
-    resp.raise_for_status()
-    items = resp.json().get("items", [])
-    return items[0]["attribute_set_id"] if items else None
+
 
 
 def estrai_tipo(descrizione: str, famiglia: str) -> str:

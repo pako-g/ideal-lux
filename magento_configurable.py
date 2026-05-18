@@ -14,9 +14,8 @@ from pathlib import Path
 import pandas as pd
 from dotenv import load_dotenv
 from requests_oauthlib import OAuth1Session
+from utility.magento_api import *
 
-warnings.filterwarnings("ignore")
-load_dotenv()
 
 # ─────────────────────────────────────────────
 # CONFIGURAZIONE
@@ -26,7 +25,7 @@ CATEGORIA   = "Lampada da tavolo"
 INPUT_JSON  = f"./file/simple_products_{CATEGORIA.lower().replace(' ', '_')}.json"
 OUTPUT_JSON = f"./file/configurable_products_{CATEGORIA.lower().replace(' ', '_')}.json"
 CSV_PATH         = "./file/giacenzeECommerce.csv"
-MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
+
 
 
 WEBSITE_IDS      = [1]
@@ -56,58 +55,6 @@ CATEGORIA_PLURALE = {
     "Lampada Portatile": "Lampade Portatili",
 }
 DESC_CSV = "./file/descrizioni_configurabili_lampade_da_terra.csv"
-
-# ─────────────────────────────────────────────
-# OAUTH
-# ─────────────────────────────────────────────
-
-def get_oauth_session() -> OAuth1Session:
-    # 1. Crea l'istanza della sessione
-    session = OAuth1Session(
-        client_key            = os.getenv("MAGENTO_CONSUMER_KEY"),
-        client_secret         = os.getenv("MAGENTO_CONSUMER_SECRET"),
-        resource_owner_key    = os.getenv("MAGENTO_ACCESS_TOKEN"),
-        resource_owner_secret = os.getenv("MAGENTO_TOKEN_SECRET"),
-        signature_method      = "HMAC-SHA256",
-    )
-
-    # 2. Aggiungi gli header globali
-    # Questi verranno usati per OGNI chiamata fatta con questa sessione
-    session.headers.update({
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-    })
-
-    return session
-
-
-# ─────────────────────────────────────────────
-# API MAGENTO
-# ─────────────────────────────────────────────
-
-def get_attribute_set_id(session: OAuth1Session, name: str) -> int:
-    url = f"{MAGENTO_BASE_URL}/rest/V1/eav/attribute-sets/list"
-    resp = session.get(url, params={
-        "searchCriteria[filter_groups][0][filters][0][field]": "attribute_set_name",
-        "searchCriteria[filter_groups][0][filters][0][value]": name,
-    }, verify=False)
-    resp.raise_for_status()
-    items = resp.json().get("items", [])
-    return items[0]["attribute_set_id"] if items else None
-
-
-def get_attribute_options(session: OAuth1Session, attribute_code: str) -> dict:
-    """Restituisce {label: id} per un attributo select."""
-    url = f"{MAGENTO_BASE_URL}/rest/V1/products/attributes/{attribute_code}"
-    resp = session.get(url, verify=False)
-    resp.raise_for_status()
-    return {
-        opt["label"]: opt["value"]
-        for opt in resp.json().get("options", [])
-        if opt["label"] and opt["value"]
-    }
-
 
 def build_categorie_map(session: OAuth1Session) -> dict:
     """Restituisce {nome_categoria: id} percorrendo l'albero Magento."""

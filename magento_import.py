@@ -10,17 +10,11 @@ Flusso:
 """
 
 import json
-import os
 import re
-import time
 import base64
 from pathlib import Path
-from dotenv import load_dotenv
-from requests_oauthlib import OAuth1Session
-import urllib3
+from utility.magento_api import *
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-load_dotenv()
 
 # ─────────────────────────────────────────────
 # CONFIGURAZIONE
@@ -31,72 +25,6 @@ SIMPLE_JSON = f"./file/simple_products_{CATEGORIA.lower().replace(' ', '_')}.jso
 CONFIG_JSON = f"./file/configurable_products_{CATEGORIA.lower().replace(' ', '_')}.json"
 IMAGES_DIR       = Path("./file/images")
 SCRAPING_DIR     = Path("./file/scraping")
-MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
-RETRY_DELAY      = 1.0
-MAX_RETRIES      = 3
-
-
-# ─────────────────────────────────────────────
-# OAUTH SESSION
-# ─────────────────────────────────────────────
-
-def get_oauth_session() -> OAuth1Session:
-    # 1. Crea l'istanza della sessione
-    session = OAuth1Session(
-        client_key            = os.getenv("MAGENTO_CONSUMER_KEY"),
-        client_secret         = os.getenv("MAGENTO_CONSUMER_SECRET"),
-        resource_owner_key    = os.getenv("MAGENTO_ACCESS_TOKEN"),
-        resource_owner_secret = os.getenv("MAGENTO_TOKEN_SECRET"),
-        signature_method      = "HMAC-SHA256",
-    )
-
-    # 2. Aggiungi gli header globali
-    # Questi verranno usati per OGNI chiamata fatta con questa sessione
-    session.headers.update({
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-    })
-
-    return session
-
-
-# ─────────────────────────────────────────────
-# UTILITY API
-# ─────────────────────────────────────────────
-
-def api_post(session: OAuth1Session, endpoint: str, payload: dict) -> dict:
-    """POST con retry su errori temporanei (5xx)."""
-    url = f"{MAGENTO_BASE_URL}/rest/V1/{endpoint}"
-    for attempt in range(1, MAX_RETRIES + 1):
-        resp = session.post(url, json=payload, verify=False)
-        if resp.status_code in (200, 201):
-            return resp.json()
-        if resp.status_code >= 500 and attempt < MAX_RETRIES:
-            print(f"    ⚠️  {resp.status_code} — retry {attempt}/{MAX_RETRIES}...")
-            time.sleep(RETRY_DELAY * attempt)
-            continue
-        raise RuntimeError(
-            f"POST /rest/V1/{endpoint} → {resp.status_code}\n{resp.text}"
-        )
-
-
-def get_attribute_info(session: OAuth1Session, attribute_code: str) -> dict:
-    """Restituisce attribute_id numerico e mappa opzioni per un attributo."""
-    url = f"{MAGENTO_BASE_URL}/rest/V1/products/attributes/{attribute_code}"
-
-    resp = session.get(url, verify=False)
-    resp.raise_for_status()
-    data = resp.json()
-    options = {
-        opt["value"]: opt["label"]
-        for opt in data.get("options", [])
-        if opt.get("value")
-    }
-    return {
-        "attribute_id": str(data["attribute_id"]),
-        "options": options,
-    }
 
 
 # ─────────────────────────────────────────────
@@ -334,30 +262,6 @@ def crea_configurabili(
         time.sleep(RETRY_DELAY)
 
     return da_linkare
-
-
-# ─────────────────────────────────────────────
-# STEP 5 — ASSOCIA SEMPLICI AL CONFIGURABILE
-# ─────────────────────────────────────────────
-
-def linka_semplici(session: OAuth1Session, da_linkare: list) -> None:
-    """
-    POST /rest/V1/configurable-products/{config_sku}/child
-    per ogni semplice da associare.
-    """
-    for item in da_linkare:
-        config_sku = item["config_sku"]
-        child_skus = item["child_skus"]
-        print(f"\n  🔗  Associo semplici a  {config_sku}  ({len(child_skus)} prodotti)")
-
-        for sku in child_skus:
-            endpoint = f"configurable-products/{config_sku}/child"
-            try:
-                api_post(session, endpoint, {"childSku": sku})
-                print(f"       ✅  {sku}")
-            except RuntimeError as e:
-                print(f"       ❌  {sku}  —  {e}")
-            time.sleep(RETRY_DELAY)
 
 
 # ─────────────────────────────────────────────
