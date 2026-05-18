@@ -19,7 +19,7 @@ from collections import defaultdict
 # CONFIGURAZIONE
 # ─────────────────────────────────────────────
 
-CONFIG_JSON  = "./file/configurable_products.json"
+CONFIG_JSON  = "./file/configurable_products_lampada_da_tavolo.json"
 SCRAPING_DIR = Path("./file/scraping")
 
 

@@ -29,7 +29,8 @@ load_dotenv()
 # ─────────────────────────────────────────────
 
 CSV_PATH        = "./file/giacenzeECommerce.csv"
-OUTPUT_PATH     = "./file/simple_products.json"
+CATEGORIA   = "Lampada da tavolo"
+OUTPUT_PATH = f"./file/simple_products_{CATEGORIA.lower().replace(' ', '_')}.json"
 MARCA           = "Ideal Lux"
 ATTRIBUTE_SET_ID = 264      # adatta al tuo Attribute Set in Magento
 WEBSITE_IDS     = [1]
@@ -469,7 +470,7 @@ if __name__ == "__main__":
     print()
 
     # 2. Carica lampade da terra (escludi WAY e TOFFEE)
-    varianti = load_categoria(CSV_PATH, "Lampada da terra", escludi=["WAY", "TOFFEE"])
+    varianti = load_categoria(CSV_PATH, CATEGORIA)
 
     # 3. Calcola sottofamiglia per separare modelli diversi nella stessa famiglia
     FAMIGLIE_CONFIG_TIPO = {"EDO", "ESSENCE", "TWIGGY", "DRIFTWOOD"}

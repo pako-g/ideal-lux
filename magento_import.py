@@ -26,8 +26,9 @@ load_dotenv()
 # CONFIGURAZIONE
 # ─────────────────────────────────────────────
 
-SIMPLE_JSON      = "./file/simple_products.json"
-CONFIG_JSON      = "./file/configurable_products.json"
+CATEGORIA   = "Lampada da tavolo"
+SIMPLE_JSON = f"./file/simple_products_{CATEGORIA.lower().replace(' ', '_')}.json"
+CONFIG_JSON = f"./file/configurable_products_{CATEGORIA.lower().replace(' ', '_')}.json"
 IMAGES_DIR       = Path("./file/images")
 SCRAPING_DIR     = Path("./file/scraping")
 MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")

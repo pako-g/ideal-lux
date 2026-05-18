@@ -22,8 +22,9 @@ load_dotenv()
 # CONFIGURAZIONE
 # ─────────────────────────────────────────────
 
-INPUT_JSON       = "./file/simple_products.json"
-OUTPUT_JSON      = "./file/configurable_products.json"
+CATEGORIA   = "Lampada da tavolo"
+INPUT_JSON  = f"./file/simple_products_{CATEGORIA.lower().replace(' ', '_')}.json"
+OUTPUT_JSON = f"./file/configurable_products_{CATEGORIA.lower().replace(' ', '_')}.json"
 CSV_PATH         = "./file/giacenzeECommerce.csv"
 MAGENTO_BASE_URL = os.getenv("MAGENTO_BASE_URL")
 
