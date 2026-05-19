@@ -84,7 +84,7 @@
   {
     "product": {
       "sku": "IL-298597",
-      "name": "Ideal Lux Arcadia tl1 antracite Lampada Da Tavolo-Grigio",
+      "name": "Ideal Lux Arcadia tl1 Lampada Da Tavolo-Grigio",
       "attribute_set_id": 263,
       "price": 117.0,
       "status": 2,
@@ -116,7 +116,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-arcadia-tl1-antracite-lampada-da-tavolo-grigio-298597"
+          "value": "ideal-lux-arcadia-tl1-lampada-da-tavolo-grigio-298597"
         }
       ],
       "media_gallery_entries": []
@@ -531,7 +531,7 @@
   {
     "product": {
       "sku": "IL-352848",
-      "name": "Ideal Lux Bloom tl1 big Lampada Da Tavolo-Nero-Altezza-27cm",
+      "name": "Ideal Lux Bloom tl1 Lampada Da Tavolo-Nero-Altezza-27cm",
       "attribute_set_id": 263,
       "price": 120.0,
       "status": 2,
@@ -567,7 +567,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-bloom-tl1-big-lampada-da-tavolo-nero-altezza-27cm-352848"
+          "value": "ideal-lux-bloom-tl1-lampada-da-tavolo-nero-altezza-27cm-352848"
         }
       ],
       "media_gallery_entries": []
@@ -576,7 +576,7 @@
   {
     "product": {
       "sku": "IL-366524",
-      "name": "Ideal Lux Bloom tl1 big Lampada Da Tavolo-Ottone-Altezza-27cm",
+      "name": "Ideal Lux Bloom tl1 Lampada Da Tavolo-Ottone-Altezza-27cm",
       "attribute_set_id": 263,
       "price": 120.0,
       "status": 2,
@@ -612,7 +612,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-bloom-tl1-big-lampada-da-tavolo-ottone-altezza-27cm-366524"
+          "value": "ideal-lux-bloom-tl1-lampada-da-tavolo-ottone-altezza-27cm-366524"
         }
       ],
       "media_gallery_entries": []
@@ -621,7 +621,7 @@
   {
     "product": {
       "sku": "IL-366517",
-      "name": "Ideal Lux Bloom tl1 small Lampada Da Tavolo-Nero-Altezza-12.7cm",
+      "name": "Ideal Lux Bloom tl1 Lampada Da Tavolo-Nero-Altezza-12.7cm",
       "attribute_set_id": 263,
       "price": 100.0,
       "status": 2,
@@ -657,7 +657,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-bloom-tl1-small-lampada-da-tavolo-nero-altezza-12-7cm-366517"
+          "value": "ideal-lux-bloom-tl1-lampada-da-tavolo-nero-altezza-12-7cm-366517"
         }
       ],
       "media_gallery_entries": []
@@ -666,7 +666,7 @@
   {
     "product": {
       "sku": "IL-366500",
-      "name": "Ideal Lux Bloom tl1 small Lampada Da Tavolo-Ottone-Altezza-12.7cm",
+      "name": "Ideal Lux Bloom tl1 Lampada Da Tavolo-Ottone-Altezza-12.7cm",
       "attribute_set_id": 263,
       "price": 100.0,
       "status": 2,
@@ -702,7 +702,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-bloom-tl1-small-lampada-da-tavolo-ottone-altezza-12-7cm-366500"
+          "value": "ideal-lux-bloom-tl1-lampada-da-tavolo-ottone-altezza-12-7cm-366500"
         }
       ],
       "media_gallery_entries": []
@@ -875,7 +875,7 @@
   {
     "product": {
       "sku": "IL-346892",
-      "name": "Ideal Lux Cute tl Lampada Da Tavolo-Bianco",
+      "name": "Ideal Lux Cute Lampada Da Tavolo-Bianco",
       "attribute_set_id": 263,
       "price": 86.0,
       "status": 2,
@@ -907,7 +907,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-cute-tl-lampada-da-tavolo-bianco-346892"
+          "value": "ideal-lux-cute-lampada-da-tavolo-bianco-346892"
         }
       ],
       "media_gallery_entries": []
@@ -916,7 +916,7 @@
   {
     "product": {
       "sku": "IL-346915",
-      "name": "Ideal Lux Cute tl Lampada Da Tavolo-Caffè",
+      "name": "Ideal Lux Cute Lampada Da Tavolo-Caffè",
       "attribute_set_id": 263,
       "price": 86.0,
       "status": 2,
@@ -948,7 +948,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-cute-tl-lampada-da-tavolo-caff-346915"
+          "value": "ideal-lux-cute-lampada-da-tavolo-caff-346915"
         }
       ],
       "media_gallery_entries": []
@@ -957,7 +957,7 @@
   {
     "product": {
       "sku": "IL-346908",
-      "name": "Ideal Lux Cute tl Lampada Da Tavolo-Nero",
+      "name": "Ideal Lux Cute Lampada Da Tavolo-Nero",
       "attribute_set_id": 263,
       "price": 86.0,
       "status": 2,
@@ -989,7 +989,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-cute-tl-lampada-da-tavolo-nero-346908"
+          "value": "ideal-lux-cute-lampada-da-tavolo-nero-346908"
         }
       ],
       "media_gallery_entries": []
@@ -998,7 +998,7 @@
   {
     "product": {
       "sku": "IL-346939",
-      "name": "Ideal Lux Cute tl Lampada Da Tavolo-Oro",
+      "name": "Ideal Lux Cute Lampada Da Tavolo-Oro",
       "attribute_set_id": 263,
       "price": 86.0,
       "status": 2,
@@ -1030,7 +1030,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-cute-tl-lampada-da-tavolo-oro-346939"
+          "value": "ideal-lux-cute-lampada-da-tavolo-oro-346939"
         }
       ],
       "media_gallery_entries": []
@@ -1076,7 +1076,7 @@
   {
     "product": {
       "sku": "IL-283333",
-      "name": "Ideal Lux Diesis tl Lampada Da Tavolo-Nero",
+      "name": "Ideal Lux Diesis Lampada Da Tavolo-Nero",
       "attribute_set_id": 263,
       "price": 150.0,
       "status": 2,
@@ -1108,7 +1108,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-diesis-tl-lampada-da-tavolo-nero-283333"
+          "value": "ideal-lux-diesis-lampada-da-tavolo-nero-283333"
         }
       ],
       "media_gallery_entries": []
@@ -1117,7 +1117,7 @@
   {
     "product": {
       "sku": "IL-291093",
-      "name": "Ideal Lux Diesis tl Lampada Da Tavolo-Nichel",
+      "name": "Ideal Lux Diesis Lampada Da Tavolo-Nichel",
       "attribute_set_id": 263,
       "price": 150.0,
       "status": 2,
@@ -1149,7 +1149,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-diesis-tl-lampada-da-tavolo-nichel-291093"
+          "value": "ideal-lux-diesis-lampada-da-tavolo-nichel-291093"
         }
       ],
       "media_gallery_entries": []
@@ -1158,7 +1158,7 @@
   {
     "product": {
       "sku": "IL-291109",
-      "name": "Ideal Lux Diesis tl Lampada Da Tavolo-Ottone",
+      "name": "Ideal Lux Diesis Lampada Da Tavolo-Ottone",
       "attribute_set_id": 263,
       "price": 150.0,
       "status": 2,
@@ -1190,7 +1190,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-diesis-tl-lampada-da-tavolo-ottone-291109"
+          "value": "ideal-lux-diesis-lampada-da-tavolo-ottone-291109"
         }
       ],
       "media_gallery_entries": []
@@ -1363,7 +1363,7 @@
   {
     "product": {
       "sku": "IL-362540",
-      "name": "Ideal Lux Dorica tl1 bronzo Lampada Da Tavolo",
+      "name": "Ideal Lux Dorica tl1 Lampada Da Tavolo",
       "attribute_set_id": 263,
       "price": 120.0,
       "status": 2,
@@ -1391,7 +1391,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-dorica-tl1-bronzo-lampada-da-tavolo-362540"
+          "value": "ideal-lux-dorica-tl1-lampada-da-tavolo-362540"
         }
       ],
       "media_gallery_entries": []
@@ -1601,7 +1601,7 @@
   {
     "product": {
       "sku": "IL-044491",
-      "name": "Ideal Lux Duchessa tl1 big Lampada Da Tavolo-Trasparente",
+      "name": "Ideal Lux Duchessa tl1 Lampada Da Tavolo-Trasparente",
       "attribute_set_id": 263,
       "price": 155.0,
       "status": 2,
@@ -1629,7 +1629,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-duchessa-tl1-big-lampada-da-tavolo-trasparente-044491"
+          "value": "ideal-lux-duchessa-tl1-lampada-da-tavolo-trasparente-044491"
         }
       ],
       "media_gallery_entries": []
@@ -1638,7 +1638,7 @@
   {
     "product": {
       "sku": "IL-295510",
-      "name": "Ideal Lux Easy tl Lampada Da Tavolo-Bianco",
+      "name": "Ideal Lux Easy Lampada Da Tavolo-Bianco",
       "attribute_set_id": 263,
       "price": 90.0,
       "status": 2,
@@ -1670,7 +1670,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-easy-tl-lampada-da-tavolo-bianco-295510"
+          "value": "ideal-lux-easy-lampada-da-tavolo-bianco-295510"
         }
       ],
       "media_gallery_entries": []
@@ -1679,7 +1679,7 @@
   {
     "product": {
       "sku": "IL-295534",
-      "name": "Ideal Lux Easy tl Lampada Da Tavolo-Nero",
+      "name": "Ideal Lux Easy Lampada Da Tavolo-Nero",
       "attribute_set_id": 263,
       "price": 90.0,
       "status": 2,
@@ -1711,7 +1711,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-easy-tl-lampada-da-tavolo-nero-295534"
+          "value": "ideal-lux-easy-lampada-da-tavolo-nero-295534"
         }
       ],
       "media_gallery_entries": []
@@ -1720,7 +1720,7 @@
   {
     "product": {
       "sku": "IL-295541",
-      "name": "Ideal Lux Easy tl Lampada Da Tavolo-Ottone",
+      "name": "Ideal Lux Easy Lampada Da Tavolo-Ottone",
       "attribute_set_id": 263,
       "price": 90.0,
       "status": 2,
@@ -1752,7 +1752,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-easy-tl-lampada-da-tavolo-ottone-295541"
+          "value": "ideal-lux-easy-lampada-da-tavolo-ottone-295541"
         }
       ],
       "media_gallery_entries": []
@@ -1761,7 +1761,7 @@
   {
     "product": {
       "sku": "IL-044590",
-      "name": "Ideal Lux Edo tl1 big Lampada Da Tavolo-Bianco",
+      "name": "Ideal Lux Edo tl1 Lampada Da Tavolo-Bianco",
       "attribute_set_id": 263,
       "price": 66.0,
       "status": 2,
@@ -1789,7 +1789,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-edo-tl1-big-lampada-da-tavolo-bianco-044590"
+          "value": "ideal-lux-edo-tl1-lampada-da-tavolo-bianco-044590"
         }
       ],
       "media_gallery_entries": []
@@ -1798,7 +1798,7 @@
   {
     "product": {
       "sku": "IL-323251",
-      "name": "Ideal Lux Enya tl Lampada Da Tavolo-Bianco",
+      "name": "Ideal Lux Enya Lampada Da Tavolo-Bianco",
       "attribute_set_id": 263,
       "price": 117.0,
       "status": 2,
@@ -1830,7 +1830,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-enya-tl-lampada-da-tavolo-bianco-323251"
+          "value": "ideal-lux-enya-lampada-da-tavolo-bianco-323251"
         }
       ],
       "media_gallery_entries": []
@@ -1839,7 +1839,7 @@
   {
     "product": {
       "sku": "IL-323244",
-      "name": "Ideal Lux Enya tl Lampada Da Tavolo-Caffè",
+      "name": "Ideal Lux Enya Lampada Da Tavolo-Caffè",
       "attribute_set_id": 263,
       "price": 117.0,
       "status": 2,
@@ -1871,7 +1871,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-enya-tl-lampada-da-tavolo-caff-323244"
+          "value": "ideal-lux-enya-lampada-da-tavolo-caff-323244"
         }
       ],
       "media_gallery_entries": []
@@ -1880,7 +1880,7 @@
   {
     "product": {
       "sku": "IL-323237",
-      "name": "Ideal Lux Enya tl Lampada Da Tavolo-Nero",
+      "name": "Ideal Lux Enya Lampada Da Tavolo-Nero",
       "attribute_set_id": 263,
       "price": 117.0,
       "status": 2,
@@ -1912,7 +1912,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-enya-tl-lampada-da-tavolo-nero-323237"
+          "value": "ideal-lux-enya-lampada-da-tavolo-nero-323237"
         }
       ],
       "media_gallery_entries": []
@@ -2290,7 +2290,7 @@
   {
     "product": {
       "sku": "IL-204895",
-      "name": "Ideal Lux Futura tl Lampada Da Tavolo-Alluminio",
+      "name": "Ideal Lux Futura Lampada Da Tavolo-Alluminio",
       "attribute_set_id": 263,
       "price": 100.0,
       "status": 2,
@@ -2322,7 +2322,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-futura-tl-lampada-da-tavolo-alluminio-204895"
+          "value": "ideal-lux-futura-lampada-da-tavolo-alluminio-204895"
         }
       ],
       "media_gallery_entries": []
@@ -2331,7 +2331,7 @@
   {
     "product": {
       "sku": "IL-272078",
-      "name": "Ideal Lux Futura tl Lampada Da Tavolo-Bianco",
+      "name": "Ideal Lux Futura Lampada Da Tavolo-Bianco",
       "attribute_set_id": 263,
       "price": 100.0,
       "status": 2,
@@ -2363,7 +2363,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-futura-tl-lampada-da-tavolo-bianco-272078"
+          "value": "ideal-lux-futura-lampada-da-tavolo-bianco-272078"
         }
       ],
       "media_gallery_entries": []
@@ -2372,7 +2372,7 @@
   {
     "product": {
       "sku": "IL-204888",
-      "name": "Ideal Lux Futura tl Lampada Da Tavolo-Nero",
+      "name": "Ideal Lux Futura Lampada Da Tavolo-Nero",
       "attribute_set_id": 263,
       "price": 100.0,
       "status": 2,
@@ -2404,7 +2404,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-futura-tl-lampada-da-tavolo-nero-204888"
+          "value": "ideal-lux-futura-lampada-da-tavolo-nero-204888"
         }
       ],
       "media_gallery_entries": []
@@ -2606,7 +2606,7 @@
   {
     "product": {
       "sku": "IL-327877",
-      "name": "Ideal Lux Lingotto tl1 big Lampada Da Tavolo-Nero-Altezza-22cm-E14",
+      "name": "Ideal Lux Lingotto tl1 Lampada Da Tavolo-Nero-Altezza-22cm-E14",
       "attribute_set_id": 263,
       "price": 125.0,
       "status": 2,
@@ -2646,7 +2646,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-lingotto-tl1-big-lampada-da-tavolo-nero-altezza-22cm-e14-327877"
+          "value": "ideal-lux-lingotto-tl1-lampada-da-tavolo-nero-altezza-22cm-e14-327877"
         }
       ],
       "media_gallery_entries": []
@@ -2655,7 +2655,7 @@
   {
     "product": {
       "sku": "IL-251127",
-      "name": "Ideal Lux Lingotto tl1 big Lampada Da Tavolo-Ottone-Altezza-22cm-E14",
+      "name": "Ideal Lux Lingotto tl1 Lampada Da Tavolo-Ottone-Altezza-22cm-E14",
       "attribute_set_id": 263,
       "price": 125.0,
       "status": 2,
@@ -2695,7 +2695,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-lingotto-tl1-big-lampada-da-tavolo-ottone-altezza-22cm-e14-251127"
+          "value": "ideal-lux-lingotto-tl1-lampada-da-tavolo-ottone-altezza-22cm-e14-251127"
         }
       ],
       "media_gallery_entries": []
@@ -2704,7 +2704,7 @@
   {
     "product": {
       "sku": "IL-304151",
-      "name": "Ideal Lux Lingotto tl1 small Lampada Da Tavolo-Nero-Altezza-15cm-G9",
+      "name": "Ideal Lux Lingotto tl1 Lampada Da Tavolo-Nero-Altezza-15cm-G9",
       "attribute_set_id": 263,
       "price": 90.0,
       "status": 2,
@@ -2744,7 +2744,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-lingotto-tl1-small-lampada-da-tavolo-nero-altezza-15cm-g9-304151"
+          "value": "ideal-lux-lingotto-tl1-lampada-da-tavolo-nero-altezza-15cm-g9-304151"
         }
       ],
       "media_gallery_entries": []
@@ -2753,7 +2753,7 @@
   {
     "product": {
       "sku": "IL-259222",
-      "name": "Ideal Lux Lingotto tl1 small Lampada Da Tavolo-Ottone-Altezza-15cm-G9",
+      "name": "Ideal Lux Lingotto tl1 Lampada Da Tavolo-Ottone-Altezza-15cm-G9",
       "attribute_set_id": 263,
       "price": 90.0,
       "status": 2,
@@ -2793,7 +2793,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-lingotto-tl1-small-lampada-da-tavolo-ottone-altezza-15cm-g9-259222"
+          "value": "ideal-lux-lingotto-tl1-lampada-da-tavolo-ottone-altezza-15cm-g9-259222"
         }
       ],
       "media_gallery_entries": []
@@ -2802,7 +2802,7 @@
   {
     "product": {
       "sku": "IL-286723",
-      "name": "Ideal Lux Lolita tl Lampada Da Tavolo-Bianco",
+      "name": "Ideal Lux Lolita Lampada Da Tavolo-Bianco",
       "attribute_set_id": 263,
       "price": 56.0,
       "status": 2,
@@ -2834,7 +2834,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-lolita-tl-lampada-da-tavolo-bianco-286723"
+          "value": "ideal-lux-lolita-lampada-da-tavolo-bianco-286723"
         }
       ],
       "media_gallery_entries": []
@@ -2843,7 +2843,7 @@
   {
     "product": {
       "sku": "IL-286747",
-      "name": "Ideal Lux Lolita tl Lampada Da Tavolo-Caffè",
+      "name": "Ideal Lux Lolita Lampada Da Tavolo-Caffè",
       "attribute_set_id": 263,
       "price": 56.0,
       "status": 2,
@@ -2875,7 +2875,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-lolita-tl-lampada-da-tavolo-caff-286747"
+          "value": "ideal-lux-lolita-lampada-da-tavolo-caff-286747"
         }
       ],
       "media_gallery_entries": []
@@ -2884,7 +2884,7 @@
   {
     "product": {
       "sku": "IL-286716",
-      "name": "Ideal Lux Lolita tl Lampada Da Tavolo-Nero",
+      "name": "Ideal Lux Lolita Lampada Da Tavolo-Nero",
       "attribute_set_id": 263,
       "price": 56.0,
       "status": 2,
@@ -2916,7 +2916,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-lolita-tl-lampada-da-tavolo-nero-286716"
+          "value": "ideal-lux-lolita-lampada-da-tavolo-nero-286716"
         }
       ],
       "media_gallery_entries": []
@@ -2925,7 +2925,7 @@
   {
     "product": {
       "sku": "IL-286730",
-      "name": "Ideal Lux Lolita tl cool grey Lampada Da Tavolo-Grigio",
+      "name": "Ideal Lux Lolita tl cool Lampada Da Tavolo-Grigio",
       "attribute_set_id": 263,
       "price": 56.0,
       "status": 2,
@@ -2953,7 +2953,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-lolita-tl-cool-grey-lampada-da-tavolo-grigio-286730"
+          "value": "ideal-lux-lolita-tl-cool-lampada-da-tavolo-grigio-286730"
         }
       ],
       "media_gallery_entries": []
@@ -3007,7 +3007,7 @@
   {
     "product": {
       "sku": "IL-110448",
-      "name": "Ideal Lux London tl1 big Lampada Da Tavolo-Bianco-Diametro-32cm",
+      "name": "Ideal Lux London tl1 Lampada Da Tavolo-Bianco-Diametro-32cm",
       "attribute_set_id": 263,
       "price": 110.0,
       "status": 2,
@@ -3043,7 +3043,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-london-tl1-big-lampada-da-tavolo-bianco-diametro-32cm-110448"
+          "value": "ideal-lux-london-tl1-lampada-da-tavolo-bianco-diametro-32cm-110448"
         }
       ],
       "media_gallery_entries": []
@@ -3052,7 +3052,7 @@
   {
     "product": {
       "sku": "IL-032375",
-      "name": "Ideal Lux London tl1 big Lampada Da Tavolo-Cromo-Diametro-32cm",
+      "name": "Ideal Lux London tl1 Lampada Da Tavolo-Cromo-Diametro-32cm",
       "attribute_set_id": 263,
       "price": 110.0,
       "status": 2,
@@ -3088,7 +3088,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-london-tl1-big-lampada-da-tavolo-cromo-diametro-32cm-032375"
+          "value": "ideal-lux-london-tl1-lampada-da-tavolo-cromo-diametro-32cm-032375"
         }
       ],
       "media_gallery_entries": []
@@ -3097,7 +3097,7 @@
   {
     "product": {
       "sku": "IL-110455",
-      "name": "Ideal Lux London tl1 big Lampada Da Tavolo-Nero-Diametro-32cm",
+      "name": "Ideal Lux London tl1 Lampada Da Tavolo-Nero-Diametro-32cm",
       "attribute_set_id": 263,
       "price": 110.0,
       "status": 2,
@@ -3133,7 +3133,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-london-tl1-big-lampada-da-tavolo-nero-diametro-32cm-110455"
+          "value": "ideal-lux-london-tl1-lampada-da-tavolo-nero-diametro-32cm-110455"
         }
       ],
       "media_gallery_entries": []
@@ -3232,7 +3232,7 @@
   {
     "product": {
       "sku": "IL-314204",
-      "name": "Ideal Lux Lumiere tl Lampada Da Tavolo-Bianco",
+      "name": "Ideal Lux Lumiere Lampada Da Tavolo-Bianco",
       "attribute_set_id": 263,
       "price": 180.0,
       "status": 2,
@@ -3260,7 +3260,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-lumiere-tl-lampada-da-tavolo-bianco-314204"
+          "value": "ideal-lux-lumiere-lampada-da-tavolo-bianco-314204"
         }
       ],
       "media_gallery_entries": []
@@ -3449,7 +3449,7 @@
   {
     "product": {
       "sku": "IL-335018",
-      "name": "Ideal Lux Mignon tl Lampada Da Tavolo-Caffè",
+      "name": "Ideal Lux Mignon Lampada Da Tavolo-Caffè",
       "attribute_set_id": 263,
       "price": 40.0,
       "status": 2,
@@ -3481,7 +3481,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-mignon-tl-lampada-da-tavolo-caff-335018"
+          "value": "ideal-lux-mignon-lampada-da-tavolo-caff-335018"
         }
       ],
       "media_gallery_entries": []
@@ -3490,7 +3490,7 @@
   {
     "product": {
       "sku": "IL-334974",
-      "name": "Ideal Lux Mignon tl Lampada Da Tavolo-Nero",
+      "name": "Ideal Lux Mignon Lampada Da Tavolo-Nero",
       "attribute_set_id": 263,
       "price": 40.0,
       "status": 2,
@@ -3522,7 +3522,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-mignon-tl-lampada-da-tavolo-nero-334974"
+          "value": "ideal-lux-mignon-lampada-da-tavolo-nero-334974"
         }
       ],
       "media_gallery_entries": []
@@ -4129,7 +4129,7 @@
   {
     "product": {
       "sku": "IL-059259",
-      "name": "Ideal Lux Pegaso tl1 big Lampada Da Tavolo-Bianco-Diametro-30cm-E27",
+      "name": "Ideal Lux Pegaso tl1 Lampada Da Tavolo-Bianco-Diametro-30cm-E27",
       "attribute_set_id": 263,
       "price": 215.0,
       "status": 2,
@@ -4169,7 +4169,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-pegaso-tl1-big-lampada-da-tavolo-bianco-diametro-30cm-e27-059259"
+          "value": "ideal-lux-pegaso-tl1-lampada-da-tavolo-bianco-diametro-30cm-e27-059259"
         }
       ],
       "media_gallery_entries": []
@@ -4178,7 +4178,7 @@
   {
     "product": {
       "sku": "IL-059266",
-      "name": "Ideal Lux Pegaso tl1 small Lampada Da Tavolo-Bianco-Diametro-18cm-E14",
+      "name": "Ideal Lux Pegaso tl1 Lampada Da Tavolo-Bianco-Diametro-18cm-E14",
       "attribute_set_id": 263,
       "price": 110.0,
       "status": 2,
@@ -4218,7 +4218,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-pegaso-tl1-small-lampada-da-tavolo-bianco-diametro-18cm-e14-059266"
+          "value": "ideal-lux-pegaso-tl1-lampada-da-tavolo-bianco-diametro-18cm-e14-059266"
         }
       ],
       "media_gallery_entries": []
@@ -4227,7 +4227,7 @@
   {
     "product": {
       "sku": "IL-197753",
-      "name": "Ideal Lux Pegaso tl1 small Lampada Da Tavolo-Ottone-Diametro-18cm-E14",
+      "name": "Ideal Lux Pegaso tl1 Lampada Da Tavolo-Ottone-Diametro-18cm-E14",
       "attribute_set_id": 263,
       "price": 110.0,
       "status": 2,
@@ -4267,7 +4267,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-pegaso-tl1-small-lampada-da-tavolo-ottone-diametro-18cm-e14-197753"
+          "value": "ideal-lux-pegaso-tl1-lampada-da-tavolo-ottone-diametro-18cm-e14-197753"
         }
       ],
       "media_gallery_entries": []
@@ -4522,7 +4522,7 @@
   {
     "product": {
       "sku": "IL-289168",
-      "name": "Ideal Lux Pivot tl Lampada Da Tavolo-Bianco",
+      "name": "Ideal Lux Pivot Lampada Da Tavolo-Bianco",
       "attribute_set_id": 263,
       "price": 81.0,
       "status": 2,
@@ -4554,7 +4554,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-pivot-tl-lampada-da-tavolo-bianco-289168"
+          "value": "ideal-lux-pivot-lampada-da-tavolo-bianco-289168"
         }
       ],
       "media_gallery_entries": []
@@ -4563,7 +4563,7 @@
   {
     "product": {
       "sku": "IL-289151",
-      "name": "Ideal Lux Pivot tl Lampada Da Tavolo-Nero",
+      "name": "Ideal Lux Pivot Lampada Da Tavolo-Nero",
       "attribute_set_id": 263,
       "price": 81.0,
       "status": 2,
@@ -4595,7 +4595,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-pivot-tl-lampada-da-tavolo-nero-289151"
+          "value": "ideal-lux-pivot-lampada-da-tavolo-nero-289151"
         }
       ],
       "media_gallery_entries": []
@@ -4604,7 +4604,7 @@
   {
     "product": {
       "sku": "IL-074702",
-      "name": "Ideal Lux Prato tl1 big Lampada Da Tavolo-Bianco-Diametro-22.5cm-E27",
+      "name": "Ideal Lux Prato tl1 Lampada Da Tavolo-Bianco-Diametro-22.5cm-E27",
       "attribute_set_id": 263,
       "price": 80.0,
       "status": 2,
@@ -4640,7 +4640,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-prato-tl1-big-lampada-da-tavolo-bianco-diametro-22-5cm-e27-074702"
+          "value": "ideal-lux-prato-tl1-lampada-da-tavolo-bianco-diametro-22-5cm-e27-074702"
         }
       ],
       "media_gallery_entries": []
@@ -4649,7 +4649,7 @@
   {
     "product": {
       "sku": "IL-074726",
-      "name": "Ideal Lux Prato tl1 small Lampada Da Tavolo-Bianco-Diametro-16.5cm-E14",
+      "name": "Ideal Lux Prato tl1 Lampada Da Tavolo-Bianco-Diametro-16.5cm-E14",
       "attribute_set_id": 263,
       "price": 51.0,
       "status": 2,
@@ -4685,7 +4685,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-prato-tl1-small-lampada-da-tavolo-bianco-diametro-16-5cm-e14-074726"
+          "value": "ideal-lux-prato-tl1-lampada-da-tavolo-bianco-diametro-16-5cm-e14-074726"
         }
       ],
       "media_gallery_entries": []
@@ -4694,7 +4694,7 @@
   {
     "product": {
       "sku": "IL-311685",
-      "name": "Ideal Lux Pure tl Lampada Da Tavolo-Bianco",
+      "name": "Ideal Lux Pure Lampada Da Tavolo-Bianco",
       "attribute_set_id": 263,
       "price": 86.0,
       "status": 2,
@@ -4726,7 +4726,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-pure-tl-lampada-da-tavolo-bianco-311685"
+          "value": "ideal-lux-pure-lampada-da-tavolo-bianco-311685"
         }
       ],
       "media_gallery_entries": []
@@ -4735,7 +4735,7 @@
   {
     "product": {
       "sku": "IL-311661",
-      "name": "Ideal Lux Pure tl Lampada Da Tavolo-Caffè",
+      "name": "Ideal Lux Pure Lampada Da Tavolo-Caffè",
       "attribute_set_id": 263,
       "price": 86.0,
       "status": 2,
@@ -4767,7 +4767,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-pure-tl-lampada-da-tavolo-caff-311661"
+          "value": "ideal-lux-pure-lampada-da-tavolo-caff-311661"
         }
       ],
       "media_gallery_entries": []
@@ -4776,7 +4776,7 @@
   {
     "product": {
       "sku": "IL-311678",
-      "name": "Ideal Lux Pure tl Lampada Da Tavolo-Nero",
+      "name": "Ideal Lux Pure Lampada Da Tavolo-Nero",
       "attribute_set_id": 263,
       "price": 86.0,
       "status": 2,
@@ -4808,7 +4808,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-pure-tl-lampada-da-tavolo-nero-311678"
+          "value": "ideal-lux-pure-lampada-da-tavolo-nero-311678"
         }
       ],
       "media_gallery_entries": []
@@ -4817,7 +4817,7 @@
   {
     "product": {
       "sku": "IL-077758",
-      "name": "Ideal Lux Queen tl1 big Lampada Da Tavolo-Oro-Diametro-35cm",
+      "name": "Ideal Lux Queen tl1 Lampada Da Tavolo-Oro-Diametro-35cm",
       "attribute_set_id": 263,
       "price": 210.0,
       "status": 2,
@@ -4849,7 +4849,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-queen-tl1-big-lampada-da-tavolo-oro-diametro-35cm-077758"
+          "value": "ideal-lux-queen-tl1-lampada-da-tavolo-oro-diametro-35cm-077758"
         }
       ],
       "media_gallery_entries": []
@@ -4858,7 +4858,7 @@
   {
     "product": {
       "sku": "IL-077741",
-      "name": "Ideal Lux Queen tl1 medium Lampada Da Tavolo-Oro-Diametro-25cm",
+      "name": "Ideal Lux Queen tl1 Lampada Da Tavolo-Oro-Diametro-25cm",
       "attribute_set_id": 263,
       "price": 140.0,
       "status": 2,
@@ -4890,7 +4890,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-queen-tl1-medium-lampada-da-tavolo-oro-diametro-25cm-077741"
+          "value": "ideal-lux-queen-tl1-lampada-da-tavolo-oro-diametro-25cm-077741"
         }
       ],
       "media_gallery_entries": []
@@ -4899,7 +4899,7 @@
   {
     "product": {
       "sku": "IL-077734",
-      "name": "Ideal Lux Queen tl1 small Lampada Da Tavolo-Oro-Diametro-20cm",
+      "name": "Ideal Lux Queen tl1 Lampada Da Tavolo-Oro-Diametro-20cm",
       "attribute_set_id": 263,
       "price": 120.0,
       "status": 2,
@@ -4931,7 +4931,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-queen-tl1-small-lampada-da-tavolo-oro-diametro-20cm-077734"
+          "value": "ideal-lux-queen-tl1-lampada-da-tavolo-oro-diametro-20cm-077734"
         }
       ],
       "media_gallery_entries": []
@@ -4940,7 +4940,7 @@
   {
     "product": {
       "sku": "IL-259918",
-      "name": "Ideal Lux Set up mtl1 big Lampada Da Tavolo-Bianco-Diametro-20cm",
+      "name": "Ideal Lux Set up mtl1 Lampada Da Tavolo-Bianco-Diametro-20cm",
       "attribute_set_id": 263,
       "price": 90.0,
       "status": 2,
@@ -4976,7 +4976,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-set-up-mtl1-big-lampada-da-tavolo-bianco-diametro-20cm-259918"
+          "value": "ideal-lux-set-up-mtl1-lampada-da-tavolo-bianco-diametro-20cm-259918"
         }
       ],
       "media_gallery_entries": []
@@ -4985,7 +4985,7 @@
   {
     "product": {
       "sku": "IL-259925",
-      "name": "Ideal Lux Set up mtl1 big Lampada Da Tavolo-Nero-Diametro-20cm",
+      "name": "Ideal Lux Set up mtl1 Lampada Da Tavolo-Nero-Diametro-20cm",
       "attribute_set_id": 263,
       "price": 90.0,
       "status": 2,
@@ -5021,7 +5021,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-set-up-mtl1-big-lampada-da-tavolo-nero-diametro-20cm-259925"
+          "value": "ideal-lux-set-up-mtl1-lampada-da-tavolo-nero-diametro-20cm-259925"
         }
       ],
       "media_gallery_entries": []
@@ -5030,7 +5030,7 @@
   {
     "product": {
       "sku": "IL-259949",
-      "name": "Ideal Lux Set up mtl1 big Lampada Da Tavolo-Nichel-Diametro-20cm",
+      "name": "Ideal Lux Set up mtl1 Lampada Da Tavolo-Nichel-Diametro-20cm",
       "attribute_set_id": 263,
       "price": 90.0,
       "status": 2,
@@ -5066,7 +5066,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-set-up-mtl1-big-lampada-da-tavolo-nichel-diametro-20cm-259949"
+          "value": "ideal-lux-set-up-mtl1-lampada-da-tavolo-nichel-diametro-20cm-259949"
         }
       ],
       "media_gallery_entries": []
@@ -5075,7 +5075,7 @@
   {
     "product": {
       "sku": "IL-259956",
-      "name": "Ideal Lux Set up mtl1 big Lampada Da Tavolo-Ottone-Diametro-20cm",
+      "name": "Ideal Lux Set up mtl1 Lampada Da Tavolo-Ottone-Diametro-20cm",
       "attribute_set_id": 263,
       "price": 90.0,
       "status": 2,
@@ -5111,7 +5111,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-set-up-mtl1-big-lampada-da-tavolo-ottone-diametro-20cm-259956"
+          "value": "ideal-lux-set-up-mtl1-lampada-da-tavolo-ottone-diametro-20cm-259956"
         }
       ],
       "media_gallery_entries": []
@@ -5120,7 +5120,7 @@
   {
     "product": {
       "sku": "IL-259864",
-      "name": "Ideal Lux Set up mtl1 small Lampada Da Tavolo-Bianco-Diametro-14.5cm",
+      "name": "Ideal Lux Set up mtl1 Lampada Da Tavolo-Bianco-Diametro-14.5cm",
       "attribute_set_id": 263,
       "price": 70.0,
       "status": 2,
@@ -5156,7 +5156,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-set-up-mtl1-small-lampada-da-tavolo-bianco-diametro-14-5cm-259864"
+          "value": "ideal-lux-set-up-mtl1-lampada-da-tavolo-bianco-diametro-14-5cm-259864"
         }
       ],
       "media_gallery_entries": []
@@ -5165,7 +5165,7 @@
   {
     "product": {
       "sku": "IL-259871",
-      "name": "Ideal Lux Set up mtl1 small Lampada Da Tavolo-Nero-Diametro-14.5cm",
+      "name": "Ideal Lux Set up mtl1 Lampada Da Tavolo-Nero-Diametro-14.5cm",
       "attribute_set_id": 263,
       "price": 70.0,
       "status": 2,
@@ -5201,7 +5201,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-set-up-mtl1-small-lampada-da-tavolo-nero-diametro-14-5cm-259871"
+          "value": "ideal-lux-set-up-mtl1-lampada-da-tavolo-nero-diametro-14-5cm-259871"
         }
       ],
       "media_gallery_entries": []
@@ -5210,7 +5210,7 @@
   {
     "product": {
       "sku": "IL-259895",
-      "name": "Ideal Lux Set up mtl1 small Lampada Da Tavolo-Nichel-Diametro-14.5cm",
+      "name": "Ideal Lux Set up mtl1 Lampada Da Tavolo-Nichel-Diametro-14.5cm",
       "attribute_set_id": 263,
       "price": 70.0,
       "status": 2,
@@ -5246,7 +5246,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-set-up-mtl1-small-lampada-da-tavolo-nichel-diametro-14-5cm-259895"
+          "value": "ideal-lux-set-up-mtl1-lampada-da-tavolo-nichel-diametro-14-5cm-259895"
         }
       ],
       "media_gallery_entries": []
@@ -5255,7 +5255,7 @@
   {
     "product": {
       "sku": "IL-259901",
-      "name": "Ideal Lux Set up mtl1 small Lampada Da Tavolo-Ottone-Diametro-14.5cm",
+      "name": "Ideal Lux Set up mtl1 Lampada Da Tavolo-Ottone-Diametro-14.5cm",
       "attribute_set_id": 263,
       "price": 70.0,
       "status": 2,
@@ -5291,7 +5291,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-set-up-mtl1-small-lampada-da-tavolo-ottone-diametro-14-5cm-259901"
+          "value": "ideal-lux-set-up-mtl1-lampada-da-tavolo-ottone-diametro-14-5cm-259901"
         }
       ],
       "media_gallery_entries": []
@@ -5435,7 +5435,7 @@
   {
     "product": {
       "sku": "IL-311715",
-      "name": "Ideal Lux Toffee tl Lampada Da Tavolo-Bianco",
+      "name": "Ideal Lux Toffee Lampada Da Tavolo-Bianco",
       "attribute_set_id": 263,
       "price": 90.0,
       "status": 2,
@@ -5467,7 +5467,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-toffee-tl-lampada-da-tavolo-bianco-311715"
+          "value": "ideal-lux-toffee-lampada-da-tavolo-bianco-311715"
         }
       ],
       "media_gallery_entries": []
@@ -5476,7 +5476,7 @@
   {
     "product": {
       "sku": "IL-347868",
-      "name": "Ideal Lux Toffee tl Lampada Da Tavolo-Caffè",
+      "name": "Ideal Lux Toffee Lampada Da Tavolo-Caffè",
       "attribute_set_id": 263,
       "price": 90.0,
       "status": 2,
@@ -5508,7 +5508,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-toffee-tl-lampada-da-tavolo-caff-347868"
+          "value": "ideal-lux-toffee-lampada-da-tavolo-caff-347868"
         }
       ],
       "media_gallery_entries": []
@@ -5517,7 +5517,7 @@
   {
     "product": {
       "sku": "IL-328614",
-      "name": "Ideal Lux Toffee tl Lampada Da Tavolo-Nero",
+      "name": "Ideal Lux Toffee Lampada Da Tavolo-Nero",
       "attribute_set_id": 263,
       "price": 90.0,
       "status": 2,
@@ -5549,7 +5549,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-toffee-tl-lampada-da-tavolo-nero-328614"
+          "value": "ideal-lux-toffee-lampada-da-tavolo-nero-328614"
         }
       ],
       "media_gallery_entries": []
@@ -5558,7 +5558,7 @@
   {
     "product": {
       "sku": "IL-061191",
-      "name": "Ideal Lux Wally tl1 rame Lampada Da Tavolo-Nero",
+      "name": "Ideal Lux Wally tl1 Lampada Da Tavolo-Nero",
       "attribute_set_id": 263,
       "price": 95.0,
       "status": 2,
@@ -5590,7 +5590,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-wally-tl1-rame-lampada-da-tavolo-nero-061191"
+          "value": "ideal-lux-wally-tl1-lampada-da-tavolo-nero-061191"
         }
       ],
       "media_gallery_entries": []
@@ -5599,7 +5599,7 @@
   {
     "product": {
       "sku": "IL-193991",
-      "name": "Ideal Lux Wally tl1 totale Lampada Da Tavolo-Bianco",
+      "name": "Ideal Lux Wally tl1 Lampada Da Tavolo-Bianco",
       "attribute_set_id": 263,
       "price": 95.0,
       "status": 2,
@@ -5631,7 +5631,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-wally-tl1-totale-lampada-da-tavolo-bianco-193991"
+          "value": "ideal-lux-wally-tl1-lampada-da-tavolo-bianco-193991"
         }
       ],
       "media_gallery_entries": []
@@ -5640,7 +5640,7 @@
   {
     "product": {
       "sku": "IL-265278",
-      "name": "Ideal Lux Wally tl1 totale Lampada Da Tavolo-Nero",
+      "name": "Ideal Lux Wally tl1 Lampada Da Tavolo-Nero",
       "attribute_set_id": 263,
       "price": 95.0,
       "status": 2,
@@ -5672,7 +5672,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-wally-tl1-totale-lampada-da-tavolo-nero-265278"
+          "value": "ideal-lux-wally-tl1-lampada-da-tavolo-nero-265278"
         }
       ],
       "media_gallery_entries": []

@@ -105,7 +105,10 @@ def load_categoria(csv_path: str, categoria: str, escludi: list = []) -> pd.Data
 # ─────────────────────────────────────────────
 
 def estrai_modello(descrizione: str, finitura: str) -> str:
-    raw = descrizione.replace("_" + str(finitura) if pd.notna(finitura) else "", "").replace("_", " ").lower()
+    raw = descrizione.replace("_" + str(finitura) if pd.notna(finitura) else "", "")
+    # ── NUOVO: rimuovi il token rimasto in coda se diverso dalla finitura (es. ANTRACITE vs GRIGIO)
+    raw = re.sub(r'_[A-Za-z]+$', '', raw)
+    raw = raw.replace("_", " ").lower()
     raw = re.sub(r'\b[hdlp]\d+\b', '', raw)
     raw = re.sub(r'\b\d{4}k(?:-\d{4}k)?\b', '', raw)
     raw = re.sub(r'\s{2,}', ' ', raw).strip()

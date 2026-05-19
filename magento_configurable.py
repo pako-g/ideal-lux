@@ -27,6 +27,9 @@ ESCLUDI_DA_CONFIG  = {"lamp_ean", "manufacturer", "url_key"}
 CATEGORIE_FISSE    = ["Marchi", "Ideal Lux", "Illuminazione"]
 
 
+CONFIG_SKU_START = 86  # IL-CONFIG-086: i primi 85 sono occupati dalle lampade da terra
+
+
 # ─────────────────────────────────────────────
 # LOOKUP / COSTANTI
 # ─────────────────────────────────────────────
@@ -322,6 +325,15 @@ def build_configurable(
 # ─────────────────────────────────────────────
 
 def main():
+
+    print(f"\n⚠️  CONFIG_SKU_START = {CONFIG_SKU_START}  (il primo SKU sarà IL-CONFIG-{CONFIG_SKU_START:03d})")
+    print(f"    Assicurati che non sovrascriva SKU già esistenti.")
+    risposta = input("    Continuare? [s/N] ").strip().lower()
+    if risposta != "s":
+        print("    Operazione annullata.")
+        return
+
+
     df_desc = pd.read_csv(DESC_CSV, sep=",", encoding="utf-8").set_index("sku")
 
     with open(INPUT_JSON, encoding="utf-8") as f:
@@ -339,7 +351,7 @@ def main():
     print(f"🔗  Gruppi (configurabili) trovati: {len(gruppi)}\n")
 
     configurabili = []
-    for idx, (key, gruppo) in enumerate(sorted(gruppi.items()), start=1):
+    for idx, (key, gruppo) in enumerate(sorted(gruppi.items()), start=CONFIG_SKU_START): #DA CAMBIARE
         config_sku = f"IL-CONFIG-{idx:03d}"
         config = build_configurable(
             config_sku, gruppo, df, df_desc,
