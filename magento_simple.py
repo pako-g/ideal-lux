@@ -360,6 +360,8 @@ def calcola_sottofamiglia(descrizione: str, famiglia: str, finitura: str) -> str
         return famiglia
     finitura_str = "" if str(finitura) == "nan" else "_" + str(finitura)
     core = str(descrizione).replace(famiglia + "_", "").replace(finitura_str, "")
+    # ── NUOVO: rimuovi anche l'ultimo token se rimasto (es. ANTRACITE ≠ GRIGIO) ──
+    core = re.sub(r'_[A-Z]+$', '', core)
     core = re.sub(r'_(D\d+|H\d+|L\d+|\d{4}K[^_]*).*$', '', core)
     core = re.sub(r'^(D\d+|H\d+|L\d+|\d{4}K[^_]*).*$', '', core)
     sottomodello = core.strip("_")

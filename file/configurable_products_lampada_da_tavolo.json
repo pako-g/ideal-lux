@@ -837,7 +837,8 @@
       "IL-366524"
     ],
     "_attr_codes": [
-      "color"
+      "color",
+      "config_dimensioni"
     ]
   },
   {
@@ -943,7 +944,8 @@
       "IL-366500"
     ],
     "_attr_codes": [
-      "color"
+      "color",
+      "config_dimensioni"
     ]
   },
   {
@@ -3361,7 +3363,9 @@
       "IL-251127"
     ],
     "_attr_codes": [
-      "color"
+      "color",
+      "config_attacco_lamp",
+      "config_dimensioni"
     ]
   },
   {
@@ -3467,7 +3471,9 @@
       "IL-259222"
     ],
     "_attr_codes": [
-      "color"
+      "color",
+      "config_attacco_lamp",
+      "config_dimensioni"
     ]
   },
   {
@@ -3784,7 +3790,8 @@
       "IL-110455"
     ],
     "_attr_codes": [
-      "color"
+      "color",
+      "config_dimensioni"
     ]
   },
   {
@@ -3891,7 +3898,8 @@
       "IL-110554"
     ],
     "_attr_codes": [
-      "color"
+      "color",
+      "config_dimensioni"
     ]
   },
   {
@@ -4943,7 +4951,9 @@
       "IL-197753"
     ],
     "_attr_codes": [
-      "color"
+      "color",
+      "config_attacco_lamp",
+      "config_dimensioni"
     ]
   },
   {
@@ -5993,7 +6003,8 @@
       "IL-259956"
     ],
     "_attr_codes": [
-      "color"
+      "color",
+      "config_dimensioni"
     ]
   },
   {
@@ -6101,7 +6112,8 @@
       "IL-259901"
     ],
     "_attr_codes": [
-      "color"
+      "color",
+      "config_dimensioni"
     ]
   },
   {
