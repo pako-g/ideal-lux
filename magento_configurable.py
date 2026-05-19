@@ -27,7 +27,7 @@ ESCLUDI_DA_CONFIG  = {"lamp_ean", "manufacturer", "url_key"}
 CATEGORIE_FISSE    = ["Marchi", "Ideal Lux", "Illuminazione"]
 
 
-CONFIG_SKU_START = 86  # IL-CONFIG-086: i primi 85 sono occupati dalle lampade da terra
+CONFIG_SKU_START = 89  # IL-CONFIG-086: i primi 85 sono occupati dalle lampade da terra
 
 
 # ─────────────────────────────────────────────
