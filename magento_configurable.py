@@ -239,6 +239,12 @@ def build_configurable(
 
     # Prezzo e stock (solo per prodotti singoli)
     prezzo_val  = semplici[0]["product"].get("price", 0) if is_single else None
+    weight_val = semplici[0]["product"].get("weight", 0) if is_single else None
+    lamp_ean_val = next(
+        (a["value"] for a in semplici[0]["product"]["custom_attributes"]
+         if a["attribute_code"] == "lamp_ean"),
+        None
+    ) if is_single else None
     qty_val     = semplici[0]["product"]["extension_attributes"]["stock_item"]["qty"] if is_single else 0
     in_stock    = semplici[0]["product"]["extension_attributes"]["stock_item"]["is_in_stock"] if is_single else 1
 
@@ -246,8 +252,13 @@ def build_configurable(
     primo_sku_pulito = semplici[0]["product"]["sku"].replace("IL-", "")
     lamp = _lamp_attributi(righe_gruppo, primo_sku_pulito, df, attacco_menu_map)
 
-    cat_nome     = f"Lampade da Terra per Esterni" if ambiente == "Esterni" else "Lampade da Terra"
-    nomi_cat     = CATEGORIE_FISSE + [cat_nome]
+    cat_plurale = CATEGORIA_PLURALE.get(CATEGORIA.title(), CATEGORIA)
+
+    if ambiente == "Esterni":
+        nomi_cat = CATEGORIE_FISSE + ["Esterni", f"{cat_plurale} per Esterni"]
+    else:
+        nomi_cat = CATEGORIE_FISSE + ["Interni", cat_plurale]
+
     category_ids = [categorie_map[n] for n in nomi_cat if n in categorie_map]
 
     # Descrizioni dal CSV
@@ -277,6 +288,7 @@ def build_configurable(
             "visibility":       4,
             "type_id":          "configurable",
             "price":            prezzo_val,
+            "weight": weight_val,
             "extension_attributes": {
                 "website_ids": WEBSITE_IDS,
                 "stock_item": {
@@ -296,6 +308,7 @@ def build_configurable(
                 {"attribute_code": "short_description","value": short_desc},
                 {"attribute_code": "description",      "value": description},
                 {"attribute_code": "meta_description", "value": meta_desc},
+                *([{"attribute_code": "lamp_ean", "value": lamp_ean_val}] if lamp_ean_val else []),
                 *lamp_attrs,
             ],
             "media_gallery_entries": [],
