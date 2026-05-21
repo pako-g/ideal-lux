@@ -15,7 +15,7 @@ from utility.magento_api import *
 # CONFIGURAZIONE
 # ─────────────────────────────────────────────
 
-CATEGORIA  = "Lampada da tavolo"
+CATEGORIA  = "Lampada a sospensione"
 INPUT_JSON = f"./file/simple_products_{CATEGORIA.lower().replace(' ', '_')}.json"
 OUTPUT_JSON = f"./file/configurable_products_{CATEGORIA.lower().replace(' ', '_')}.json"
 CSV_PATH   = "./file/giacenzeECommerce.csv"
@@ -27,7 +27,7 @@ ESCLUDI_DA_CONFIG  = {"lamp_ean", "manufacturer", "url_key"}
 CATEGORIE_FISSE    = ["Marchi", "Ideal Lux", "Illuminazione"]
 
 
-CONFIG_SKU_START = 89  # IL-CONFIG-086: i primi 85 sono occupati dalle lampade da terra
+CONFIG_SKU_START = 140  # IL-CONFIG-086: i primi 85 sono occupati dalle lampade da terra
 
 
 # ─────────────────────────────────────────────
@@ -51,6 +51,7 @@ MATERIALI_MAP = {
 CATEGORIA_PLURALE = {
     "Lampada Da Terra":     "Lampade da Terra",
     "Lampada Da Tavolo":    "Lampade da Tavolo",
+    "Lampada a sospensione": "Lampade a Sospensione",
     "Lampada Da Parete":    "Lampade da Parete",
     "Lampada Da Soffitto":  "Lampade da Soffitto",
     "Lampada Portatile":    "Lampade Portatili",
