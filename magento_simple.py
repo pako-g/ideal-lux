@@ -15,7 +15,7 @@ from utility.magento_api import *
 # ─────────────────────────────────────────────
 
 CSV_PATH           = "./file/giacenzeECommerce.csv"
-CATEGORIA          = "Lampada da tavolo"
+CATEGORIA          = "Lampada a sospensione"
 OUTPUT_PATH        = f"./file/simple_products_{CATEGORIA.lower().replace(' ', '_')}.json"
 MARCA              = "Ideal Lux"
 ATTRIBUTE_SET_NAME = "Ideal-Lux"
@@ -32,6 +32,8 @@ FINITURA_LABEL = {
     "Ambra sfumato":  "Ambra",
     "Fume' sfumato":  "Fumé",
     "Fume'":          "Fumé",
+    "Ottone satinato": 'Ottone Satinato',
+    "Cromo sfumato": 'Cromo',
 }
 
 TIPO_LABEL = {
@@ -277,6 +279,8 @@ def build_simple(row: pd.Series, gruppo: pd.DataFrame,
     tipo       = estrai_tipo(row["Descrizione"], famiglia)
     temperatura = estrai_temperatura(row["Descrizione"])
     modello    = estrai_modello(row["Descrizione"], row["Finitura"])
+
+    print(modello + f"-{row['sku']}")
 
     # Quali attributi variano nel gruppo
     assi = _attributi_varianti(gruppo, famiglia, color_map, attacco_map,
