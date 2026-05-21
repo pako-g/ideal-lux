@@ -235,7 +235,7 @@
   {
     "product": {
       "sku": "IL-168753",
-      "name": "Ideal Lux Amadeus sp6 Lampada A Sospensione-Trasparente",
+      "name": "Ideal Lux Amadeus sp6 Lampada A Sospensione-Trasparente-Diametro-67cm",
       "attribute_set_id": 263,
       "price": 480.0,
       "status": 2,
@@ -254,6 +254,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3913"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696168753"
         },
@@ -263,7 +267,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-amadeus-sp6-lampada-a-sospensione-trasparente-168753"
+          "value": "ideal-lux-amadeus-sp6-lampada-a-sospensione-trasparente-diametro-67cm-168753"
         }
       ],
       "media_gallery_entries": []
@@ -272,7 +276,7 @@
   {
     "product": {
       "sku": "IL-168777",
-      "name": "Ideal Lux Amadeus sp8 Lampada A Sospensione-Trasparente",
+      "name": "Ideal Lux Amadeus sp8 Lampada A Sospensione-Trasparente-Diametro-80cm",
       "attribute_set_id": 263,
       "price": 568.0,
       "status": 2,
@@ -291,6 +295,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3358"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696168777"
         },
@@ -300,7 +308,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-amadeus-sp8-lampada-a-sospensione-trasparente-168777"
+          "value": "ideal-lux-amadeus-sp8-lampada-a-sospensione-trasparente-diametro-80cm-168777"
         }
       ],
       "media_gallery_entries": []
@@ -3327,7 +3335,7 @@
   {
     "product": {
       "sku": "IL-113975",
-      "name": "Ideal Lux Chalet sp12 Lampada A Sospensione-Beige",
+      "name": "Ideal Lux Chalet sp12 Lampada A Sospensione-Beige-Diametro-100cm",
       "attribute_set_id": 263,
       "price": 990.0,
       "status": 2,
@@ -3346,6 +3354,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3359"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696113975"
         },
@@ -3355,7 +3367,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-chalet-sp12-lampada-a-sospensione-beige-113975"
+          "value": "ideal-lux-chalet-sp12-lampada-a-sospensione-beige-diametro-100cm-113975"
         }
       ],
       "media_gallery_entries": []
@@ -3364,7 +3376,7 @@
   {
     "product": {
       "sku": "IL-115498",
-      "name": "Ideal Lux Chalet sp6 Lampada A Sospensione-Beige",
+      "name": "Ideal Lux Chalet sp6 Lampada A Sospensione-Beige-Diametro-67cm",
       "attribute_set_id": 263,
       "price": 560.0,
       "status": 2,
@@ -3383,6 +3395,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3913"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696115498"
         },
@@ -3392,7 +3408,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-chalet-sp6-lampada-a-sospensione-beige-115498"
+          "value": "ideal-lux-chalet-sp6-lampada-a-sospensione-beige-diametro-67cm-115498"
         }
       ],
       "media_gallery_entries": []
@@ -3401,7 +3417,7 @@
   {
     "product": {
       "sku": "IL-115504",
-      "name": "Ideal Lux Chalet sp8 Lampada A Sospensione-Beige",
+      "name": "Ideal Lux Chalet sp8 Lampada A Sospensione-Beige-Diametro-91cm",
       "attribute_set_id": 263,
       "price": 850.0,
       "status": 2,
@@ -3420,6 +3436,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3914"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696115504"
         },
@@ -3429,7 +3449,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-chalet-sp8-lampada-a-sospensione-beige-115504"
+          "value": "ideal-lux-chalet-sp8-lampada-a-sospensione-beige-diametro-91cm-115504"
         }
       ],
       "media_gallery_entries": []
@@ -10981,7 +11001,7 @@
   {
     "product": {
       "sku": "IL-342993",
-      "name": "Ideal Lux Galaxy sp3 Lampada A Sospensione-Bianco",
+      "name": "Ideal Lux Galaxy sp3 Lampada A Sospensione-Bianco-Diametro-25cm",
       "attribute_set_id": 263,
       "price": 476.0,
       "status": 2,
@@ -11000,6 +11020,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "2921"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696342993"
         },
@@ -11009,7 +11033,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-galaxy-sp3-lampada-a-sospensione-bianco-342993"
+          "value": "ideal-lux-galaxy-sp3-lampada-a-sospensione-bianco-diametro-25cm-342993"
         }
       ],
       "media_gallery_entries": []
@@ -11018,7 +11042,7 @@
   {
     "product": {
       "sku": "IL-321172",
-      "name": "Ideal Lux Galaxy sp6 Lampada A Sospensione-Bianco",
+      "name": "Ideal Lux Galaxy sp6 Lampada A Sospensione-Bianco-Diametro-40cm",
       "attribute_set_id": 263,
       "price": 650.0,
       "status": 2,
@@ -11037,6 +11061,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3287"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696321172"
         },
@@ -11046,7 +11074,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-galaxy-sp6-lampada-a-sospensione-bianco-321172"
+          "value": "ideal-lux-galaxy-sp6-lampada-a-sospensione-bianco-diametro-40cm-321172"
         }
       ],
       "media_gallery_entries": []

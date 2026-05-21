@@ -198,7 +198,9 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
@@ -208,16 +210,16 @@
       "status": 2,
       "visibility": 4,
       "type_id": "configurable",
-      "price": 480.0,
-      "weight": 6.7,
+      "price": null,
+      "weight": null,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 21,
+          "qty": 0,
           "is_in_stock": 1,
-          "manage_stock": true
+          "manage_stock": false
         },
         "category_links": [
           {
@@ -264,10 +266,6 @@
           "value": ""
         },
         {
-          "attribute_code": "lamp_ean",
-          "value": "8021696168753"
-        },
-        {
           "attribute_code": "lamp_lampadina",
           "value": "0"
         },
@@ -277,7 +275,7 @@
         },
         {
           "attribute_code": "lamp_dimensioni",
-          "value": "Ø67cm x H min 790 / max 1500"
+          "value": "Ø67cm x H min 790 / max 1500 - Ø80cm x H min 1060 / max 1800"
         },
         {
           "attribute_code": "lamp_materiali_costruzione",
@@ -285,7 +283,7 @@
         },
         {
           "attribute_code": "lamp_max_potenza",
-          "value": "6 x 40W"
+          "value": "6 x 40W - 8 x 40W"
         },
         {
           "attribute_code": "lamp_grado_protezione",
@@ -297,110 +295,18 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [
+      "IL-168753",
+      "IL-168777"
+    ],
+    "_attr_codes": [
+      "config_dimensioni"
+    ]
   },
   {
     "product": {
       "sku": "IL-CONFIG-143",
-      "name": "Ideal Lux Amadeus Sp8 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 568.0,
-      "weight": 8.2,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 39,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-amadeus-sp8-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Amadeus Sp8 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696168777"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø80cm x H min 1060 / max 1800"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Cristallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "8 x 40W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "82"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-144",
       "name": "Ideal Lux Ampolla-1 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -495,11 +401,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-145",
+      "sku": "IL-CONFIG-144",
       "name": "Ideal Lux Ampolla-2 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -594,11 +502,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-146",
+      "sku": "IL-CONFIG-145",
       "name": "Ideal Lux Ampolla-3 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -693,11 +603,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-147",
+      "sku": "IL-CONFIG-146",
       "name": "Ideal Lux Ampolla-4 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -792,11 +704,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-148",
+      "sku": "IL-CONFIG-147",
       "name": "Ideal Lux Archimede Sp Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -902,7 +816,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-149",
+      "sku": "IL-CONFIG-148",
       "name": "Ideal Lux Aria Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -997,26 +911,28 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-150",
+      "sku": "IL-CONFIG-149",
       "name": "Ideal Lux Arizona Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
       "type_id": "configurable",
-      "price": 395.0,
-      "weight": 3.6,
+      "price": null,
+      "weight": null,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 39,
+          "qty": 0,
           "is_in_stock": 1,
-          "manage_stock": true
+          "manage_stock": false
         },
         "category_links": [
           {
@@ -1063,10 +979,6 @@
           "value": ""
         },
         {
-          "attribute_code": "lamp_ean",
-          "value": "8021696214474"
-        },
-        {
           "attribute_code": "lamp_lampadina",
           "value": "1"
         },
@@ -1076,7 +988,7 @@
         },
         {
           "attribute_code": "lamp_dimensioni",
-          "value": "Ø40cm x H min 425 / max 2175"
+          "value": "Ø40cm x H min 425 / max 2175 - Ø52cm x H min 475 / max 2225"
         },
         {
           "attribute_code": "lamp_materiali_costruzione",
@@ -1084,7 +996,7 @@
         },
         {
           "attribute_code": "lamp_max_potenza",
-          "value": "3 x 9W"
+          "value": "3 x 9W - 5 x 9W"
         },
         {
           "attribute_code": "lamp_grado_protezione",
@@ -1096,110 +1008,16 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [
+      "IL-214474",
+      "IL-214481"
+    ],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-151",
-      "name": "Ideal Lux Arizona Sp5 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 520.0,
-      "weight": 6.19,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 80,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-arizona-sp5-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Arizona Sp5 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696214481"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø52cm x H min 475 / max 2225"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "5 x 9W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "940"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-152",
+      "sku": "IL-CONFIG-150",
       "name": "Ideal Lux Atlas Sp4 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -1302,7 +1120,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-153",
+      "sku": "IL-CONFIG-151",
       "name": "Ideal Lux Atlas Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -1405,7 +1223,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-154",
+      "sku": "IL-CONFIG-152",
       "name": "Ideal Lux Audi-10 Sp5 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -1500,11 +1318,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-155",
+      "sku": "IL-CONFIG-153",
       "name": "Ideal Lux Audi-10 Sp5e Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -1599,26 +1419,28 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-156",
+      "sku": "IL-CONFIG-154",
       "name": "Ideal Lux Audi-80 Sp5 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
       "type_id": "configurable",
-      "price": 445.0,
-      "weight": 5.89,
+      "price": null,
+      "weight": null,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 42,
+          "qty": 0,
           "is_in_stock": 1,
-          "manage_stock": true
+          "manage_stock": false
         },
         "category_links": [
           {
@@ -1665,10 +1487,6 @@
           "value": ""
         },
         {
-          "attribute_code": "lamp_ean",
-          "value": "8021696197661"
-        },
-        {
           "attribute_code": "lamp_lampadina",
           "value": "1"
         },
@@ -1678,7 +1496,7 @@
         },
         {
           "attribute_code": "lamp_dimensioni",
-          "value": "Ø40cm x H min 450 / max 2200"
+          "value": "Ø40cm x H min 450 / max 2200 - Ø50cm x H min 450 / max 2200"
         },
         {
           "attribute_code": "lamp_materiali_costruzione",
@@ -1686,7 +1504,7 @@
         },
         {
           "attribute_code": "lamp_max_potenza",
-          "value": "5 x 40W"
+          "value": "5 x 40W - 8 x 40W"
         },
         {
           "attribute_code": "lamp_grado_protezione",
@@ -1698,407 +1516,18 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [
+      "IL-197661",
+      "IL-031743",
+      "IL-197654",
+      "IL-031750"
+    ],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-157",
-      "name": "Ideal Lux Audi-80 Sp5e Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 445.0,
-      "weight": 5.89,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 6,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-audi-80-sp5e-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Audi-80 Sp5e Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696031743"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø40cm x H min 450 / max 2200"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "5 x 40W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "201"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-158",
-      "name": "Ideal Lux Audi-80 Sp8 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 620.0,
-      "weight": 9.56,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 16,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-audi-80-sp8-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Audi-80 Sp8 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696197654"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø50cm x H min 450 / max 2200"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "8 x 40W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "201"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-159",
-      "name": "Ideal Lux Audi-80 Sp8e Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 620.0,
-      "weight": 9.56,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 0,
-          "is_in_stock": 0,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-audi-80-sp8e-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Audi-80 Sp8e Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696031750"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø50cm x H min 450 / max 2200"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "8 x 40W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "201"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-160",
-      "name": "Ideal Lux Bergen-1 Sp1 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 186.0,
-      "weight": 2.06,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 41,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-bergen-1-sp1-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Bergen-1 Sp1 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696238746"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø24cm x H min 570 / max 2320"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "60W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "235"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-161",
+      "sku": "IL-CONFIG-155",
       "name": "Ideal Lux Birds Sp5 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -2193,11 +1622,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-162",
+      "sku": "IL-CONFIG-156",
       "name": "Ideal Lux Bistro' Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -2304,7 +1735,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-163",
+      "sku": "IL-CONFIG-157",
       "name": "Ideal Lux Blanche Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -2406,7 +1837,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-164",
+      "sku": "IL-CONFIG-158",
       "name": "Ideal Lux Blanche Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -2508,7 +1939,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-165",
+      "sku": "IL-CONFIG-159",
       "name": "Ideal Lux Bloom Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -2614,7 +2045,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-166",
+      "sku": "IL-CONFIG-160",
       "name": "Ideal Lux Boa Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -2716,7 +2147,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-167",
+      "sku": "IL-CONFIG-161",
       "name": "Ideal Lux Bon Bon Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -2811,11 +2242,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-168",
+      "sku": "IL-CONFIG-162",
       "name": "Ideal Lux Bon Bon Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -2910,11 +2343,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-169",
+      "sku": "IL-CONFIG-163",
       "name": "Ideal Lux Breeze Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -3016,22 +2451,22 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-170",
+      "sku": "IL-CONFIG-164",
       "name": "Ideal Lux Brigitta Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
       "type_id": "configurable",
-      "price": 1000.0,
-      "weight": 12.5,
+      "price": null,
+      "weight": null,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
           "qty": 0,
-          "is_in_stock": 0,
-          "manage_stock": true
+          "is_in_stock": 1,
+          "manage_stock": false
         },
         "category_links": [
           {
@@ -3078,10 +2513,6 @@
           "value": ""
         },
         {
-          "attribute_code": "lamp_ean",
-          "value": "8021696199405"
-        },
-        {
           "attribute_code": "lamp_lampadina",
           "value": "0"
         },
@@ -3111,125 +2542,31 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [
+      "IL-199405",
+      "IL-199375"
+    ],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-171",
-      "name": "Ideal Lux Brigitta Sp12e Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 1000.0,
-      "weight": 12.5,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 22,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-brigitta-sp12e-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Brigitta Sp12e Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696199375"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø120cm x H min 1095 / max 1840"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "12 x 40W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "82"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-172",
+      "sku": "IL-CONFIG-165",
       "name": "Ideal Lux Brigitta Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
       "type_id": "configurable",
-      "price": 750.0,
-      "weight": 7.7,
+      "price": null,
+      "weight": null,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 2,
+          "qty": 0,
           "is_in_stock": 1,
-          "manage_stock": true
+          "manage_stock": false
         },
         "category_links": [
           {
@@ -3276,10 +2613,6 @@
           "value": ""
         },
         {
-          "attribute_code": "lamp_ean",
-          "value": "8021696199412"
-        },
-        {
           "attribute_code": "lamp_lampadina",
           "value": "0"
         },
@@ -3309,110 +2642,16 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [
+      "IL-199412",
+      "IL-199382"
+    ],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-173",
-      "name": "Ideal Lux Brigitta Sp8e Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 750.0,
-      "weight": 7.7,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 17,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-brigitta-sp8e-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Brigitta Sp8e Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696199382"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø89cm x H min 1000 / max 1840"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "8 x 40W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "82"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-174",
+      "sku": "IL-CONFIG-166",
       "name": "Ideal Lux Caesar Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -3514,7 +2753,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-175",
+      "sku": "IL-CONFIG-167",
       "name": "Ideal Lux Caesar Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -3616,7 +2855,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-176",
+      "sku": "IL-CONFIG-168",
       "name": "Ideal Lux Caesar Sp9 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -3711,209 +2950,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-177",
-      "name": "Ideal Lux Canapa Sp1 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 180.0,
-      "weight": 2.19,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 10,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-canapa-sp1-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Canapa Sp1 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696134833"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø41cm x H min 495 / max 2000"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "CD"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "15W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "235"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-178",
-      "name": "Ideal Lux Canapa Sp6 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 180.0,
-      "weight": 2.41,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 28,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-canapa-sp6-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Canapa Sp6 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696134826"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "L80cm x H min 1300 / max 1530 x P5cm"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "CD"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "6 x 15W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "235"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-179",
+      "sku": "IL-CONFIG-169",
       "name": "Ideal Lux Candy Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -4015,7 +3058,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-180",
+      "sku": "IL-CONFIG-170",
       "name": "Ideal Lux Cantina Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -4117,7 +3160,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-181",
+      "sku": "IL-CONFIG-171",
       "name": "Ideal Lux Carlton Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -4219,7 +3262,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-182",
+      "sku": "IL-CONFIG-172",
       "name": "Ideal Lux Carlton Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -4314,11 +3357,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-183",
+      "sku": "IL-CONFIG-173",
       "name": "Ideal Lux Carta Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -4422,7 +3467,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-184",
+      "sku": "IL-CONFIG-174",
       "name": "Ideal Lux Casanova Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -4517,26 +3562,28 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-185",
+      "sku": "IL-CONFIG-175",
       "name": "Ideal Lux Chalet Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
       "type_id": "configurable",
-      "price": 990.0,
-      "weight": 14.65,
+      "price": null,
+      "weight": null,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
           "qty": 0,
-          "is_in_stock": 0,
-          "manage_stock": true
+          "is_in_stock": 1,
+          "manage_stock": false
         },
         "category_links": [
           {
@@ -4583,10 +3630,6 @@
           "value": ""
         },
         {
-          "attribute_code": "lamp_ean",
-          "value": "8021696113975"
-        },
-        {
           "attribute_code": "lamp_lampadina",
           "value": "0"
         },
@@ -4596,7 +3639,7 @@
         },
         {
           "attribute_code": "lamp_dimensioni",
-          "value": "Ø100cm x H min 990 / max 1700"
+          "value": "Ø100cm x H min 990 / max 1700 - Ø67cm x H min 750 / max 1300 - Ø91cm x H min 750 / max 1400"
         },
         {
           "attribute_code": "lamp_materiali_costruzione",
@@ -4604,7 +3647,7 @@
         },
         {
           "attribute_code": "lamp_max_potenza",
-          "value": "12 x 40W"
+          "value": "12 x 40W - 6 x 40W - 8 x 40W"
         },
         {
           "attribute_code": "lamp_grado_protezione",
@@ -4616,209 +3659,19 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [
+      "IL-113975",
+      "IL-115498",
+      "IL-115504"
+    ],
+    "_attr_codes": [
+      "config_dimensioni"
+    ]
   },
   {
     "product": {
-      "sku": "IL-CONFIG-186",
-      "name": "Ideal Lux Chalet Sp6 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 560.0,
-      "weight": 5.7,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 38,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-chalet-sp6-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Chalet Sp6 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696115498"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø67cm x H min 750 / max 1300"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Resina"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "6 x 40W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "82"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-187",
-      "name": "Ideal Lux Chalet Sp8 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 850.0,
-      "weight": 8.35,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 97,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-chalet-sp8-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Chalet Sp8 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696115504"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø91cm x H min 750 / max 1400"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Resina"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "8 x 40W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "82"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-188",
+      "sku": "IL-CONFIG-176",
       "name": "Ideal Lux Circus Sp Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -4921,7 +3774,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-189",
+      "sku": "IL-CONFIG-177",
       "name": "Ideal Lux Citrus-1 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -5016,11 +3869,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-190",
+      "sku": "IL-CONFIG-178",
       "name": "Ideal Lux Citrus-2 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -5115,11 +3970,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-191",
+      "sku": "IL-CONFIG-179",
       "name": "Ideal Lux Citrus-3 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -5214,11 +4071,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-192",
+      "sku": "IL-CONFIG-180",
       "name": "Ideal Lux Clio Msp1 Lampada A Sospensione per Esterni",
       "attribute_set_id": 263,
       "status": 2,
@@ -5322,7 +4181,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-193",
+      "sku": "IL-CONFIG-181",
       "name": "Ideal Lux Clown Sp8--- Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -5417,11 +4276,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-194",
+      "sku": "IL-CONFIG-182",
       "name": "Ideal Lux Cocktail Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -5524,7 +4385,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-195",
+      "sku": "IL-CONFIG-183",
       "name": "Ideal Lux Cocktail Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -5623,7 +4484,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-196",
+      "sku": "IL-CONFIG-184",
       "name": "Ideal Lux Cocktail Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -5718,11 +4579,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-197",
+      "sku": "IL-CONFIG-185",
       "name": "Ideal Lux Coco-1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -5817,11 +4680,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-198",
+      "sku": "IL-CONFIG-186",
       "name": "Ideal Lux Coco-2 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -5916,11 +4781,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-199",
+      "sku": "IL-CONFIG-187",
       "name": "Ideal Lux Coco-3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -6015,26 +4882,28 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-200",
+      "sku": "IL-CONFIG-188",
       "name": "Ideal Lux Colossal Sp15 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
       "type_id": "configurable",
-      "price": 1000.0,
-      "weight": 19.0,
+      "price": null,
+      "weight": null,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 7,
+          "qty": 0,
           "is_in_stock": 1,
-          "manage_stock": true
+          "manage_stock": false
         },
         "category_links": [
           {
@@ -6081,10 +4950,6 @@
           "value": ""
         },
         {
-          "attribute_code": "lamp_ean",
-          "value": "8021696081526"
-        },
-        {
           "attribute_code": "lamp_lampadina",
           "value": "0"
         },
@@ -6114,110 +4979,16 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [
+      "IL-081526",
+      "IL-114170"
+    ],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-201",
-      "name": "Ideal Lux Colossal Sp15e Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 1000.0,
-      "weight": 19.0,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 21,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-colossal-sp15e-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Colossal Sp15e Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696114170"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø95cm x H min 1000 / max 2710"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Cristallo, Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "15 x 40W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "82"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-202",
+      "sku": "IL-CONFIG-189",
       "name": "Ideal Lux Cono Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -6320,7 +5091,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-203",
+      "sku": "IL-CONFIG-190",
       "name": "Ideal Lux Copernico Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -6415,11 +5186,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-204",
+      "sku": "IL-CONFIG-191",
       "name": "Ideal Lux Copernico Sp20 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -6514,11 +5287,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-205",
+      "sku": "IL-CONFIG-192",
       "name": "Ideal Lux Corte Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -6620,7 +5395,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-206",
+      "sku": "IL-CONFIG-193",
       "name": "Ideal Lux Corte Sp5 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -6722,7 +5497,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-207",
+      "sku": "IL-CONFIG-194",
       "name": "Ideal Lux Corte Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -6824,7 +5599,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-208",
+      "sku": "IL-CONFIG-195",
       "name": "Ideal Lux Cotton Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -6925,7 +5700,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-209",
+      "sku": "IL-CONFIG-196",
       "name": "Ideal Lux Craft Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -7020,11 +5795,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-210",
+      "sku": "IL-CONFIG-197",
       "name": "Ideal Lux Crown Sp Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -7134,7 +5911,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-211",
+      "sku": "IL-CONFIG-198",
       "name": "Ideal Lux Cylinder Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -7229,11 +6006,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-212",
+      "sku": "IL-CONFIG-199",
       "name": "Ideal Lux Danieli Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -7328,11 +6107,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-213",
+      "sku": "IL-CONFIG-200",
       "name": "Ideal Lux Danieli Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -7427,11 +6208,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-214",
+      "sku": "IL-CONFIG-201",
       "name": "Ideal Lux Desk Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -7533,7 +6316,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-215",
+      "sku": "IL-CONFIG-202",
       "name": "Ideal Lux Diamond Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -7628,11 +6411,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-216",
+      "sku": "IL-CONFIG-203",
       "name": "Ideal Lux Diamond Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -7727,11 +6512,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-217",
+      "sku": "IL-CONFIG-204",
       "name": "Ideal Lux Diamond Sp5 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -7826,11 +6613,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-218",
+      "sku": "IL-CONFIG-205",
       "name": "Ideal Lux Diesis Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -7933,7 +6722,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-219",
+      "sku": "IL-CONFIG-206",
       "name": "Ideal Lux Dorica Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -8043,7 +6832,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-220",
+      "sku": "IL-CONFIG-207",
       "name": "Ideal Lux Dorica Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -8146,7 +6935,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-221",
+      "sku": "IL-CONFIG-208",
       "name": "Ideal Lux Dream Big Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -8248,7 +7037,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-222",
+      "sku": "IL-CONFIG-209",
       "name": "Ideal Lux Driftwood Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -8343,11 +7132,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-223",
+      "sku": "IL-CONFIG-210",
       "name": "Ideal Lux Dubai Sp10 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -8449,7 +7240,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-224",
+      "sku": "IL-CONFIG-211",
       "name": "Ideal Lux Dubai Sp24 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -8551,7 +7342,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-225",
+      "sku": "IL-CONFIG-212",
       "name": "Ideal Lux Dynamite Sp4 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -8657,7 +7448,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-226",
+      "sku": "IL-CONFIG-213",
       "name": "Ideal Lux Dynamite Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -8763,7 +7554,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-227",
+      "sku": "IL-CONFIG-214",
       "name": "Ideal Lux Eclipse Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -8865,7 +7656,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-228",
+      "sku": "IL-CONFIG-215",
       "name": "Ideal Lux Edison Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -8967,7 +7758,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-229",
+      "sku": "IL-CONFIG-216",
       "name": "Ideal Lux Empire Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -9070,7 +7861,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-230",
+      "sku": "IL-CONFIG-217",
       "name": "Ideal Lux Equinoxe Sp1 Ambra Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -9164,216 +7955,16 @@
     },
     "_child_skus": [
       "IL-345345",
-      "IL-345352",
-      "IL-326368"
-    ],
-    "_attr_codes": [
-      "config_dimensioni"
-    ]
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-231",
-      "name": "Ideal Lux Equinoxe Sp1 Fume' Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": null,
-      "weight": null,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 0,
-          "is_in_stock": 1,
-          "manage_stock": false
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-equinoxe-sp1-fume-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Equinoxe Sp1 Fume' Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø15cm x H min 530 / max 2280 - Ø20cm x H min 640 / max 2390 - Ø25cm x H min 740 / max 2490"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "2W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "251"
-        }
-      ],
-      "media_gallery_entries": []
-    },
-    "_child_skus": [
-      "IL-326351",
-      "IL-345369",
-      "IL-345376"
-    ],
-    "_attr_codes": [
-      "config_dimensioni"
-    ]
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-232",
-      "name": "Ideal Lux Equinoxe Sp1 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": null,
-      "weight": null,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 0,
-          "is_in_stock": 1,
-          "manage_stock": false
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-equinoxe-sp1-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Equinoxe Sp1 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø15cm x H min 530 / max 2280 - Ø20cm x H min 640 / max 2390 - Ø25cm x H min 740 / max 2490"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "2W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "251"
-        }
-      ],
-      "media_gallery_entries": []
-    },
-    "_child_skus": [
       "IL-306537",
+      "IL-326351",
       "IL-277370",
+      "IL-345352",
       "IL-306544",
+      "IL-345369",
       "IL-277387",
+      "IL-326368",
       "IL-306551",
+      "IL-345376",
       "IL-277394"
     ],
     "_attr_codes": [
@@ -9383,205 +7974,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-233",
-      "name": "Ideal Lux Equinoxe Sp12 Ambra Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 850.0,
-      "weight": 8.0,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 27,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-equinoxe-sp12-ambra-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Equinoxe Sp12 Ambra Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696345383"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø128.1cm x H min 840 / max 914"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "12 x 2W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "251"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-234",
-      "name": "Ideal Lux Equinoxe Sp12 Fume' Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 850.0,
-      "weight": 8.0,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 44,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-equinoxe-sp12-fume-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Equinoxe Sp12 Fume' Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696345390"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø128.1cm x H min 840 / max 914"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "12 x 2W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "251"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-235",
+      "sku": "IL-CONFIG-218",
       "name": "Ideal Lux Equinoxe Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -9675,7 +8068,9 @@
     },
     "_child_skus": [
       "IL-200118",
-      "IL-200125"
+      "IL-200125",
+      "IL-345383",
+      "IL-345390"
     ],
     "_attr_codes": [
       "color"
@@ -9683,205 +8078,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-236",
-      "name": "Ideal Lux Equinoxe Sp3 Ambra Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 400.0,
-      "weight": 2.62,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 44,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-equinoxe-sp3-ambra-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Equinoxe Sp3 Ambra Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696364827"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø42cm x H min 725 / max 2000"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "3 x 2W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "251"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-237",
-      "name": "Ideal Lux Equinoxe Sp3 Fume' Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 400.0,
-      "weight": 2.62,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 35,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-equinoxe-sp3-fume-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Equinoxe Sp3 Fume' Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696364834"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø42cm x H min 725 / max 2000"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "3 x 2W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "251"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-238",
+      "sku": "IL-CONFIG-219",
       "name": "Ideal Lux Equinoxe Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -9975,7 +8172,9 @@
     },
     "_child_skus": [
       "IL-339696",
-      "IL-339702"
+      "IL-339702",
+      "IL-364827",
+      "IL-364834"
     ],
     "_attr_codes": [
       "color"
@@ -9983,205 +8182,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-239",
-      "name": "Ideal Lux Equinoxe Sp6 Ambra Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 715.0,
-      "weight": 7.0,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 16,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-equinoxe-sp6-ambra-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Equinoxe Sp6 Ambra Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696345406"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø65cm x H min 500 / max 2250"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "6 x 2W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "251"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-240",
-      "name": "Ideal Lux Equinoxe Sp6 Fume' Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 715.0,
-      "weight": 7.0,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 23,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-equinoxe-sp6-fume-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Equinoxe Sp6 Fume' Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696345413"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø65cm x H min 500 / max 2250"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "6 x 2W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "251"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-241",
+      "sku": "IL-CONFIG-220",
       "name": "Ideal Lux Equinoxe Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -10275,7 +8276,9 @@
     },
     "_child_skus": [
       "IL-317250",
-      "IL-317243"
+      "IL-317243",
+      "IL-345406",
+      "IL-345413"
     ],
     "_attr_codes": [
       "color"
@@ -10283,205 +8286,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-242",
-      "name": "Ideal Lux Equinoxe Sp8 Ambra Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 825.0,
-      "weight": 5.2,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 10,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-equinoxe-sp8-ambra-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Equinoxe Sp8 Ambra Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696345420"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø128cm x H min 690 / max 720"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "8 x 2W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "251"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-243",
-      "name": "Ideal Lux Equinoxe Sp8 Fume' Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 825.0,
-      "weight": 5.2,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 34,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-equinoxe-sp8-fume-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Equinoxe Sp8 Fume' Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696345437"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø128cm x H min 690 / max 720"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "8 x 2W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "251"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-244",
+      "sku": "IL-CONFIG-221",
       "name": "Ideal Lux Equinoxe Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -10575,7 +8380,9 @@
     },
     "_child_skus": [
       "IL-275178",
-      "IL-275215"
+      "IL-275215",
+      "IL-345420",
+      "IL-345437"
     ],
     "_attr_codes": [
       "color"
@@ -10583,7 +8390,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-245",
+      "sku": "IL-CONFIG-222",
       "name": "Ideal Lux Eris-1 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -10685,7 +8492,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-246",
+      "sku": "IL-CONFIG-223",
       "name": "Ideal Lux Eris-2 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -10787,7 +8594,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-247",
+      "sku": "IL-CONFIG-224",
       "name": "Ideal Lux Eris-3 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -10889,7 +8696,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-248",
+      "sku": "IL-CONFIG-225",
       "name": "Ideal Lux Eris-4 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -10991,7 +8798,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-249",
+      "sku": "IL-CONFIG-226",
       "name": "Ideal Lux Essence Sp Round Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -11097,7 +8904,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-250",
+      "sku": "IL-CONFIG-227",
       "name": "Ideal Lux Essence Sp Square Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -11201,7 +9008,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-251",
+      "sku": "IL-CONFIG-228",
       "name": "Ideal Lux Fade Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -11303,7 +9110,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-252",
+      "sku": "IL-CONFIG-229",
       "name": "Ideal Lux Fiesta Sp10 Lampada A Sospensione per Esterni",
       "attribute_set_id": 263,
       "status": 2,
@@ -11398,11 +9205,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-253",
+      "sku": "IL-CONFIG-230",
       "name": "Ideal Lux Fiesta Sp5 Lampada A Sospensione per Esterni",
       "attribute_set_id": 263,
       "status": 2,
@@ -11497,11 +9306,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-254",
+      "sku": "IL-CONFIG-231",
       "name": "Ideal Lux Filo Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -11596,11 +9407,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-255",
+      "sku": "IL-CONFIG-232",
       "name": "Ideal Lux Filo Sp1 Long Wire Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -11703,7 +9516,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-256",
+      "sku": "IL-CONFIG-233",
       "name": "Ideal Lux Filo Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -11805,7 +9618,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-257",
+      "sku": "IL-CONFIG-234",
       "name": "Ideal Lux Firenze Sp5 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -11907,7 +9720,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-258",
+      "sku": "IL-CONFIG-235",
       "name": "Ideal Lux Firenze Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -12009,7 +9822,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-259",
+      "sku": "IL-CONFIG-236",
       "name": "Ideal Lux Flam Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -12112,7 +9925,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-260",
+      "sku": "IL-CONFIG-237",
       "name": "Ideal Lux Flam Sp Ambra Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -12207,11 +10020,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-261",
+      "sku": "IL-CONFIG-238",
       "name": "Ideal Lux Flam Sp Fume' Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -12313,7 +10128,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-262",
+      "sku": "IL-CONFIG-239",
       "name": "Ideal Lux Florian Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -12415,7 +10230,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-263",
+      "sku": "IL-CONFIG-240",
       "name": "Ideal Lux Florian Sp18 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -12517,7 +10332,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-264",
+      "sku": "IL-CONFIG-241",
       "name": "Ideal Lux Florian Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -12619,7 +10434,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-265",
+      "sku": "IL-CONFIG-242",
       "name": "Ideal Lux Flut Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -12721,7 +10536,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-266",
+      "sku": "IL-CONFIG-243",
       "name": "Ideal Lux Folk Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -12824,7 +10639,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-267",
+      "sku": "IL-CONFIG-244",
       "name": "Ideal Lux Folk Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -12919,11 +10734,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-268",
+      "sku": "IL-CONFIG-245",
       "name": "Ideal Lux Frame Sp Cerchio Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -13025,7 +10842,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-269",
+      "sku": "IL-CONFIG-246",
       "name": "Ideal Lux Frame Sp Quadrato Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -13127,7 +10944,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-270",
+      "sku": "IL-CONFIG-247",
       "name": "Ideal Lux Frame Sp Rettangolo Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -13229,7 +11046,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-271",
+      "sku": "IL-CONFIG-248",
       "name": "Ideal Lux Frida Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -13332,22 +11149,22 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-272",
+      "sku": "IL-CONFIG-249",
       "name": "Ideal Lux Galaxy Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
       "type_id": "configurable",
-      "price": 476.0,
-      "weight": 3.4,
+      "price": null,
+      "weight": null,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 55,
+          "qty": 0,
           "is_in_stock": 1,
-          "manage_stock": true
+          "manage_stock": false
         },
         "category_links": [
           {
@@ -13394,10 +11211,6 @@
           "value": ""
         },
         {
-          "attribute_code": "lamp_ean",
-          "value": "8021696342993"
-        },
-        {
           "attribute_code": "lamp_lampadina",
           "value": "1"
         },
@@ -13407,7 +11220,7 @@
         },
         {
           "attribute_code": "lamp_dimensioni",
-          "value": "Ø25cm x H min 250 / max 2310"
+          "value": "Ø25cm x H min 250 / max 2310 - Ø40cm x H min 350 / max 2345"
         },
         {
           "attribute_code": "lamp_materiali_costruzione",
@@ -13415,7 +11228,7 @@
         },
         {
           "attribute_code": "lamp_max_potenza",
-          "value": "29W"
+          "value": "29W - 58W"
         },
         {
           "attribute_code": "lamp_grado_protezione",
@@ -13427,110 +11240,18 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [
+      "IL-342993",
+      "IL-321172"
+    ],
+    "_attr_codes": [
+      "config_dimensioni"
+    ]
   },
   {
     "product": {
-      "sku": "IL-CONFIG-273",
-      "name": "Ideal Lux Galaxy Sp6 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 650.0,
-      "weight": 5.5,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 95,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-galaxy-sp6-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Galaxy Sp6 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696321172"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø40cm x H min 350 / max 2345"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, PS"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "58W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "3296"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-274",
+      "sku": "IL-CONFIG-250",
       "name": "Ideal Lux Gemini Sp Dali/push Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -13638,7 +11359,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-275",
+      "sku": "IL-CONFIG-251",
       "name": "Ideal Lux Gemini Sp On-off Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -13776,7 +11497,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-276",
+      "sku": "IL-CONFIG-252",
       "name": "Ideal Lux Gioconda Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -13878,7 +11599,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-277",
+      "sku": "IL-CONFIG-253",
       "name": "Ideal Lux Gioconda Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -13980,7 +11701,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-278",
+      "sku": "IL-CONFIG-254",
       "name": "Ideal Lux Gioconda Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -14082,7 +11803,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-279",
+      "sku": "IL-CONFIG-255",
       "name": "Ideal Lux Glory Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -14184,7 +11905,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-280",
+      "sku": "IL-CONFIG-256",
       "name": "Ideal Lux Glory Sp5 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -14279,11 +12000,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-281",
+      "sku": "IL-CONFIG-257",
       "name": "Ideal Lux Harem Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -14378,11 +12101,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-282",
+      "sku": "IL-CONFIG-258",
       "name": "Ideal Lux Harem Sp9 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -14477,11 +12202,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-283",
+      "sku": "IL-CONFIG-259",
       "name": "Ideal Lux Holly Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -14584,7 +12311,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-284",
+      "sku": "IL-CONFIG-260",
       "name": "Ideal Lux Hulahoop Sp Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -14687,7 +12414,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-285",
+      "sku": "IL-CONFIG-261",
       "name": "Ideal Lux Kalique-1 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -14798,7 +12525,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-286",
+      "sku": "IL-CONFIG-262",
       "name": "Ideal Lux Kalique-2 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -14909,7 +12636,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-287",
+      "sku": "IL-CONFIG-263",
       "name": "Ideal Lux Kalique-3 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -15020,7 +12747,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-288",
+      "sku": "IL-CONFIG-264",
       "name": "Ideal Lux Karma Sp1 Small--- Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -15115,11 +12842,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-289",
+      "sku": "IL-CONFIG-265",
       "name": "Ideal Lux Karousel Sp10 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -15214,11 +12943,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-290",
+      "sku": "IL-CONFIG-266",
       "name": "Ideal Lux King Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -15320,7 +13051,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-291",
+      "sku": "IL-CONFIG-267",
       "name": "Ideal Lux Konse Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -15415,11 +13146,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-292",
+      "sku": "IL-CONFIG-268",
       "name": "Ideal Lux Konse Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -15514,11 +13247,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-293",
+      "sku": "IL-CONFIG-269",
       "name": "Ideal Lux Konse Sp7 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -15613,11 +13348,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-294",
+      "sku": "IL-CONFIG-270",
       "name": "Ideal Lux Lana Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -15712,11 +13449,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-295",
+      "sku": "IL-CONFIG-271",
       "name": "Ideal Lux Lena Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -15818,7 +13557,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-296",
+      "sku": "IL-CONFIG-272",
       "name": "Ideal Lux Lingotto Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -15920,7 +13659,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-297",
+      "sku": "IL-CONFIG-273",
       "name": "Ideal Lux Lingotto Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -16022,7 +13761,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-298",
+      "sku": "IL-CONFIG-274",
       "name": "Ideal Lux Look Pl1 Round Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -16117,11 +13856,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-299",
+      "sku": "IL-CONFIG-275",
       "name": "Ideal Lux Look Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -16224,7 +13965,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-300",
+      "sku": "IL-CONFIG-276",
       "name": "Ideal Lux Look Sp1 Round Dali/push Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -16327,7 +14068,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-301",
+      "sku": "IL-CONFIG-277",
       "name": "Ideal Lux Look Sp1 Round Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -16460,7 +14201,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-302",
+      "sku": "IL-CONFIG-278",
       "name": "Ideal Lux Look Sp1 Round On-off Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -16583,7 +14324,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-303",
+      "sku": "IL-CONFIG-279",
       "name": "Ideal Lux Look Sp1 Round On-off Ottone Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -16686,7 +14427,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-304",
+      "sku": "IL-CONFIG-280",
       "name": "Ideal Lux Look Sp1 Square Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -16792,7 +14533,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-305",
+      "sku": "IL-CONFIG-281",
       "name": "Ideal Lux Look Sp1 Square On-off Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -16897,7 +14638,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-306",
+      "sku": "IL-CONFIG-282",
       "name": "Ideal Lux Look Sp1 Square On-off Ottone Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -16992,11 +14733,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-307",
+      "sku": "IL-CONFIG-283",
       "name": "Ideal Lux Look Sp12 Round Drop On-off Ne Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -17099,7 +14842,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-308",
+      "sku": "IL-CONFIG-284",
       "name": "Ideal Lux Look Sp12 Round Drop On-off Ot Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -17202,7 +14945,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-309",
+      "sku": "IL-CONFIG-285",
       "name": "Ideal Lux Look Sp16 Round Drop On-off Ne Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -17297,11 +15040,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-310",
+      "sku": "IL-CONFIG-286",
       "name": "Ideal Lux Look Sp16 Round Drop On-off Ot Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -17396,11 +15141,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-311",
+      "sku": "IL-CONFIG-287",
       "name": "Ideal Lux Look Sp8 Round Drop On-off Ne Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -17495,11 +15242,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-312",
+      "sku": "IL-CONFIG-288",
       "name": "Ideal Lux Look Sp8 Round Drop On-off Ot Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -17594,11 +15343,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-313",
+      "sku": "IL-CONFIG-289",
       "name": "Ideal Lux Lord Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -17693,11 +15444,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-314",
+      "sku": "IL-CONFIG-290",
       "name": "Ideal Lux Lucciola Sp16 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -17799,22 +15552,22 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-315",
+      "sku": "IL-CONFIG-291",
       "name": "Ideal Lux Lumiere-1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
       "type_id": "configurable",
-      "price": 280.0,
-      "weight": 3.38,
+      "price": null,
+      "weight": null,
       "extension_attributes": {
         "website_ids": [
           1
         ],
         "stock_item": {
-          "qty": 166,
+          "qty": 0,
           "is_in_stock": 1,
-          "manage_stock": true
+          "manage_stock": false
         },
         "category_links": [
           {
@@ -17861,10 +15614,6 @@
           "value": ""
         },
         {
-          "attribute_code": "lamp_ean",
-          "value": "8021696314143"
-        },
-        {
           "attribute_code": "lamp_lampadina",
           "value": "1"
         },
@@ -17874,7 +15623,7 @@
         },
         {
           "attribute_code": "lamp_dimensioni",
-          "value": "Ø28cm x H min 950 / max 2755"
+          "value": "Ø28cm x H min 950 / max 2755 - Ø28cm x H min 930 / max 2730 - Ø16cm x H min 1325 / max 3125"
         },
         {
           "attribute_code": "lamp_materiali_costruzione",
@@ -17882,7 +15631,7 @@
         },
         {
           "attribute_code": "lamp_max_potenza",
-          "value": "27W"
+          "value": "27W - 34W - 39W"
         },
         {
           "attribute_code": "lamp_grado_protezione",
@@ -17894,209 +15643,17 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [
+      "IL-314143",
+      "IL-314167",
+      "IL-314174"
+    ],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-316",
-      "name": "Ideal Lux Lumiere-2 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 320.0,
-      "weight": 3.9,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 69,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-lumiere-2-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Lumiere-2 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696314167"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø28cm x H min 930 / max 2730"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "34W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "3296"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-317",
-      "name": "Ideal Lux Lumiere-3 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 320.0,
-      "weight": 3.33,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 56,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-lumiere-3-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Lumiere-3 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696314174"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø16cm x H min 1325 / max 3125"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "39W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "3296"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-318",
+      "sku": "IL-CONFIG-292",
       "name": "Ideal Lux Luxor Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -18191,11 +15748,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-319",
+      "sku": "IL-CONFIG-293",
       "name": "Ideal Lux Madame Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -18298,7 +15857,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-320",
+      "sku": "IL-CONFIG-294",
       "name": "Ideal Lux Manhattan Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -18400,7 +15959,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-321",
+      "sku": "IL-CONFIG-295",
       "name": "Ideal Lux Mapa Clear Sp1 Cromo Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -18503,7 +16062,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-322",
+      "sku": "IL-CONFIG-296",
       "name": "Ideal Lux Mapa Clear Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -18612,7 +16171,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-323",
+      "sku": "IL-CONFIG-297",
       "name": "Ideal Lux Mapa Clear Sp5 Cromo Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -18707,11 +16266,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-324",
+      "sku": "IL-CONFIG-298",
       "name": "Ideal Lux Mapa Clear Sp5 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -18811,7 +16372,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-325",
+      "sku": "IL-CONFIG-299",
       "name": "Ideal Lux Mapa Max Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -18906,11 +16467,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-326",
+      "sku": "IL-CONFIG-300",
       "name": "Ideal Lux Mapa Mini Msp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -19014,7 +16577,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-327",
+      "sku": "IL-CONFIG-301",
       "name": "Ideal Lux Mapa Pendel Big 2m Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -19109,11 +16672,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-328",
+      "sku": "IL-CONFIG-302",
       "name": "Ideal Lux Mapa Pendel Big 5m Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -19208,11 +16773,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-329",
+      "sku": "IL-CONFIG-303",
       "name": "Ideal Lux Mapa Pendel E14 12m Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -19307,11 +16874,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-330",
+      "sku": "IL-CONFIG-304",
       "name": "Ideal Lux Mapa Pendel E14 5m Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -19406,11 +16975,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-331",
+      "sku": "IL-CONFIG-305",
       "name": "Ideal Lux Mapa Pendel E27 12m 0m 1e Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -19505,11 +17076,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-332",
+      "sku": "IL-CONFIG-306",
       "name": "Ideal Lux Mapa Pendel E27 5m 0m 1e Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -19604,11 +17177,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-333",
+      "sku": "IL-CONFIG-307",
       "name": "Ideal Lux Mapa Pendel E27 5m 1m 1e Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -19703,11 +17278,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-334",
+      "sku": "IL-CONFIG-308",
       "name": "Ideal Lux Mapa Pendel G4 5m Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -19802,11 +17379,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-335",
+      "sku": "IL-CONFIG-309",
       "name": "Ideal Lux Mapa Pendel G9 5m Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -19901,11 +17480,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-336",
+      "sku": "IL-CONFIG-310",
       "name": "Ideal Lux Mapa Pendel Small 2m Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -20000,11 +17581,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-337",
+      "sku": "IL-CONFIG-311",
       "name": "Ideal Lux Mapa Pendel Small 5m Lampada A Sospensione Led per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -20099,11 +17682,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-338",
+      "sku": "IL-CONFIG-312",
       "name": "Ideal Lux Mapa Plus Sp11 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -20198,11 +17783,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-339",
+      "sku": "IL-CONFIG-313",
       "name": "Ideal Lux Mapa Plus Sp22 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -20297,11 +17884,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-340",
+      "sku": "IL-CONFIG-314",
       "name": "Ideal Lux Mapa Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -20404,7 +17993,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-341",
+      "sku": "IL-CONFIG-315",
       "name": "Ideal Lux Martinez Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -20506,7 +18095,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-342",
+      "sku": "IL-CONFIG-316",
       "name": "Ideal Lux Milk Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -20601,11 +18190,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-343",
+      "sku": "IL-CONFIG-317",
       "name": "Ideal Lux Milk Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -20700,11 +18291,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-344",
+      "sku": "IL-CONFIG-318",
       "name": "Ideal Lux Minor Linear Sp4 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -20799,11 +18392,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-345",
+      "sku": "IL-CONFIG-319",
       "name": "Ideal Lux Minor Linear Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -20898,11 +18493,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-346",
+      "sku": "IL-CONFIG-320",
       "name": "Ideal Lux Minor Round Sp5 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -20997,11 +18594,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-347",
+      "sku": "IL-CONFIG-321",
       "name": "Ideal Lux Minor Round Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -21096,11 +18695,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-348",
+      "sku": "IL-CONFIG-322",
       "name": "Ideal Lux Mint-1 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -21171,7 +18772,7 @@
         },
         {
           "attribute_code": "lamp_dimensioni",
-          "value": "Ø14cm x H min 485 / max 2235"
+          "value": "Ø14cm x H min 485 / max 2235 - Ø24cm x H min 435 / max 2185 - Ø20cm x H min 550 / max 2300"
         },
         {
           "attribute_code": "lamp_materiali_costruzione",
@@ -21194,209 +18795,9 @@
     },
     "_child_skus": [
       "IL-237442",
-      "IL-248554"
-    ],
-    "_attr_codes": [
-      "color"
-    ]
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-349",
-      "name": "Ideal Lux Mint-2 Sp1 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": null,
-      "weight": null,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 0,
-          "is_in_stock": 1,
-          "manage_stock": false
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-mint-2-sp1-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Mint-2 Sp1 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø24cm x H min 435 / max 2185"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "60W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "235"
-        }
-      ],
-      "media_gallery_entries": []
-    },
-    "_child_skus": [
+      "IL-248554",
       "IL-237398",
-      "IL-237428"
-    ],
-    "_attr_codes": [
-      "color"
-    ]
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-350",
-      "name": "Ideal Lux Mint-3 Sp1 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": null,
-      "weight": null,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 0,
-          "is_in_stock": 1,
-          "manage_stock": false
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-mint-3-sp1-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Mint-3 Sp1 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø20cm x H min 550 / max 2300"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "60W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "235"
-        }
-      ],
-      "media_gallery_entries": []
-    },
-    "_child_skus": [
+      "IL-237428",
       "IL-237510",
       "IL-237497"
     ],
@@ -21406,7 +18807,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-351",
+      "sku": "IL-CONFIG-323",
       "name": "Ideal Lux Miracle Sp Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -21509,7 +18910,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-352",
+      "sku": "IL-CONFIG-324",
       "name": "Ideal Lux Mix Up Msp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -21611,7 +19012,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-353",
+      "sku": "IL-CONFIG-325",
       "name": "Ideal Lux Moby Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -21714,7 +19115,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-354",
+      "sku": "IL-CONFIG-326",
       "name": "Ideal Lux Monet Sp5 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -21809,11 +19210,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-355",
+      "sku": "IL-CONFIG-327",
       "name": "Ideal Lux Monet Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -21908,11 +19311,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-356",
+      "sku": "IL-CONFIG-328",
       "name": "Ideal Lux Mr Jack Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -22018,7 +19423,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-357",
+      "sku": "IL-CONFIG-329",
       "name": "Ideal Lux Nabucco Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -22113,11 +19518,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-358",
+      "sku": "IL-CONFIG-330",
       "name": "Ideal Lux Nabucco Sp16 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -22212,11 +19619,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-359",
+      "sku": "IL-CONFIG-331",
       "name": "Ideal Lux Napoleon Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -22318,7 +19727,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-360",
+      "sku": "IL-CONFIG-332",
       "name": "Ideal Lux Napoleon Sp18 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -22420,7 +19829,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-361",
+      "sku": "IL-CONFIG-333",
       "name": "Ideal Lux Napoleon Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -22522,7 +19931,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-362",
+      "sku": "IL-CONFIG-334",
       "name": "Ideal Lux Negresco Sp10 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -22617,11 +20026,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-363",
+      "sku": "IL-CONFIG-335",
       "name": "Ideal Lux Negresco Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -22716,11 +20127,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-364",
+      "sku": "IL-CONFIG-336",
       "name": "Ideal Lux Nemo Sp1 Cromo Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -22824,7 +20237,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-365",
+      "sku": "IL-CONFIG-337",
       "name": "Ideal Lux Nemo Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -22938,7 +20351,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-366",
+      "sku": "IL-CONFIG-338",
       "name": "Ideal Lux Nemo Sp5 Cromo Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -23033,11 +20446,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-367",
+      "sku": "IL-CONFIG-339",
       "name": "Ideal Lux Net Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -23147,7 +20562,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-368",
+      "sku": "IL-CONFIG-340",
       "name": "Ideal Lux Nodi Sp15 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -23250,7 +20665,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-369",
+      "sku": "IL-CONFIG-341",
       "name": "Ideal Lux Nodi Sp9 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -23353,7 +20768,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-370",
+      "sku": "IL-CONFIG-342",
       "name": "Ideal Lux Nordik Sp4 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -23448,11 +20863,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-371",
+      "sku": "IL-CONFIG-343",
       "name": "Ideal Lux Nordik Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -23547,11 +20964,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-372",
+      "sku": "IL-CONFIG-344",
       "name": "Ideal Lux Norma Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -23653,7 +21072,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-373",
+      "sku": "IL-CONFIG-345",
       "name": "Ideal Lux Oak Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -23748,11 +21167,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-374",
+      "sku": "IL-CONFIG-346",
       "name": "Ideal Lux Odeon Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -23854,7 +21275,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-375",
+      "sku": "IL-CONFIG-347",
       "name": "Ideal Lux Odeon Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -23949,11 +21370,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-376",
+      "sku": "IL-CONFIG-348",
       "name": "Ideal Lux Odeon Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -24053,7 +21476,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-377",
+      "sku": "IL-CONFIG-349",
       "name": "Ideal Lux Oil-1 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -24148,11 +21571,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-378",
+      "sku": "IL-CONFIG-350",
       "name": "Ideal Lux Oil-2 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -24247,11 +21672,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-379",
+      "sku": "IL-CONFIG-351",
       "name": "Ideal Lux Oil-3 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -24346,11 +21773,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-380",
+      "sku": "IL-CONFIG-352",
       "name": "Ideal Lux Oil-4 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -24445,11 +21874,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-381",
+      "sku": "IL-CONFIG-353",
       "name": "Ideal Lux Oil-5 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -24544,11 +21975,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-382",
+      "sku": "IL-CONFIG-354",
       "name": "Ideal Lux Oil-6 Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -24643,11 +22076,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-383",
+      "sku": "IL-CONFIG-355",
       "name": "Ideal Lux Onion Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -24751,7 +22186,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-384",
+      "sku": "IL-CONFIG-356",
       "name": "Ideal Lux Opera Sp10 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -24846,11 +22281,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-385",
+      "sku": "IL-CONFIG-357",
       "name": "Ideal Lux Opera Sp4 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -24945,11 +22382,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-386",
+      "sku": "IL-CONFIG-358",
       "name": "Ideal Lux Opera Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -25044,11 +22483,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-387",
+      "sku": "IL-CONFIG-359",
       "name": "Ideal Lux Oracle Slim Sp Round Dali Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -25166,7 +22607,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-388",
+      "sku": "IL-CONFIG-360",
       "name": "Ideal Lux Oracle Slim Sp Round On-off Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -25296,7 +22737,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-389",
+      "sku": "IL-CONFIG-361",
       "name": "Ideal Lux Oracle Slim Sp Square On-off Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -25406,7 +22847,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-390",
+      "sku": "IL-CONFIG-362",
       "name": "Ideal Lux Oracle Sp Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -25513,7 +22954,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-391",
+      "sku": "IL-CONFIG-363",
       "name": "Ideal Lux Origami Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -25608,11 +23049,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-392",
+      "sku": "IL-CONFIG-364",
       "name": "Ideal Lux Ovalino Sp5 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -25707,11 +23150,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-393",
+      "sku": "IL-CONFIG-365",
       "name": "Ideal Lux Ovalino Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -25806,11 +23251,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-394",
+      "sku": "IL-CONFIG-366",
       "name": "Ideal Lux Oz Sp Dali Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -25918,7 +23365,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-395",
+      "sku": "IL-CONFIG-367",
       "name": "Ideal Lux Oz Sp On-off Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -26044,7 +23491,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-396",
+      "sku": "IL-CONFIG-368",
       "name": "Ideal Lux Pan Sp5 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -26139,11 +23586,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-397",
+      "sku": "IL-CONFIG-369",
       "name": "Ideal Lux Pasha' Sp10 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -26245,7 +23694,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-398",
+      "sku": "IL-CONFIG-370",
       "name": "Ideal Lux Pasha' Sp14 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -26347,7 +23796,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-399",
+      "sku": "IL-CONFIG-371",
       "name": "Ideal Lux Pasha' Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -26449,7 +23898,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-400",
+      "sku": "IL-CONFIG-372",
       "name": "Ideal Lux Pegaso Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -26551,7 +24000,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-401",
+      "sku": "IL-CONFIG-373",
       "name": "Ideal Lux Pegaso Sp5 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -26653,7 +24102,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-402",
+      "sku": "IL-CONFIG-374",
       "name": "Ideal Lux Pegaso Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -26755,7 +24204,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-403",
+      "sku": "IL-CONFIG-375",
       "name": "Ideal Lux Perlage Sp10 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -26858,7 +24307,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-404",
+      "sku": "IL-CONFIG-376",
       "name": "Ideal Lux Perlage Sp11 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -26961,7 +24410,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-405",
+      "sku": "IL-CONFIG-377",
       "name": "Ideal Lux Perlage Sp14 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -27064,7 +24513,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-406",
+      "sku": "IL-CONFIG-378",
       "name": "Ideal Lux Perlage Sp25 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -27167,7 +24616,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-407",
+      "sku": "IL-CONFIG-379",
       "name": "Ideal Lux Perlage Sp30 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -27270,7 +24719,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-408",
+      "sku": "IL-CONFIG-380",
       "name": "Ideal Lux Perlage Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -27373,7 +24822,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-409",
+      "sku": "IL-CONFIG-381",
       "name": "Ideal Lux Perline Sp2 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -27475,7 +24924,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-410",
+      "sku": "IL-CONFIG-382",
       "name": "Ideal Lux Perline Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -27577,7 +25026,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-411",
+      "sku": "IL-CONFIG-383",
       "name": "Ideal Lux Plisse' Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -27682,7 +25131,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-412",
+      "sku": "IL-CONFIG-384",
       "name": "Ideal Lux Pop Sp10 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -27777,11 +25226,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-413",
+      "sku": "IL-CONFIG-385",
       "name": "Ideal Lux Rhapsody Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -27876,11 +25327,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-414",
+      "sku": "IL-CONFIG-386",
       "name": "Ideal Lux Set Up Msp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -27984,7 +25437,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-415",
+      "sku": "IL-CONFIG-387",
       "name": "Ideal Lux Smarties Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -28086,7 +25539,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-416",
+      "sku": "IL-CONFIG-388",
       "name": "Ideal Lux Smarties Sp5 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -28181,11 +25634,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-417",
+      "sku": "IL-CONFIG-389",
       "name": "Ideal Lux Soft Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -28287,7 +25742,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-418",
+      "sku": "IL-CONFIG-390",
       "name": "Ideal Lux Soft Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -28389,7 +25844,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-419",
+      "sku": "IL-CONFIG-391",
       "name": "Ideal Lux Sole Sp1 Lampada A Sospensione per Esterni",
       "attribute_set_id": 263,
       "status": 2,
@@ -28493,7 +25948,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-420",
+      "sku": "IL-CONFIG-392",
       "name": "Ideal Lux Steel Sp2 Bi-emission Accent Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -28595,7 +26050,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-421",
+      "sku": "IL-CONFIG-393",
       "name": "Ideal Lux Steel Sp2 Bi-emission Wide Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -28697,7 +26152,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-422",
+      "sku": "IL-CONFIG-394",
       "name": "Ideal Lux Strauss Sp12 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -28792,11 +26247,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-423",
+      "sku": "IL-CONFIG-395",
       "name": "Ideal Lux Strauss Sp18 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -28891,11 +26348,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-424",
+      "sku": "IL-CONFIG-396",
       "name": "Ideal Lux Strauss Sp6 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -28990,11 +26449,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-425",
+      "sku": "IL-CONFIG-397",
       "name": "Ideal Lux Tall Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -29089,11 +26550,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-426",
+      "sku": "IL-CONFIG-398",
       "name": "Ideal Lux Topico Sp Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -29188,209 +26651,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-427",
-      "name": "Ideal Lux Triade-1 Sp1 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 75.0,
-      "weight": 1.02,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 28,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-triade-1-sp1-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Triade-1 Sp1 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696194684"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø15.5cm x H min 620 / max 2370"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "42W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "235"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-428",
-      "name": "Ideal Lux Triade-3 Sp1 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 75.0,
-      "weight": 0.75,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 28,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-triade-3-sp1-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Triade-3 Sp1 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696221496"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø15cm x H min 530 / max 2280"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "42W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "235"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-429",
+      "sku": "IL-CONFIG-399",
       "name": "Ideal Lux Triumph Sp8 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -29485,11 +26752,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-430",
+      "sku": "IL-CONFIG-400",
       "name": "Ideal Lux Tube Sp Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -29593,7 +26862,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-431",
+      "sku": "IL-CONFIG-401",
       "name": "Ideal Lux Tubix Sp Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -29694,7 +26963,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-432",
+      "sku": "IL-CONFIG-402",
       "name": "Ideal Lux Ulisse Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -29796,7 +27065,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-433",
+      "sku": "IL-CONFIG-403",
       "name": "Ideal Lux Ultrathin Sp Round On-off Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -29898,7 +27167,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-434",
+      "sku": "IL-CONFIG-404",
       "name": "Ideal Lux Ultrathin Sp Square On-off Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -30000,7 +27269,108 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-435",
+      "sku": "IL-CONFIG-405",
+      "name": "Ideal Lux Umile-1 Sp1 Lampada A Sospensione per Interni",
+      "attribute_set_id": 263,
+      "status": 2,
+      "visibility": 4,
+      "type_id": "configurable",
+      "price": null,
+      "weight": null,
+      "extension_attributes": {
+        "website_ids": [
+          1
+        ],
+        "stock_item": {
+          "qty": 0,
+          "is_in_stock": 1,
+          "manage_stock": false
+        },
+        "category_links": [
+          {
+            "position": 0,
+            "category_id": "23"
+          },
+          {
+            "position": 1,
+            "category_id": "54"
+          },
+          {
+            "position": 2,
+            "category_id": "16"
+          },
+          {
+            "position": 3,
+            "category_id": "536"
+          }
+        ]
+      },
+      "custom_attributes": [
+        {
+          "attribute_code": "url_key",
+          "value": "ideal-lux-umile-1-sp1-lampada-a-sospensione-per-interni"
+        },
+        {
+          "attribute_code": "manufacturer",
+          "value": "3864"
+        },
+        {
+          "attribute_code": "meta_title",
+          "value": "Ideal Lux Umile-1 Sp1 Lampada A Sospensione per Interni"
+        },
+        {
+          "attribute_code": "short_description",
+          "value": ""
+        },
+        {
+          "attribute_code": "description",
+          "value": ""
+        },
+        {
+          "attribute_code": "meta_description",
+          "value": ""
+        },
+        {
+          "attribute_code": "lamp_lampadina",
+          "value": "1"
+        },
+        {
+          "attribute_code": "lamp_dimmer",
+          "value": "0"
+        },
+        {
+          "attribute_code": "lamp_dimensioni",
+          "value": "Ø30cm x H min 800 / max 2425 - Ø22cm x H min 940 / max 2590 - Ø27cm x H min 950 / max 2590"
+        },
+        {
+          "attribute_code": "lamp_materiali_costruzione",
+          "value": "Metallo, Vetro"
+        },
+        {
+          "attribute_code": "lamp_max_potenza",
+          "value": "20W"
+        },
+        {
+          "attribute_code": "lamp_grado_protezione",
+          "value": "IP20"
+        },
+        {
+          "attribute_code": "lamp_attacco_lamp_menu",
+          "value": "3296"
+        }
+      ],
+      "media_gallery_entries": []
+    },
+    "_child_skus": [
+      "IL-314969",
+      "IL-314952",
+      "IL-314945"
+    ],
+    "_attr_codes": []
+  },
+  {
+    "product": {
+      "sku": "IL-CONFIG-406",
       "name": "Ideal Lux Umile Sp3 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -30095,308 +27465,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-436",
-      "name": "Ideal Lux Umile-1 Sp1 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 140.0,
-      "weight": 1.9,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 139,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-umile-1-sp1-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Umile-1 Sp1 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696314969"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø30cm x H min 800 / max 2425"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "20W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "3296"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-437",
-      "name": "Ideal Lux Umile-2 Sp1 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 160.0,
-      "weight": 2.5,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 104,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-umile-2-sp1-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Umile-2 Sp1 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696314952"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø22cm x H min 940 / max 2590"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "20W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "3296"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-438",
-      "name": "Ideal Lux Umile-3 Sp1 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": 170.0,
-      "weight": 2.3,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 117,
-          "is_in_stock": 1,
-          "manage_stock": true
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-umile-3-sp1-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Umile-3 Sp1 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_ean",
-          "value": "8021696314945"
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "Ø27cm x H min 950 / max 2590"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Metallo, Vetro"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "20W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "3296"
-        }
-      ],
-      "media_gallery_entries": []
-    }
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-439",
+      "sku": "IL-CONFIG-407",
       "name": "Ideal Lux V-line Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -30498,7 +27573,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-440",
+      "sku": "IL-CONFIG-408",
       "name": "Ideal Lux Vanity Sp8--- Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -30593,11 +27668,13 @@
         }
       ],
       "media_gallery_entries": []
-    }
+    },
+    "_child_skus": [],
+    "_attr_codes": []
   },
   {
     "product": {
-      "sku": "IL-CONFIG-441",
+      "sku": "IL-CONFIG-409",
       "name": "Ideal Lux Waves-1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -30668,7 +27745,7 @@
         },
         {
           "attribute_code": "lamp_dimensioni",
-          "value": "L94.2cm x H min 410 / max 2093 x P45.1cm"
+          "value": "L94.2cm x H min 410 / max 2093 x P45.1cm - L125.4cm x H min 450 / max 2093 x P66.2cm - L155.6cm x H min 450 / max 2093 x P87cm"
         },
         {
           "attribute_code": "lamp_materiali_costruzione",
@@ -30676,7 +27753,7 @@
         },
         {
           "attribute_code": "lamp_max_potenza",
-          "value": "37W"
+          "value": "37W - 45W - 54W"
         },
         {
           "attribute_code": "lamp_grado_protezione",
@@ -30692,210 +27769,10 @@
     "_child_skus": [
       "IL-345239",
       "IL-345215",
-      "IL-345222"
-    ],
-    "_attr_codes": [
-      "color"
-    ]
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-442",
-      "name": "Ideal Lux Waves-2 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": null,
-      "weight": null,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 0,
-          "is_in_stock": 1,
-          "manage_stock": false
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-waves-2-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Waves-2 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "L125.4cm x H min 450 / max 2093 x P66.2cm"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Alluminio, PS"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "45W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "3296"
-        }
-      ],
-      "media_gallery_entries": []
-    },
-    "_child_skus": [
+      "IL-345222",
       "IL-345260",
       "IL-345246",
-      "IL-345253"
-    ],
-    "_attr_codes": [
-      "color"
-    ]
-  },
-  {
-    "product": {
-      "sku": "IL-CONFIG-443",
-      "name": "Ideal Lux Waves-3 Lampada A Sospensione per Interni",
-      "attribute_set_id": 263,
-      "status": 2,
-      "visibility": 4,
-      "type_id": "configurable",
-      "price": null,
-      "weight": null,
-      "extension_attributes": {
-        "website_ids": [
-          1
-        ],
-        "stock_item": {
-          "qty": 0,
-          "is_in_stock": 1,
-          "manage_stock": false
-        },
-        "category_links": [
-          {
-            "position": 0,
-            "category_id": "23"
-          },
-          {
-            "position": 1,
-            "category_id": "54"
-          },
-          {
-            "position": 2,
-            "category_id": "16"
-          },
-          {
-            "position": 3,
-            "category_id": "536"
-          }
-        ]
-      },
-      "custom_attributes": [
-        {
-          "attribute_code": "url_key",
-          "value": "ideal-lux-waves-3-lampada-a-sospensione-per-interni"
-        },
-        {
-          "attribute_code": "manufacturer",
-          "value": "3864"
-        },
-        {
-          "attribute_code": "meta_title",
-          "value": "Ideal Lux Waves-3 Lampada A Sospensione per Interni"
-        },
-        {
-          "attribute_code": "short_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "description",
-          "value": ""
-        },
-        {
-          "attribute_code": "meta_description",
-          "value": ""
-        },
-        {
-          "attribute_code": "lamp_lampadina",
-          "value": "1"
-        },
-        {
-          "attribute_code": "lamp_dimmer",
-          "value": "0"
-        },
-        {
-          "attribute_code": "lamp_dimensioni",
-          "value": "L155.6cm x H min 450 / max 2093 x P87cm"
-        },
-        {
-          "attribute_code": "lamp_materiali_costruzione",
-          "value": "Alluminio, PS"
-        },
-        {
-          "attribute_code": "lamp_max_potenza",
-          "value": "54W"
-        },
-        {
-          "attribute_code": "lamp_grado_protezione",
-          "value": "IP20"
-        },
-        {
-          "attribute_code": "lamp_attacco_lamp_menu",
-          "value": "3296"
-        }
-      ],
-      "media_gallery_entries": []
-    },
-    "_child_skus": [
+      "IL-345253",
       "IL-345291",
       "IL-345277",
       "IL-345284"
@@ -30906,7 +27783,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-444",
+      "sku": "IL-CONFIG-410",
       "name": "Ideal Lux Yoko Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
@@ -31008,7 +27885,7 @@
   },
   {
     "product": {
-      "sku": "IL-CONFIG-445",
+      "sku": "IL-CONFIG-411",
       "name": "Ideal Lux Yurta Sp1 Lampada A Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
