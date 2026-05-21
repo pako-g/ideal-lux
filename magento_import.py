@@ -20,7 +20,7 @@ from utility.magento_api import *
 # CONFIGURAZIONE
 # ─────────────────────────────────────────────
 
-CATEGORIA    = "Lampada da tavolo"
+CATEGORIA    = "Lampada a sospensione"
 SIMPLE_JSON  = f"./file/simple_products_{CATEGORIA.lower().replace(' ', '_')}.json"
 CONFIG_JSON  = f"./file/configurable_products_{CATEGORIA.lower().replace(' ', '_')}.json"
 IMAGES_DIR   = Path("./file/images")

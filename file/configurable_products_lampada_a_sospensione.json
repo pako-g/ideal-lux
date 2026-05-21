@@ -205,7 +205,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-142",
-      "name": "Ideal Lux Amadeus Sp6 Lampada A Sospensione per Interni",
+      "name": "Ideal Lux Amadeus Sp6 Lampada A Sospensione-6 Sorgenti Luminose per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -243,7 +243,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-amadeus-sp6-lampada-a-sospensione-per-interni"
+          "value": "ideal-lux-amadeus-sp6-lampada-a-sospensione-6-sorgenti-luminose-per-interni"
         },
         {
           "attribute_code": "manufacturer",
@@ -251,7 +251,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Amadeus Sp6 Lampada A Sospensione per Interni"
+          "value": "Ideal Lux Amadeus Sp6 Lampada A Sospensione-6 Sorgenti Luminose per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -301,7 +301,8 @@
       "IL-168777"
     ],
     "_attr_codes": [
-      "config_dimensioni"
+      "config_dimensioni",
+      "config_tipo"
     ]
   },
   {
@@ -2452,7 +2453,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-164",
-      "name": "Ideal Lux Brigitta Sp12 Lampada A Sospensione per Interni",
+      "name": "Ideal Lux Brigitta Sp12 Lampada A Sospensione-12 Sorgenti Luminose per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -2490,7 +2491,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-brigitta-sp12-lampada-a-sospensione-per-interni"
+          "value": "ideal-lux-brigitta-sp12-lampada-a-sospensione-12-sorgenti-luminose-per-interni"
         },
         {
           "attribute_code": "manufacturer",
@@ -2498,7 +2499,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Brigitta Sp12 Lampada A Sospensione per Interni"
+          "value": "Ideal Lux Brigitta Sp12 Lampada A Sospensione-12 Sorgenti Luminose per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -2547,12 +2548,16 @@
       "IL-199405",
       "IL-199375"
     ],
-    "_attr_codes": []
+    "_attr_codes": [
+      "color",
+      "config_dimensioni",
+      "config_tipo"
+    ]
   },
   {
     "product": {
       "sku": "IL-CONFIG-165",
-      "name": "Ideal Lux Brigitta Sp8 Lampada A Sospensione per Interni",
+      "name": "Ideal Lux Brigitta Sp8 Lampada A Sospensione-8 Sorgenti Luminose per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -2590,7 +2595,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-brigitta-sp8-lampada-a-sospensione-per-interni"
+          "value": "ideal-lux-brigitta-sp8-lampada-a-sospensione-8-sorgenti-luminose-per-interni"
         },
         {
           "attribute_code": "manufacturer",
@@ -2598,7 +2603,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Brigitta Sp8 Lampada A Sospensione per Interni"
+          "value": "Ideal Lux Brigitta Sp8 Lampada A Sospensione-8 Sorgenti Luminose per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -2647,7 +2652,11 @@
       "IL-199412",
       "IL-199382"
     ],
-    "_attr_codes": []
+    "_attr_codes": [
+      "color",
+      "config_dimensioni",
+      "config_tipo"
+    ]
   },
   {
     "product": {
@@ -3569,7 +3578,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-175",
-      "name": "Ideal Lux Chalet Sp12 Lampada A Sospensione per Interni",
+      "name": "Ideal Lux Chalet Sp12 Lampada A Sospensione-12 Sorgenti Luminose per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -3607,7 +3616,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-chalet-sp12-lampada-a-sospensione-per-interni"
+          "value": "ideal-lux-chalet-sp12-lampada-a-sospensione-12-sorgenti-luminose-per-interni"
         },
         {
           "attribute_code": "manufacturer",
@@ -3615,7 +3624,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Chalet Sp12 Lampada A Sospensione per Interni"
+          "value": "Ideal Lux Chalet Sp12 Lampada A Sospensione-12 Sorgenti Luminose per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -3666,7 +3675,8 @@
       "IL-115504"
     ],
     "_attr_codes": [
-      "config_dimensioni"
+      "config_dimensioni",
+      "config_tipo"
     ]
   },
   {
@@ -11150,7 +11160,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-249",
-      "name": "Ideal Lux Galaxy Sp3 Lampada A Sospensione per Interni",
+      "name": "Ideal Lux Galaxy Sp3 Lampada A Sospensione-3 Sorgenti Luminose per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -11188,7 +11198,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-galaxy-sp3-lampada-a-sospensione-per-interni"
+          "value": "ideal-lux-galaxy-sp3-lampada-a-sospensione-3-sorgenti-luminose-per-interni"
         },
         {
           "attribute_code": "manufacturer",
@@ -11196,7 +11206,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Galaxy Sp3 Lampada A Sospensione per Interni"
+          "value": "Ideal Lux Galaxy Sp3 Lampada A Sospensione-3 Sorgenti Luminose per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -11246,7 +11256,8 @@
       "IL-321172"
     ],
     "_attr_codes": [
-      "config_dimensioni"
+      "config_dimensioni",
+      "config_tipo"
     ]
   },
   {

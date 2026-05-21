@@ -235,7 +235,7 @@
   {
     "product": {
       "sku": "IL-168753",
-      "name": "Ideal Lux Amadeus sp6 Lampada A Sospensione-Trasparente-Diametro-67cm",
+      "name": "Ideal Lux Amadeus sp6 Lampada A Sospensione-6 Sorgenti Luminose-Trasparente-Diametro-67cm",
       "attribute_set_id": 263,
       "price": 480.0,
       "status": 2,
@@ -258,6 +258,10 @@
           "value": "3913"
         },
         {
+          "attribute_code": "config_tipo",
+          "value": "3556"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696168753"
         },
@@ -267,7 +271,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-amadeus-sp6-lampada-a-sospensione-trasparente-diametro-67cm-168753"
+          "value": "ideal-lux-amadeus-sp6-lampada-a-sospensione-6-sorgenti-luminose-trasparente-diametro-67cm-168753"
         }
       ],
       "media_gallery_entries": []
@@ -276,7 +280,7 @@
   {
     "product": {
       "sku": "IL-168777",
-      "name": "Ideal Lux Amadeus sp8 Lampada A Sospensione-Trasparente-Diametro-80cm",
+      "name": "Ideal Lux Amadeus sp8 Lampada A Sospensione-8 Sorgenti Luminose-Trasparente-Diametro-80cm",
       "attribute_set_id": 263,
       "price": 568.0,
       "status": 2,
@@ -299,6 +303,10 @@
           "value": "3358"
         },
         {
+          "attribute_code": "config_tipo",
+          "value": "3915"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696168777"
         },
@@ -308,7 +316,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-amadeus-sp8-lampada-a-sospensione-trasparente-diametro-80cm-168777"
+          "value": "ideal-lux-amadeus-sp8-lampada-a-sospensione-8-sorgenti-luminose-trasparente-diametro-80cm-168777"
         }
       ],
       "media_gallery_entries": []
@@ -2428,7 +2436,7 @@
   {
     "product": {
       "sku": "IL-199405",
-      "name": "Ideal Lux Brigitta sp12 Lampada A Sospensione-Ambra",
+      "name": "Ideal Lux Brigitta sp12 Lampada A Sospensione-12 Sorgenti Luminose-Ambra-Diametro-120cm",
       "attribute_set_id": 263,
       "price": 1000.0,
       "status": 2,
@@ -2447,6 +2455,18 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "color",
+          "value": "2400"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3916"
+        },
+        {
+          "attribute_code": "config_tipo",
+          "value": "3917"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696199405"
         },
@@ -2456,7 +2476,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-brigitta-sp12-lampada-a-sospensione-ambra-199405"
+          "value": "ideal-lux-brigitta-sp12-lampada-a-sospensione-12-sorgenti-luminose-ambra-diametro-120cm-199405"
         }
       ],
       "media_gallery_entries": []
@@ -2465,7 +2485,7 @@
   {
     "product": {
       "sku": "IL-199375",
-      "name": "Ideal Lux Brigitta sp12e Lampada A Sospensione-Trasparent",
+      "name": "Ideal Lux Brigitta sp12 Lampada A Sospensione-12 Sorgenti Luminose-Trasparente-Diametro-120cm",
       "attribute_set_id": 263,
       "price": 1000.0,
       "status": 2,
@@ -2484,6 +2504,18 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "color",
+          "value": "2391"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3916"
+        },
+        {
+          "attribute_code": "config_tipo",
+          "value": "3917"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696199375"
         },
@@ -2493,7 +2525,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-brigitta-sp12e-lampada-a-sospensione-trasparent-199375"
+          "value": "ideal-lux-brigitta-sp12-lampada-a-sospensione-12-sorgenti-luminose-trasparente-diametro-120cm-199375"
         }
       ],
       "media_gallery_entries": []
@@ -2502,7 +2534,7 @@
   {
     "product": {
       "sku": "IL-199412",
-      "name": "Ideal Lux Brigitta sp8 Lampada A Sospensione-Ambra",
+      "name": "Ideal Lux Brigitta sp8 Lampada A Sospensione-8 Sorgenti Luminose-Ambra-Diametro-89cm",
       "attribute_set_id": 263,
       "price": 750.0,
       "status": 2,
@@ -2521,6 +2553,18 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "color",
+          "value": "2400"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3918"
+        },
+        {
+          "attribute_code": "config_tipo",
+          "value": "3915"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696199412"
         },
@@ -2530,7 +2574,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-brigitta-sp8-lampada-a-sospensione-ambra-199412"
+          "value": "ideal-lux-brigitta-sp8-lampada-a-sospensione-8-sorgenti-luminose-ambra-diametro-89cm-199412"
         }
       ],
       "media_gallery_entries": []
@@ -2539,7 +2583,7 @@
   {
     "product": {
       "sku": "IL-199382",
-      "name": "Ideal Lux Brigitta sp8e Lampada A Sospensione-Trasparent",
+      "name": "Ideal Lux Brigitta sp8 Lampada A Sospensione-8 Sorgenti Luminose-Trasparente-Diametro-89cm",
       "attribute_set_id": 263,
       "price": 750.0,
       "status": 2,
@@ -2558,6 +2602,18 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "color",
+          "value": "2391"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3918"
+        },
+        {
+          "attribute_code": "config_tipo",
+          "value": "3915"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696199382"
         },
@@ -2567,7 +2623,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-brigitta-sp8e-lampada-a-sospensione-trasparent-199382"
+          "value": "ideal-lux-brigitta-sp8-lampada-a-sospensione-8-sorgenti-luminose-trasparente-diametro-89cm-199382"
         }
       ],
       "media_gallery_entries": []
@@ -3335,7 +3391,7 @@
   {
     "product": {
       "sku": "IL-113975",
-      "name": "Ideal Lux Chalet sp12 Lampada A Sospensione-Beige-Diametro-100cm",
+      "name": "Ideal Lux Chalet sp12 Lampada A Sospensione-12 Sorgenti Luminose-Beige-Diametro-100cm",
       "attribute_set_id": 263,
       "price": 990.0,
       "status": 2,
@@ -3358,6 +3414,10 @@
           "value": "3359"
         },
         {
+          "attribute_code": "config_tipo",
+          "value": "3917"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696113975"
         },
@@ -3367,7 +3427,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-chalet-sp12-lampada-a-sospensione-beige-diametro-100cm-113975"
+          "value": "ideal-lux-chalet-sp12-lampada-a-sospensione-12-sorgenti-luminose-beige-diametro-100cm-113975"
         }
       ],
       "media_gallery_entries": []
@@ -3376,7 +3436,7 @@
   {
     "product": {
       "sku": "IL-115498",
-      "name": "Ideal Lux Chalet sp6 Lampada A Sospensione-Beige-Diametro-67cm",
+      "name": "Ideal Lux Chalet sp6 Lampada A Sospensione-6 Sorgenti Luminose-Beige-Diametro-67cm",
       "attribute_set_id": 263,
       "price": 560.0,
       "status": 2,
@@ -3399,6 +3459,10 @@
           "value": "3913"
         },
         {
+          "attribute_code": "config_tipo",
+          "value": "3556"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696115498"
         },
@@ -3408,7 +3472,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-chalet-sp6-lampada-a-sospensione-beige-diametro-67cm-115498"
+          "value": "ideal-lux-chalet-sp6-lampada-a-sospensione-6-sorgenti-luminose-beige-diametro-67cm-115498"
         }
       ],
       "media_gallery_entries": []
@@ -3417,7 +3481,7 @@
   {
     "product": {
       "sku": "IL-115504",
-      "name": "Ideal Lux Chalet sp8 Lampada A Sospensione-Beige-Diametro-91cm",
+      "name": "Ideal Lux Chalet sp8 Lampada A Sospensione-8 Sorgenti Luminose-Beige-Diametro-91cm",
       "attribute_set_id": 263,
       "price": 850.0,
       "status": 2,
@@ -3440,6 +3504,10 @@
           "value": "3914"
         },
         {
+          "attribute_code": "config_tipo",
+          "value": "3915"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696115504"
         },
@@ -3449,7 +3517,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-chalet-sp8-lampada-a-sospensione-beige-diametro-91cm-115504"
+          "value": "ideal-lux-chalet-sp8-lampada-a-sospensione-8-sorgenti-luminose-beige-diametro-91cm-115504"
         }
       ],
       "media_gallery_entries": []
@@ -11001,7 +11069,7 @@
   {
     "product": {
       "sku": "IL-342993",
-      "name": "Ideal Lux Galaxy sp3 Lampada A Sospensione-Bianco-Diametro-25cm",
+      "name": "Ideal Lux Galaxy sp3 Lampada A Sospensione-3 Sorgenti Luminose-Bianco-Diametro-25cm",
       "attribute_set_id": 263,
       "price": 476.0,
       "status": 2,
@@ -11024,6 +11092,10 @@
           "value": "2921"
         },
         {
+          "attribute_code": "config_tipo",
+          "value": "3364"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696342993"
         },
@@ -11033,7 +11105,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-galaxy-sp3-lampada-a-sospensione-bianco-diametro-25cm-342993"
+          "value": "ideal-lux-galaxy-sp3-lampada-a-sospensione-3-sorgenti-luminose-bianco-diametro-25cm-342993"
         }
       ],
       "media_gallery_entries": []
@@ -11042,7 +11114,7 @@
   {
     "product": {
       "sku": "IL-321172",
-      "name": "Ideal Lux Galaxy sp6 Lampada A Sospensione-Bianco-Diametro-40cm",
+      "name": "Ideal Lux Galaxy sp6 Lampada A Sospensione-6 Sorgenti Luminose-Bianco-Diametro-40cm",
       "attribute_set_id": 263,
       "price": 650.0,
       "status": 2,
@@ -11065,6 +11137,10 @@
           "value": "3287"
         },
         {
+          "attribute_code": "config_tipo",
+          "value": "3556"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696321172"
         },
@@ -11074,7 +11150,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-galaxy-sp6-lampada-a-sospensione-bianco-diametro-40cm-321172"
+          "value": "ideal-lux-galaxy-sp6-lampada-a-sospensione-6-sorgenti-luminose-bianco-diametro-40cm-321172"
         }
       ],
       "media_gallery_entries": []

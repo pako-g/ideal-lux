@@ -74,17 +74,17 @@ FAMIGLIE_SENZA_DIMENSIONE = {"DRIFTWOOD", "BINOMIO"}
 
 # Famiglie con attributo config_tipo
 FAMIGLIE_CONFIG_TIPO = {"EDO", "ESSENCE", "TWIGGY", "DRIFTWOOD",
-                        "AMADEUS", "CHALET", "GALAXY"}
+                        "AMADEUS", "BRIGITTA", "CHALET", "GALAXY"}
 
 # Pattern per estrarre il tipo dalla descrizione, per famiglia
 FAMIGLIE_TIPO = {
     "EDO":     r'_(?:PT1_)(ROUND|SQUARE)_',
     "ESSENCE": r'_PT_(ROUND|SQUARE)_',
     "TWIGGY":  r'_(LINE|SPHERE)_',
-    "AMADEUS": r'_(SP\d+)_',
-    "CHALET":  r'_(SP\d+)_',
-    "GALAXY":  r'_(SP\d+)_',
 }
+
+# Famiglie dove config_tipo è il numero di luci (letto dalla colonna Luci del CSV)
+FAMIGLIE_CONFIG_TIPO_LUCI = {"AMADEUS", "BRIGITTA", "CHALET", "GALAXY"}
 
 # Famiglie dove il colore è l'unico attributo configurabile
 FAMIGLIE_SOLO_COLORE = {"DRIFTWOOD"}
@@ -165,6 +165,17 @@ def estrai_tipo(descrizione: str, famiglia: str) -> str:
 def estrai_temperatura(descrizione: str) -> str:
     match = re.search(r'_(\d{4}K(?:-\d{4}K)?)(?:_|$)', descrizione)
     return match.group(1) if match else ""
+
+
+def luci_to_tipo_label(n_luci) -> str:
+    """Converte il numero di luci (colonna Luci del CSV) nella label Magento di config_tipo."""
+    try:
+        n = int(float(str(n_luci)))
+    except (ValueError, TypeError):
+        return ""
+    if n == 1:
+        return "1 Sorgente Luminosa"
+    return f"{n} Sorgenti Luminose"
 
 
 def estrai_dimensione(descrizione: str, finitura: str, famiglia: str,
@@ -285,7 +296,11 @@ def _attributi_varianti(gruppo: pd.DataFrame, famiglia: str,
         varianti.add("config_dimensioni")
 
     # config_tipo
-    tipi = set(estrai_tipo(r["Descrizione"], famiglia) for _, r in gruppo.iterrows())
+    if famiglia in FAMIGLIE_CONFIG_TIPO_LUCI:
+        # Usa direttamente la colonna Luci del CSV
+        tipi = set(luci_to_tipo_label(r["Luci"]) for _, r in gruppo.iterrows())
+    else:
+        tipi = set(estrai_tipo(r["Descrizione"], famiglia) for _, r in gruppo.iterrows())
     if len(tipi) > 1:
         varianti.add("config_tipo")
 
@@ -308,11 +323,12 @@ def build_simple(row: pd.Series, gruppo: pd.DataFrame,
 
     famiglia   = row["Famiglia Articolo"]
     dimensione = estrai_dimensione(row["Descrizione"], row["Finitura"], famiglia, gruppo)
-    tipo       = estrai_tipo(row["Descrizione"], famiglia)
+    tipo       = luci_to_tipo_label(row["Luci"]) if famiglia in FAMIGLIE_CONFIG_TIPO_LUCI \
+                 else estrai_tipo(row["Descrizione"], famiglia)
     temperatura = estrai_temperatura(row["Descrizione"])
     modello    = estrai_modello(row["Descrizione"], row["Finitura"])
 
-    print(modello + f"-{row['sku']}")
+    #print(modello + f"-{row['sku']}")
 
     # Quali attributi variano nel gruppo
     assi = _attributi_varianti(gruppo, famiglia, color_map, attacco_map,
