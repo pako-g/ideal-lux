@@ -89,6 +89,10 @@ FAMIGLIE_CONFIG_TIPO_LUCI = {"AMADEUS", "BRIGITTA", "CHALET", "GALAXY"}
 # Famiglie dove il colore è l'unico attributo configurabile
 FAMIGLIE_SOLO_COLORE = {"DRIFTWOOD"}
 
+# Famiglie da raggruppare interamente (non per sottofamiglia SPx)
+# → la dimensione viene letta dalla colonna "Dimensione Articolo" confrontando le varianti
+FAMIGLIE_RAGGRUPPA_PER_FAMIGLIA = {"ARIZONA", "AUDI-80", "COLOSSAL", "MINT", "TUBIX", "WAVES", "UMILE"}
+
 
 # ─────────────────────────────────────────────
 # CARICAMENTO CSV
@@ -328,7 +332,7 @@ def build_simple(row: pd.Series, gruppo: pd.DataFrame,
     temperatura = estrai_temperatura(row["Descrizione"])
     modello    = estrai_modello(row["Descrizione"], row["Finitura"])
 
-    #print(modello + f"-{row['sku']}")
+    print(modello + f"-{row['sku']}")
 
     # Quali attributi variano nel gruppo
     assi = _attributi_varianti(gruppo, famiglia, color_map, attacco_map,
@@ -413,6 +417,9 @@ def build_simple(row: pd.Series, gruppo: pd.DataFrame,
 def calcola_sottofamiglia(descrizione: str, famiglia: str, finitura: str) -> str:
     # Famiglie con config_tipo (incluse AMADEUS, CHALET, GALAXY) → raggruppate per famiglia
     if famiglia in FAMIGLIE_CONFIG_TIPO:
+        return famiglia
+    # Famiglie dove la dimensione si legge da "Dimensione Articolo" confrontando le varianti
+    if famiglia in FAMIGLIE_RAGGRUPPA_PER_FAMIGLIA:
         return famiglia
     finitura_str = "" if str(finitura) == "nan" else "_" + str(finitura)
     core = str(descrizione).replace(famiglia + "_", "").replace(finitura_str, "")

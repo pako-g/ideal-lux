@@ -756,7 +756,7 @@
   {
     "product": {
       "sku": "IL-214474",
-      "name": "Ideal Lux Arizona sp3 Lampada A Sospensione-Bianco",
+      "name": "Ideal Lux Arizona sp3 Lampada A Sospensione-Bianco-Diametro-40cm",
       "attribute_set_id": 263,
       "price": 395.0,
       "status": 2,
@@ -775,6 +775,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3287"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696214474"
         },
@@ -784,7 +788,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-arizona-sp3-lampada-a-sospensione-bianco-214474"
+          "value": "ideal-lux-arizona-sp3-lampada-a-sospensione-bianco-diametro-40cm-214474"
         }
       ],
       "media_gallery_entries": []
@@ -793,7 +797,7 @@
   {
     "product": {
       "sku": "IL-214481",
-      "name": "Ideal Lux Arizona sp5 Lampada A Sospensione-Bianco",
+      "name": "Ideal Lux Arizona sp5 Lampada A Sospensione-Bianco-Diametro-52cm",
       "attribute_set_id": 263,
       "price": 520.0,
       "status": 2,
@@ -812,6 +816,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3912"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696214481"
         },
@@ -821,7 +829,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-arizona-sp5-lampada-a-sospensione-bianco-214481"
+          "value": "ideal-lux-arizona-sp5-lampada-a-sospensione-bianco-diametro-52cm-214481"
         }
       ],
       "media_gallery_entries": []
@@ -1150,7 +1158,7 @@
   {
     "product": {
       "sku": "IL-197661",
-      "name": "Ideal Lux Audi-80 sp5 Lampada A Sospensione-Fumé",
+      "name": "Ideal Lux Audi-80 sp5 Lampada A Sospensione-Fumé-Diametro-40cm",
       "attribute_set_id": 263,
       "price": 445.0,
       "status": 2,
@@ -1169,6 +1177,14 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "color",
+          "value": "2396"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3287"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696197661"
         },
@@ -1178,7 +1194,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-audi-80-sp5-lampada-a-sospensione-fum-197661"
+          "value": "ideal-lux-audi-80-sp5-lampada-a-sospensione-fum-diametro-40cm-197661"
         }
       ],
       "media_gallery_entries": []
@@ -1187,7 +1203,7 @@
   {
     "product": {
       "sku": "IL-031743",
-      "name": "Ideal Lux Audi-80 sp5e Lampada A Sospensione-Trasparent",
+      "name": "Ideal Lux Audi-80 sp5 Lampada A Sospensione-Trasparente-Diametro-40cm",
       "attribute_set_id": 263,
       "price": 445.0,
       "status": 2,
@@ -1206,6 +1222,14 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "color",
+          "value": "2391"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "3287"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696031743"
         },
@@ -1215,7 +1239,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-audi-80-sp5e-lampada-a-sospensione-trasparent-031743"
+          "value": "ideal-lux-audi-80-sp5-lampada-a-sospensione-trasparente-diametro-40cm-031743"
         }
       ],
       "media_gallery_entries": []
@@ -1224,7 +1248,7 @@
   {
     "product": {
       "sku": "IL-197654",
-      "name": "Ideal Lux Audi-80 sp8 Lampada A Sospensione-Fumé",
+      "name": "Ideal Lux Audi-80 sp8 Lampada A Sospensione-Fumé-Diametro-50cm",
       "attribute_set_id": 263,
       "price": 620.0,
       "status": 2,
@@ -1243,6 +1267,14 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "color",
+          "value": "2396"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "2877"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696197654"
         },
@@ -1252,7 +1284,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-audi-80-sp8-lampada-a-sospensione-fum-197654"
+          "value": "ideal-lux-audi-80-sp8-lampada-a-sospensione-fum-diametro-50cm-197654"
         }
       ],
       "media_gallery_entries": []
@@ -1261,7 +1293,7 @@
   {
     "product": {
       "sku": "IL-031750",
-      "name": "Ideal Lux Audi-80 sp8e Lampada A Sospensione-Trasparent",
+      "name": "Ideal Lux Audi-80 sp8 Lampada A Sospensione-Trasparente-Diametro-50cm",
       "attribute_set_id": 263,
       "price": 620.0,
       "status": 2,
@@ -1280,6 +1312,14 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "color",
+          "value": "2391"
+        },
+        {
+          "attribute_code": "config_dimensioni",
+          "value": "2877"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696031750"
         },
@@ -1289,7 +1329,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-audi-80-sp8e-lampada-a-sospensione-trasparent-031750"
+          "value": "ideal-lux-audi-80-sp8-lampada-a-sospensione-trasparente-diametro-50cm-031750"
         }
       ],
       "media_gallery_entries": []
@@ -4341,6 +4381,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "color",
+          "value": "1847"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696081526"
         },
@@ -4359,7 +4403,7 @@
   {
     "product": {
       "sku": "IL-114170",
-      "name": "Ideal Lux Colossal sp15e Lampada A Sospensione-Trasparent",
+      "name": "Ideal Lux Colossal sp15 Lampada A Sospensione-Trasparente",
       "attribute_set_id": 263,
       "price": 1000.0,
       "status": 2,
@@ -4378,6 +4422,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "color",
+          "value": "2391"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696114170"
         },
@@ -4387,7 +4435,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-colossal-sp15e-lampada-a-sospensione-trasparent-114170"
+          "value": "ideal-lux-colossal-sp15-lampada-a-sospensione-trasparente-114170"
         }
       ],
       "media_gallery_entries": []
@@ -21499,7 +21547,7 @@
   {
     "product": {
       "sku": "IL-237442",
-      "name": "Ideal Lux Mint-1 sp1 Lampada A Sospensione-Fumé",
+      "name": "Ideal Lux Mint-1 sp1 Lampada A Sospensione-Fumé-Diametro-14cm",
       "attribute_set_id": 263,
       "price": 105.0,
       "status": 2,
@@ -21522,6 +21570,10 @@
           "value": "2396"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3020"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696237442"
         },
@@ -21531,7 +21583,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-mint-1-sp1-lampada-a-sospensione-fum-237442"
+          "value": "ideal-lux-mint-1-sp1-lampada-a-sospensione-fum-diametro-14cm-237442"
         }
       ],
       "media_gallery_entries": []
@@ -21540,7 +21592,7 @@
   {
     "product": {
       "sku": "IL-248554",
-      "name": "Ideal Lux Mint-1 sp1 Lampada A Sospensione-Verde",
+      "name": "Ideal Lux Mint-1 sp1 Lampada A Sospensione-Verde-Diametro-14cm",
       "attribute_set_id": 263,
       "price": 105.0,
       "status": 2,
@@ -21563,6 +21615,10 @@
           "value": "2416"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3020"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696248554"
         },
@@ -21572,7 +21628,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-mint-1-sp1-lampada-a-sospensione-verde-248554"
+          "value": "ideal-lux-mint-1-sp1-lampada-a-sospensione-verde-diametro-14cm-248554"
         }
       ],
       "media_gallery_entries": []
@@ -21581,7 +21637,7 @@
   {
     "product": {
       "sku": "IL-237398",
-      "name": "Ideal Lux Mint-2 sp1 Lampada A Sospensione-Fumé",
+      "name": "Ideal Lux Mint-2 sp1 Lampada A Sospensione-Fumé-Diametro-24cm",
       "attribute_set_id": 263,
       "price": 127.0,
       "status": 2,
@@ -21604,6 +21660,10 @@
           "value": "2396"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3891"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696237398"
         },
@@ -21613,7 +21673,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-mint-2-sp1-lampada-a-sospensione-fum-237398"
+          "value": "ideal-lux-mint-2-sp1-lampada-a-sospensione-fum-diametro-24cm-237398"
         }
       ],
       "media_gallery_entries": []
@@ -21622,7 +21682,7 @@
   {
     "product": {
       "sku": "IL-237428",
-      "name": "Ideal Lux Mint-2 sp1 Lampada A Sospensione-Verde",
+      "name": "Ideal Lux Mint-2 sp1 Lampada A Sospensione-Verde-Diametro-24cm",
       "attribute_set_id": 263,
       "price": 127.0,
       "status": 2,
@@ -21645,6 +21705,10 @@
           "value": "2416"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3891"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696237428"
         },
@@ -21654,7 +21718,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-mint-2-sp1-lampada-a-sospensione-verde-237428"
+          "value": "ideal-lux-mint-2-sp1-lampada-a-sospensione-verde-diametro-24cm-237428"
         }
       ],
       "media_gallery_entries": []
@@ -21663,7 +21727,7 @@
   {
     "product": {
       "sku": "IL-237510",
-      "name": "Ideal Lux Mint-3 sp1 Lampada A Sospensione-Fumé",
+      "name": "Ideal Lux Mint-3 sp1 Lampada A Sospensione-Fumé-Diametro-20cm",
       "attribute_set_id": 263,
       "price": 138.0,
       "status": 2,
@@ -21686,6 +21750,10 @@
           "value": "2396"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3285"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696237510"
         },
@@ -21695,7 +21763,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-mint-3-sp1-lampada-a-sospensione-fum-237510"
+          "value": "ideal-lux-mint-3-sp1-lampada-a-sospensione-fum-diametro-20cm-237510"
         }
       ],
       "media_gallery_entries": []
@@ -21704,7 +21772,7 @@
   {
     "product": {
       "sku": "IL-237497",
-      "name": "Ideal Lux Mint-3 sp1 Lampada A Sospensione-Verde",
+      "name": "Ideal Lux Mint-3 sp1 Lampada A Sospensione-Verde-Diametro-20cm",
       "attribute_set_id": 263,
       "price": 138.0,
       "status": 2,
@@ -21727,6 +21795,10 @@
           "value": "2416"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3285"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696237497"
         },
@@ -21736,7 +21808,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-mint-3-sp1-lampada-a-sospensione-verde-237497"
+          "value": "ideal-lux-mint-3-sp1-lampada-a-sospensione-verde-diametro-20cm-237497"
         }
       ],
       "media_gallery_entries": []
@@ -32717,7 +32789,7 @@
   {
     "product": {
       "sku": "IL-224541",
-      "name": "Ideal Lux Umile sp3 Lampada A Sospensione-Bianco",
+      "name": "Ideal Lux Umile sp3 Lampada A Sospensione-Bianco-Diametro-63cm",
       "attribute_set_id": 263,
       "price": 415.0,
       "status": 2,
@@ -32736,6 +32808,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3922"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696224541"
         },
@@ -32745,7 +32821,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-umile-sp3-lampada-a-sospensione-bianco-224541"
+          "value": "ideal-lux-umile-sp3-lampada-a-sospensione-bianco-diametro-63cm-224541"
         }
       ],
       "media_gallery_entries": []
@@ -32754,7 +32830,7 @@
   {
     "product": {
       "sku": "IL-314969",
-      "name": "Ideal Lux Umile-1 sp1 Lampada A Sospensione-Bianco",
+      "name": "Ideal Lux Umile-1 sp1 Lampada A Sospensione-Bianco-Diametro-30cm",
       "attribute_set_id": 263,
       "price": 140.0,
       "status": 2,
@@ -32773,6 +32849,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3286"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696314969"
         },
@@ -32782,7 +32862,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-umile-1-sp1-lampada-a-sospensione-bianco-314969"
+          "value": "ideal-lux-umile-1-sp1-lampada-a-sospensione-bianco-diametro-30cm-314969"
         }
       ],
       "media_gallery_entries": []
@@ -32791,7 +32871,7 @@
   {
     "product": {
       "sku": "IL-314952",
-      "name": "Ideal Lux Umile-2 sp1 Lampada A Sospensione-Bianco",
+      "name": "Ideal Lux Umile-2 sp1 Lampada A Sospensione-Bianco-Diametro-22cm",
       "attribute_set_id": 263,
       "price": 160.0,
       "status": 2,
@@ -32810,6 +32890,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3892"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696314952"
         },
@@ -32819,7 +32903,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-umile-2-sp1-lampada-a-sospensione-bianco-314952"
+          "value": "ideal-lux-umile-2-sp1-lampada-a-sospensione-bianco-diametro-22cm-314952"
         }
       ],
       "media_gallery_entries": []
@@ -32828,7 +32912,7 @@
   {
     "product": {
       "sku": "IL-314945",
-      "name": "Ideal Lux Umile-3 sp1 Lampada A Sospensione-Bianco",
+      "name": "Ideal Lux Umile-3 sp1 Lampada A Sospensione-Bianco-Diametro-27cm",
       "attribute_set_id": 263,
       "price": 170.0,
       "status": 2,
@@ -32847,6 +32931,10 @@
       },
       "custom_attributes": [
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3923"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696314945"
         },
@@ -32856,7 +32944,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-umile-3-sp1-lampada-a-sospensione-bianco-314945"
+          "value": "ideal-lux-umile-3-sp1-lampada-a-sospensione-bianco-diametro-27cm-314945"
         }
       ],
       "media_gallery_entries": []
@@ -32984,7 +33072,7 @@
   {
     "product": {
       "sku": "IL-345239",
-      "name": "Ideal Lux Waves-1 Lampada A Sospensione-Bianco",
+      "name": "Ideal Lux Waves-1 Lampada A Sospensione-Bianco-Lunghezza-94.2cm",
       "attribute_set_id": 263,
       "price": 258.0,
       "status": 2,
@@ -33007,6 +33095,10 @@
           "value": "1840"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3919"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696345239"
         },
@@ -33016,7 +33108,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-waves-1-lampada-a-sospensione-bianco-345239"
+          "value": "ideal-lux-waves-1-lampada-a-sospensione-bianco-lunghezza-94-2cm-345239"
         }
       ],
       "media_gallery_entries": []
@@ -33025,7 +33117,7 @@
   {
     "product": {
       "sku": "IL-345215",
-      "name": "Ideal Lux Waves-1 Lampada A Sospensione-Nero",
+      "name": "Ideal Lux Waves-1 Lampada A Sospensione-Nero-Lunghezza-94.2cm",
       "attribute_set_id": 263,
       "price": 258.0,
       "status": 2,
@@ -33048,6 +33140,10 @@
           "value": "1844"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3919"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696345215"
         },
@@ -33057,7 +33153,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-waves-1-lampada-a-sospensione-nero-345215"
+          "value": "ideal-lux-waves-1-lampada-a-sospensione-nero-lunghezza-94-2cm-345215"
         }
       ],
       "media_gallery_entries": []
@@ -33066,7 +33162,7 @@
   {
     "product": {
       "sku": "IL-345222",
-      "name": "Ideal Lux Waves-1 Lampada A Sospensione-Oro",
+      "name": "Ideal Lux Waves-1 Lampada A Sospensione-Oro-Lunghezza-94.2cm",
       "attribute_set_id": 263,
       "price": 258.0,
       "status": 2,
@@ -33089,6 +33185,10 @@
           "value": "2403"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3919"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696345222"
         },
@@ -33098,7 +33198,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-waves-1-lampada-a-sospensione-oro-345222"
+          "value": "ideal-lux-waves-1-lampada-a-sospensione-oro-lunghezza-94-2cm-345222"
         }
       ],
       "media_gallery_entries": []
@@ -33107,7 +33207,7 @@
   {
     "product": {
       "sku": "IL-345260",
-      "name": "Ideal Lux Waves-2 Lampada A Sospensione-Bianco",
+      "name": "Ideal Lux Waves-2 Lampada A Sospensione-Bianco-Lunghezza-125.4cm",
       "attribute_set_id": 263,
       "price": 333.0,
       "status": 2,
@@ -33130,6 +33230,10 @@
           "value": "1840"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3920"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696345260"
         },
@@ -33139,7 +33243,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-waves-2-lampada-a-sospensione-bianco-345260"
+          "value": "ideal-lux-waves-2-lampada-a-sospensione-bianco-lunghezza-125-4cm-345260"
         }
       ],
       "media_gallery_entries": []
@@ -33148,7 +33252,7 @@
   {
     "product": {
       "sku": "IL-345246",
-      "name": "Ideal Lux Waves-2 Lampada A Sospensione-Nero",
+      "name": "Ideal Lux Waves-2 Lampada A Sospensione-Nero-Lunghezza-125.4cm",
       "attribute_set_id": 263,
       "price": 333.0,
       "status": 2,
@@ -33171,6 +33275,10 @@
           "value": "1844"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3920"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696345246"
         },
@@ -33180,7 +33288,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-waves-2-lampada-a-sospensione-nero-345246"
+          "value": "ideal-lux-waves-2-lampada-a-sospensione-nero-lunghezza-125-4cm-345246"
         }
       ],
       "media_gallery_entries": []
@@ -33189,7 +33297,7 @@
   {
     "product": {
       "sku": "IL-345253",
-      "name": "Ideal Lux Waves-2 Lampada A Sospensione-Oro",
+      "name": "Ideal Lux Waves-2 Lampada A Sospensione-Oro-Lunghezza-125.4cm",
       "attribute_set_id": 263,
       "price": 333.0,
       "status": 2,
@@ -33212,6 +33320,10 @@
           "value": "2403"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3920"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696345253"
         },
@@ -33221,7 +33333,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-waves-2-lampada-a-sospensione-oro-345253"
+          "value": "ideal-lux-waves-2-lampada-a-sospensione-oro-lunghezza-125-4cm-345253"
         }
       ],
       "media_gallery_entries": []
@@ -33230,7 +33342,7 @@
   {
     "product": {
       "sku": "IL-345291",
-      "name": "Ideal Lux Waves-3 Lampada A Sospensione-Bianco",
+      "name": "Ideal Lux Waves-3 Lampada A Sospensione-Bianco-Lunghezza-155.6cm",
       "attribute_set_id": 263,
       "price": 419.0,
       "status": 2,
@@ -33253,6 +33365,10 @@
           "value": "1840"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3921"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696345291"
         },
@@ -33262,7 +33378,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-waves-3-lampada-a-sospensione-bianco-345291"
+          "value": "ideal-lux-waves-3-lampada-a-sospensione-bianco-lunghezza-155-6cm-345291"
         }
       ],
       "media_gallery_entries": []
@@ -33271,7 +33387,7 @@
   {
     "product": {
       "sku": "IL-345277",
-      "name": "Ideal Lux Waves-3 Lampada A Sospensione-Nero",
+      "name": "Ideal Lux Waves-3 Lampada A Sospensione-Nero-Lunghezza-155.6cm",
       "attribute_set_id": 263,
       "price": 419.0,
       "status": 2,
@@ -33294,6 +33410,10 @@
           "value": "1844"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3921"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696345277"
         },
@@ -33303,7 +33423,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-waves-3-lampada-a-sospensione-nero-345277"
+          "value": "ideal-lux-waves-3-lampada-a-sospensione-nero-lunghezza-155-6cm-345277"
         }
       ],
       "media_gallery_entries": []
@@ -33312,7 +33432,7 @@
   {
     "product": {
       "sku": "IL-345284",
-      "name": "Ideal Lux Waves-3 Lampada A Sospensione-Oro",
+      "name": "Ideal Lux Waves-3 Lampada A Sospensione-Oro-Lunghezza-155.6cm",
       "attribute_set_id": 263,
       "price": 419.0,
       "status": 2,
@@ -33335,6 +33455,10 @@
           "value": "2403"
         },
         {
+          "attribute_code": "config_dimensioni",
+          "value": "3921"
+        },
+        {
           "attribute_code": "lamp_ean",
           "value": "8021696345284"
         },
@@ -33344,7 +33468,7 @@
         },
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-waves-3-lampada-a-sospensione-oro-345284"
+          "value": "ideal-lux-waves-3-lampada-a-sospensione-oro-lunghezza-155-6cm-345284"
         }
       ],
       "media_gallery_entries": []

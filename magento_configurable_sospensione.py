@@ -27,7 +27,7 @@ ESCLUDI_DA_CONFIG  = {"lamp_ean", "manufacturer", "url_key"}
 CATEGORIE_FISSE    = ["Marchi", "Ideal Lux", "Illuminazione"]
 
 # Famiglie da escludere completamente dall'output
-FAMIGLIE_DA_SALTARE = {"canapa", "bergen", "triade"}
+FAMIGLIE_DA_SALTARE = {"canapa", "bergen", "triade","ultrathin"}
 
 # Regole di raggruppamento speciali.
 # La chiave è un pattern regex che matcha il nome del semplice (lowercase, prima del trattino-maiuscolo).
