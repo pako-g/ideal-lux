@@ -122,7 +122,7 @@ MATERIALI_MAP = {
 CATEGORIA_PLURALE = {
     "Lampada Da Terra":     "Lampade da Terra",
     "Lampada Da Tavolo":    "Lampade da Tavolo",
-    "Lampada a sospensione": "Lampade a Sospensione",
+    "Lampada A Sospensione": "Lampade a Sospensione",
     "Lampada Da Parete":    "Lampade da Parete",
     "Lampada Da Soffitto":  "Lampade da Soffitto",
     "Lampada Portatile":    "Lampade Portatili",
