@@ -212,7 +212,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-142",
-      "name": "Ideal Lux Amadeus sp6 Lampade a Sospensione-6 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Amadeus sp6 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -254,7 +254,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-amadeus-sp6-lampade-a-sospensione-6-sorgenti-luminose-per-interni-il-config-142"
+          "value": "ideal-lux-amadeus-sp6-lampade-a-sospensione-per-interni-il-config-142"
         },
         {
           "attribute_code": "manufacturer",
@@ -262,7 +262,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Amadeus sp6 Lampade a Sospensione-6 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Amadeus sp6 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -318,7 +318,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-143",
-      "name": "Ideal Lux Ampolla-1 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Ampolla per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -360,7 +360,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-ampolla-1-sp1-lampade-a-sospensione-per-interni-il-config-143"
+          "value": "ideal-lux-ampolla-per-interni-il-config-143"
         },
         {
           "attribute_code": "manufacturer",
@@ -368,7 +368,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Ampolla-1 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Ampolla per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -423,7 +423,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-144",
-      "name": "Ideal Lux Ampolla-2 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Ampolla per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -465,7 +465,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-ampolla-2-sp1-lampade-a-sospensione-per-interni-il-config-144"
+          "value": "ideal-lux-ampolla-per-interni-il-config-144"
         },
         {
           "attribute_code": "manufacturer",
@@ -473,7 +473,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Ampolla-2 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Ampolla per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -528,7 +528,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-145",
-      "name": "Ideal Lux Ampolla-3 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Ampolla per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -570,7 +570,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-ampolla-3-sp1-lampade-a-sospensione-per-interni-il-config-145"
+          "value": "ideal-lux-ampolla-per-interni-il-config-145"
         },
         {
           "attribute_code": "manufacturer",
@@ -578,7 +578,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Ampolla-3 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Ampolla per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -633,7 +633,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-146",
-      "name": "Ideal Lux Ampolla-4 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Ampolla per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -675,7 +675,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-ampolla-4-sp1-lampade-a-sospensione-per-interni-il-config-146"
+          "value": "ideal-lux-ampolla-per-interni-il-config-146"
         },
         {
           "attribute_code": "manufacturer",
@@ -683,7 +683,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Ampolla-4 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Ampolla per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -1060,7 +1060,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-150",
-      "name": "Ideal Lux Atlas sp4 Lampade a Sospensione-4 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Atlas sp4 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -1102,7 +1102,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-atlas-sp4-lampade-a-sospensione-4-sorgenti-luminose-per-interni-il-config-150"
+          "value": "ideal-lux-atlas-sp4-lampade-a-sospensione-per-interni-il-config-150"
         },
         {
           "attribute_code": "manufacturer",
@@ -1110,7 +1110,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Atlas sp4 Lampade a Sospensione-4 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Atlas sp4 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -1171,7 +1171,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-151",
-      "name": "Ideal Lux Audi-10 sp5 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Audi per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -1213,7 +1213,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-audi-10-sp5-lampade-a-sospensione-per-interni-il-config-151"
+          "value": "ideal-lux-audi-per-interni-il-config-151"
         },
         {
           "attribute_code": "manufacturer",
@@ -1221,7 +1221,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Audi-10 sp5 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Audi per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -1277,7 +1277,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-152",
-      "name": "Ideal Lux Audi-80 sp5 Lampade a Sospensione-5 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Audi per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -1319,7 +1319,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-audi-80-sp5-lampade-a-sospensione-5-sorgenti-luminose-per-interni-il-config-152"
+          "value": "ideal-lux-audi-per-interni-il-config-152"
         },
         {
           "attribute_code": "manufacturer",
@@ -1327,7 +1327,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Audi-80 sp5 Lampade a Sospensione-5 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Audi per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -1602,7 +1602,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-155",
-      "name": "Ideal Lux Blanche sp6 Lampade a Sospensione-6 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Blanche sp6 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -1644,7 +1644,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-blanche-sp6-lampade-a-sospensione-6-sorgenti-luminose-per-interni-il-config-155"
+          "value": "ideal-lux-blanche-sp6-lampade-a-sospensione-per-interni-il-config-155"
         },
         {
           "attribute_code": "manufacturer",
@@ -1652,7 +1652,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Blanche sp6 Lampade a Sospensione-6 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Blanche sp6 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -1820,7 +1820,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-157",
-      "name": "Ideal Lux Bon bon sp6 Lampade a Sospensione-6 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Bon bon sp6 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -1862,7 +1862,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-bon-bon-sp6-lampade-a-sospensione-6-sorgenti-luminose-per-interni-il-config-157"
+          "value": "ideal-lux-bon-bon-sp6-lampade-a-sospensione-per-interni-il-config-157"
         },
         {
           "attribute_code": "manufacturer",
@@ -1870,7 +1870,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Bon bon sp6 Lampade a Sospensione-6 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Bon bon sp6 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -2032,7 +2032,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-159",
-      "name": "Ideal Lux Brigitta sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Brigitta sp12 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -2074,7 +2074,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-brigitta-sp12-lampade-a-sospensione-12-sorgenti-luminose-per-interni-il-config-159"
+          "value": "ideal-lux-brigitta-sp12-lampade-a-sospensione-per-interni-il-config-159"
         },
         {
           "attribute_code": "manufacturer",
@@ -2082,7 +2082,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Brigitta sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Brigitta sp12 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -2141,7 +2141,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-160",
-      "name": "Ideal Lux Caesar sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Caesar sp12 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -2183,7 +2183,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-caesar-sp12-lampade-a-sospensione-12-sorgenti-luminose-per-interni-il-config-160"
+          "value": "ideal-lux-caesar-sp12-lampade-a-sospensione-per-interni-il-config-160"
         },
         {
           "attribute_code": "manufacturer",
@@ -2191,7 +2191,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Caesar sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Caesar sp12 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -2463,7 +2463,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-163",
-      "name": "Ideal Lux Carlton sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Carlton sp12 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -2505,7 +2505,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-carlton-sp12-lampade-a-sospensione-12-sorgenti-luminose-per-interni-il-config-163"
+          "value": "ideal-lux-carlton-sp12-lampade-a-sospensione-per-interni-il-config-163"
         },
         {
           "attribute_code": "manufacturer",
@@ -2513,7 +2513,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Carlton sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Carlton sp12 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -2784,7 +2784,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-166",
-      "name": "Ideal Lux Chalet sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Chalet sp12 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -2826,7 +2826,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-chalet-sp12-lampade-a-sospensione-12-sorgenti-luminose-per-interni-il-config-166"
+          "value": "ideal-lux-chalet-sp12-lampade-a-sospensione-per-interni-il-config-166"
         },
         {
           "attribute_code": "manufacturer",
@@ -2834,7 +2834,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Chalet sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Chalet sp12 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -2998,7 +2998,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-168",
-      "name": "Ideal Lux Citrus-1 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Citrus per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -3040,7 +3040,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-citrus-1-sp1-lampade-a-sospensione-per-interni-il-config-168"
+          "value": "ideal-lux-citrus-per-interni-il-config-168"
         },
         {
           "attribute_code": "manufacturer",
@@ -3048,7 +3048,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Citrus-1 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Citrus per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -3103,7 +3103,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-169",
-      "name": "Ideal Lux Citrus-2 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Citrus per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -3145,7 +3145,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-citrus-2-sp1-lampade-a-sospensione-per-interni-il-config-169"
+          "value": "ideal-lux-citrus-per-interni-il-config-169"
         },
         {
           "attribute_code": "manufacturer",
@@ -3153,7 +3153,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Citrus-2 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Citrus per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -3208,7 +3208,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-170",
-      "name": "Ideal Lux Citrus-3 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Citrus per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -3250,7 +3250,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-citrus-3-sp1-lampade-a-sospensione-per-interni-il-config-170"
+          "value": "ideal-lux-citrus-per-interni-il-config-170"
         },
         {
           "attribute_code": "manufacturer",
@@ -3258,7 +3258,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Citrus-3 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Citrus per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -3731,7 +3731,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-175",
-      "name": "Ideal Lux Coco-1 sp Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Coco per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -3773,7 +3773,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-coco-1-sp-lampade-a-sospensione-per-interni-il-config-175"
+          "value": "ideal-lux-coco-per-interni-il-config-175"
         },
         {
           "attribute_code": "manufacturer",
@@ -3781,7 +3781,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Coco-1 sp Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Coco per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -3836,7 +3836,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-176",
-      "name": "Ideal Lux Coco-2 sp Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Coco per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -3878,7 +3878,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-coco-2-sp-lampade-a-sospensione-per-interni-il-config-176"
+          "value": "ideal-lux-coco-per-interni-il-config-176"
         },
         {
           "attribute_code": "manufacturer",
@@ -3886,7 +3886,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Coco-2 sp Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Coco per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -3941,7 +3941,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-177",
-      "name": "Ideal Lux Coco-3 sp Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Coco per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -3983,7 +3983,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-coco-3-sp-lampade-a-sospensione-per-interni-il-config-177"
+          "value": "ideal-lux-coco-per-interni-il-config-177"
         },
         {
           "attribute_code": "manufacturer",
@@ -3991,7 +3991,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Coco-3 sp Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Coco per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -4259,7 +4259,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-180",
-      "name": "Ideal Lux Copernico sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Copernico sp12 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -4301,7 +4301,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-copernico-sp12-lampade-a-sospensione-12-sorgenti-luminose-per-interni-il-config-180"
+          "value": "ideal-lux-copernico-sp12-lampade-a-sospensione-per-interni-il-config-180"
         },
         {
           "attribute_code": "manufacturer",
@@ -4309,7 +4309,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Copernico sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Copernico sp12 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -4365,7 +4365,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-181",
-      "name": "Ideal Lux Corte sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Corte sp12 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -4407,7 +4407,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-corte-sp12-lampade-a-sospensione-12-sorgenti-luminose-per-interni-il-config-181"
+          "value": "ideal-lux-corte-sp12-lampade-a-sospensione-per-interni-il-config-181"
         },
         {
           "attribute_code": "manufacturer",
@@ -4415,7 +4415,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Corte sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Corte sp12 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -4904,7 +4904,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-186",
-      "name": "Ideal Lux Danieli sp6 Lampade a Sospensione-6 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Danieli sp6 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -4946,7 +4946,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-danieli-sp6-lampade-a-sospensione-6-sorgenti-luminose-per-interni-il-config-186"
+          "value": "ideal-lux-danieli-sp6-lampade-a-sospensione-per-interni-il-config-186"
         },
         {
           "attribute_code": "manufacturer",
@@ -4954,7 +4954,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Danieli sp6 Lampade a Sospensione-6 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Danieli sp6 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -5116,7 +5116,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-188",
-      "name": "Ideal Lux Diamond sp1 Lampade a Sospensione-1 Sorgente Luminosa per Interni",
+      "name": "Ideal Lux Diamond sp1 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -5158,7 +5158,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-diamond-sp1-lampade-a-sospensione-1-sorgente-luminosa-per-interni-il-config-188"
+          "value": "ideal-lux-diamond-sp1-lampade-a-sospensione-per-interni-il-config-188"
         },
         {
           "attribute_code": "manufacturer",
@@ -5166,7 +5166,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Diamond sp1 Lampade a Sospensione-1 Sorgente Luminosa per Interni"
+          "value": "Ideal Lux Diamond sp1 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -5761,7 +5761,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-194",
-      "name": "Ideal Lux Dubai sp10 Lampade a Sospensione-10 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Dubai sp10 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -5803,7 +5803,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-dubai-sp10-lampade-a-sospensione-10-sorgenti-luminose-per-interni-il-config-194"
+          "value": "ideal-lux-dubai-sp10-lampade-a-sospensione-per-interni-il-config-194"
         },
         {
           "attribute_code": "manufacturer",
@@ -5811,7 +5811,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Dubai sp10 Lampade a Sospensione-10 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Dubai sp10 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -5870,7 +5870,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-195",
-      "name": "Ideal Lux Dynamite sp4 round Lampade a Sospensione-4 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Dynamite sp4 round Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -5912,7 +5912,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-dynamite-sp4-round-lampade-a-sospensione-4-sorgenti-luminose-per-interni-il-config-195"
+          "value": "ideal-lux-dynamite-sp4-round-lampade-a-sospensione-per-interni-il-config-195"
         },
         {
           "attribute_code": "manufacturer",
@@ -5920,7 +5920,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Dynamite sp4 round Lampade a Sospensione-4 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Dynamite sp4 round Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -5981,7 +5981,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-196",
-      "name": "Ideal Lux Dynamite sp4 square Lampade a Sospensione-4 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Dynamite sp4 square Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -6023,7 +6023,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-dynamite-sp4-square-lampade-a-sospensione-4-sorgenti-luminose-per-interni-il-config-196"
+          "value": "ideal-lux-dynamite-sp4-square-lampade-a-sospensione-per-interni-il-config-196"
         },
         {
           "attribute_code": "manufacturer",
@@ -6031,7 +6031,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Dynamite sp4 square Lampade a Sospensione-4 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Dynamite sp4 square Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -6528,7 +6528,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-201",
-      "name": "Ideal Lux Equinoxe sp3 sfumato Lampade a Sospensione-3 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Equinoxe sp3 sfumato Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -6570,7 +6570,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-equinoxe-sp3-sfumato-lampade-a-sospensione-3-sorgenti-luminose-per-interni-il-config-201"
+          "value": "ideal-lux-equinoxe-sp3-sfumato-lampade-a-sospensione-per-interni-il-config-201"
         },
         {
           "attribute_code": "manufacturer",
@@ -6578,7 +6578,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Equinoxe sp3 sfumato Lampade a Sospensione-3 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Equinoxe sp3 sfumato Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -6641,7 +6641,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-202",
-      "name": "Ideal Lux Equinoxe sp12 sfumato Lampade a Sospensione-12 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Equinoxe sp12 sfumato Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -6683,7 +6683,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-equinoxe-sp12-sfumato-lampade-a-sospensione-12-sorgenti-luminose-per-interni-il-config-202"
+          "value": "ideal-lux-equinoxe-sp12-sfumato-lampade-a-sospensione-per-interni-il-config-202"
         },
         {
           "attribute_code": "manufacturer",
@@ -6691,7 +6691,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Equinoxe sp12 sfumato Lampade a Sospensione-12 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Equinoxe sp12 sfumato Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -6754,7 +6754,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-203",
-      "name": "Ideal Lux Eris-1 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Eris per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -6796,7 +6796,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-eris-1-sp1-lampade-a-sospensione-per-interni-il-config-203"
+          "value": "ideal-lux-eris-per-interni-il-config-203"
         },
         {
           "attribute_code": "manufacturer",
@@ -6804,7 +6804,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Eris-1 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Eris per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -6860,7 +6860,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-204",
-      "name": "Ideal Lux Eris-2 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Eris per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -6902,7 +6902,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-eris-2-sp1-lampade-a-sospensione-per-interni-il-config-204"
+          "value": "ideal-lux-eris-per-interni-il-config-204"
         },
         {
           "attribute_code": "manufacturer",
@@ -6910,7 +6910,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Eris-2 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Eris per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -6966,7 +6966,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-205",
-      "name": "Ideal Lux Eris-3 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Eris per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -7008,7 +7008,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-eris-3-sp1-lampade-a-sospensione-per-interni-il-config-205"
+          "value": "ideal-lux-eris-per-interni-il-config-205"
         },
         {
           "attribute_code": "manufacturer",
@@ -7016,7 +7016,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Eris-3 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Eris per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -7072,7 +7072,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-206",
-      "name": "Ideal Lux Eris-4 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Eris per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -7114,7 +7114,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-eris-4-sp1-lampade-a-sospensione-per-interni-il-config-206"
+          "value": "ideal-lux-eris-per-interni-il-config-206"
         },
         {
           "attribute_code": "manufacturer",
@@ -7122,7 +7122,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Eris-4 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Eris per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -7501,7 +7501,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-210",
-      "name": "Ideal Lux Fiesta sp10 Lampade a Sospensione-10 Sorgenti Luminose per Esterni",
+      "name": "Ideal Lux Fiesta sp10 Lampade a Sospensione per Esterni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -7539,7 +7539,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-fiesta-sp10-lampade-a-sospensione-10-sorgenti-luminose-per-esterni-il-config-210"
+          "value": "ideal-lux-fiesta-sp10-lampade-a-sospensione-per-esterni-il-config-210"
         },
         {
           "attribute_code": "manufacturer",
@@ -7547,7 +7547,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Fiesta sp10 Lampade a Sospensione-10 Sorgenti Luminose per Esterni"
+          "value": "Ideal Lux Fiesta sp10 Lampade a Sospensione per Esterni"
         },
         {
           "attribute_code": "short_description",
@@ -7710,7 +7710,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-212",
-      "name": "Ideal Lux Filo sp1 Lampade a Sospensione-2700K per Interni",
+      "name": "Ideal Lux Filo sp1 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -7752,7 +7752,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-filo-sp1-lampade-a-sospensione-2700k-per-interni-il-config-212"
+          "value": "ideal-lux-filo-sp1-lampade-a-sospensione-per-interni-il-config-212"
         },
         {
           "attribute_code": "manufacturer",
@@ -7760,7 +7760,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Filo sp1 Lampade a Sospensione-2700K per Interni"
+          "value": "Ideal Lux Filo sp1 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -7817,7 +7817,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-213",
-      "name": "Ideal Lux Firenze sp5 Lampade a Sospensione-5 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Firenze sp5 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -7859,7 +7859,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-firenze-sp5-lampade-a-sospensione-5-sorgenti-luminose-per-interni-il-config-213"
+          "value": "ideal-lux-firenze-sp5-lampade-a-sospensione-per-interni-il-config-213"
         },
         {
           "attribute_code": "manufacturer",
@@ -7867,7 +7867,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Firenze sp5 Lampade a Sospensione-5 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Firenze sp5 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -8034,7 +8034,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-215",
-      "name": "Ideal Lux Florian sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Florian sp12 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -8076,7 +8076,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-florian-sp12-lampade-a-sospensione-12-sorgenti-luminose-per-interni-il-config-215"
+          "value": "ideal-lux-florian-sp12-lampade-a-sospensione-per-interni-il-config-215"
         },
         {
           "attribute_code": "manufacturer",
@@ -8084,7 +8084,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Florian sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Florian sp12 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -8468,7 +8468,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-219",
-      "name": "Ideal Lux Galaxy sp3 Lampade a Sospensione-3 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Galaxy sp3 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -8510,7 +8510,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-galaxy-sp3-lampade-a-sospensione-3-sorgenti-luminose-per-interni-il-config-219"
+          "value": "ideal-lux-galaxy-sp3-lampade-a-sospensione-per-interni-il-config-219"
         },
         {
           "attribute_code": "manufacturer",
@@ -8518,7 +8518,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Galaxy sp3 Lampade a Sospensione-3 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Galaxy sp3 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -8722,7 +8722,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-221",
-      "name": "Ideal Lux Gioconda sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Gioconda sp12 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -8764,7 +8764,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-gioconda-sp12-lampade-a-sospensione-12-sorgenti-luminose-per-interni-il-config-221"
+          "value": "ideal-lux-gioconda-sp12-lampade-a-sospensione-per-interni-il-config-221"
         },
         {
           "attribute_code": "manufacturer",
@@ -8772,7 +8772,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Gioconda sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Gioconda sp12 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -9364,7 +9364,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-227",
-      "name": "Ideal Lux Kalique-1 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Kalique per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -9406,7 +9406,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-kalique-1-sp1-lampade-a-sospensione-per-interni-il-config-227"
+          "value": "ideal-lux-kalique-per-interni-il-config-227"
         },
         {
           "attribute_code": "manufacturer",
@@ -9414,7 +9414,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Kalique-1 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Kalique per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -9479,7 +9479,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-228",
-      "name": "Ideal Lux Kalique-2 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Kalique per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -9521,7 +9521,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-kalique-2-sp1-lampade-a-sospensione-per-interni-il-config-228"
+          "value": "ideal-lux-kalique-per-interni-il-config-228"
         },
         {
           "attribute_code": "manufacturer",
@@ -9529,7 +9529,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Kalique-2 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Kalique per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -9594,7 +9594,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-229",
-      "name": "Ideal Lux Kalique-3 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Kalique per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -9636,7 +9636,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-kalique-3-sp1-lampade-a-sospensione-per-interni-il-config-229"
+          "value": "ideal-lux-kalique-per-interni-il-config-229"
         },
         {
           "attribute_code": "manufacturer",
@@ -9644,7 +9644,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Kalique-3 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Kalique per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -9919,7 +9919,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-232",
-      "name": "Ideal Lux Konse sp1 Lampade a Sospensione-1 Sorgente Luminosa per Interni",
+      "name": "Ideal Lux Konse sp1 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -9961,7 +9961,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-konse-sp1-lampade-a-sospensione-1-sorgente-luminosa-per-interni-il-config-232"
+          "value": "ideal-lux-konse-sp1-lampade-a-sospensione-per-interni-il-config-232"
         },
         {
           "attribute_code": "manufacturer",
@@ -9969,7 +9969,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Konse sp1 Lampade a Sospensione-1 Sorgente Luminosa per Interni"
+          "value": "Ideal Lux Konse sp1 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -10237,7 +10237,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-235",
-      "name": "Ideal Lux Lingotto sp1 Lampade a Sospensione-1 Sorgente Luminosa per Interni",
+      "name": "Ideal Lux Lingotto sp1 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -10279,7 +10279,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-lingotto-sp1-lampade-a-sospensione-1-sorgente-luminosa-per-interni-il-config-235"
+          "value": "ideal-lux-lingotto-sp1-lampade-a-sospensione-per-interni-il-config-235"
         },
         {
           "attribute_code": "manufacturer",
@@ -10287,7 +10287,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Lingotto sp1 Lampade a Sospensione-1 Sorgente Luminosa per Interni"
+          "value": "Ideal Lux Lingotto sp1 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -10342,7 +10342,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-236",
-      "name": "Ideal Lux Look led sp12 round drop on-off ne Lampade a Sospensione-12 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Look led sp12 round drop on-off ne Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -10384,7 +10384,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-look-led-sp12-round-drop-on-off-ne-lampade-a-sospensione-12-sorgenti-luminose-per-interni-il-config-236"
+          "value": "ideal-lux-look-led-sp12-round-drop-on-off-ne-lampade-a-sospensione-per-interni-il-config-236"
         },
         {
           "attribute_code": "manufacturer",
@@ -10392,7 +10392,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Look led sp12 round drop on-off ne Lampade a Sospensione-12 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Look led sp12 round drop on-off ne Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -11263,7 +11263,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-244",
-      "name": "Ideal Lux Lumiere-1 sp Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Lumiere per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -11305,7 +11305,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-lumiere-1-sp-lampade-a-sospensione-per-interni-il-config-244"
+          "value": "ideal-lux-lumiere-per-interni-il-config-244"
         },
         {
           "attribute_code": "manufacturer",
@@ -11313,7 +11313,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Lumiere-1 sp Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Lumiere per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -11368,7 +11368,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-245",
-      "name": "Ideal Lux Lumiere-2 sp Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Lumiere per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -11410,7 +11410,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-lumiere-2-sp-lampade-a-sospensione-per-interni-il-config-245"
+          "value": "ideal-lux-lumiere-per-interni-il-config-245"
         },
         {
           "attribute_code": "manufacturer",
@@ -11418,7 +11418,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Lumiere-2 sp Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Lumiere per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -11473,7 +11473,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-246",
-      "name": "Ideal Lux Lumiere-3 sp Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Lumiere per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -11515,7 +11515,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-lumiere-3-sp-lampade-a-sospensione-per-interni-il-config-246"
+          "value": "ideal-lux-lumiere-per-interni-il-config-246"
         },
         {
           "attribute_code": "manufacturer",
@@ -11523,7 +11523,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Lumiere-3 sp Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Lumiere per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -12636,7 +12636,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-257",
-      "name": "Ideal Lux Minor linear sp4 Lampade a Sospensione-4 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Minor linear sp4 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -12678,7 +12678,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-minor-linear-sp4-lampade-a-sospensione-4-sorgenti-luminose-per-interni-il-config-257"
+          "value": "ideal-lux-minor-linear-sp4-lampade-a-sospensione-per-interni-il-config-257"
         },
         {
           "attribute_code": "manufacturer",
@@ -12686,7 +12686,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Minor linear sp4 Lampade a Sospensione-4 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Minor linear sp4 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -12742,7 +12742,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-258",
-      "name": "Ideal Lux Minor round sp5 Lampade a Sospensione-5 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Minor round sp5 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -12784,7 +12784,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-minor-round-sp5-lampade-a-sospensione-5-sorgenti-luminose-per-interni-il-config-258"
+          "value": "ideal-lux-minor-round-sp5-lampade-a-sospensione-per-interni-il-config-258"
         },
         {
           "attribute_code": "manufacturer",
@@ -12792,7 +12792,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Minor round sp5 Lampade a Sospensione-5 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Minor round sp5 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -12848,7 +12848,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-259",
-      "name": "Ideal Lux Mint-1 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Mint per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -12890,7 +12890,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-mint-1-sp1-lampade-a-sospensione-per-interni-il-config-259"
+          "value": "ideal-lux-mint-per-interni-il-config-259"
         },
         {
           "attribute_code": "manufacturer",
@@ -12898,7 +12898,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Mint-1 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Mint per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -12954,7 +12954,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-260",
-      "name": "Ideal Lux Mint-2 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Mint per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -12996,7 +12996,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-mint-2-sp1-lampade-a-sospensione-per-interni-il-config-260"
+          "value": "ideal-lux-mint-per-interni-il-config-260"
         },
         {
           "attribute_code": "manufacturer",
@@ -13004,7 +13004,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Mint-2 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Mint per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -13060,7 +13060,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-261",
-      "name": "Ideal Lux Mint-3 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Mint per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -13102,7 +13102,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-mint-3-sp1-lampade-a-sospensione-per-interni-il-config-261"
+          "value": "ideal-lux-mint-per-interni-il-config-261"
         },
         {
           "attribute_code": "manufacturer",
@@ -13110,7 +13110,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Mint-3 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Mint per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -13486,7 +13486,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-265",
-      "name": "Ideal Lux Monet sp5 Lampade a Sospensione-5 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Monet sp5 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -13528,7 +13528,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-monet-sp5-lampade-a-sospensione-5-sorgenti-luminose-per-interni-il-config-265"
+          "value": "ideal-lux-monet-sp5-lampade-a-sospensione-per-interni-il-config-265"
         },
         {
           "attribute_code": "manufacturer",
@@ -13536,7 +13536,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Monet sp5 Lampade a Sospensione-5 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Monet sp5 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -13702,7 +13702,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-267",
-      "name": "Ideal Lux Nabucco sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Nabucco sp12 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -13744,7 +13744,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-nabucco-sp12-lampade-a-sospensione-12-sorgenti-luminose-per-interni-il-config-267"
+          "value": "ideal-lux-nabucco-sp12-lampade-a-sospensione-per-interni-il-config-267"
         },
         {
           "attribute_code": "manufacturer",
@@ -13752,7 +13752,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Nabucco sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Nabucco sp12 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -13808,7 +13808,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-268",
-      "name": "Ideal Lux Napoleon sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Napoleon sp12 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -13850,7 +13850,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-napoleon-sp12-lampade-a-sospensione-12-sorgenti-luminose-per-interni-il-config-268"
+          "value": "ideal-lux-napoleon-sp12-lampade-a-sospensione-per-interni-il-config-268"
         },
         {
           "attribute_code": "manufacturer",
@@ -13858,7 +13858,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Napoleon sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Napoleon sp12 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -13919,7 +13919,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-269",
-      "name": "Ideal Lux Negresco sp10 Lampade a Sospensione-10 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Negresco sp10 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -13961,7 +13961,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-negresco-sp10-lampade-a-sospensione-10-sorgenti-luminose-per-interni-il-config-269"
+          "value": "ideal-lux-negresco-sp10-lampade-a-sospensione-per-interni-il-config-269"
         },
         {
           "attribute_code": "manufacturer",
@@ -13969,7 +13969,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Negresco sp10 Lampade a Sospensione-10 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Negresco sp10 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -14260,7 +14260,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-272",
-      "name": "Ideal Lux Nodi sp15 Lampade a Sospensione-15 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Nodi sp15 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -14302,7 +14302,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-nodi-sp15-lampade-a-sospensione-15-sorgenti-luminose-per-interni-il-config-272"
+          "value": "ideal-lux-nodi-sp15-lampade-a-sospensione-per-interni-il-config-272"
         },
         {
           "attribute_code": "manufacturer",
@@ -14310,7 +14310,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Nodi sp15 Lampade a Sospensione-15 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Nodi sp15 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -14794,7 +14794,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-277",
-      "name": "Ideal Lux Oil-1 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Oil per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -14836,7 +14836,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-oil-1-sp1-lampade-a-sospensione-per-interni-il-config-277"
+          "value": "ideal-lux-oil-per-interni-il-config-277"
         },
         {
           "attribute_code": "manufacturer",
@@ -14844,7 +14844,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Oil-1 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Oil per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -14899,7 +14899,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-278",
-      "name": "Ideal Lux Oil-2 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Oil per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -14941,7 +14941,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-oil-2-sp1-lampade-a-sospensione-per-interni-il-config-278"
+          "value": "ideal-lux-oil-per-interni-il-config-278"
         },
         {
           "attribute_code": "manufacturer",
@@ -14949,7 +14949,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Oil-2 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Oil per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -15004,7 +15004,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-279",
-      "name": "Ideal Lux Oil-3 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Oil per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -15046,7 +15046,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-oil-3-sp1-lampade-a-sospensione-per-interni-il-config-279"
+          "value": "ideal-lux-oil-per-interni-il-config-279"
         },
         {
           "attribute_code": "manufacturer",
@@ -15054,7 +15054,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Oil-3 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Oil per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -15109,7 +15109,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-280",
-      "name": "Ideal Lux Oil-4 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Oil per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -15151,7 +15151,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-oil-4-sp1-lampade-a-sospensione-per-interni-il-config-280"
+          "value": "ideal-lux-oil-per-interni-il-config-280"
         },
         {
           "attribute_code": "manufacturer",
@@ -15159,7 +15159,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Oil-4 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Oil per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -15214,7 +15214,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-281",
-      "name": "Ideal Lux Oil-5 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Oil per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -15256,7 +15256,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-oil-5-sp1-lampade-a-sospensione-per-interni-il-config-281"
+          "value": "ideal-lux-oil-per-interni-il-config-281"
         },
         {
           "attribute_code": "manufacturer",
@@ -15264,7 +15264,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Oil-5 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Oil per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -15319,7 +15319,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-282",
-      "name": "Ideal Lux Oil-6 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Oil per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -15361,7 +15361,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-oil-6-sp1-lampade-a-sospensione-per-interni-il-config-282"
+          "value": "ideal-lux-oil-per-interni-il-config-282"
         },
         {
           "attribute_code": "manufacturer",
@@ -15369,7 +15369,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Oil-6 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Oil per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -15532,7 +15532,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-284",
-      "name": "Ideal Lux Opera sp10 Lampade a Sospensione-10 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Opera sp10 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -15574,7 +15574,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-opera-sp10-lampade-a-sospensione-10-sorgenti-luminose-per-interni-il-config-284"
+          "value": "ideal-lux-opera-sp10-lampade-a-sospensione-per-interni-il-config-284"
         },
         {
           "attribute_code": "manufacturer",
@@ -15582,7 +15582,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Opera sp10 Lampade a Sospensione-10 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Opera sp10 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -16361,7 +16361,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-291",
-      "name": "Ideal Lux Pasha' sp10 Lampade a Sospensione-10 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Pasha' sp10 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -16403,7 +16403,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-pasha-sp10-lampade-a-sospensione-10-sorgenti-luminose-per-interni-il-config-291"
+          "value": "ideal-lux-pasha-sp10-lampade-a-sospensione-per-interni-il-config-291"
         },
         {
           "attribute_code": "manufacturer",
@@ -16411,7 +16411,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Pasha' sp10 Lampade a Sospensione-10 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Pasha' sp10 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -16472,7 +16472,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-292",
-      "name": "Ideal Lux Pegaso sp3 Lampade a Sospensione-3 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Pegaso sp3 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -16514,7 +16514,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-pegaso-sp3-lampade-a-sospensione-3-sorgenti-luminose-per-interni-il-config-292"
+          "value": "ideal-lux-pegaso-sp3-lampade-a-sospensione-per-interni-il-config-292"
         },
         {
           "attribute_code": "manufacturer",
@@ -16522,7 +16522,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Pegaso sp3 Lampade a Sospensione-3 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Pegaso sp3 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -16583,7 +16583,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-293",
-      "name": "Ideal Lux Perlage sp10 Lampade a Sospensione-10 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Perlage sp10 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -16625,7 +16625,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-perlage-sp10-lampade-a-sospensione-10-sorgenti-luminose-per-interni-il-config-293"
+          "value": "ideal-lux-perlage-sp10-lampade-a-sospensione-per-interni-il-config-293"
         },
         {
           "attribute_code": "manufacturer",
@@ -16633,7 +16633,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Perlage sp10 Lampade a Sospensione-10 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Perlage sp10 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -16706,7 +16706,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-294",
-      "name": "Ideal Lux Perline sp2 Lampade a Sospensione-2 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Perline sp2 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -16748,7 +16748,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-perline-sp2-lampade-a-sospensione-2-sorgenti-luminose-per-interni-il-config-294"
+          "value": "ideal-lux-perline-sp2-lampade-a-sospensione-per-interni-il-config-294"
         },
         {
           "attribute_code": "manufacturer",
@@ -16756,7 +16756,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Perline sp2 Lampade a Sospensione-2 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Perline sp2 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -17349,7 +17349,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-300",
-      "name": "Ideal Lux Soft sp3 Lampade a Sospensione-3 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Soft sp3 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -17391,7 +17391,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-soft-sp3-lampade-a-sospensione-3-sorgenti-luminose-per-interni-il-config-300"
+          "value": "ideal-lux-soft-sp3-lampade-a-sospensione-per-interni-il-config-300"
         },
         {
           "attribute_code": "manufacturer",
@@ -17399,7 +17399,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Soft sp3 Lampade a Sospensione-3 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Soft sp3 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -17562,7 +17562,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-302",
-      "name": "Ideal Lux Strauss sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni",
+      "name": "Ideal Lux Strauss sp12 Lampade a Sospensione per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -17604,7 +17604,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-strauss-sp12-lampade-a-sospensione-12-sorgenti-luminose-per-interni-il-config-302"
+          "value": "ideal-lux-strauss-sp12-lampade-a-sospensione-per-interni-il-config-302"
         },
         {
           "attribute_code": "manufacturer",
@@ -17612,7 +17612,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Strauss sp12 Lampade a Sospensione-12 Sorgenti Luminose per Interni"
+          "value": "Ideal Lux Strauss sp12 Lampade a Sospensione per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -18305,7 +18305,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-309",
-      "name": "Ideal Lux Umile-1 sp1 Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Umile per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -18347,7 +18347,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-umile-1-sp1-lampade-a-sospensione-per-interni-il-config-309"
+          "value": "ideal-lux-umile-per-interni-il-config-309"
         },
         {
           "attribute_code": "manufacturer",
@@ -18355,7 +18355,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Umile-1 sp1 Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Umile per Interni"
         },
         {
           "attribute_code": "short_description",
@@ -18623,7 +18623,7 @@
   {
     "product": {
       "sku": "IL-CONFIG-312",
-      "name": "Ideal Lux Waves-1 sp Lampade a Sospensione per Interni",
+      "name": "Ideal Lux Waves per Interni",
       "attribute_set_id": 263,
       "status": 2,
       "visibility": 4,
@@ -18665,7 +18665,7 @@
       "custom_attributes": [
         {
           "attribute_code": "url_key",
-          "value": "ideal-lux-waves-1-sp-lampade-a-sospensione-per-interni-il-config-312"
+          "value": "ideal-lux-waves-per-interni-il-config-312"
         },
         {
           "attribute_code": "manufacturer",
@@ -18673,7 +18673,7 @@
         },
         {
           "attribute_code": "meta_title",
-          "value": "Ideal Lux Waves-1 sp Lampade a Sospensione per Interni"
+          "value": "Ideal Lux Waves per Interni"
         },
         {
           "attribute_code": "short_description",

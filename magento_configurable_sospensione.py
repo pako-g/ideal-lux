@@ -185,7 +185,7 @@ def build_configurable(
     # Nome: prende il nome del primo semplice, rimuove varianti (colore/dimensione in coda)
     nome_semplice = semplici[0]["product"]["name"]
     # Rimuove tutto dopo l'ultimo trattino che introduce una variante
-    nome_base = re.sub(r'\s*-[A-Z].*$', '', nome_semplice).strip()
+    nome_base = re.sub(r'\s*-[\dA-Z].*$', '', nome_semplice).strip()
     # Aggiunge ambiente
     cat_plurale = CATEGORIA_PLURALE.get(CATEGORIA.title(), CATEGORIA)
     titolo = f"{nome_base} per {ambiente}"
