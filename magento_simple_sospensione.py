@@ -90,6 +90,13 @@ def dim_from_col(dim_str: str, prefix: str) -> str:
     label = {"D": "Diametro", "H": "Altezza", "L": "Lunghezza"}[prefix]
     return f"{label} {mm_to_cm(int(m.group(1)))}cm"
 
+def dim_from_desc(descrizione: str) -> str:
+    """Estrae diametro dal token _Dxxx_ nella descrizione (valore già in cm)."""
+    m = re.search(r'_D(\d+)_', str(descrizione))
+    if not m:
+        return ""
+    return f"Diametro {int(m.group(1))}cm"
+
 def altezza_from_col(dim_str: str) -> str:
     """Estrae H dalla colonna Dimensione Articolo e converte in label cm."""
     m = re.search(r'H\s+(\d+)', str(dim_str))
@@ -538,6 +545,14 @@ def build_simple(row: pd.Series, assi: list, regola: dict,
                 "value": dimmer_map[dimmer],
             })
 
+    if "config_attacco_lamp" in assi:
+        attacco = valori["config_attacco_lamp"](row)
+        if attacco:
+            attrs_config.append({
+                "attribute_code": "config_attacco_lamp",
+                "value": attacco_map[attacco],
+            })
+
     return {
         "product": {
             "sku":              f"IL-{row['sku']}",
@@ -827,7 +842,7 @@ REGOLE["GEMINI"] = {
     "assi": ["color", "config_dimensioni", "config_temperatura_colore", "config_dimmer"],
     "valori": {
         "color":                     lambda r: finitura_label(r["Finitura"].capitalize()),
-        "config_dimensioni":          lambda r: dim_from_col(r["Dimensione Articolo"], "D"),
+        "config_dimensioni": lambda r: dim_from_desc(r["Descrizione"]),
         "config_temperatura_colore":  lambda r: token_from_desc(r["Descrizione"], r"_(\d{4}K)(?:_|$)"),
         "config_dimmer":       lambda r: dimmer_label(token_from_desc(r["Descrizione"], r"_(ON-OFF|DALI/PUSH)")),
     },
