@@ -353,8 +353,407 @@ REGOLE["OMEGA"] = {
 
 
 # ════════════════════════════════════════════
-# STEP 4F — SOLO DIMENSIONI / CONFIG_TIPO (senza colore)
-# (12 famiglie)
+# STEP 4A — FAMIGLIE COMPLESSE / CON SOTTOGRUPPI
+# (8 famiglie, 153 SKU)
+# ════════════════════════════════════════════
+
+# ── DELTA: gruppo(AP, LED), AP: color+dim, LED: color+dim+temp ──
+def _delta_gruppo(r):
+    return "LED" if "LED" in r["Descrizione"] else "AP"
+
+REGOLE["DELTA"] = {
+    "gruppo": _delta_gruppo,
+    "assi": ["color", "config_dimensioni", "config_temperatura_colore"],
+    "valori": {
+        "color":                    lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni":         lambda r: dim_from_col(r["Dimensione Articolo"], "L"),
+        "config_temperatura_colore": lambda r: token_from_desc(r["Descrizione"], r"_(\d{4}K)(?:_|$)"),
+    },
+}
+
+# ── ESSENCE: gruppo(ROUND, SQUARE), color+dim+temp — saltare PT ──
+def _essence_gruppo(r):
+    if "PT" in r["Descrizione"]:
+        return "PT"
+    if "SQUARE" in r["Descrizione"]:
+        return "SQUARE"
+    return "ROUND"
+
+REGOLE["ESSENCE"] = {
+    "gruppo":  _essence_gruppo,
+    "saltare": lambda r: "PT" in r["Descrizione"],
+    "assi": ["color", "config_dimensioni", "config_temperatura_colore"],
+    "valori": {
+        "color":                    lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni":         lambda r: dim_from_col(r["Dimensione Articolo"], "L"),
+        "config_temperatura_colore": lambda r: token_from_desc(r["Descrizione"], r"_(\d{4}K)(?:_|$)"),
+    },
+}
+
+# ── FELIX: gruppo(FELIX-1, FELIX-2) — FELIX-1 singolo, FELIX-2 color ──
+REGOLE["FELIX"] = {
+    "gruppo": lambda r: token_from_desc(r["Descrizione"], r"(FELIX-\d)"),
+    "assi":   ["color"],
+    "valori": {"color": lambda r: finitura_label(r["Finitura"].capitalize())},
+}
+
+# ── HOTEL: gruppo(AP2, TOTALE), color ──
+REGOLE["HOTEL"] = {
+    "gruppo": lambda r: "TOTALE" if "TOTALE" in r["Descrizione"] else "AP2",
+    "assi":   ["color"],
+    "valori": {"color": lambda r: finitura_label(r["Finitura"].capitalize())},
+}
+
+# ── LOOK: gruppo(ROUND, SQUARE, LED_ROUND, LED_SQUARE), color + config_dimensioni (H dalla desc) ──
+def _look_gruppo(r):
+    desc = r["Descrizione"]
+    led = "LED_" if "LED" in desc else ""
+    shape = "ROUND" if "ROUND" in desc else "SQUARE"
+    return f"{led}{shape}"
+
+def _look_altezza(r):
+    m = re.search(r'_H(\d+)_', r["Descrizione"])
+    if not m:
+        return ""
+    val = int(m.group(1))
+    cm = val / 10 if val > 100 else val
+    cm_str = f"{cm:.0f}" if cm == int(cm) else f"{cm:.1f}"
+    return f"Altezza {cm_str}cm"
+
+REGOLE["LOOK"] = {
+    "gruppo": _look_gruppo,
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": _look_altezza,
+    },
+}
+
+# ── STEEL: gruppo(AP1, AP2) — AP1 singolo, AP2 color+temp ──
+REGOLE["STEEL"] = {
+    "gruppo": lambda r: token_from_desc(r["Descrizione"], r"STEEL_(AP\d)"),
+    "assi": ["color", "config_temperatura_colore"],
+    "valori": {
+        "color":                    lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_temperatura_colore": lambda r: token_from_desc(r["Descrizione"], r"_(\d{4}K)(?:_|$)"),
+    },
+}
+
+# ── SWIPE: gruppo(AP, SENSOR), color ──
+REGOLE["SWIPE"] = {
+    "gruppo": lambda r: "SENSOR" if "SENSOR" in r["Descrizione"] else "AP",
+    "assi":   ["color"],
+    "valori": {"color": lambda r: finitura_label(r["Finitura"].capitalize())},
+}
+
+# ── ZIG ZAG: gruppo(ROUND, SQUARE), color + config_dimensioni(L) + config_temperatura_colore ──
+def _zigzag_gruppo(r):
+    return "ROUND" if "ROUND" in r["Descrizione"] else "SQUARE"
+
+REGOLE["ZIG ZAG"] = {
+    "gruppo": _zigzag_gruppo,
+    "assi": ["color", "config_dimensioni", "config_temperatura_colore"],
+    "valori": {
+        "color":                    lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni":         lambda r: dim_from_col(r["Dimensione Articolo"], "L"),
+        "config_temperatura_colore": lambda r: token_from_desc(r["Descrizione"], r"_(\d{4}K)(?:_|$)"),
+    },
+}
+
+
+# ════════════════════════════════════════════
+# STEP 4B — COLORE + CONFIG_DIMENSIONI
+# (8 famiglie)
+# ════════════════════════════════════════════
+
+# ── PUNTO: color + config_dimensioni (diametro) ──
+REGOLE["PUNTO"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: dim_from_col(r["Dimensione Articolo"], "D"),
+    },
+}
+
+# ── BOW: color + config_dimensioni (lunghezza) ──
+REGOLE["BOW"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: dim_from_col(r["Dimensione Articolo"], "L"),
+    },
+}
+
+# ── RIFLESSO: color + config_dimensioni (lunghezza) ──
+REGOLE["RIFLESSO"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: dim_from_col(r["Dimensione Articolo"], "L"),
+    },
+}
+
+# ── LINEA: color + config_dimensioni (lunghezza) ──
+REGOLE["LINEA"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: dim_from_col(r["Dimensione Articolo"], "L"),
+    },
+}
+
+# ── ALMA: color + config_dimensioni (lunghezza) ──
+REGOLE["ALMA"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: dim_from_col(r["Dimensione Articolo"], "L"),
+    },
+}
+
+# ── BALANCE: color + config_dimensioni (lunghezza) ──
+REGOLE["BALANCE"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: dim_from_col(r["Dimensione Articolo"], "L"),
+    },
+}
+
+# ── BLOOM: color + config_dimensioni (diametro) ──
+REGOLE["BLOOM"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: dim_from_col(r["Dimensione Articolo"], "D"),
+    },
+}
+
+# ── ECHO: color + config_dimensioni (lunghezza) ──
+REGOLE["ECHO"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: dim_from_col(r["Dimensione Articolo"], "L"),
+    },
+}
+
+
+# ════════════════════════════════════════════
+# STEP 4C — COLORE + CONFIG_TIPO / SOTTOGRUPPI
+# (13 famiglie)
+# ════════════════════════════════════════════
+
+# ── ANDROMEDA: color + config_dimensioni (lunghezza) ──
+REGOLE["ANDROMEDA"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: dim_from_col(r["Dimensione Articolo"], "L"),
+    },
+}
+
+# ── BONNE NUIT: color + config_tipo (Destra NUIT-2, Sinistra NUIT-1) ──
+REGOLE["BONNE NUIT"] = {
+    "assi": ["color", "config_tipo"],
+    "valori": {
+        "color":       lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_tipo": lambda r: "Sinistra" if "NUIT-1" in r["Descrizione"] else "Destra",
+    },
+}
+
+# ── SET UP: gruppo(MAP1, MAP2), color ──
+REGOLE["SET UP"] = {
+    "gruppo": lambda r: token_from_desc(r["Descrizione"], r"SET_UP_(MAP\d)"),
+    "assi":   ["color"],
+    "valori": {"color": lambda r: finitura_label(r["Finitura"].capitalize())},
+}
+
+# ── UP: color + config_dimensioni (altezza) ──
+REGOLE["UP"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: altezza_from_col(r["Dimensione Articolo"]),
+    },
+}
+
+# ── DODO: color + config_tipo (1,2 sorgenti luminose) ──
+REGOLE["DODO"] = {
+    "assi": ["color", "config_tipo"],
+    "valori": {
+        "color":       lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_tipo": lambda r: luci_label(r["Luci"]),
+    },
+}
+
+# ── FOCUS: color + config_tipo (Con interruttore / Senza interruttore) ──
+REGOLE["FOCUS"] = {
+    "assi": ["color", "config_tipo"],
+    "valori": {
+        "color":       lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_tipo": lambda r: "Con Interruttore" if "FOCUS-2" in r["Descrizione"] else "Senza Interruttore",
+    },
+}
+
+# ── PERLAGE: color + config_tipo (1,3 sorgenti luminose) ──
+REGOLE["PERLAGE"] = {
+    "assi": ["color", "config_tipo"],
+    "valori": {
+        "color":       lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_tipo": lambda r: luci_label(r["Luci"]),
+    },
+}
+
+# ── KOMODO: color + config_tipo (Sinistra komodo-1, Destra komodo-2) ──
+REGOLE["KOMODO"] = {
+    "assi": ["color", "config_tipo"],
+    "valori": {
+        "color":       lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_tipo": lambda r: "Sinistra" if "KOMODO-1" in r["Descrizione"] else "Destra",
+    },
+}
+
+# ── POLAR: gruppo(POLAR-1, POLAR-2), color ──
+REGOLE["POLAR"] = {
+    "gruppo": lambda r: token_from_desc(r["Descrizione"], r"(POLAR-\d)"),
+    "assi":   ["color"],
+    "valori": {"color": lambda r: finitura_label(r["Finitura"].capitalize())},
+}
+
+# ── NINFEA: color + config_tipo (1,2 sorgenti luminose) ──
+REGOLE["NINFEA"] = {
+    "assi": ["color", "config_tipo"],
+    "valori": {
+        "color":       lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_tipo": lambda r: luci_label(r["Luci"]),
+    },
+}
+
+# ── MOUSE: da saltare ──
+FAMIGLIE_DA_SALTARE.add("MOUSE")
+
+FAMIGLIE_DA_SALTARE.add("SPOT")
+
+
+# ════════════════════════════════════════════
+# STEP 4D — COLORE + DIMENSIONI / SHAPE / SIZE
+# (14 famiglie)
+# ════════════════════════════════════════════
+
+# ── ATOM: color + config_dimensioni (da desc D10/D20) + config_temperatura_colore ──
+REGOLE["ATOM"] = {
+    "assi": ["color", "config_dimensioni", "config_temperatura_colore"],
+    "valori": {
+        "color":                    lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni":         lambda r: dim_from_desc(r["Descrizione"]),
+        "config_temperatura_colore": lambda r: token_from_desc(r["Descrizione"], r"_(\d{4}K)(?:_|$)"),
+    },
+}
+
+# ── GUN: color + config_dimensioni (altezza) ──
+REGOLE["GUN"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: altezza_from_col(r["Dimensione Articolo"]),
+    },
+}
+
+# ── CLIP: color + config_dimensioni (lunghezza) ──
+REGOLE["CLIP"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: dim_from_col(r["Dimensione Articolo"], "L"),
+    },
+}
+
+# ── POST-IT: gruppo(BIG, SMALL), color ──
+REGOLE["POST-IT"] = {
+    "gruppo": lambda r: token_from_desc(r["Descrizione"], r"AP_(BIG|SMALL)"),
+    "assi":   ["color"],
+    "valori": {"color": lambda r: finitura_label(r["Finitura"].capitalize())},
+}
+
+# ── COVER: gruppo(D15, D20), color + config_tipo (Round, Square) ──
+REGOLE["COVER"] = {
+    "gruppo": lambda r: token_from_desc(r["Descrizione"], r"AP_(D\d+)"),
+    "assi": ["color", "config_tipo"],
+    "valori": {
+        "color":       lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_tipo": lambda r: token_from_desc(r["Descrizione"], r"D\d+_(ROUND|SQUARE)").capitalize(),
+    },
+}
+
+# ── SNIF: color + config_tipo (Round, Square) ──
+REGOLE["SNIF"] = {
+    "assi": ["color", "config_tipo"],
+    "valori": {
+        "color":       lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_tipo": lambda r: token_from_desc(r["Descrizione"], r"AP1_(ROUND|SQUARE)").capitalize(),
+    },
+}
+
+# ── PAGE: color + config_tipo (Round, Square) ──
+REGOLE["PAGE"] = {
+    "assi": ["color", "config_tipo"],
+    "valori": {
+        "color":       lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_tipo": lambda r: token_from_desc(r["Descrizione"], r"AP_(ROUND|SQUARE)").capitalize(),
+    },
+}
+
+# ── DAFNE: color + config_dimensioni (altezza) ──
+REGOLE["DAFNE"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: altezza_from_col(r["Dimensione Articolo"]),
+    },
+}
+
+# ── SANTA: color + config_dimensioni (lunghezza) ──
+REGOLE["SANTA"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: dim_from_col(r["Dimensione Articolo"], "L"),
+    },
+}
+
+# ── DEDRA: color + config_dimensioni (altezza) ──
+REGOLE["DEDRA"] = {
+    "assi": ["color", "config_dimensioni"],
+    "valori": {
+        "color":            lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_dimensioni": lambda r: altezza_from_col(r["Dimensione Articolo"]),
+    },
+}
+
+# ── BEAN: gruppo(ROUND+SQUARE, RECHARGEABLE) ──
+#    ROUND+SQUARE: color + config_tipo (Round, Square)
+#    RECHARGEABLE: solo color
+def _bean_gruppo(r):
+    if "RECHARGEABLE" in r["Descrizione"]:
+        return "RECHARGEABLE"
+    return "STANDARD"
+
+REGOLE["BEAN"] = {
+    "gruppo": _bean_gruppo,
+    "assi": ["color", "config_tipo"],
+    "valori": {
+        "color":       lambda r: finitura_label(r["Finitura"].capitalize()),
+        "config_tipo": lambda r: token_from_desc(r["Descrizione"], r"AP_(ROUND|SQUARE)").capitalize(),
+    },
+}
+
+# ── BINOMIO: gruppo(AP, PL2), color ──
+REGOLE["BINOMIO"] = {
+    "gruppo": lambda r: "PL2" if "PL2" in r["Descrizione"] else "AP",
+    "assi":   ["color"],
+    "valori": {"color": lambda r: finitura_label(r["Finitura"].capitalize())},
+}
 # ════════════════════════════════════════════
 
 # ── MAPA: config_dimensioni (diametro) ──
