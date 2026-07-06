@@ -23,7 +23,7 @@ import pandas as pd
 # CONFIGURAZIONE
 # ─────────────────────────────────────────────
 
-JSON_INPUT  = "./file/simple_products_lampada_a_sospensione.json"
+JSON_INPUT  = "./file/simple_products_lampada_da_soffitto.json"
 IMG_DIR     = Path("./file/images")
 BASE_URL    = "https://lampadestore.it/pub/media/tmp"
 
